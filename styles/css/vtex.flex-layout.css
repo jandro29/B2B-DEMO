@@ -1,16 +1,12 @@
 /* BEGIN - Header */
 .flexRow--header {
-  background: var(--b2b-header-blue-medium);
+  background: #1E1E1E;
 }
 
-.flexRowContent--header {
-  height: 72px;
-  display: flex;
-  align-items: center;
-}
+
 
 .flexRow--headerStripe {
-  background: var(--b2b-blue-darkest);
+  background: #FABD01;
 }
 
 .flexCol--drawerInnerCol :global(.vtex-login-2-x-buttonLink) {
@@ -81,7 +77,6 @@
 /* BEGIN - Header */
 
 .flexRow--full-banner {
-  background-color: #3296f2;
   margin-bottom: 1.5rem;
 }
 
@@ -113,8 +108,10 @@
 
 .flexRowContent--shopByCategory {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 16px;
+
+margin-top: 4rem;
 }
 
 .flexRow--shopByCategorySection {
@@ -152,7 +149,7 @@
 
 .flexRowContent--imageBanners {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 16px;
   padding-top: 30px;
   margin-bottom: 64px;
@@ -160,6 +157,19 @@
 }
 
 .flexRowContent--imageBanners .stretchChildrenWidth {
+  width: 100%;
+}
+
+.flexRowContent--blogbanner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  padding-top: 30px;
+  margin-bottom: 64px;
+  border-top: 1px solid #e9eff5;
+}
+
+.flexRowContent--blogbanner .stretchChildrenWidth {
   width: 100%;
 }
 
@@ -221,6 +231,28 @@
   margin-bottom: 32px;
 }
 
+
+/*.flexRowContent--bloghead {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e9eff5;
+  margin-bottom: 32px;
+}*/
+
+.flexRowContent--Head {
+  align-items: center;
+  justify-content: space-between;
+  border-left: 5px solid #FABD01;
+  /*margin-bottom: 32px;*/
+  margin-top: 123px;
+  justify-items: center;
+}
+
+
+
+.flexRow--imageclient{
+  margin-bottom: 10rem;
+}
 /* END - Popular Shelf */
 /* BEGIN - Filter */
 
@@ -343,6 +375,7 @@
     align-items: center;
     justify-content: center;
   }
+
 
   .flexRow--quickOrderRowMobile {
     padding: 24px 0px;
@@ -716,4 +749,119 @@
 .flexRow--c-on-base--inverted,
 .flexCol--c-on-base--inverted {
   color: #fff;
+}
+
+.tx{
+  z-index: 999999999999;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.col-content {
+  position: relative;
+  height: 300px; /* Ajusta según tu necesidad */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text-overlay {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  z-index: 1;
+}
+
+.custom-button {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.imageclient{
+  grid-template-rows: repeat(7, minmax(0, 1fr));
+}
+
+.blogclass{
+  justify-content: end;
+  align-items: center;
+  display: flex;
+  justify-items: end;
+}
+
+.carousel2{
+  background-image: url("assets/placeholders/first-banner.png");
+}
+.flexRow--abt{
+  height: 40vh;
+  align-items: center;
+  display: flex;
+}
+
+.flexRowContent--abt{
+  height: 30vh;
+}
+
+.stretchChildrenWidth--flex{
+  height: 30vh;
+  margin: 5rem;
+}
+
+.infoCardContainer--nosotros{
+  margin: 5rem;
+
+}
+
+.infoCardContainer--proyectos{
+  height: 40vh;
+  margin: 5rem;
+}
+
+.text-import{
+  z-index: 999999;
+}
+
+.flexRowContent--header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.container--textblog{
+  width: 100px !important;
+}
+
+.paragraph--textblog{
+  width: 100px;
+}
+
+.wrapper--textblog{
+  width: 100px;
+}
+.textblog{
+  width: 100px !important;
 }

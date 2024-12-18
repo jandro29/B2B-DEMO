@@ -50,7 +50,7 @@
 
   "flex-layout.col#search-content--popular": {
     "children": [
-      "rich-text#title--popular",
+      //"rich-text#title--popular",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
@@ -60,12 +60,12 @@
       "paddingLeft": 7,
       "paddingRight": 7
     }
-  },
+  }
 
-  "rich-text#title--popular": {
+  /*"rich-text#title--popular": {
     "props": {
       "text": "## Popular Picks",
       "blockClass": "title"
     }
-  }
+  }*/
 }

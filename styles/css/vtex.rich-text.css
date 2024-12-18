@@ -132,20 +132,52 @@
 /* END - QuickViewTrigger */
 /* BEGIN - BannerThird */
 
+.image--imageBanners{
+  display: flex;
+  justify-content: center;
+}
+
+/*.imgprod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+
 .headingLevel4--bannerTitle {
   margin: 0;
   margin-bottom: 12px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
-  font-weight: 500;
-  color: #000;
+  font-weight: 300;
+  color: #707070;
 }
 
 .paragraph--bannerDesc {
   max-width: 388px;
   width: 100%;
   margin: 0px auto 16px;
-  color: #717786;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.paragraph--produDesc{
+  max-width: 388px;
+  width: 100%;
+  margin: 0px auto 16px;
+  color: #000000;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.paragraph--bannerSKU{
+  max-width: 388px;
+  width: 100%;
+  margin: 0px auto 16px;
+  color: #707070;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -153,10 +185,12 @@
 
 .container--bannerTitle,
 .container--bannerDesc,
+.container--produDesc,
+.container--bannerSKU,
 .container--bannerLink {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .paragraph--bannerLink {
@@ -164,6 +198,31 @@
 }
 
 .link--bannerLink {
+  width: 128px;
+  height: 48px;
+  /*background-color: #0067c7;*/
+  border-radius: 10px;
+  border: 1px solid #1E1E1E;
+  color: #1E1E1E;
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: Roboto;
+  display: block;
+  text-decoration: none;
+}
+
+.container--blogbuttom {
+  display: flex;
+  /*align-items: center;
+  justify-content: center;*/
+}
+
+.paragraph--blogbuttom {
+  margin: 0;
+}
+
+.link--blogbuttom {
   width: 244px;
   height: 48px;
   background-color: #0067c7;
@@ -176,6 +235,14 @@
   display: block;
   text-decoration: none;
 }
+
+.link--blogbuttom {
+  height: 40px;
+  line-height: 40px;
+}
+
+
+
 
 /* END - BannerThird */
 /* BEGIN - Benefits Bar */
@@ -289,6 +356,44 @@
   margin: 0;
   margin-bottom: 16px;
 }
+
+.headingLevel3--blog{
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.headingLevel3--blog{
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 0;
+  /*margin-left: 16px;*/
+}
+
+.wrapper--blog{
+  margin-left: 16px;
+}
+
+.wrapper--prod{
+  margin-left: 16px;
+}
+
+.headingLevel3--prod{
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 0;
+}
+
 
 /* END - Popular Shelf */
 /* BEGIN - QuickOrder */

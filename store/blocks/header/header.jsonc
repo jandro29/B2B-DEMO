@@ -48,7 +48,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "drawer",
+      //"drawer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
       "login",
@@ -77,8 +77,8 @@
       "rich-text#headStripe1",
       "rich-text#headStripe2",
       "rich-text#headStripe3",
-      "rich-text#headStripe4",
-      "rich-text#headStripe5",
+      /*"rich-text#headStripe4",
+      "rich-text#headStripe5",*/
       "flex-layout.col#spacer",
       "check-permission#reseller"
     ]
@@ -87,37 +87,37 @@
   "rich-text#headStripe1": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Today's Deals](/deals)"
+      "text": "[Productos](/#)"
     }
   },
 
   "rich-text#headStripe2": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[New Releases](/releases)"
+      "text": "[Industrias](/releases)"
     }
   },
 
   "rich-text#headStripe3": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Top Sales](/top-sales)"
+      "text": "[Marcas](/top-sales)"
     }
   },
 
-  "rich-text#headStripe4": {
+  /*"rich-text#headStripe4": {
     "props": {
       "blockClass": "HeaderStripeText",
       "text": "[Costumer Services](/services)"
     }
-  },
+  },*/
 
-  "rich-text#headStripe5": {
+ /* "rich-text#headStripe5": {
     "props": {
       "blockClass": "HeaderStripeText",
       "text": "[Gift Cards](/gift-cards)"
     }
-  },
+  },*/
 
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -130,8 +130,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logoB2B.svg",
-      "width": "123"
+      "url": "assets/icons/logo-grupoagra.svg",
+      "width": "200"
     }
   },
 
@@ -169,9 +169,9 @@
     "children": [
       "rich-text#headStripe1",
       "rich-text#headStripe2",
-      "rich-text#headStripe3",
-      "rich-text#headStripe4",
-      "rich-text#headStripe5"
+      "rich-text#headStripe3"
+      //"rich-text#headStripe4",
+      //"rich-text#headStripe5"
     ]
   },
 
@@ -183,7 +183,7 @@
   },
 
   "flex-layout.row#mobile": {
-    "children": ["drawer", "logo", "check-permission#login", "minicart.v2"],
+    "children": [ "logo", "check-permission#login", "minicart.v2"], //"drawer",
     "props": {
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
