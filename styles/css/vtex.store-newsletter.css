@@ -23,11 +23,11 @@
 }
 
 .formSubmitContainer :global(.vtex-button) {
-  background: #fff;
-  border: none;
+  background: #FABD01;
+  border: 5px solid #ffffff;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  color: var(--fresh-blue);
+  color: #1E1E1E;
   height: 3.5rem;
   font-size: 1rem;
   font-weight: bold;

@@ -188,7 +188,7 @@ margin-top: 4rem;
 }
 
 .flexRowContent--flex-column {
-  flex-flow: column nowrap;
+  /*flex-flow: column nowrap;*/
   align-items: center;
 }
 
@@ -303,7 +303,7 @@ margin-top: 4rem;
 
   .flexRowContent--paymentImages {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
   }
 
@@ -736,7 +736,7 @@ margin-top: 4rem;
 
 .flexRow--bg-blue-medium,
 .flexCol--bg-blue-medium {
-  background-color: var(--blue-medium);
+  background-color: #FABD01;
 }
 
 .flexRow--bg-fresh-blue-lightest,
@@ -817,13 +817,12 @@ margin-top: 4rem;
   background-image: url("assets/placeholders/first-banner.png");
 }
 .flexRow--abt{
-  height: 40vh;
-  align-items: center;
-  display: flex;
+  height: 85vh;
+  background: #162126;
 }
 
 .flexRowContent--abt{
-  height: 30vh;
+  height: 75%;
 }
 
 .stretchChildrenWidth--flex{
@@ -832,7 +831,7 @@ margin-top: 4rem;
 }
 
 .infoCardContainer--nosotros{
-  margin: 5rem;
+  margin-left: 5rem;
 
 }
 
@@ -865,3 +864,25 @@ margin-top: 4rem;
 .textblog{
   width: 100px !important;
 }
+
+.flexRow--benefits{
+  display: flex;
+  justify-content: center;
+}
+
+/*footer*/
+
+.flexRow--footerStripe{
+  background: #000000;
+}
+
+
+.flexRowContent--footerStripe{
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--logo-agraContainer{
+  margin-bottom: 15px;
+}
+

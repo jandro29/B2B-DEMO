@@ -1,9 +1,17 @@
-.container :global(.vtex-button) {
-  border: 1px solid #fff;
+/*.container :global(.vtex-button) {
+
   border-radius: 4px;
-  width: 176px;
+    width: 176px;
   height: 48px;
 }
+*/
+.profileIcon--editar-login{
+    color: white;
+  }
+
+/*.container :after(.vtex-button){
+  content: url('assets/icons/user.png');
+}*/
 
 .container :global(.vtex-button__label) {
   padding: 0 0 0 0;

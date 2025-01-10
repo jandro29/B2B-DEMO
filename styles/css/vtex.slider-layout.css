@@ -142,6 +142,9 @@
   height: 16px;
   width: 12px;
 }
+.slideChildrenContainer--benefitsSlider{
+  width: 100%;
+}
 
 /* END - Trending Shelf */
 

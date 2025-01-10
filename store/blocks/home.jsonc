@@ -16,15 +16,16 @@
       "flex-layout.row#singleBanner",
       //"flex-layout.row#popular",
       //"flex-layout.row#trending",
-      "flex-layout.row",
+      "flex-layout.row#container",
       "rich-text#clientes",
-      "flex-layout.row#ImageClients",
+      "flex-layout.row#clientes-inicio",
+      //"flex-layout.row#ImageClients",
       "flex-layout.row#nuestroblog",
-      "flex-layout.row#contendoblog"
+      "flex-layout.row#contendoblog",
       //"button-link"
 
-      //"flex-layout.row#benefits"
-      //"flex-layout.row#newsletter"
+      "flex-layout.row#benefits",
+      "flex-layout.row#newsletter"
 
 
     ]
@@ -860,11 +861,25 @@
     }
 */
 
-  "flex-layout.row":{
+  "flex-layout.row#container":{
     "props":{
-     "blockClass": "abt"
+     "blockClass": "abt",
+     "colGap": 4
     },
-     "children":["info-card#col-left", "info-card#col-right"]
+     "children":["flex-layout.col#first-home-banner-left", "flex-layout.col#first-home-banner-right"]
+   },
+
+   "flex-layout.col#first-home-banner-left":{
+    "children":[
+      "info-card#col-left"
+    ]
+   },
+
+
+   "flex-layout.col#first-home-banner-right":{
+    "children":[
+      "info-card#col-right"
+    ]
    },
 
    "info-card#col-left":{
@@ -872,28 +887,27 @@
        "isFullModeStyle": true,
        "textPosition": "left",
        "imageUrl":"assets/placeholders/nosotros.png",
-       "headLine": "Nosotros",
+       "headline": "Nosotros",
        "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
        "callToActionText": "Saber más",
        "callToActionUrl":"#",
        "textAlignment":"left",
-       "blockClass": "nosotros"
-
-
+       "blockClass": "nosotros-info"
      }
    },
 
    "info-card#col-right":{
      "props":{
       "isFullModeStyle": true,
-       "textPosition": "right",
+       "textPosition": "left",
        "imageUrl":"assets/placeholders/proyectos.png",
-       "headLine": "Nosotros",
+       "headline": "Nosotros",
        "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
        "callToActionText": "Saber más",
        "callToActionUrl":"#",
-       "textAlignment":"right",
-       "blockClass": "infocard-proyectos"
+       "textAlignment":"left",
+       "blockClass": "proyectos-info"
+
      }
    },
 
@@ -903,67 +917,6 @@
       "textAlignment":"CENTER",
       "textPosition":"CENTER",
       "font":"t-heading-1"
-    }
-   },
-
-   "flex-layout.row#ImageClients":{
-    "props": {
-      "fullWidth": true,
-      "blockClass": "imageclient"
-    },
-    "children":[
-      "image#buenaventura",
-      "image#cerroverde",
-      "image#metrolima",
-      "image#sanmartin",
-      "image#bitel",
-      "image#southern",
-      "image#claro"
-    ]
-   },
-
-   "image#buenaventura":{
-    "props":{
-      "src":"assets/placeholders/buenaventura.png",
-      "alt": "Imagen Buenaventura"
-    }
-   },
-
-   "image#cerroverde":{
-    "props":{
-      "src":"assets/placeholders/cerroverde.png",
-      "alt": "Imagen Cerroverde"
-    }
-   },
-   "image#metrolima":{
-    "props":{
-      "src":"assets/placeholders/metro.png",
-      "alt": "Imagen Metrolima"
-    }
-   },
-   "image#sanmartin":{
-    "props":{
-      "src":"assets/placeholders/sanmartin.png",
-      "alt": "Imagen San Matin"
-    }
-   },
-   "image#bitel":{
-    "props":{
-      "src":"assets/placeholders/bitel.png",
-      "alt": "Imagen Southern"
-    }
-   },
-   "image#southern":{
-    "props":{
-      "blockClass": "imageclient",
-      "src":"assets/placeholders/southern.png",
-      "alt": "Imagen Southern"
-    }
-   },
-   "image#claro":{
-    "props":{
-      "src":"assets/placeholders/claro.png",
-      "alt": "Imagen Claro"
     }
    },
 
@@ -1038,12 +991,14 @@
 
   "flex-layout.col#blog1": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "rowGap": 4,
+      "blockClass": "contenedor-blog1"
     },
     "children": [
       "image#blog1",
       "rich-text#titleblog1",
-      //"rich-text#contlog1",
+      "rich-text#contlog1",
       "rich-text#buttomblog1"
     ]
   },
@@ -1052,30 +1007,30 @@
     "props": {
       "src": "assets/placeholders/blog1.png",
       "maxHeight": 256,
-      "blockClass": "bannerThird"
+      "blockClass": "imagen-blog1"
     }
   },
 
   "rich-text#titleblog1": {
     "props": {
-      "text": "Nisi sed in interdum habitant odio. Auctor ultrices risus id ultricies. \n \n Tellus aliquet laoreet leo nibh suspendisse lacus mauris. Morbi iaculis pellentesque eu sapien amet. Vulputate vitae cras interdum nisl felis et nulla."
-      //"blockClass": "bannerDesc"
+      "text": "Nisi sed in interdum habitant odio. Auctor ultrices risus id ultricies.",
+      "blockClass": "titulo-blog1"
      //"textAlignment": "CENTER"
     }
   },
 
-  /*"rich-text#contlog1":{
+  "rich-text#contlog1":{
     "props": {
-      "text": "Tellus aliquet laoreet leo nibh suspendisse lacus mauris. Morbi iaculis pellentesque eu sapien amet. Vulputate vitae cras interdum nisl felis et nulla."
-     // "blockClass": "bannerDesc"
+      "text": "Tellus aliquet laoreet leo nibh suspendisse lacus mauris. Morbi iaculis pellentesque eu sapien amet. Vulputate vitae cras interdum nisl felis et nulla.",
+      "blockClass": "contenido-blog1"
      //"textAlignment": "CENTER"
     }
-  },*/
+  },
 
 
   "rich-text#buttomblog1": {
     "props": {
-      "text": "[BUY AIR CONDITIONING]()",
+      "text": "[VER BLOG]()",
       "blockClass": "blogbuttom",
       "textAlignment": "CENTER"
     }
@@ -1085,12 +1040,14 @@
 
   "flex-layout.col#blog2": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "rowGap": 4,
+      "blockClass": "contenedor-blog2"
     },
     "children": [
       "image#blog2",
       "rich-text#titleblog2",
-     // "rich-text#contlog2",
+      "rich-text#contlog2",
       "rich-text#buttomblog2"
     ]
   },
@@ -1099,30 +1056,30 @@
     "props": {
       "src": "assets/placeholders/blog2.png",
       "maxHeight": 256,
-      "blockClass": "imgblog"
+      "blockClass": "imagen-blog2"
     }
   },
 
   "rich-text#titleblog2": {
     "props": {
-      "text": "Netus orci dui neque convallis eu ullamcorper lorem congue nunc. \n \n Vitae cras condimentum cras in euismod pellentesque fringilla. A sed fermentum vitae quam lectus mauris egestas sed fusce. Est eu eget. ",
-      "blockClass": "textblog"
+      "text": "Netus orci dui neque convallis eu ullamcorper lorem congue nunc.",
+      "blockClass": "titulo-blog2"
      //"textAlignment": "CENTER"
     }
   },
 
- /* "rich-text#contlog2":{
+  "rich-text#contlog2":{
     "props": {
       "text": "Vitae cras condimentum cras in euismod pellentesque fringilla. A sed fermentum vitae quam lectus mauris egestas sed fusce. Est eu eget.  ",
-      "blockClass": "textblog"
+      "blockClass": "contenido-blog2"
      //"textAlignment": "CENTER"
     }
-  },*/
+  },
 
 
   "rich-text#buttomblog2": {
     "props": {
-      "text": "[BUY AIR CONDITIONING]()",
+      "text": "[VER BLOG]()",
       "blockClass": "blogbuttom",
       "textAlignment": "CENTER"
     }

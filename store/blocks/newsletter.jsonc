@@ -23,7 +23,7 @@
   "rich-text#newsletter-title": {
     "props": {
       "blockClass": ["newsletter-title"],
-      "text": "### Get news and special offers!",
+      "text": "### Suscribete",
       "textColor": "c-on-base--inverted"
     }
   },

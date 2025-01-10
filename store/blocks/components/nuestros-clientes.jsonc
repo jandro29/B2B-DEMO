@@ -1,0 +1,139 @@
+{
+  "flex-layout.row#clientes-inicio": {
+    "props": {
+      "blockClass": "clientes-inicio"
+    },
+    "children": ["flex-layout.col#clientes-inicio"]
+  },
+  "flex-layout.col#clientes-inicio": {
+    "props": {},
+    "children": [ "slider-layout#clientes-inicio"] //"rich-text#whyShopWithVTEX",
+  },
+
+  /*"rich-text#whyShopWithVTEX": {
+    "props": {
+      "text": "### Why shop with VTEX",
+      "blockClass": "sectionTitle"
+    }
+  },*/
+
+  "slider-layout#clientes-inicio": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "clientes-inicioSlider"
+    },
+    "children": [
+      "flex-layout.row#clientesRow1",
+      "flex-layout.row#clientesRow2",
+      "flex-layout.row#clientesRow3",
+      "flex-layout.row#clientesRow4",
+      "flex-layout.row#clientesRow5",
+      "flex-layout.row#clientesRow6",
+      "flex-layout.row#clientesRow7",
+      "flex-layout.row#clientesRow8"
+    ]
+  },
+  "flex-layout.row#clientesRow1": {
+    "children": ["image#clientes1"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow2": {
+    "children": ["image#clientes2"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow3": {
+    "children": ["image#clientes3"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow4": {
+    "children": ["image#clientes4"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow5": {
+    "children": ["image#clientes5"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow6": {
+    "children": ["image#clientes6"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow7": {
+    "children": ["image#clientes7"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "flex-layout.row#clientesRow8": {
+    "children": ["image#clientes8"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
+  "image#clientes1": {
+    "props": {
+      "src": "assets/placeholders/buenaventura.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes2": {
+    "props": {
+      "src": "assets/placeholders/cerroverde.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes3": {
+    "props": {
+      "src": "assets/placeholders/metro.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes4": {
+    "props": {
+      "src": "assets/placeholders/sanmartin.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes5": {
+    "props": {
+      "src": "assets/placeholders/bitel.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes6": {
+    "props": {
+      "src": "assets/placeholders/southern.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes7": {
+    "props": {
+      "src": "assets/placeholders/claro.png",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes8": {
+    "props": {
+      "src": "assets/placeholders/claro.png",
+      "blockClass": "clientesImage"
+    }
+  }
+}

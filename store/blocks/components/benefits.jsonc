@@ -7,15 +7,15 @@
   },
   "flex-layout.col#benefits": {
     "props": {},
-    "children": ["rich-text#whyShopWithVTEX", "slider-layout#benefits"]
+    "children": [ "slider-layout#benefits"] //"rich-text#whyShopWithVTEX",
   },
 
-  "rich-text#whyShopWithVTEX": {
+  /*"rich-text#whyShopWithVTEX": {
     "props": {
       "text": "### Why shop with VTEX",
       "blockClass": "sectionTitle"
     }
-  },
+  },*/
 
   "slider-layout#benefits": {
     "props": {
@@ -36,60 +36,78 @@
     ]
   },
   "flex-layout.row#benefitRow1": {
-    "children": ["image#benefit", "rich-text#benefits1"],
+    "children": ["image#benefit1", "rich-text#benefits1"],
     "props": {
       "blockClass": "flex-column",
       "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#benefitRow2": {
-    "children": ["image#benefit", "rich-text#benefits1"],
+    "children": ["image#benefit2", "rich-text#benefits2"],
     "props": {
       "blockClass": "flex-column",
       "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#benefitRow3": {
-    "children": ["image#benefit", "rich-text#benefits1"],
+    "children": ["image#benefit3", "rich-text#benefits3"],
     "props": {
       "blockClass": "flex-column",
       "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#benefitRow4": {
-    "children": ["image#benefit", "rich-text#benefits1"],
+    "children": ["image#benefit4", "rich-text#benefits4"],
     "props": {
       "blockClass": "flex-column",
       "preventHorizontalStretch": true
     }
   },
-  "image#benefit": {
+  "image#benefit1": {
     "props": {
-      "src": "assets/placeholders/truck.png",
+      "src": "assets/placeholders/servicio-cliente.svg",
+      "blockClass": "benefitImage"
+    }
+  },
+  "image#benefit2": {
+    "props": {
+      "src": "assets/placeholders/nuestras-tiendas.svg",
+      "blockClass": "benefitImage"
+    }
+  },
+  "image#benefit3": {
+    "props": {
+      "src": "assets/placeholders/envio-domicilio.svg",
+      "blockClass": "benefitImage"
+    }
+  },
+  "image#benefit4": {
+    "props": {
+      "src": "assets/placeholders/retiro-tienda.svg",
       "blockClass": "benefitImage"
     }
   },
   "rich-text#benefits1": {
     "props": {
-      "text": "**Free shipping** Over $50 in more than 1 million items",
+      "text": "**Retiro en tienda** Compra online y ahorra en el costo de envio",
       "blockClass": "benefitsItem"
     }
   },
   "rich-text#benefits2": {
     "props": {
-      "text": "**Pick-up store** Over $50 in more than 1 million items",
+      "text": "**Envió a domicilio** Compra online y ahorra en el costo de envio",
       "blockClass": "benefitsItem"
     }
   },
   "rich-text#benefits3": {
     "props": {
-      "text": "**Free shipping** Over $50 in more than 1 million items",
+      "text": "**Nuestras tiendas** Compra online y ahorra en el costo de envio",
       "blockClass": "benefitsItem"
     }
   },
   "rich-text#benefits4": {
     "props": {
-      "text": "**Pick-up store** Over $50 in more than 1 million items",
+      "text": "**Servicio al cliente** Compra online y ahorra en el costo de envio",
       "blockClass": "benefitsItem"
     }
   }

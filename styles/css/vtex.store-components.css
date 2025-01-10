@@ -1,8 +1,13 @@
 .container {
+  height: 100%;
   max-width: 1440px;
   width: 100%;
   padding: 0px 32px;
   margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .logoLink {
@@ -12,8 +17,8 @@
 
 .logoImage {
   display: block;
-  height: 28px;
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
@@ -21,7 +26,7 @@
 }
 
 .imageElement--vtexLogo {
-  max-width: 67px;
+  max-width: 100%;
   object-fit: contain;
   margin-right: 16px;
 }
@@ -137,9 +142,10 @@
 }
 
 .imageElement--paymentImage {
-  width: 100%;
+  width: 60px;
   object-fit: contain;
-  max-height: 18px;
+  max-width: none;
+  /*max-height: 18px;*/
 }
 
 .imageElement--networkImage {
@@ -760,3 +766,40 @@
   color: var(--black-medium);
   text-align: center;
 }
+
+
+.infoCardContainer--nosotros-info{
+  height: 100%;
+  border: none;
+}
+
+.infoCardContainer--proyectos-info{
+  height: 100%;
+  border: none;
+}
+
+.infoCardHeadline--nosotros-info,
+.infoCardHeadline--proyectos-info{
+  color: white;
+}
+
+.infoCardSubhead--nosotros-info,
+.infoCardSubhead--proyectos-info{
+  color: white;
+}
+
+.imageElement--imagen-blog1,
+.imageElement--imagen-blog2{
+  width: 100%;
+  max-height:100% !important;
+}
+
+/*header*/
+.imageElement--wishlist-icon{
+  margin: 10px;
+}
+
+.imageElement--pedido-rapido{
+  content: "Pedido Rápido";
+}
+

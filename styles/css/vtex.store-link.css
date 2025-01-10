@@ -221,3 +221,34 @@
     justify-content: center;
   }
 }
+
+/*header*/
+
+.childrenContainer--logo-wishlist::after{
+  content: "Mis Favoritos";
+  color: white;
+
+}
+.childrenContainer--logo-wishlist:hover{
+  color: white;
+}
+
+.link--logo-wishlist{
+  text-decoration: none;
+}
+
+.childrenContainer--logo-wishlist{
+  display: flex;
+  align-items: center;
+}
+
+.link--resellerLink{
+  content: "Pedido Rápido" !important;
+}
+
+.childrenContainer--resellerLink{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+}

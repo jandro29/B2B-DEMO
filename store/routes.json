@@ -70,5 +70,10 @@
   },
   "store.custom#returns": {
     "path": "/returns"
+  },
+
+  "store.custom#industrias": {
+    "path": "/industrias"
   }
+
 }

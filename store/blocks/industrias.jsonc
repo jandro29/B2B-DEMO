@@ -1,0 +1,44 @@
+{
+
+
+
+
+  "store.custom#industrias": {
+    "children": ["responsive.desktop#industrias", "responsive.mobile#industrias"]
+  },
+
+  "responsive.desktop#industrias": {
+    "children": [
+      "flex-layout.row#imageList",
+      "flex-layout.row#benefits",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  "responsive.mobile#industrias": {
+    "children": [
+    ]
+  },
+
+  "flex-layout.row#imageList": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": ["list-context.image-list#homeBanners"]
+  },
+
+  "list-context.image-list#homeBanners": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "showPaginationDots": "never",
+      "height": 328,
+      "images": [
+        {
+          "image": "assets/placeholders/first-banner.png",
+          "mobileImage": "assets/placeholders/fullbannerMobile.png",
+          "description": "something something"
+        }
+      ]
+    }
+  }
+}

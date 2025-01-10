@@ -51,10 +51,12 @@
       //"drawer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
+      "flex-layout.col#wishlist",
       "login",
       "minicart.v2"
     ]
   },
+
 
   "flex-layout.col#search-bar": {
     "children": ["search-bar"],
@@ -126,12 +128,13 @@
     "children": ["logo"]
   },
 
+
+
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logo-grupoagra.svg",
-      "width": "200"
+      "url": "assets/icons/logo-grupoagra.svg"
     }
   },
 
@@ -171,7 +174,7 @@
       "rich-text#headStripe2",
       "rich-text#headStripe3"
       //"rich-text#headStripe4",
-      //"rich-text#headStripe5"
+      //"rich-text#headStripe5",
     ]
   },
 
@@ -222,16 +225,39 @@
       "blockClass": "searchMobile"
     }
   },
+   "flex-layout.col#wishlist":{
+    "children":["link#wishlist"]
+   },
+
+  "link#wishlist":{
+    "props":{
+      "href":"/wishlist",
+      "verticalAlign":"middle",
+      "blockClass": "logo-wishlist"
+    },
+    "children":["image#wishlist"]
+  },
+
+  "image#wishlist":{
+    "props":{
+      "src":"assets/icons/favoritos-icon.svg",
+      "href": "/",
+      "link": "/",
+      "blockClass":"wishlist-icon"
+    }
+  },
 
   "login": {
     "props": {
-      "iconLabel": "Hello, Sign in"
+      "showIconProfile": true,
+      "iconLabel": "Iniciar Sesión",
+      "blockClass": "editar-login"
     }
   },
 
   "login#mobile": {
     "props": {
-      "iconLabel": "Sign in"
+      "iconLabel": "Iniciar Sesión"
     }
   }
 }

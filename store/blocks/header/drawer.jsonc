@@ -33,10 +33,27 @@
   //   }
   // },
   "link#reseller": {
+    "children":["image#pedido-rapido", "rich-text#pedido-rapido"],
     "props": {
-      "label": "Organization Signup",
-      "href": "/organization-request",
+      //"label": "Organization Signup",
+      "href": "/quickorder",
       "blockClass": "resellerLink"
+    }
+  },
+
+  "rich-text#pedido-rapido":{
+    "props":{
+      "text": "Pedido Rápido",
+      "blockClass": "pedido-rapido-text"
+    }
+  },
+
+  "image#pedido-rapido":{
+    "props":{
+      "src":"assets/icons/pedido-rapidolink.svg",
+       "href": "/quickorder",
+      "link": "/quickorder",
+      "blockClass":"pedido-rapido"
     }
   },
   "flex-layout.row#quickOrder": {

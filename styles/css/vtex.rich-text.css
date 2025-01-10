@@ -250,12 +250,14 @@
 .wrapper--benefitsItem .paragraph {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+
   margin: 0;
   color: #717786;
   font-size: 14px;
   line-height: 20px;
   font-family: Roboto;
+  width: 85%;
+
 }
 
 .wrapper--benefitsItem .image {
@@ -664,7 +666,7 @@
 }
 
 .container--newsletter-title .heading {
-  color: #fff;
+  color: #000000;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.25;
@@ -714,4 +716,56 @@
 .wrapper--product-price-message,
 .wrapper--product-summary-price-message {
   width: 100%;
+}
+
+.container--titulo-blog1,
+.container--titulo-blog2{
+  font-size: 30px;
+  font-weight: 700;
+  width: 85%;
+}
+
+.container--contenido-blog1,
+.container--contenido-blog2{
+  width: 85%;
+  color: #707070;
+}
+
+.link--blogbuttom{
+  background: unset;
+  color: #1E1E1E;
+  border: 1px solid #1E1E1E;
+  width: 160%;
+}
+
+.container--benefitsItem{
+  width: 100%;
+
+}
+
+.paragraph--benefitsItem{
+  width: 85%
+}
+
+.wrapper--benefitsItem{
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper--footerStripe1,
+.wrapper--footerStripe2,
+.wrapper--footerStripe3{
+  color: white;
+  font-weight: lighter;
+}
+
+.container--footerStripe3{
+  display: flex;
+  justify-content: end;
+}
+
+.paragraph--HeaderStripeText,
+.link--HeaderStripeText,
+.paragraph--pedido-rapido-text{
+  color: black !important;
 }

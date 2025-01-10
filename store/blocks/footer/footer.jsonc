@@ -5,24 +5,61 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#logo-agra",
       "flex-layout.row#footerDesktop",
-      "flex-layout.row#copyright",
+      "flex-layout.row#logo-reclamaciones",
       "flex-layout.row#footerStripe"
     ],
     "props": {
       "blockClass": ["relative", "z-998"]
     }
   },
+
   "flex-layout.row#footerStripe": {
     "props": {
       "blockClass": "footerStripe"
     },
-    "children": ["rich-text#footerStripe"]
+    "children": ["flex-layout.row#footerStripecontenido1","flex-layout.row#footerStripecontenido2","flex-layout.row#footerStripecontenido3"]
   },
-  "rich-text#footerStripe": {
+
+  "flex-layout.row#footerStripecontenido1":{
+    "children":["rich-text#footerStripe1"],
+    "props":{
+      "blockClass":"ultimo-container-footer"
+    }
+  },
+
+  "flex-layout.row#footerStripecontenido2":{
+    "children":["rich-text#footerStripe2"],
+    "props":{
+      "blockClass":"ultimo-container-footer"
+    }
+  },
+
+  "flex-layout.row#footerStripecontenido3":{
+    "children":["rich-text#footerStripe3"],
+    "props":{
+      "blockClass":"ultimo-container-footer"
+    }
+  },
+
+  "rich-text#footerStripe1": {
     "props": {
-      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
-      "blockClass": "footerStripe"
+      "text": "Diseño UX y Desarrollo: **Esedor Latam**",
+      "blockClass": "footerStripe1",
+      "font": "t-heading-9"
+    }
+  },
+  "rich-text#footerStripe2": {
+    "props": {
+      "text": " Tecnología: **Vtex**",
+      "blockClass": "footerStripe2"
+    }
+  },
+  "rich-text#footerStripe3": {
+    "props": {
+      "text": "**Grupo Agra** Ⓒ 2025 Todos los derechos reservados.",
+      "blockClass": "footerStripe3"
     }
   },
   "footer-layout.mobile": {
@@ -39,17 +76,19 @@
       "flex-layout.col#footer-4-desktop"
     ]
   },
+
   "flex-layout.col#footer-1-desktop": {
-    "children": ["rich-text#footerTitle1", "vtex.menu@2.x:menu#about"]
+    "children": ["rich-text#footerTitle2", "vtex.menu@2.x:menu#ayuda"]
   },
+
   "flex-layout.col#footer-2-desktop": {
-    "children": ["rich-text#footerTitle2", "vtex.menu@2.x:menu#costumer"]
+    "children": ["rich-text#footerTitle1", "vtex.menu@2.x:menu#la-empresa"]
   },
   "flex-layout.col#footer-3-desktop": {
     "props": {
       "preventVerticalStretch": true
     },
-    "children": ["rich-text#footerTitle3", "link#call", "link#mail"]
+    "children": ["rich-text#footerTitle3", "vtex.menu@2.x:menu#informacion"]//, "link#call", "link#mail"
   },
   "flex-layout.col#footer-4-desktop": {
     "children": [
@@ -71,19 +110,19 @@
   },
   "rich-text#footerTitle1": {
     "props": {
-      "text": "About us",
+      "text": "LA EMPRESA",
       "blockClass": "footerTitle"
     }
   },
   "rich-text#footerTitle2": {
     "props": {
-      "text": "Costumer Service",
+      "text": "AYUDA",
       "blockClass": "footerTitle"
     }
   },
   "rich-text#footerTitle3": {
     "props": {
-      "text": "Contact Us",
+      "text": "INFORMACIÓN",
       "blockClass": "footerTitle"
     }
   },
@@ -93,7 +132,10 @@
       "blockClass": "footerTitle"
     }
   },
-  "link#call": {
+
+  //CONTACTANOS POR MEDIO DE TELEFONO Y MESANJES
+
+  /*"link#call": {
     "children": ["image#phoneIcon", "rich-text#call"],
     "props": {
       "href": "tel:+1999999999",
@@ -109,6 +151,7 @@
       "blockClass": "linkMail"
     }
   },
+
   "image#phoneIcon": {
     "props": {
       "src": "assets/icons/phoneIcon.svg"
@@ -130,115 +173,8 @@
       "text": "send a message",
       "blockClass": "mailTo"
     }
-  },
-  "flex-layout.row#copyright": {
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "copyrightContainer"
-    },
-    "children": [
-      "flex-layout.col#copyright",
-      "flex-layout.col#spacer"
-      // Deprecated
-      // "vtex.menu@2.x:menu#currency"
-      // "locale-switcher"
-    ]
-  },
+  },*/
 
-  // Deprecated
-  // "vtex.menu@2.x:menu#currency": {
-  //   "children": ["menu-item#currency"],
-  //   "props": {
-  //     "blockClass": "currencyFakeDropdown"
-  //   }
-  // },
-
-  // "menu-item#currency": {
-  //   "props": {
-  //     "id": "currency-selector",
-  //     "type": "custom",
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "#",
-  //       "noFollow": false,
-  //       "text": "Select Currency"
-  //     },
-  //     "blockClass": "currencyFakeDropdown"
-  //   },
-  //   "blocks": ["vtex.menu@2.x:submenu#currency"]
-  // },
-  // "vtex.menu@2.x:submenu#currency": {
-  //   "children": ["vtex.menu@2.x:menu#subcurrency"]
-  // },
-  // "vtex.menu@2.x:menu#subcurrency": {
-  //   "children": ["menu-item#en", "menu-item#es", "menu-item#br"],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
-  // "menu-item#en": {
-  //   "props": {
-  //     "id": "currency-english",
-  //     "type": "custom",
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/en",
-  //       "noFollow": false,
-  //       "text": "United States - USD"
-  //     }
-  //   }
-  // },
-  // "menu-item#es": {
-  //   "props": {
-  //     "id": "currency-spain",
-  //     "type": "custom",
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/es",
-  //       "noFollow": false,
-  //       "text": "Spain - EUR"
-  //     }
-  //   }
-  // },
-  // "menu-item#br": {
-  //   "props": {
-  //     "id": "currency-brazil",
-  //     "type": "custom",
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/br",
-  //       "noFollow": false,
-  //       "text": "Brazil - BRL"
-  //     }
-  //   }
-  // },
-
-  "flex-layout.col#copyright": {
-    "props": {},
-    "children": ["flex-layout.row#vtexLogo"]
-  },
-  "flex-layout.row#vtexLogo": {
-    "props": {
-      "preventHorizontalStretch": true
-    },
-    "children": ["image#vtexLogo", "rich-text#rights"]
-  },
-  "image#vtexLogo": {
-    "props": {
-      "blockClass": "vtexLogo",
-      "src": "assets/placeholders/vtexLogo.png"
-    }
-  },
-  "rich-text#rights": {
-    "props": {
-      "text": "2020 @ All Right Reserved to VTEX",
-      "blockClass": "footerRights"
-    }
-  },
   "flex-layout.row#footerMobile": {
     "children": [
       "flex-layout.row#footerMenu",
@@ -328,11 +264,11 @@
   },
   "flex-layout.row#paymentImagesDesktop": {
     "children": [
-      "image#visa",
+      "image#diners-club",
       "image#mastercard",
-      "image#express",
-      "image#elo",
-      "image#dinners"
+      "image#visa",
+      "image#american-express"
+      //"image#dinners"
     ],
     "props": {
       "colSizing": "auto",
@@ -341,47 +277,47 @@
   },
   "flex-layout.row#paymentImages": {
     "children": [
-      "image#visa",
+      "image#diners-club",
       "image#mastercard",
-      "image#express",
-      "image#elo",
-      "image#dinners"
+      "image#visa",
+      "image#american-express"
+      //"image#dinners"
     ],
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "paymentImages"
     }
   },
-  "image#visa": {
+  "image#diners-club": {
     "props": {
-      "src": "assets/placeholders/visaLogo.png",
+      "src": "assets/placeholders/diners-club-logo.png",
       "blockClass": "paymentImage"
     }
   },
   "image#mastercard": {
     "props": {
-      "src": "assets/placeholders/masterCardLogo.png",
+      "src": "assets/placeholders/mastercard-logo.png",
       "blockClass": "paymentImage"
     }
   },
-  "image#express": {
+  "image#visa": {
     "props": {
-      "src": "assets/placeholders/expressLogo.png",
+      "src": "assets/placeholders/visa-logo.png",
       "blockClass": "paymentImage"
     }
   },
-  "image#elo": {
+  "image#american-express": {
     "props": {
-      "src": "assets/placeholders/eloLogo.png",
+      "src": "assets/placeholders/american-express-logo.png",
       "blockClass": "paymentImage"
     }
   },
-  "image#dinners": {
+ /* "image#dinners": {
     "props": {
       "src": "assets/placeholders/dinnersLogo.png",
       "blockClass": "paymentImage"
     }
-  },
+  },*/
   "rich-text#copyrightMobile": {
     "props": {
       "text": "2020 @ All Right Reserved to VTEX",
@@ -438,20 +374,198 @@
   },
   "image#facebook": {
     "props": {
-      "src": "assets/placeholders/facebookIcon.png",
+      "src": "assets/placeholders/facebook-logo.png",
       "blockClass": "networkImage"
     }
   },
   "image#instagram": {
     "props": {
-      "src": "assets/placeholders/instagramIcon.png",
+      "src": "assets/placeholders/instagram-logo.png",
       "blockClass": "networkImage"
     }
   },
   "image#twitter": {
     "props": {
-      "src": "assets/placeholders/twitterIcon.png",
+      "src": "assets/placeholders/linkedin-logo.png",
       "blockClass": "networkImage"
     }
+  },
+
+  "flex-layout.row#logo-agra": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "logo-agraContainer"
+    },
+    "children": [
+      "flex-layout.col#logo-agra",
+      "flex-layout.col#spacer"
+      // Deprecated
+      // "vtex.menu@2.x:menu#currency"
+      // "locale-switcher"
+    ]
+  },
+
+  "flex-layout.col#logo-agra": {
+    "props": {},
+    "children": ["flex-layout.row#primerLogo"]
+  },
+  "flex-layout.row#primerLogo": {
+    "props": {
+      "preventHorizontalStretch": true
+    },
+    "children": ["logo#agraLogo"]//, "rich-text#rights"
+  },
+  "logo#agraLogo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logo-agra-footer.svg"
+
+    }
+  },
+
+
+
+
+  "flex-layout.row#logo-reclamaciones": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "logo-reclamacionesContainer"
+    },
+    "children": [
+      "flex-layout.col#logo-reclamaciones",
+      "flex-layout.col#spacer"
+      // Deprecated
+      // "vtex.menu@2.x:menu#currency"
+      // "locale-switcher"
+    ]
+  },
+
+  "flex-layout.col#logo-reclamaciones": {
+    "props": {},
+    "children": ["flex-layout.row#libro-reclamacionesLogo"]
+  },
+  "flex-layout.row#libro-reclamacionesLogo": {
+    "props": {
+      "preventHorizontalStretch": true
+    },
+    "children": ["logo#reclamacionesLogo"]//, "rich-text#rights"
+  },
+  "logo#reclamacionesLogo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/libro-reclamaciones-footer.svg"
+    }
   }
+
+
+
+
+  /*"flex-layout.row#copyright": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "copyrightContainer"
+    },
+    "children": [
+      "flex-layout.col#copyright",
+      "flex-layout.col#spacer"
+      // Deprecated
+      // "vtex.menu@2.x:menu#currency"
+      // "locale-switcher"
+    ]
+  },
+*/
+  // Deprecated
+  // "vtex.menu@2.x:menu#currency": {
+  //   "children": ["menu-item#currency"],
+  //   "props": {
+  //     "blockClass": "currencyFakeDropdown"
+  //   }
+  // },
+
+  // "menu-item#currency": {
+  //   "props": {
+  //     "id": "currency-selector",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#",
+  //       "noFollow": false,
+  //       "text": "Select Currency"
+  //     },
+  //     "blockClass": "currencyFakeDropdown"
+  //   },
+  //   "blocks": ["vtex.menu@2.x:submenu#currency"]
+  // },
+  // "vtex.menu@2.x:submenu#currency": {
+  //   "children": ["vtex.menu@2.x:menu#subcurrency"]
+  // },
+  // "vtex.menu@2.x:menu#subcurrency": {
+  //   "children": ["menu-item#en", "menu-item#es", "menu-item#br"],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // },
+  // "menu-item#en": {
+  //   "props": {
+  //     "id": "currency-english",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/en",
+  //       "noFollow": false,
+  //       "text": "United States - USD"
+  //     }
+  //   }
+  // },
+  // "menu-item#es": {
+  //   "props": {
+  //     "id": "currency-spain",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/es",
+  //       "noFollow": false,
+  //       "text": "Spain - EUR"
+  //     }
+  //   }
+  // },
+  // "menu-item#br": {
+  //   "props": {
+  //     "id": "currency-brazil",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/br",
+  //       "noFollow": false,
+  //       "text": "Brazil - BRL"
+  //     }
+  //   }
+  // },
+
+ /* "flex-layout.col#copyright": {
+    "props": {},
+    "children": ["flex-layout.row#vtexLogo"]
+  },
+  "flex-layout.row#vtexLogo": {
+    "props": {
+      "preventHorizontalStretch": true
+    },
+    "children": ["logo#reclamacionesLogo"]//, "rich-text#rights"
+  },
+  "logo#reclamacionesLogo": {
+    "props": {
+      "blockClass": "vtexLogo",
+      "href": "/hi",
+      "src": "assets/icons/logo-grupoagra.svg"
+    }
+  },*/
+
+
+
 }
