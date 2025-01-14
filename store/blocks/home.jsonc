@@ -100,9 +100,9 @@
   },
   "link#pdes": {
     "props": {
-      "label": "See more",
+      "label": "VER TODOS",
       "href": "#",
-      "blockClass": "blogPopular"
+      "blockClass": "vermas-encuentra-prod"
     }
   },
 
@@ -453,9 +453,9 @@
   },
   "link#prod": {
     "props": {
-      "label": "See more",
+      "label": "VER TODOS",
       "href": "#",
-      "blockClass": "blogPopular"
+      "blockClass": "vermas-productos"
     }
   },
 
@@ -901,8 +901,8 @@
       "isFullModeStyle": true,
        "textPosition": "left",
        "imageUrl":"assets/placeholders/proyectos.png",
-       "headline": "Nosotros",
-       "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
+       "headline": "Proyectos",
+       "subhead": "Nuestro objetivo es brindar soluciones integrales a nuestros clientes a traves de la importación, distribución y comercialización de productos de uso industrial.",
        "callToActionText": "Saber más",
        "callToActionUrl":"#",
        "textAlignment":"left",
@@ -940,9 +940,9 @@
   },
   "link#blog": {
     "props": {
-      "label": "See more",
+      "label": "VER TODOS",
       "href": "#",
-      "blockClass": "blogPopular"
+      "blockClass": "vermas-nuestroblog"
     }
   },
 

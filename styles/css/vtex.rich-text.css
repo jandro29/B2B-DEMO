@@ -383,6 +383,12 @@
   margin-left: 16px;
 }
 
+.wrapper--nuestros-clientes,
+.wrapper--consumers-text,
+.wrapper--marcas-text{
+  margin-left: 16px;
+}
+
 .wrapper--prod{
   margin-left: 16px;
 }
@@ -768,4 +774,26 @@
 .link--HeaderStripeText,
 .paragraph--pedido-rapido-text{
   color: black !important;
+}
+
+/*nuestras marcas*/
+
+.container--bals-text,
+.container--starker-text,
+.container--fmf-text,
+
+.container--agra-tools-text,
+.container--hont-text,
+.container--band-text,
+.container--ybico-text,
+.container--schmersal-text,
+.container--transpak-text,
+.container--conduIt-text,
+.container--fulton-text,
+.container--niedax-text,
+.container--woer-text,
+.container--dietzel-text
+{
+  display: flex;
+  justify-content: center;
 }

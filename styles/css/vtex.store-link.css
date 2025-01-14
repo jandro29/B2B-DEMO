@@ -252,3 +252,10 @@
   align-items: center;
   gap: 10px;
 }
+
+.link--vermas-industrias,
+.link--vermas-productos,
+.link--vermas-encuentra-prod,
+.link--vermas-nuestroblog{
+  color: #000;
+}

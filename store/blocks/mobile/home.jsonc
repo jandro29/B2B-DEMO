@@ -1,7 +1,7 @@
 {
   "responsive-layout.mobile": {
     "children": [
-      "flex-layout.row#imageList--mobile",
+      //"flex-layout.row#imageList--mobile",
       "flex-layout.row#shopByCategory",
       // Deprecated
       // "flex-layout.row#shopByBrandMobile",

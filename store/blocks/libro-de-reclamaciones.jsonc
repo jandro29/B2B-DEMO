@@ -1,0 +1,40 @@
+{
+  "store.custom#libro-de-reclamaciones": {
+    "blocks": ["responsive-layout.desktop#libro-de-reclamaciones"]//, "responsive-layout.mobile#libro-de-reclamaciones"
+  },//,"store.libro-reclamaciones"
+
+  "responsive-layout.desktop#libro-de-reclamaciones": {
+    "children": [
+      "form#libro-reclamaciones"
+    ]
+  },
+
+  /*"responsive-layout.mobile#libro-de-reclamaciones": {
+    "children": [
+    ]
+  },*/
+
+  "form#libro-reclamaciones": {
+    "props":{
+      "entity": "ReclamoEntidad",
+      "schema": "ReclamoSchema"
+    },
+    "children":["flex-layout.row#libro-reclamaciones"]
+  },
+
+  "flex-layout.row#libro-reclamaciones":{
+    "children":["flex-layout.col#libro-reclamaciones"]
+  },
+
+  "flex-layout.col#libro-reclamaciones":{
+    "children":["form-input.text#name"]
+  },
+
+  "form-input.text#name":{
+    "props":{
+      "pointer": "#/properties/name",
+      "label": "Nombre del cliente",
+      "placeholder": "Ingrese su nombre"
+    }
+  }
+}

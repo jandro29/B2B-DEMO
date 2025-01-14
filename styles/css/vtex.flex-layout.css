@@ -239,14 +239,17 @@ margin-top: 4rem;
   margin-bottom: 32px;
 }*/
 
-.flexRowContent--Head {
+.flexRowContent--Head,
+.flexRowContent--Head-nuestras-marcas,
+.flexRowContent--Head-consumers {
   align-items: center;
   justify-content: space-between;
   border-left: 5px solid #FABD01;
-  /*margin-bottom: 32px;*/
+  margin-bottom: 20px;
   margin-top: 123px;
   justify-items: center;
 }
+
 
 
 
@@ -821,21 +824,30 @@ margin-top: 4rem;
   background: #162126;
 }
 
-.flexRowContent--abt{
+.flexRow--container-industrias{
+  height: 85vh;
+
+}
+
+.flexRowContent--abt,
+.flexRowContent--container-industrias{
   height: 75%;
 }
+
 
 .stretchChildrenWidth--flex{
   height: 30vh;
   margin: 5rem;
 }
 
-.infoCardContainer--nosotros{
+.infoCardContainer--nosotros,
+.infoCardContainer--industrias-nosotros-info{
   margin-left: 5rem;
 
 }
 
-.infoCardContainer--proyectos{
+.infoCardContainer--proyectos,
+.infoCardContainer--industrias-proyectos-info{
   height: 40vh;
   margin: 5rem;
 }
@@ -885,4 +897,48 @@ margin-top: 4rem;
 .flexRow--logo-agraContainer{
   margin-bottom: 15px;
 }
+
+/*nuestras marcas styles*/
+
+.flexRow--banner-marcas-container{
+  height: 421px;
+}
+
+.flexRowContent--banner-marcas-container{
+  height: 100%;
+}
+
+
+.flexRow--container-image-bals,
+.flexRow--container-image-starker,
+.flexRow--container-image-fmf,
+
+.flexRow--container-image-agra-tools,
+.flexRow--container-image-hont,
+.flexRow--container-image-band,
+.flexRow--container-image-ybico,
+.flexRow--container-image-schmersal,
+.flexRow--container-image-transpak,
+.flexRow--container-image-conduIt,
+.flexRow--container-image-fulton,
+.flexRow--container-image-niedax,
+.flexRow--container-image-woer,
+.flexRow--container-image-dietzel{
+  background: #F1F8FC;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--second-components-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-top: 4rem;
+}
+
+
+
+
 

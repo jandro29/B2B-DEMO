@@ -1,0 +1,41 @@
+{
+  "store.custom#nuestro-equipo": {
+    "blocks": ["responsive-layout.desktop#nuestro-equipo", "responsive-layout.mobile#nuestro-equipo"]
+  },
+
+  "responsive-layout.desktop#nuestro-equipo": {
+    "children": [
+        "flex-layout.row#titulo-nuestro-equipo",
+        "flex-layout.row#contenido-nuestro-equipo"
+    ]
+  },
+
+  "responsive-layout.mobile#nuestro-equipo": {
+    "children": [
+    ]
+  },
+
+  "flex-layout.row#titulo-nuestro-equipo":{
+    "children":["rich-text#titulo-nuestro-equipo"]
+  },
+
+  "rich-text#titulo-nuestro-equipo":{
+    "props":{
+      "text":"Nuestro Equipo",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+      "font":"t-heading-1"
+    }
+  },
+
+  "flex-layout.row#contenido-nuestro-equipo":{
+    "children":["rich-text#contenido-nuestro-equipo"]
+  },
+
+  "rich-text#contenido-nuestro-equipo":{
+    "props":{
+      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
+    }
+  }
+
+}

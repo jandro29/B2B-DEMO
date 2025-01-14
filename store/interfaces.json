@@ -7,5 +7,8 @@
   },
   "search-result-layout.desktop.product-comparison": {
     "allowed": ["product-comparison-drawer"]
+  },
+  "store-form": {
+    "component": "vtex.store-form@0.x"
   }
 }

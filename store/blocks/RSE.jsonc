@@ -1,0 +1,41 @@
+{
+  "store.custom#responsabilidad-social-empresarial": {
+    "blocks": ["responsive-layout.desktop#responsabilidad-social-empresarial", "responsive-layout.mobile#responsabilidad-social-empresarial"]
+  },
+
+  "responsive-layout.desktop#responsabilidad-social-empresarial": {
+    "children": [
+        "flex-layout.row#titulo-responsabilidad-social-empresarial",
+        "flex-layout.row#contenido-responsabilidad-social-empresarial"
+    ]
+  },
+
+  "responsive-layout.mobile#responsabilidad-social-empresarial": {
+    "children": [
+    ]
+  },
+
+  "flex-layout.row#titulo-responsabilidad-social-empresarial":{
+    "children":["rich-text#titulo-responsabilidad-social-empresarial"]
+  },
+
+  "rich-text#titulo-responsabilidad-social-empresarial":{
+    "props":{
+      "text":"Términos y condiciones de reclamaciones",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+      "font":"t-heading-1"
+    }
+  },
+
+  "flex-layout.row#contenido-responsabilidad-social-empresarial":{
+    "children":["rich-text#contenido-responsabilidad-social-empresarial"]
+  },
+
+  "rich-text#contenido-responsabilidad-social-empresarial":{
+    "props":{
+      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
+    }
+  }
+
+}

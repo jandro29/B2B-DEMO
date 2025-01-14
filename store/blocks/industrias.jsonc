@@ -1,44 +1,122 @@
 {
-
-
-
-
   "store.custom#industrias": {
-    "children": ["responsive.desktop#industrias", "responsive.mobile#industrias"]
+    "blocks": ["responsive-layout.desktop#industrias", "responsive-layout.mobile#industrias"]
   },
 
-  "responsive.desktop#industrias": {
+  "responsive-layout.desktop#industrias": {
     "children": [
-      "flex-layout.row#imageList",
+      "flex-layout.row#banner-industrias",
+      "flex-layout.row#sobre-nosotros",
+      "flex-layout.row#container-industrias",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
     ]
   },
 
-  "responsive.mobile#industrias": {
+  "responsive-layout.mobile#industrias": {
     "children": [
     ]
   },
 
-  "flex-layout.row#imageList": {
+  "flex-layout.row#banner-industrias": {
+    "children":["image#banner-industrias"],
     "props": {
-      "fullWidth": true
-    },
-    "children": ["list-context.image-list#homeBanners"]
+      "fullWidth": true,
+      "blockClass": "banner-row"
+    }
+
+
   },
 
-  "list-context.image-list#homeBanners": {
-    "children": ["slider-layout#demo-images"],
+  "image#banner-industrias": {
     "props": {
-      "showPaginationDots": "never",
-      "height": 328,
-      "images": [
-        {
-          "image": "assets/placeholders/first-banner.png",
-          "mobileImage": "assets/placeholders/fullbannerMobile.png",
-          "description": "something something"
-        }
-      ]
+      "src": "assets/placeholders/banner-industrias.jpg", // URL de tu imagen
+      "alt": "Texto alternativo del banner",
+      "link": {
+        "url": "/promocion",
+        "noFollow": false,
+        "openNewTab": true
+      }
     }
-  }
+  },
+
+ "flex-layout.row#sobre-nosotros": {
+    "children": [
+      "rich-text#sobre-nosotros-industrias",
+      "link#sobre-nosotros-industrias-link"
+    ],
+    "props": {
+      "blockClass": "Head",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#sobre-nosotros-industrias": {
+    "props": {
+      "margin": "16px",
+      "text": "### Sobre Nosotros",
+      "blockClass": "blog"
+    }
+  },
+  "link#sobre-nosotros-industrias-link": {
+    "props": {
+      "label": "Ver todos",
+      "href": "#",
+      "blockClass": "vermas-industrias"
+    }
+  },
+
+  "flex-layout.row#container-industrias":{
+    "props":{
+     "blockClass": "container-industrias",
+     "colGap": 4
+    },
+     "children":["flex-layout.col#industrias-banner-left", "flex-layout.col#industrias-banner-right"]
+   },
+
+   "flex-layout.col#industrias-banner-left":{
+    "children":[
+      "info-card#industrias-col-left"
+    ]
+   },
+
+
+   "flex-layout.col#industrias-banner-right":{
+    "children":[
+      "info-card#industrias-col-right"
+    ]
+   },
+
+   "info-card#industrias-col-left":{
+     "props":{
+       "isFullModeStyle": true,
+       "textPosition": "left",
+       "imageUrl":"assets/placeholders/nosotros.png",
+       "headline": "Nosotros",
+       "subhead": "Etiam bibendum adipiscing egestas aliquet lacus ipsum neque diam elit. Orci sapien morbi congue ut quis enim",
+       "callToAction": null, // Elimina el botón
+       "callToActionText": null,
+       "callToActionUrl": null,
+       "textAlignment":"left",
+       "blockClass": "industrias-nosotros-info"
+     }
+   },
+
+   "info-card#industrias-col-right":{
+     "props":{
+      "isFullModeStyle": true,
+       "textPosition": "left",
+       "imageUrl":"assets/placeholders/proyectos.png",
+       "headline": "Proyectos",
+       "subhead": "Etiam bibendum adipiscing egestas aliquet lacus ipsum neque diam elit. Orci sapien morbi congue ut quis enim",
+       "callToAction": null, // Elimina el botón
+       "callToActionText": null,
+       "callToActionUrl": null,
+       "textAlignment":"left",
+       "blockClass": "industrias-proyectos-info"
+
+     }
+   }
+
+
 }

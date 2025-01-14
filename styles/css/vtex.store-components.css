@@ -768,25 +768,33 @@
 }
 
 
-.infoCardContainer--nosotros-info{
+.infoCardContainer--nosotros-info,
+.infoCardContainer--industrias-nosotros-info{
   height: 100%;
   border: none;
 }
 
-.infoCardContainer--proyectos-info{
+.infoCardContainer--proyectos-info,
+.infoCardContainer--industrias-proyectos-info{
   height: 100%;
   border: none;
 }
 
 .infoCardHeadline--nosotros-info,
-.infoCardHeadline--proyectos-info{
+.infoCardHeadline--proyectos-info,
+.infoCardHeadline--industrias-nosotros-info,
+.infoCardHeadline--industrias-proyectos-info{
   color: white;
 }
 
 .infoCardSubhead--nosotros-info,
-.infoCardSubhead--proyectos-info{
+.infoCardSubhead--proyectos-info,
+.infoCardSubhead--industrias-nosotros-info,
+.infoCardSubhead--industrias-proyectos-info{
   color: white;
 }
+
+
 
 .imageElement--imagen-blog1,
 .imageElement--imagen-blog2{
@@ -803,3 +811,26 @@
   content: "Pedido Rápido";
 }
 
+.infoCardTextContainer {
+  width: 70%;
+}
+
+.infoCardCallActionContainer--industrias-nosotros-info,
+.infoCardCallActionContainer--industrias-proyectos-info{
+  display: none;
+}
+
+/*nuestras marcas components*/
+
+.infoCardCallActionContainer--marcas-container{
+  display: none;
+}
+
+.infoCardContainer--marcas-container{
+  border: none;
+}
+
+.infoCardHeadline--marcas-container,
+.infoCardSubhead--marcas-container{
+  color: white;
+}

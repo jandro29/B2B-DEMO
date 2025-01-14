@@ -74,6 +74,38 @@
 
   "store.custom#industrias": {
     "path": "/industrias"
+  },
+
+  "store.custom#libro-de-reclamaciones": {
+    "path": "/libro-de-reclamaciones"
+  },
+
+  "store.custom#nuestras-marcas": {
+    "path": "/nuestras-marcas"
+  },
+
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-condiciones"
+  },
+
+  "store.custom#nuestro-equipo": {
+    "path": "/nuestro-equipo"
+  },
+
+  "store.custom#nosotros": {
+    "path": "/nosotros"
+  },
+
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+
+  "store.custom#condiciones-reclamaciones": {
+    "path": "/condiciones-reclamaciones"
+  },
+
+  "store.custom#responsabilidad-social-empresarial": {
+    "path": "/responsabilidad-social-empresarial"
   }
 
 }
