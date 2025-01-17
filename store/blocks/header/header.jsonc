@@ -66,7 +66,7 @@
     }
   },
 
-  "flex-layout.row#headerStripe": {
+ /* "flex-layout.row#headerStripe": {
     "props": {
       "blockClass": "headerStripe",
       "horizontalAlign": "left",
@@ -76,15 +76,55 @@
     },
     "children": [
       "shopper-location",
+      "menu-item#shop",
       "rich-text#headStripe1",
       "rich-text#headStripe2",
       "rich-text#headStripe3",
-      /*"rich-text#headStripe4",
-      "rich-text#headStripe5",*/
+      "rich-text#headStripe4",
+      "rich-text#headStripe5",
       "flex-layout.col#spacer",
       "check-permission#reseller"
     ]
   },
+
+  "menu-item#shop": {
+  "props": {
+    "type": "custom",
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Shop",
+      "text": "Shop"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu#shop"] // Defining a submenu
+},
+"vtex.menu@2.x:submenu#shop": {
+  "children": [
+    "vtex.menu@2.x:menu#submenushop"
+  ]
+},
+"vtex.menu@2.x:menu#submenushop": {
+  "children": [
+    "menu-item#shop1"
+  ]
+},
+
+"menu-item#shop1": {
+  "props": {
+    "type": "custom",
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Shop",
+      "text": "Shop"
+    }
+  }
+},*/
 
   "rich-text#headStripe1": {
     "props": {

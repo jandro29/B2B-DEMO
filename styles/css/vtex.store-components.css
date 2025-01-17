@@ -834,3 +834,7 @@
 .infoCardSubhead--marcas-container{
   color: white;
 }
+
+.infoCardSubhead--marcas-container{
+  width: 70%;
+}

@@ -100,12 +100,20 @@
     "path": "/preguntas-frecuentes"
   },
 
-  "store.custom#condiciones-reclamaciones": {
-    "path": "/condiciones-reclamaciones"
+  "store.custom#condiciones-de-promociones": {
+    "path": "/terminos-condiciones-de-promociones"
   },
 
   "store.custom#responsabilidad-social-empresarial": {
     "path": "/responsabilidad-social-empresarial"
   }
+,
+"store.custom#politica-cambios-devolucion": {
+  "path": "/politica-cambios-devolucion"
+},
+
+"store.custom#politica-de-despacho": {
+  "path": "/politica-de-despacho"
+}
 
 }

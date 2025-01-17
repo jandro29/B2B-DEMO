@@ -1,0 +1,55 @@
+{
+"flex-layout.row#headerStripe": {
+    "props": {
+      "blockClass": "headerStripe",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "shopper-location",
+      //"flex-layout.row#menu",
+      "menu-item#productos",
+      "rich-text#headStripe1",
+      "rich-text#headStripe2",
+      "rich-text#headStripe3",
+      /*"rich-text#headStripe4",
+      "rich-text#headStripe5",*/
+      "flex-layout.col#spacer",
+      "check-permission#reseller"
+    ]
+  },
+
+  "menu-item#productos": {
+  "props": {
+    "blockClass": "primer-header",
+    "type": "custom",
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Shop",
+      "text": "Shop"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu#productos"] // Defining a submenu
+},
+"vtex.menu@2.x:submenu#productos": {
+  "children": [
+    "vtex.menu@2.x:menu#submenuproductos"
+  ]
+},
+"vtex.menu@2.x:menu#submenuproductos": {
+  "children": [
+    "menu-item#productos1",
+    "menu-item#productos2",
+    "menu-item#productos3",
+    "menu-item#productos4"
+  ]
+}
+
+
+
+}

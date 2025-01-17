@@ -10,9 +10,11 @@
     "children": [
       "flex-layout.row#title",
       "flex-layout.row#textarea",
-      "flex-layout.row#upload",
       "flex-layout.row#autocomplete",
-      "flex-layout.row#quickCategories"
+      "flex-layout.row#quickCategories",
+      "flex-layout.row#upload",
+      "flex-layout.row#benefits",
+      "flex-layout.row#newsletter"
     ]
   },
 
@@ -31,7 +33,7 @@
   },
   "rich-text#title": {
     "props": {
-      "text": "### Quick Order",
+      "text": "### Pedido rápido ",
       "blockClass": "titleQuickorder"
     }
   },
@@ -45,23 +47,8 @@
   "quickorder-textarea": {
     "props": {
       "componentOnly": false,
-      "text": "Copy/Paste Skus",
-      "description": "[Sku's Code],[Quantity]"
-    }
-  },
-
-  "flex-layout.row#upload": {
-    "children": ["flex-layout.col#upload"]
-  },
-  "flex-layout.col#upload": {
-    "children": ["quickorder-upload"]
-  },
-  "quickorder-upload": {
-    "props": {
-      "componentOnly": false,
-      "text": "Upload",
-      "description": "Upload a Spreadsheet with two columns (SKU, Quantity) to bulk order",
-      "downloadText": "Click here to download a spreadsheet model"
+      "text": "Lista de SKU’s",
+      "description": "Copia y Paste la lista de SKU’s y la cantidad de cada Elemento."
     }
   },
 
@@ -74,8 +61,8 @@
   "quickorder-autocomplete": {
     "props": {
       "componentOnly": false,
-      "text": "One by One",
-      "description": "Type the product name, select, enter quantity and add to the cart"
+      "text": "Uno por uno",
+      "description": "Escribe el nombre del producto, selecciona, indica la cantidad y agrégalo al carrito."
     }
   },
 
@@ -91,8 +78,24 @@
   "quickorder-categories": {
     "props": {
       "componentOnly": false,
-      "text": "Categories",
-      "description": "Add products directly from their categories"
+      "text": "Categoria",
+      "description": "Agrega productos directamente de las categorias."
+    }
+  },
+
+  "flex-layout.row#upload": {
+    "children": ["flex-layout.col#upload"]
+  },
+  "flex-layout.col#upload": {
+    "children": ["quickorder-upload"]
+  },
+  "quickorder-upload": {
+    "props": {
+      "componentOnly": false,
+      "text": "Subir Archivo",
+      "description": "Sube tu hoja de calculo con dos columnas (Código SKU, Cantidad) para validar tu orden",
+      "downloadText": "Click here to download a spreadsheet model"
     }
   }
+
 }

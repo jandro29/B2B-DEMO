@@ -1,38 +1,38 @@
 {
-  "store.custom#responsabilidad-social-empresarial": {
-    "blocks": ["responsive-layout.desktop#responsabilidad-social-empresarial", "responsive-layout.mobile#responsabilidad-social-empresarial"]
+  "store.custom#politica-de-despacho": {
+    "blocks": ["responsive-layout.desktop#politica-de-despacho", "responsive-layout.mobile#politica-de-despacho"]
   },
 
-  "responsive-layout.desktop#responsabilidad-social-empresarial": {
+  "responsive-layout.desktop#politica-de-despacho": {
     "children": [
-        "flex-layout.row#titulo-responsabilidad-social-empresarial",
-        "flex-layout.row#contenido-responsabilidad-social-empresarial"
+        "flex-layout.row#titulo-politica-de-despacho",
+        "flex-layout.row#contenido-politica-de-despacho"
     ]
   },
 
-  "responsive-layout.mobile#responsabilidad-social-empresarial": {
+  "responsive-layout.mobile#politica-de-despacho": {
     "children": [
     ]
   },
 
-  "flex-layout.row#titulo-responsabilidad-social-empresarial":{
-    "children":["rich-text#titulo-responsabilidad-social-empresarial"]
+  "flex-layout.row#titulo-politica-de-despacho":{
+    "children":["rich-text#titulo-politica-de-despacho"]
   },
 
-  "rich-text#titulo-responsabilidad-social-empresarial":{
+  "rich-text#titulo-politica-de-despacho":{
     "props":{
-      "text":"Responsabilidad Social Empresarial",
+      "text":"Politica de despacho",
       "textAlignment":"CENTER",
       "textPosition":"CENTER",
       "font":"t-heading-1"
     }
   },
 
-  "flex-layout.row#contenido-responsabilidad-social-empresarial":{
-    "children":["rich-text#contenido-responsabilidad-social-empresarial"]
+  "flex-layout.row#contenido-politica-de-despacho":{
+    "children":["rich-text#contenido-politica-de-despacho"]
   },
 
-  "rich-text#contenido-responsabilidad-social-empresarial":{
+  "rich-text#contenido-politica-de-despacho":{
     "props":{
       "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
     }
