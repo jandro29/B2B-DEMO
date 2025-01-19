@@ -1,0 +1,15 @@
+{
+  "menu-item#marcas1": {
+
+    "props": {
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "Shop",
+        "text": "Producto A"
+      }
+    }
+  }
+
+
+
+  }
