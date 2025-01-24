@@ -10,7 +10,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/help-center",
+            "href": "/preguntas-frecuentes",
             "noFollow": false,
             "tagTitle": "Help Center",
             "text": "Preguntas frecuentes"
@@ -36,7 +36,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/recalls",
+            "href": "/terminos-condiciones",
             "noFollow": false,
             "tagTitle": "Product Recalls",
             "text": "Términos y Condiciones"
@@ -49,7 +49,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/accessibility",
+            "href": "/terminos-condiciones-de-promociones",
             "noFollow": false,
             "tagTitle": "Accessibility",
             "text": "Términos y Condiciones Promociones"
@@ -62,7 +62,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/contact",
+            "href": "/preguntas-frecuentes",
             "noFollow": false,
             "tagTitle": "Contact Us",
             "text": "Preguntas Frecuentes"
@@ -97,7 +97,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/company",
+            "href": "/nosotros",
             "noFollow": false,
             "tagTitle": "Shop",
             "text": "Nosotros"
@@ -110,7 +110,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/careers",
+            "href": "/nuestro-equipo",
             "noFollow": false,
             "tagTitle": "about-us",
             "text": "Nuestro Equipo"
@@ -149,7 +149,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/advertise",
+            "href": "/responsabilidad-social-empresarial",
             "noFollow": false,
             "tagTitle": "about-us",
             "text": "RSE"
@@ -183,7 +183,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/help-center",
+            "href": "/politica-cambios-devolucion",
             "noFollow": false,
             "tagTitle": "Help Center",
             "text": "Políticas de Cambios y Devoluciones"
@@ -196,7 +196,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/returns",
+            "href": "/politica-de-despacho",
             "noFollow": false,
             "tagTitle": "Returns",
             "text": "Políticas de Despacho"
@@ -209,7 +209,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/recalls",
+            "href": "/terminos-condiciones",
             "noFollow": false,
             "tagTitle": "Product Recalls",
             "text": "Términos y Condiciones"
@@ -222,7 +222,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/accessibility",
+            "href": "/terminos-condiciones-de-promociones",
             "noFollow": false,
             "tagTitle": "Accessibility",
             "text": "Términos y Condiciones Promociones"

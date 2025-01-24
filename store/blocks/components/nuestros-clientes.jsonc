@@ -24,8 +24,12 @@
         "tablet": 2,
         "phone": 2
       },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": "clientes-inicioSlider"
     },
@@ -37,7 +41,8 @@
       "flex-layout.row#clientesRow5",
       "flex-layout.row#clientesRow6",
       "flex-layout.row#clientesRow7",
-      "flex-layout.row#clientesRow8"
+      "flex-layout.row#clientesRow8",
+      "flex-layout.row#clientesRow9"
     ]
   },
   "flex-layout.row#clientesRow1": {
@@ -88,51 +93,63 @@
       "blockClass": "flex-column-clientes"
     }
   },
+  "flex-layout.row#clientesRow9": {
+    "children": ["image#clientes9"],
+    "props": {
+      "blockClass": "flex-column-clientes"
+    }
+  },
   "image#clientes1": {
     "props": {
-      "src": "assets/placeholders/buenaventura.png",
+      "src": "assets/placeholders/buenaventura-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes2": {
     "props": {
-      "src": "assets/placeholders/cerroverde.png",
+      "src": "assets/placeholders/cerro-verde-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes3": {
     "props": {
-      "src": "assets/placeholders/metro.png",
+      "src": "assets/placeholders/metro-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes4": {
     "props": {
-      "src": "assets/placeholders/sanmartin.png",
+      "src": "assets/placeholders/san-martin-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes5": {
     "props": {
-      "src": "assets/placeholders/bitel.png",
+      "src": "assets/placeholders/bitel-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes6": {
     "props": {
-      "src": "assets/placeholders/southern.png",
+      "src": "assets/placeholders/southern-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes7": {
     "props": {
-      "src": "assets/placeholders/claro.png",
+      "src": "assets/placeholders/claro-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes8": {
     "props": {
-      "src": "assets/placeholders/claro.png",
+      "src": "assets/placeholders/bisa-nuestros-clientes.jpeg",
+      "blockClass": "clientesImage"
+    }
+  },
+  "image#clientes9": {
+    "props": {
+      "src": "assets/placeholders/jjc-nuestros-clientes.jpg",
       "blockClass": "clientesImage"
     }
   }

@@ -35,7 +35,7 @@
     "props":{
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl":"assets/placeholders/nuestras-marcas-banner.jpg",
+      "imageUrl":"assets/placeholders/banner-nuestras-marcas.png",
       "headline": "Nuestras Marcas",
       "subhead": "Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.",
       "textAlignment":"left",

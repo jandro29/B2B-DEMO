@@ -938,7 +938,41 @@ margin-top: 4rem;
   margin-top: 4rem;
 }
 
+/*nosotros*/
 
+
+.flexRowContent--container-colaboradores{
+  background: #F1F8FC;
+  border-radius: 20px;
+}
+
+.flexCol--contenido{
+  margin: 20px;
+}
+
+.flexRowContent--contenedor-contenido{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.flexRowContent--contenedor-contenido .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.flexRow--contenedor-redes{
+  width: 70%;
+}
+
+.flexColChild--contenido,
+.flexColChild--contenido,
+.flexColChild--contenido{
+  height: unset !important;
+}
+
+.flexRow--contenedor-contenido{
+  margin-bottom: 5rem;
+}
 
 
 

@@ -104,7 +104,7 @@
   },
   "rich-text#followTitle": {
     "props": {
-      "text": "Follow us",
+      "text": "Siguenos",
       "blockClass": "followTitle"
     }
   },
@@ -177,13 +177,117 @@
 
   "flex-layout.row#footerMobile": {
     "children": [
-      "flex-layout.row#footerMenu",
-      "flex-layout.col#payment",
+      "flex-layout.row#logo-agra-mobil",
+      "flex-layout.row#footerMobil",
+      "flex-layout.col#footerStripe-mobil"
+      //"flex-layout.row#footerMenu"
+      //"flex-layout.col#payment"
       // "flex-layout.row#currency",
-      "flex-layout.row#networks",
-      "rich-text#copyrightMobile",
-      "rich-text#footerTextMobile",
-      "image#vtexLogoMobile"
+      //"flex-layout.row#networks"
+      //"rich-text#copyrightMobile",
+      //"rich-text#footerTextMobile",
+      //"image#vtexLogoMobile"
+    ]
+  },
+
+
+  "flex-layout.row#logo-agra-mobil": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "logo-agraContainer-mobil"
+    },
+    "children": [
+      "flex-layout.col#logo-agra-mobil"
+    ]
+  },
+
+  "flex-layout.col#logo-agra-mobil": {
+    "props": {
+      "blockClass": "logo-agra-mobil"
+    },
+    "children": ["flex-layout.row#primerLogo-mobil"]
+  },
+  "flex-layout.row#primerLogo-mobil": {
+    "props": {
+      "preventHorizontalStretch": true
+    },
+    "children": ["logo#agraLogo-mobil"]
+  },
+  "logo#agraLogo-mobil": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logo-footer.png",
+      "blockClass": "logo-footer"
+    }
+  },
+  /////////////////////////////////////////////////////////////
+
+
+  "flex-layout.col#footerStripe-mobil": {
+    "props": {
+      "blockClass": "footerStripe"
+    },
+    "children": [
+      "flex-layout.row#footerStripecontenido1-mobil",
+      "flex-layout.row#footerStripecontenido2-mobil",
+      "flex-layout.row#footerStripecontenido3-mobil"]
+  },
+
+  "flex-layout.row#footerStripecontenido1-mobil":{
+    "children":["rich-text#footerStripe1-mobil"],
+    "props":{
+      "blockClass":"ultimo-container-footer"
+    }
+  },
+
+  "flex-layout.row#footerStripecontenido2-mobil":{
+    "children":["rich-text#footerStripe2-mobil"],
+    "props":{
+      "blockClass":"ultimo-container-footer"
+    }
+  },
+
+  "flex-layout.row#footerStripecontenido3-mobil":{
+    "children":["rich-text#footerStripe3-mobil"],
+    "props":{
+      "blockClass":"ultimo-container-footer"
+    }
+  },
+
+  "rich-text#footerStripe1-mobil": {
+    "props": {
+      "text": "Diseño UX y Desarrollo: **Esedor Latam**",
+      "blockClass": "footerStripe1",
+      "font": "t-heading-9"
+    }
+  },
+  "rich-text#footerStripe2-mobil": {
+    "props": {
+      "text": " Tecnología: **Vtex**",
+      "blockClass": "footerStripe2"
+    }
+  },
+  "rich-text#footerStripe3-mobil": {
+    "props": {
+      "text": "**Grupo Agra** Ⓒ 2025 Todos los derechos reservados.",
+      "blockClass": "footerStripe3"
+    }
+  },
+
+  ////////////////////////////////////////////////////////////
+  "flex-layout.row#footerMobil": {
+    "props": {
+      "blockClass": "footer-row-1",
+      "colGap": 4,
+      "rowGap": 7
+    },
+    "children": [
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop",
+      "flex-layout.col#footer-3-desktop",
+      "flex-layout.row#logo-reclamaciones",
+      "flex-layout.col#footer-4-desktop"
     ]
   },
   // Deprecated
@@ -309,7 +413,7 @@
   "image#american-express": {
     "props": {
       "src": "assets/placeholders/american-express-logo.png",
-      "blockClass": "paymentImage"
+      "blockClass": ["paymentImage","icon-american-express"]
     }
   },
  /* "image#dinners": {
@@ -343,7 +447,7 @@
       "horizontalAlign": "center",
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "colGap": 3,
+      "colGap": 6,
       "colSizing": "auto",
       "fullWidth": false
     }
@@ -442,12 +546,15 @@
   },
 
   "flex-layout.col#logo-reclamaciones": {
-    "props": {},
+    "props": {
+      "blockClass": "libro-reclamaciones-container"
+    },
     "children": ["flex-layout.row#libro-reclamacionesLogo"]
   },
   "flex-layout.row#libro-reclamacionesLogo": {
     "props": {
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "libro-reclamaciones-container-image"
     },
     "children": ["logo#reclamacionesLogo"]//, "rich-text#rights"
   },
@@ -455,7 +562,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/icons/libro-reclamaciones-footer.svg"
+      "url": "assets/icons/libro-reclamaciones-footer.svg",
+      "blockClass": "libro-reclamaciones-image"
     }
   }
 

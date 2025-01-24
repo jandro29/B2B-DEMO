@@ -1,19 +1,39 @@
 {
   "responsive-layout.mobile": {
     "children": [
-      //"flex-layout.row#imageList--mobile",
+      "flex-layout.row#imageList--mobile",
+      "flex-layout.row#tusprod",
+
+      "flex-layout.row#productos-mb",
+      /*
+
       "flex-layout.row#shopByCategory",
+
+      */
+      "flex-layout.row#prod-des",
+      "flex-layout.row#productos-dest-container",
       // Deprecated
       // "flex-layout.row#shopByBrandMobile",
-      "flex-layout.row#shelfMobile",
+      //"flex-layout.row#shopByBrand",
+      //"flex-layout.row#shelfMobile",
+      "flex-layout.row#container-mobil",
+      "rich-text#clientes",
+      "flex-layout.row#clientes-inicio",
+      /*
       "flex-layout.row#banners",
-      "flex-layout.row#singleBannerMobile",
-      "flex-layout.row#popular",
-      "flex-layout.row#trending",
-      "flex-layout.row#benefits",
+      */
+      //"flex-layout.row#singleBannerMobile",
+      //"flex-layout.row#popular",
+      //"flex-layout.row#trending",
+      "flex-layout.row#benefitsmobil",
+      //"flex-layout.row#benefits",
       "flex-layout.row#newsletter"
+
     ]
   },
+
+
+
 
   // Deprecated
   // "flex-layout.row#shopByBrandMobile": {
@@ -151,5 +171,55 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
-  }
+  },
+
+  "flex-layout.row#container-mobil":{
+    "props":{
+     "blockClass": "abt-mobil",
+     "rowGap": 8
+    },
+     "children":["flex-layout.col#first-home-banner-left", "flex-layout.col#first-home-banner-right"]
+   },
+
+   "flex-layout.col#first-home-banner-left":{
+    "children":[
+      "info-card#col-left"
+    ]
+   },
+
+
+   "flex-layout.col#first-home-banner-right":{
+    "children":[
+      "info-card#col-right"
+    ]
+   },
+
+   "info-card#col-left":{
+     "props":{
+       "isFullModeStyle": true,
+       "textPosition": "left",
+       "imageUrl":"assets/placeholders/nosotros.png",
+       "headline": "Nosotros",
+       "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
+       "callToActionText": "Saber más",
+       "callToActionUrl":"#",
+       "textAlignment":"left",
+       "blockClass": "nosotros-info"
+     }
+   },
+
+   "info-card#col-right":{
+     "props":{
+      "isFullModeStyle": true,
+       "textPosition": "left",
+       "imageUrl":"assets/placeholders/proyectos.png",
+       "headline": "Proyectos",
+       "subhead": "Nuestro objetivo es brindar soluciones integrales a nuestros clientes a traves de la importación, distribución y comercialización de productos de uso industrial.",
+       "callToActionText": "Saber más",
+       "callToActionUrl":"#",
+       "textAlignment":"left",
+       "blockClass": "proyectos-info"
+
+     }
+   }
 }

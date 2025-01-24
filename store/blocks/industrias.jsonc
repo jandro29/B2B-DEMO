@@ -6,6 +6,16 @@
   "responsive-layout.desktop#industrias": {
     "children": [
       "flex-layout.row#banner-industrias",
+      //
+      "flex-layout.row#prod-mineria",
+      "flex-layout.row#shopByCategory",
+      //
+      "flex-layout.row#texto1-container",
+      //
+    "flex-layout.row#marcas-frecuentes-title",
+      //
+      "flex-layout.row#second-components",
+      //
       "flex-layout.row#sobre-nosotros",
       "flex-layout.row#container-industrias",
       "flex-layout.row#benefits",
@@ -30,7 +40,7 @@
 
   "image#banner-industrias": {
     "props": {
-      "src": "assets/placeholders/banner-industrias.jpg", // URL de tu imagen
+      "src": "assets/placeholders/industrias-banner.png", // URL de tu imagen
       "alt": "Texto alternativo del banner",
       "link": {
         "url": "/promocion",
@@ -39,7 +49,74 @@
       }
     }
   },
+  /////////////////////////////////////////////////
+  /////////////////////////////////////////////////
+  "flex-layout.row#prod-mineria": {
+    "children": [
+      "rich-text#prod"
+    ],
+    "props": {
+      "blockClass": "Head",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#prod": {
+    "props": {
+      "text": "### Productos de Minería",
+      "blockClass": "prod"
+    }
+  },
 
+  /////////////////////////////////////////////////
+  /////////////////////////////////////////////////
+
+  "flex-layout.row#texto1-container":{
+    "children":["flex-layout.col#texto1"]
+  },
+
+  "flex-layout.col#texto1":{
+    "children":["rich-text#titulo", "rich-text#parrafo"]
+  },
+
+  "rich-text#titulo":{
+    "props":{
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+      "text": "Ayudándote a enfrentar los desafíos más grandes de la industria minera",
+      "blockClass": "titulo-texto1"
+    }
+  },
+
+  "rich-text#parrafo":{
+    "props":{
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+    "text": "En Grupo Agra, contamos con expertos que combinan años de experiencia en la industria minera y acceso a una amplia gama de productos ferreteros especializados. Juntos, podemos equipar, proteger y optimizar tus operaciones para superar los retos de hoy y del mañana.",
+    "blockClass": "parrafo-texto1"
+  }
+  },
+  ////////////////////////////////////////////////
+
+  "flex-layout.row#marcas-frecuentes-title": {
+    "children": [
+      "rich-text#frecuentes-title"
+    ],
+    "props": {
+      "blockClass": "Head",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#frecuentes-title": {
+    "props": {
+      "text": "### Marcas buscadas frecuentemente:",
+      "blockClass": "prod"
+    }
+  },
+
+
+  ///////////////////////////////////////////////
  "flex-layout.row#sobre-nosotros": {
     "children": [
       "rich-text#sobre-nosotros-industrias",

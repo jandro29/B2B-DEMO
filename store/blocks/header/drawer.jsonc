@@ -56,6 +56,38 @@
       "blockClass":"pedido-rapido"
     }
   },
+
+
+  /*Boton de Pedido Rapido para responsive*/
+
+  "link#reseller-mobil": {
+    "children":["image#pedido-rapido-mobil", "rich-text#pedido-rapido-mobil"],
+    "props": {
+      //"label": "Organization Signup",
+      "href": "/quickorder",
+      "blockClass": "link-quick-ordermb"
+    }
+  },
+
+  "rich-text#pedido-rapido-mobil":{
+    "props":{
+      "text": "Pedido Rápido",
+      "blockClass": "quick-order-text"
+    }
+  },
+
+  "image#pedido-rapido-mobil":{
+    "props":{
+      "src":"assets/icons/pedido-rapidolink.svg",
+       "href": "/quickorder",
+      "link": "/quickorder",
+      "blockClass":"quick-order-image"
+    }
+  },
+
+  /**/
+
+
   "flex-layout.row#quickOrder": {
     "children": ["link#quickOrder"]
   },

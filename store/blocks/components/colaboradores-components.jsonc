@@ -1,0 +1,376 @@
+{
+  "flex-layout.row#nuestros-colaboradores":{
+    "children":[
+      "flex-layout.row#container-colaboradores"
+    ],
+
+    "props":{
+    "colGap": 8
+    }
+  },
+
+  "flex-layout.row#container-colaboradores":{
+    "children":[
+        "flex-layout.row#container1",
+        "flex-layout.row#container2",
+        "flex-layout.row#container3",
+        "flex-layout.row#container4"
+    ],
+
+    "props":{
+      "blockClass": "contenedor-contenido"
+    }
+  },
+
+
+  "flex-layout.row#container1":{
+    "children":[
+      "flex-layout.col#contenido1"
+    ],
+    "props":{
+      "blockClass":"container-colaboradores"
+    }
+  },
+
+  "flex-layout.col#contenido1":{
+    "children":[
+      "rich-text#nombre1",
+      "rich-text#cargo1",
+      "flex-layout.row#redes-container1"
+    ],
+
+    "props":{
+      "blockClass":"contenido"
+    }
+  },
+
+  "rich-text#nombre1":{
+    "props":{
+      "text":"Nombre"
+    }
+  },
+
+  "rich-text#cargo1":{
+    "props":{
+      "text": "Cargo"
+    }
+  },
+
+  "flex-layout.row#redes-container1":{
+    "children":["link#linkedin1", "link#whatsapp1", "link#mail1"],
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
+  },
+
+  "link#linkedin1": {
+    "children": ["image#linkedin1"],
+    "props": {
+      "href": "//facebook.com",
+      "target": "_blank",
+      "blockClass": "link-colaboradores "
+    }
+  },
+  "link#whatsapp1": {
+    "children": ["image#whatsapp1"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "link-colaboradores"
+    }
+  },
+  "link#mail1": {
+    "children": ["image#mail1"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "link-colaboradores"
+    }
+  },
+  "image#linkedin1": {
+    "props": {
+      "src": "assets/placeholders/linkedin-logo.svg",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  "image#whatsapp1": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-logo.svg",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  "image#mail1": {
+    "props": {
+      "src": "assets/placeholders/mail-logo.svg",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  "flex-layout.row#container2":{
+    "children":[
+      "flex-layout.col#contenido2"
+    ],
+
+    "props":{
+      "blockClass":"container-colaboradores"
+    }
+  },
+
+  "flex-layout.col#contenido2":{
+    "children":[
+      "rich-text#nombre2",
+      "rich-text#cargo2",
+      "flex-layout.row#redes-container2"
+    ],
+
+    "props":{
+      "blockClass":"contenido"
+    }
+  },
+
+  "rich-text#nombre2":{
+    "props":{
+      "text":"Nombre"
+    }
+  },
+
+  "rich-text#cargo2":{
+    "props":{
+      "text": "Cargo"
+    }
+  },
+
+  "flex-layout.row#redes-container2":{
+    "children":["link#linkedin2", "link#whatsapp2", "link#mail2"]
+  },
+
+  "link#linkedin2": {
+    "children": ["image#linkedin2"],
+    "props": {
+      "href": "//facebook.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "link#whatsapp2": {
+    "children": ["image#whatsapp2"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "link#mail2": {
+    "children": ["image#mail2"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "image#linkedin2": {
+    "props": {
+      "src": "assets/placeholders/linkedin-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+  "image#whatsapp2": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+  "image#mail2": {
+    "props": {
+      "src": "assets/placeholders/mail-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+
+   /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  "flex-layout.row#container3":{
+    "children":[
+      "flex-layout.col#contenido3"
+    ],
+
+    "props":{
+      "blockClass":"container-colaboradores"
+    }
+  },
+
+  "flex-layout.col#contenido3":{
+    "children":[
+      "rich-text#nombre3",
+      "rich-text#cargo3",
+      "flex-layout.row#redes-container3"
+    ],
+
+    "props":{
+      "blockClass":"contenido"
+    }
+  },
+
+  "rich-text#nombre3":{
+    "props":{
+      "text":"Nombre"
+    }
+  },
+
+  "rich-text#cargo3":{
+    "props":{
+      "text": "Cargo"
+    }
+  },
+
+  "flex-layout.row#redes-container3":{
+    "children":["link#linkedin3", "link#whatsapp3", "link#mail3"]
+  },
+
+  "link#linkedin3": {
+    "children": ["image#linkedin3"],
+    "props": {
+      "href": "//facebook.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "link#whatsapp3": {
+    "children": ["image#whatsapp3"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "link#mail3": {
+    "children": ["image#mail3"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "image#linkedin3": {
+    "props": {
+      "src": "assets/placeholders/linkedin-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+  "image#whatsapp3": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+  "image#mail3": {
+    "props": {
+      "src": "assets/placeholders/mail-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+
+   /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////
+
+  "flex-layout.row#container4":{
+    "children":[
+      "flex-layout.col#contenido4"
+    ],
+
+    "props":{
+      "blockClass":"container-colaboradores"
+    }
+  },
+
+  "flex-layout.col#contenido4":{
+    "children":[
+      "rich-text#nombre4",
+      "rich-text#cargo4",
+      "flex-layout.row#redes-container4"
+    ],
+
+    "props":{
+      "blockClass":"contenido"
+    }
+  },
+
+  "rich-text#nombre4":{
+    "props":{
+      "text":"Nombre"
+    }
+  },
+
+  "rich-text#cargo4":{
+    "props":{
+      "text": "Cargo"
+    }
+  },
+
+  "flex-layout.row#redes-container4":{
+    "children":["link#linkedin4", "link#whatsapp4", "link#mail4"]
+  },
+
+  "link#linkedin4": {
+    "children": ["image#linkedin4"],
+    "props": {
+      "href": "//facebook.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "link#whatsapp4": {
+    "children": ["image#whatsapp4"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "link#mail4": {
+    "children": ["image#mail4"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "networkLink"
+    }
+  },
+  "image#linkedin4": {
+    "props": {
+      "src": "assets/placeholders/linkedin-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+  "image#whatsapp4": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  },
+  "image#mail4": {
+    "props": {
+      "src": "assets/placeholders/mail-logo.svg",
+      "blockClass": "logo-redes"
+    }
+  }
+
+}

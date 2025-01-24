@@ -5,37 +5,226 @@
 
   "responsive-layout.desktop#nosotros": {
     "children": [
-        "flex-layout.row#titulo-nosotros",
-        "flex-layout.row#contenido-nosotros"
+      "flex-layout.row#banner-nosotros",
+      "flex-layout.row#texto1-container-nosotros",
+      "flex-layout.row#about-us",
+      "rich-text#nuestro-equipo",
+      "flex-layout.row#our-team-components",
+      "rich-text#nuestros-colaboradores",
+      "flex-layout.row#nuestros-colaboradores"
     ]
   },
-
   "responsive-layout.mobile#nosotros": {
     "children": [
     ]
   },
 
-  "flex-layout.row#titulo-nosotros":{
-    "children":["rich-text#titulo-nosotros"]
+  "flex-layout.row#banner-nosotros": {
+    "children":["image#banner-nosotros"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "banner-row"
+    }
+
+
+  },
+
+  "image#banner-nosotros": {
+    "props": {
+      "src": "assets/placeholders/sobre-nosotros-banner.png", // URL de tu imagen
+      "alt": "Texto alternativo del banner",
+      "link": {
+        "url": "/promocion",
+        "noFollow": false,
+        "openNewTab": true
+      }
+    }
+  },
+
+
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+
+
+  "flex-layout.row#texto1-container-nosotros":{
+    "children":["flex-layout.col#texto1-nosotros"]
+  },
+
+  "flex-layout.col#texto1-nosotros":{
+    "children":["rich-text#titulo-nosotros", "rich-text#parrafo-nosotros"]
   },
 
   "rich-text#titulo-nosotros":{
     "props":{
-      "text":"Nosotros",
       "textAlignment":"CENTER",
       "textPosition":"CENTER",
-      "font":"t-heading-1"
+      "text": "Trabajamos con el propósito diario de impulsar el crecimiento del mercado industrial peruano",
+      "blockClass": "titulo-texto1-nosotros"
     }
   },
 
-  "flex-layout.row#contenido-nosotros":{
-    "children":["rich-text#contenido-nosotros"]
-  },
-
-  "rich-text#contenido-nosotros":{
+  "rich-text#parrafo-nosotros":{
     "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
-    }
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+    "text": "Grupo Agra es una empresa peruana con más de 30 años de experiencia, dedicada a ofrecer soluciones integrales en el sector industrial. Nos especializamos en la importación, distribución y comercialización de productos de uso industrial, diseñados para satisfacer las necesidades específicas de nuestros clientes B2B.",
+    "blockClass": "parrafo-texto1-nosotros"
   }
+  },
+
+    ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+
+  "flex-layout.row#about-us": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "blogbanner"
+    },
+    "children": [
+      "flex-layout.col#about-us1",
+      "flex-layout.col#about-us2"
+    ]
+  },
+
+  "flex-layout.col#about-us1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 4,
+      "blockClass": "contenedor-blog1"
+    },
+    "children": [
+      "image#about-us1",
+      "rich-text#parrafo-about-us1"
+    ]
+  },
+
+  "image#about-us1": {
+    "props": {
+      "src": "assets/placeholders/mision-nosotros.png",
+      "maxHeight": 256,
+      "blockClass": "imagen-blog1"
+    }
+  },
+
+  "rich-text#parrafo-about-us1":{
+    "props": {
+      "text": "Proveer soluciones industriales con productos de alta calidad, superando las expectativas de nuestros clientes y fortaleciendo el profesionalismo de nuestro equipo.",
+      "blockClass": "contenido-blog1"
+     //"textAlignment": "CENTER"
+    }
+  },
+
+  "flex-layout.col#about-us2": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 4,
+      "blockClass": "contenedor-blog2"
+    },
+    "children": [
+      "image#about-us2",
+      "rich-text#parrafo-about-us2"
+    ]
+  },
+
+  "image#about-us2": {
+    "props": {
+      "src": "assets/placeholders/vision-nosotros.png",
+      "maxHeight": 256,
+      "blockClass": "imagen-blog2"
+    }
+  },
+
+  "rich-text#parrafo-about-us2":{
+    "props": {
+      "text": "Convertirnos en la empresa líder y de referencia en la provisión de equipos industriales a nivel nacional.",
+      "blockClass": "contenido-blog2"
+     //"textAlignment": "CENTER"
+    }
+  },
+
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+
+  "rich-text#nuestro-equipo":{
+    "props":{
+      "text":"Nuestros Equipo Directivo",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+      "font":"t-heading-1",
+      "blockClass": "titulo-nuestro-equipo"
+    }
+   },
+
+   "flex-layout.row#our-team-components":{
+    "props":{
+      "blockClass": "container-our-team-components"
+    },
+    "children":[
+      "flex-layout.col#our-team1",
+      "flex-layout.col#our-team2",
+      "flex-layout.col#our-team3"
+    ]
+   },
+
+   "flex-layout.col#our-team1":{
+    "props":{
+      "blockClass": "container-our-team"
+    },
+    "children":["image#our-team1"]
+   },
+
+   "flex-layout.col#our-team2":{
+    "props":{
+      "blockClass": "container-our-team"
+    },
+    "children":["image#our-team2"]
+   },
+
+   "flex-layout.col#our-team3":{
+    "props":{
+      "blockClass": "container-our-team"
+    },
+    "children":["image#our-team3"]
+   },
+
+   "image#our-team1":{
+    "props":{
+      "blockClass":"our-team-image",
+      "src": "assets/placeholders/guillermo-romero.png"
+    }
+   },
+
+   "image#our-team2":{
+    "props":{
+      "blockClass":"our-team-image",
+      "src": "assets/placeholders/hector-romero.png"
+    }
+   },
+
+   "image#our-team3":{
+    "props":{
+      "blockClass":"our-team-image",
+      "src": "assets/placeholders/richard-fuentes.png"
+    }
+   },
+
+   /////////////////////////////////////////////////////////////////////////
+   "rich-text#nuestros-colaboradores":{
+    "props":{
+      "text":"Nuestros Colaboradores",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+      "font":"t-heading-1",
+      "blockClass": "titulo-nuestros-colaboradores"
+    }
+   }
 
 }

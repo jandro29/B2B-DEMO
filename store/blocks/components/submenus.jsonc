@@ -32,8 +32,8 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Shop"
+      "tagTitle": "productos",
+      "text": "Productos"
     }
   },
   "blocks": ["vtex.menu@2.x:submenu#productos"] // Defining a submenu
@@ -61,8 +61,8 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Shop"
+      "tagTitle": "industrias",
+      "text": "Industrias"
     }
   },
   "blocks": ["vtex.menu@2.x:submenu#industrias"] // Defining a submenu
@@ -90,8 +90,8 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Shop"
+      "tagTitle": "marcas",
+      "text": "Marcas"
     }
   },
   "blocks": ["vtex.menu@2.x:submenu#marcas"] // Defining a submenu

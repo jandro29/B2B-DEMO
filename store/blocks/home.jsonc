@@ -11,7 +11,7 @@
       "flex-layout.row#prod-des",
       // Deprecated
       // "flex-layout.row#shopByBrand",
-      "flex-layout.row#shelf1",
+      //"flex-layout.row#shelf1",
       "flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
       //"flex-layout.row#popular",
@@ -23,11 +23,17 @@
       "flex-layout.row#nuestroblog",
       "flex-layout.row#contendoblog",
       //"button-link"
-
+      //"flex-layout.row#benefitsmobil",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
 
 
+    ]
+  },
+
+  "responsive-layout.mobile":{
+    "children":[
+      //"flex-layout.row#imageList--mobile"
     ]
   },
 
@@ -56,12 +62,12 @@
       "images": [
         {
           "image": "assets/placeholders/first-banner.png",
-          "mobileImage": "assets/placeholders/fullbannerMobile.png",
+          "mobileImage": "assets/placeholders/first-banner-mobil.png",
           "description": "something something"
         },
         {
           "image": "assets/placeholders/first-banner.png",
-          "mobileImage": "assets/placeholders/fullbannerMobile.png",
+          "mobileImage": "assets/placeholders/first-banner-mobil.png",
           "description": "something something"
         }
       ]
@@ -125,6 +131,47 @@
       "blockClass": "shopByCategoryTitle"
     }
   },*/
+
+  "flex-layout.row#productos-mb": {
+    "props": {
+      "blockClass": "benefits"
+    },
+    "children": ["flex-layout.col#productos-mobil"]
+  },
+  "flex-layout.col#productos-mobil": {
+    "props": {},
+    "children": [ "slider-layout#productos-responsive"] //"rich-text#whyShopWithVTEX",
+  },
+
+  "slider-layout#productos-responsive": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "blockClass": "benefitsSlider",
+      "rowGap": 4,
+      "colGap": 4
+
+    },
+    "children": [
+      "link#shoBy1",
+      "link#shoBy2",
+      "link#shoBy3",
+      "link#shoBy4",
+      "link#shoBy5",
+      "link#shoBy6",
+      "link#shoBy7",
+      "link#shoBy8",
+      "link#shoBy9",
+      "link#shoBy10"
+    ]
+  },
+
+
   "flex-layout.row#categories": {
     "props": {
       "blockClass": "shopByCategory",
@@ -509,6 +556,38 @@
     }
   },
 
+  "flex-layout.row#productos-dest-container": {
+    "props": {
+      "blockClass": "benefits"
+    },
+    "children": ["flex-layout.col#prod-dest-mobil"]
+  },
+  "flex-layout.col#prod-dest-mobil": {
+    "props": {},
+    "children": [ "slider-layout#prod-dest-component-mb"] //"rich-text#whyShopWithVTEX",
+  },
+
+  "slider-layout#prod-dest-component-mb": {
+    "props": {
+      "itemsPerPage": {
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "blockClass": "benefitsSlider",
+      "rowGap": 4,
+      "colGap": 4
+
+    },
+    "children": [
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2",
+      "flex-layout.col#banner3",
+      "flex-layout.col#banner4"
+    ]
+  },
+
   "flex-layout.row#imageBanners": {
     "props": {
       "blockClass": "imageBanners",
@@ -523,8 +602,8 @@
   },
   "flex-layout.col#banner1": {
     "props": {
-      "preventVerticalStretch": true
-      //"blockClass": "imgprod"
+      "preventVerticalStretch": true,
+      "blockClass": "imgprod"
 
     },
     "children": [
@@ -538,7 +617,8 @@
   },
   "flex-layout.col#banner2": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "imgprod"
     },
     "children": [
      "image#bannerThird2",
@@ -551,7 +631,8 @@
   },
   "flex-layout.col#banner3": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "imgprod"
     },
     "children": [
       "image#bannerThird3",
@@ -564,7 +645,8 @@
   },
   "flex-layout.col#banner4": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "imgprod"
     },
     "children": [
       "image#bannerThird4",
@@ -864,7 +946,8 @@
   "flex-layout.row#container":{
     "props":{
      "blockClass": "abt",
-     "colGap": 4
+     "colGap": 4,
+     "rowGap": 4
     },
      "children":["flex-layout.col#first-home-banner-left", "flex-layout.col#first-home-banner-right"]
    },
@@ -916,7 +999,8 @@
       "text":"Nuestros Clientes",
       "textAlignment":"CENTER",
       "textPosition":"CENTER",
-      "font":"t-heading-1"
+      "font":"t-heading-1",
+      "blockClass": "titulo-clientes"
     }
    },
 

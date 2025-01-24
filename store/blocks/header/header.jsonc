@@ -178,62 +178,7 @@
     }
   },
 
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
 
-  "sticky-layout#mobile": {
-    "children": [
-      "flex-layout.row#mobileHeader",
-      "slider-layout#menuLinks",
-      "quotes-locking-modal"
-    ],
-    "props": {
-      "blockClass": "headerMobile"
-    }
-  },
-
-  "flex-layout.row#mobileHeader": {
-    "children": ["flex-layout.col#mobileHeader"]
-  },
-
-  "slider-layout#menuLinks": {
-    "props": {
-      "itemsPerPage": {
-        "phone": 2
-      },
-      "centerMode": "to-the-left",
-      "infinite": false,
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "blockClass": "stripeSlider",
-      "fullWidth": true
-    },
-    "children": [
-      "rich-text#headStripe1",
-      "rich-text#headStripe2",
-      "rich-text#headStripe3"
-      //"rich-text#headStripe4",
-      //"rich-text#headStripe5",
-    ]
-  },
-
-  "flex-layout.col#mobileHeader": {
-    "children": ["flex-layout.row#mobile", "flex-layout.row#mobileSearch"],
-    "props": {
-      "blockClass": "main-header-mobile"
-    }
-  },
-
-  "flex-layout.row#mobile": {
-    "children": [ "logo", "check-permission#login", "minicart.v2"], //"drawer",
-    "props": {
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "colSizing": "auto",
-      "fullWidth": true
-    }
-  },
 
   "link#orderQuote": {
     "props": {
@@ -251,20 +196,7 @@
     }
   },
 
-  "flex-layout.row#mobileSearch": {
-    "children": ["search-bar#mobile"],
-    "props": {
-      "blockClass": "searchBarMobile"
-    }
-  },
 
-  "search-bar#mobile": {
-    "blocks": ["autocomplete-result-list.v2#mobile"],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "blockClass": "searchMobile"
-    }
-  },
    "flex-layout.col#wishlist":{
     "children":["link#wishlist"]
    },
@@ -274,6 +206,7 @@
       "href":"/wishlist",
       "verticalAlign":"middle",
       "blockClass": "logo-wishlist"
+
     },
     "children":["image#wishlist"]
   },
@@ -281,7 +214,7 @@
   "image#wishlist":{
     "props":{
       "src":"assets/icons/favoritos-icon.svg",
-      "href": "/",
+      "href": "/wishlist",
       "link": "/",
       "blockClass":"wishlist-icon"
     }
@@ -293,11 +226,7 @@
       "iconLabel": "Iniciar Sesión",
       "blockClass": "editar-login"
     }
-  },
-
-  "login#mobile": {
-    "props": {
-      "iconLabel": "Iniciar Sesión"
-    }
   }
+
+
 }
