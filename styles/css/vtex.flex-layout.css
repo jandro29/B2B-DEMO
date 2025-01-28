@@ -1087,6 +1087,33 @@ margin-top: 4rem;
 .flexRow--footer-row-1{
   margin-top: 39px;
 }
-
-
 }
+
+/*Nosotros responsive*/
+
+@media (max-width: 64rem) {
+
+  .flexRowContent--contenedor-contenido{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .flexRowContent--contenedor-redes{
+    display: flex;
+  }
+
+  .flexRowContent--blogbanner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 16px;
+    padding-top: 30px;
+    margin-bottom: 64px;
+    border-top: 1px solid #e9eff5;
+  }
+  .flexColChild--contenedor-blog1,
+  .flexColChild--contenedor-blog2 {
+    display: flex;
+    justify-content: center;
+  }
+   }
+

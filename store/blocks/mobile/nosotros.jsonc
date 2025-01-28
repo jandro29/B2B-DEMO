@@ -1,27 +1,22 @@
 {
-  "store.custom#nosotros": {
-    "blocks": ["responsive-layout.desktop#nosotros", "responsive-layout.mobile#nosotros"]
+  "store.custom#nosotros-mobil": {
+    "blocks": ["responsive-layout.mobile#nosotros"]
   },
 
-  "responsive-layout.desktop#nosotros": {
+  "responsive-layout.mobile#nosotros": {
     "children": [
-      "flex-layout.row#banner-nosotros",
-      "flex-layout.row#texto1-container-nosotros",
-      "flex-layout.row#about-us",
-      "rich-text#nuestro-equipo",
-      "flex-layout.row#our-team-components",
-      "rich-text#nuestros-colaboradores",
+      "flex-layout.row#banner-nosotros-mobil",
+      "flex-layout.row#texto1-container-nosotros-mobil",
+      "flex-layout.row#about-us-mobil",
+      "rich-text#nuestro-equipo-mobil",
+      "flex-layout.row#our-team-components-mobil",
+      "rich-text#nuestros-colaboradores-mobil",
       "flex-layout.row#nuestros-colaboradores"
     ]
   },
-  "responsive-layout.mobile#nosotros": {
-    "children": [
 
-    ]
-  },
-
-  "flex-layout.row#banner-nosotros": {
-    "children":["image#banner-nosotros"],
+  "flex-layout.row#banner-nosotros-mobil": {
+    "children":["image#banner-nosotros-mobil"],
     "props": {
       "fullWidth": true,
       "blockClass": "banner-row"
@@ -30,7 +25,7 @@
 
   },
 
-  "image#banner-nosotros": {
+  "image#banner-nosotros-mobil": {
     "props": {
       "src": "assets/placeholders/sobre-nosotros-banner.png", // URL de tu imagen
       "alt": "Texto alternativo del banner",
@@ -50,15 +45,15 @@
   ////////////////////////////////////////////////////////////////////////
 
 
-  "flex-layout.row#texto1-container-nosotros":{
-    "children":["flex-layout.col#texto1-nosotros"]
+  "flex-layout.row#texto1-container-nosotros-mobil":{
+    "children":["flex-layout.col#texto1-nosotros-mobil"]
   },
 
-  "flex-layout.col#texto1-nosotros":{
-    "children":["rich-text#titulo-nosotros", "rich-text#parrafo-nosotros"]
+  "flex-layout.col#texto1-nosotros-mobil":{
+    "children":["rich-text#titulo-nosotros", "rich-text#parrafo-nosotros-mobil"]
   },
 
-  "rich-text#titulo-nosotros":{
+  "rich-text#titulo-nosotros-mobil":{
     "props":{
       "textAlignment":"CENTER",
       "textPosition":"CENTER",
@@ -67,7 +62,7 @@
     }
   },
 
-  "rich-text#parrafo-nosotros":{
+  "rich-text#parrafo-nosotros-mobil":{
     "props":{
       "textAlignment":"CENTER",
       "textPosition":"CENTER",
@@ -82,30 +77,30 @@
   ////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////
 
-  "flex-layout.row#about-us": {
+  "flex-layout.row#about-us-mobil": {
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "blogbanner"
     },
     "children": [
-      "flex-layout.col#about-us1",
-      "flex-layout.col#about-us2"
+      "flex-layout.col#about-us1-mobil",
+      "flex-layout.col#about-us2-mobil"
     ]
   },
 
-  "flex-layout.col#about-us1": {
+  "flex-layout.col#about-us1-mobil": {
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 4,
       "blockClass": "contenedor-blog1"
     },
     "children": [
-      "image#about-us1",
-      "rich-text#parrafo-about-us1"
+      "image#about-us1-mobil",
+      "rich-text#parrafo-about-us1-mobil"
     ]
   },
 
-  "image#about-us1": {
+  "image#about-us1-mobil": {
     "props": {
       "src": "assets/placeholders/mision-nosotros.png",
       "maxHeight": 256,
@@ -113,7 +108,7 @@
     }
   },
 
-  "rich-text#parrafo-about-us1":{
+  "rich-text#parrafo-about-us1-mobil":{
     "props": {
       "text": "Proveer soluciones industriales con productos de alta calidad, superando las expectativas de nuestros clientes y fortaleciendo el profesionalismo de nuestro equipo.",
       "blockClass": "contenido-blog1"
@@ -121,19 +116,19 @@
     }
   },
 
-  "flex-layout.col#about-us2": {
+  "flex-layout.col#about-us2-mobil": {
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 4,
       "blockClass": "contenedor-blog2"
     },
     "children": [
-      "image#about-us2",
-      "rich-text#parrafo-about-us2"
+      "image#about-us2-mobil",
+      "rich-text#parrafo-about-us2-mobil"
     ]
   },
 
-  "image#about-us2": {
+  "image#about-us2-mobil": {
     "props": {
       "src": "assets/placeholders/vision-nosotros.png",
       "maxHeight": 256,
@@ -141,7 +136,7 @@
     }
   },
 
-  "rich-text#parrafo-about-us2":{
+  "rich-text#parrafo-about-us2-mobil":{
     "props": {
       "text": "Convertirnos en la empresa líder y de referencia en la provisión de equipos industriales a nivel nacional.",
       "blockClass": "contenido-blog2"
@@ -154,7 +149,7 @@
   //////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////
 
-  "rich-text#nuestro-equipo":{
+  "rich-text#nuestro-equipo-mobil":{
     "props":{
       "text":"Nuestros Equipo Directivo",
       "textAlignment":"CENTER",
@@ -164,53 +159,53 @@
     }
    },
 
-   "flex-layout.row#our-team-components":{
+   "flex-layout.row#our-team-components-mobil":{
     "props":{
       "blockClass": "container-our-team-components"
     },
     "children":[
-      "flex-layout.col#our-team1",
-      "flex-layout.col#our-team2",
-      "flex-layout.col#our-team3"
+      "flex-layout.col#our-team1-mobil",
+      "flex-layout.col#our-team2-mobil",
+      "flex-layout.col#our-team3-mobil"
     ]
    },
 
-   "flex-layout.col#our-team1":{
+   "flex-layout.col#our-team1-mobil":{
     "props":{
       "blockClass": "container-our-team"
     },
-    "children":["image#our-team1"]
+    "children":["image#our-team1-mobil"]
    },
 
-   "flex-layout.col#our-team2":{
+   "flex-layout.col#our-team2-mobil":{
     "props":{
       "blockClass": "container-our-team"
     },
-    "children":["image#our-team2"]
+    "children":["image#our-team2-mobil"]
    },
 
-   "flex-layout.col#our-team3":{
+   "flex-layout.col#our-team3-mobil":{
     "props":{
       "blockClass": "container-our-team"
     },
-    "children":["image#our-team3"]
+    "children":["image#our-team3-mobil"]
    },
 
-   "image#our-team1":{
+   "image#our-team1-mobil":{
     "props":{
       "blockClass":"our-team-image",
       "src": "assets/placeholders/guillermo-romero.png"
     }
    },
 
-   "image#our-team2":{
+   "image#our-team2-mobil":{
     "props":{
       "blockClass":"our-team-image",
       "src": "assets/placeholders/hector-romero.png"
     }
    },
 
-   "image#our-team3":{
+   "image#our-team3-mobil":{
     "props":{
       "blockClass":"our-team-image",
       "src": "assets/placeholders/richard-fuentes.png"
@@ -218,7 +213,7 @@
    },
 
    /////////////////////////////////////////////////////////////////////////
-   "rich-text#nuestros-colaboradores":{
+   "rich-text#nuestros-colaboradores-mobil":{
     "props":{
       "text":"Nuestros Colaboradores",
       "textAlignment":"CENTER",

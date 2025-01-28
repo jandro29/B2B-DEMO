@@ -18,7 +18,8 @@
     ],
 
     "props":{
-      "blockClass": "contenedor-contenido"
+      "blockClass": "contenedor-contenido",
+      "rowGap": 5
     }
   },
 
@@ -149,7 +150,10 @@
   },
 
   "flex-layout.row#redes-container2":{
-    "children":["link#linkedin2", "link#whatsapp2", "link#mail2"]
+    "children":["link#linkedin2", "link#whatsapp2", "link#mail2"],
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
   },
 
   "link#linkedin2": {
@@ -238,7 +242,10 @@
   },
 
   "flex-layout.row#redes-container3":{
-    "children":["link#linkedin3", "link#whatsapp3", "link#mail3"]
+    "children":["link#linkedin3", "link#whatsapp3", "link#mail3"],
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
   },
 
   "link#linkedin3": {
@@ -327,7 +334,10 @@
   },
 
   "flex-layout.row#redes-container4":{
-    "children":["link#linkedin4", "link#whatsapp4", "link#mail4"]
+    "children":["link#linkedin4", "link#whatsapp4", "link#mail4"],
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
   },
 
   "link#linkedin4": {

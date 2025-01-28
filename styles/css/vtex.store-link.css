@@ -288,4 +288,14 @@
   display: flex;
   justify-content: center;
 }*/
+
+
 }
+
+@media (max-width: 64rem) {
+.link--networkLink{
+  display: flex;
+  justify-content: start;
+}
+
+ }

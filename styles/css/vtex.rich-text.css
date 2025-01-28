@@ -783,10 +783,42 @@
   justify-content: center;
 }
 
+.wrapper--titulo-texto1-nosotros{
+  font-size: 48px;
+}
+
+.paragraph--parrafo-texto1-nosotros{
+  font-size: 24px;
+}
+
 
 @media (max-width: 64rem) {
   .paragraph--quick-order-text{
     font-size: 12px;
 
+  }
+
+  /*nosotros texto*/
+
+  .wrapper--titulo-texto1-nosotros{
+    font-size: 20px;
+  }
+
+  .paragraph--parrafo-texto1-nosotros{
+    font-size: 14px;
+  }
+
+  .paragraph--titulo-nuestro-equipo{
+    font-size: 25px;
+  }
+
+  .paragraph--contenido-blog1,
+  .paragraph--contenido-blog2{
+    text-align: center;
+  }
+
+
+  .paragraph--titulo-nuestros-colaboradores{
+    font-size: 25px;
   }
 }
