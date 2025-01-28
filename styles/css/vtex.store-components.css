@@ -838,3 +838,50 @@
 .infoCardSubhead--marcas-container{
   width: 70%;
 }
+
+
+@media (max-width: 64rem) {
+
+.logoImage--logo-menu-hambursa{
+  width: 40px;
+  height: 40px;
+}
+
+
+.logoContainer {
+  display: block;
+  padding: 0;
+  max-width: 90px;
+  max-height: 40px;
+}
+
+.logoContainer--logo-menu-hambursa{
+  min-width: 50px;
+}
+
+/*clientes slider mobil*/
+.imageElement--clientesImage{
+  width: 110px;
+}
+
+/*footer mobil*/
+.logoContainer--logo-footer{
+  max-width: 100%;
+}
+
+.logoImage--logo-footer{
+  height: 45px;
+}
+
+.logoContainer--libro-reclamaciones-image{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logoImage--libro-reclamaciones-image{
+  width: 180px;
+  height: 100px;
+}
+
+
+}

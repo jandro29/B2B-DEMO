@@ -26,7 +26,10 @@
 
 
 "flex-layout.row#mobileHeader": {
-  "children": ["flex-layout.col#mobileHeader"]
+  "children": ["flex-layout.col#mobileHeader"],
+  "props":{
+    "blockClass": "mobilHeader"
+  }
 },
 
 "flex-layout.col#mobileHeader": {
@@ -38,6 +41,7 @@
 
 "flex-layout.row#mobile": {
   "children": [
+    "flex-layout.col#icono-hamburguesa",
     "flex-layout.row#contaier-menu-logo",
     "flex-layout.row#container-iconos"
     ],
@@ -45,13 +49,14 @@
     //"preventHorizontalStretch": true,
     "preserveLayoutOnMobile": true,
     "colSizing": "auto",
-    "fullWidth": true
+    "fullWidth": true,
+    "blockClass": "contener-parte-superior-menu"
   }
 },
 
 "flex-layout.row#contaier-menu-logo":{
   "children":[
-    "flex-layout.col#icono-hamburguesa",
+    //,
     "flex-layout.col#logo-mobil"
   ],
 
@@ -59,7 +64,7 @@
       "colGap":6,
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
-      "blockClass": "container-logo-hamburgesa"
+      "blockClass": "container-logo"
     }
 },
 
@@ -101,7 +106,10 @@
   /////////iconos del primer header/////////////
 
   "flex-layout.row#container-iconos":{
-    "children":["flex-layout.col#segundocontainer-icons"]
+    "children":["flex-layout.col#segundocontainer-icons"],
+    "props":{
+      "blockClass": "contenedor-iconos-header"
+    }
   },
 
   "flex-layout.col#segundocontainer-icons":{
@@ -117,7 +125,8 @@
     "props":{
       "colGap":3,
       "preserveLayoutOnMobile": true,
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "contenedor-logos"
     }
   },
  "flex-layout.col#wishlist-container-mobil":{
@@ -165,26 +174,27 @@
   "children": ["flex-layout.col#quickorder-search"],
   "props":{
     "fullWidth": true,
-    "blockClass": "quickorder-search"
+    "blockClass": "contenedor-segundo-menu"
   }
 },
 
 "flex-layout.col#quickorder-search": {
   "children": ["flex-layout.row#contaier-quickorder-search"],
   "props": {
-    "blockClass": "contaier-quickorder-search",
+    "blockClass": "segundo-contenedor",
     "colGap":3
   }
 },
 
 "flex-layout.row#contaier-quickorder-search": {
-  "children": [  "flex-layout.row#mobileSearch",
-  "link#reseller-mobil"],
+  "children": [
+    "flex-layout.row#mobileSearch",
+    "link#reseller-mobil"],
   "props": {
     "preserveLayoutOnMobile": true,
     "colSizing": "auto",
     "fullWidth": true,
-    "blockClass": "contaier-quickorder-search"
+    "blockClass": "contenedor-componentes"
   }
 },
 

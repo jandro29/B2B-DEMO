@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+
 /* BEGIN - Header */
 .flexRow--header {
   background: #1E1E1E;
@@ -975,4 +978,115 @@ margin-top: 4rem;
 }
 
 
+@media (max-width: 64rem) {
 
+  .flexRowContent--contener-parte-superior-menu .vtex-flex-layout-0-x-stretchChildrenWidth{
+    width: 50% !important;
+  }
+
+
+  .flexRowContent--container-logo .stretchChildrenWidth{
+    width: 25%;
+    padding-right:unset;
+  }
+  .flexColChild--container-logo{
+    width: 40px;
+  }
+
+  .flexRowContent--contener-parte-superior-menu{
+    display: flex;
+    align-items: center;
+  }
+
+  /*segundo menu*/
+  .flexRow--contenedor-segundo-menu{
+    background: #FABD01;
+  }
+
+  .flexRowContent--contenedor-componentes .stretchChildrenWidth{
+    padding-right: unset;
+  }
+
+  .flexRowContent--contenedor-componentes{
+    justify-content: unset;
+  }
+
+  .flexRowContent--container-logo
+
+
+  .logoContainer--logo-menu-hambursa{
+    width: 100%;
+  }
+
+
+  .flexRow--link-quick-ordermb{
+    content: "OK";
+  }
+
+.flexRow--libro-reclamaciones-container-image{
+  height: 100%;
+}
+
+.flexRow--logo-reclamacionesContainer{
+  height: 150px;
+}
+
+.flexRowContent--logo-reclamacionesContainer{
+  height: 100%;
+}
+
+.flexRowContent--logo-reclamacionesContainer .stretchChildrenWidth{
+  height: 100%;
+}
+
+
+.flexRowContent--libro-reclamaciones-container-image .items-stretch{
+  height: 100%;
+}
+
+.logoContainer--libro-reclamaciones-image .logoContainer{
+  display: unset !important;
+}
+
+/*contenido body mobil*/
+.flexColChild--imgprod{
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--abt-mobil{
+  background: #162126;
+  height: 80vh;
+}
+
+.flexRow--clientes-inicio{
+
+  margin-top: 35px;
+}
+
+ /*BENEFIST MOVIL*/
+
+ .flexRow--benefitsmobil{
+  margin-top: 75px;
+  background: #F1F8FC;
+ }
+
+ .flexRowContent--benefits-container-components{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/*footer mobil*/
+.flexColChild--logo-agra-mobil{
+  height: 5rem;
+}
+
+.flexRow--footer-row-1{
+  margin-top: 39px;
+}
+
+
+}

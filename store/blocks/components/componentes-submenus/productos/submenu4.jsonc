@@ -1,6 +1,20 @@
 {
-  "menu-item#productos4": {
-    "children":["menu-item#submenuB", "menu-item#submenuC", "menu-item#submenuD", "menu-item#submenuE"],
+
+  "flex-layout.row#menu-contenedor-productos4":{
+    "children":["menu-item#contenedor-productos4"],
+    "props":{
+      "blockClass":"contenedor_general"
+    }
+  },
+
+  "menu-item#contenedor-productos4":{
+    "children":["menu-item#submenuA","menu-item#submenuB", "menu-item#submenuC", "menu-item#submenuD", "menu-item#submenuE"],
+    "props":{
+      "blockClass":"contenedor_submenu1"
+    }
+  },
+
+  "menu-item#submenuA": {
     "props": {
       "type": "custom",
       "highlight": false,

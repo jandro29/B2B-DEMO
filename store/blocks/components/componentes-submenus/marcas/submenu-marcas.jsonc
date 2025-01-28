@@ -1,5 +1,19 @@
 {
-  "menu-item#marcas1": {
+
+  "flex-layout.row#menu-contenedor-marcas1":{
+    "children":["menu-item#contenedor-marcas1"],
+    "props":{
+      "blockClass":"contenedor_general"
+    }
+  },
+
+  "menu-item#contenedor-marcas1":{
+    "children":["menu-item#submenuA"],
+    "props":{
+      "blockClass":"contenedor_submenu1"
+    }
+  },
+  "menu-item#submenuA": {
 
     "props": {
       "itemProps": {

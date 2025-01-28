@@ -12,7 +12,6 @@
   color: #fff;
   font-size: 14px;
   line-height: 28px;
-  font-family: Roboto;
   font-weight: 500;
 }
 
@@ -28,7 +27,6 @@
 .styledLinkContent--departItem {
   font-size: 16px;
   line-height: 44px;
-  font-family: Roboto;
   color: #717786;
 }
 
@@ -57,7 +55,6 @@
 .styledLinkContent--currencyFakeDropdown {
   font-size: 14px;
   line-height: 42px;
-  font-family: Roboto;
   color: #fff;
 }
 
@@ -80,3 +77,31 @@
   color: black;
   text-decoration: none;
 }
+
+/*submenu*/
+
+.menuItem--contenedor_submenu1 .menuItem{
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.menuItem--contenedor_submenu1 .styledLinkContent:hover{
+  transition: border-bottom 0.3s ease;
+  border-bottom: 1px solid #000000;
+}
+
+/*
+.styledLinkContainer--contenedor_submenu1 .styledLinkContainer{
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.styledLinkContainer--contenedor_submenu1 .styledLinkContainer:hover{
+  background-color: #007BFF;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+*/

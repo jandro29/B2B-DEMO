@@ -1,38 +1,46 @@
 {
 "flex-layout.row#headerStripe": {
-    "props": {
-      "blockClass": "headerStripe",
-      "horizontalAlign": "left",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "shopper-location",
-      //"flex-layout.row#menu",
-      "menu-item#productos",
-      "menu-item#industrias",
-      "menu-item#marcas",
-      /*"rich-text#headStripe1",
-      "rich-text#headStripe2",
-      "rich-text#headStripe3",
-      "rich-text#headStripe4",
-      "rich-text#headStripe5",*/
-      "flex-layout.col#spacer",
-      "check-permission#reseller"
-    ]
-  },
-
-  "menu-item#productos": {
   "props": {
-    "blockClass": "primer-header",
+    "blockClass": "headerStripe",
+    "horizontalAlign": "left",
+    "verticalAlign": "center",
+    "preventHorizontalStretch": true,
+    "preventVerticalStretch": true
+  },
+  "children": ["vtex.menu@2.x:menu#websites"]
+    // "shopper-location",
+    // //"flex-layout.row#menu",
+    // "menu-item#productos",
+    // "menu-item#industrias",
+    // "menu-item#marcas",
+    // /*"rich-text#headStripe1",
+    // "rich-text#headStripe2",
+    // "rich-text#headStripe3",
+    // "rich-text#headStripe4",
+    // "rich-text#headStripe5",*/
+    // "flex-layout.col#spacer",
+    // "check-permission#reseller"
+  // ]
+},
+
+//
+"vtex.menu@2.x:menu#websites": {
+  "children": [
+    "menu-item#productos",
+    "menu-item#industrias",
+    "menu-item#marcas"
+  ]
+},
+
+"menu-item#productos": {
+  "props": {
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "productos",
+      "tagTitle": "Shop",
       "text": "Productos"
     }
   },
@@ -40,28 +48,41 @@
 },
 "vtex.menu@2.x:submenu#productos": {
   "children": [
-    "vtex.menu@2.x:menu#submenuproductos"
+   "vtex.menu@2.x:menu#submenuproductos"
   ]
 },
 "vtex.menu@2.x:menu#submenuproductos": {
   "children": [
-    "menu-item#productos1",
-    "menu-item#productos2",
-    "menu-item#productos3",
-    "menu-item#productos4"
+
+    "flex-layout.row#menu-contenedor-productos1",
+    "flex-layout.row#menu-contenedor-productos2",
+    "flex-layout.row#menu-contenedor-productos3",
+    "flex-layout.row#menu-contenedor-productos4"
   ]
 },
 
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
 "menu-item#industrias": {
   "props": {
-    "blockClass": "primer-header",
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "industrias",
+      "tagTitle": "Shop",
       "text": "Industrias"
     }
   },
@@ -69,21 +90,28 @@
 },
 "vtex.menu@2.x:submenu#industrias": {
   "children": [
-    "vtex.menu@2.x:menu#submenuindustrias"
+   "vtex.menu@2.x:menu#submenuindustrias"
   ]
 },
 "vtex.menu@2.x:menu#submenuindustrias": {
   "children": [
-    "menu-item#industrias1",
-    "menu-item#industrias2",
-    "menu-item#industrias3"
+
+    "flex-layout.row#menu-contenedor-industrias1",
+    "flex-layout.row#menu-contenedor-industrias2",
+    "flex-layout.row#menu-contenedor-industrias3"
   ]
 },
 
 
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
+
 "menu-item#marcas": {
   "props": {
-    "blockClass": "primer-header",
     "type": "custom",
     "highlight": false,
     "itemProps": {
@@ -97,17 +125,13 @@
   "blocks": ["vtex.menu@2.x:submenu#marcas"] // Defining a submenu
 },
 "vtex.menu@2.x:submenu#marcas": {
-  "props":{
-    "orientation": "horizontal", // Define que el menú principal sea horizontal
-    "submenu": true
-  },
   "children": [
     "vtex.menu@2.x:menu#submenumarcas"
   ]
 },
 "vtex.menu@2.x:menu#submenumarcas": {
   "children": [
-    "menu-item#marcas1"
+    "flex-layout.row#menu-contenedor-marcas1"
   ]
 }
 

@@ -10,7 +10,6 @@
   content: "My cart";
   font-size: 24px;
   line-height: 32px;
-  font-family: Roboto;
   color: #000;
   font-weight: 500;
 }
@@ -62,7 +61,6 @@
   border-radius: 4px;
   border: none;
   font-weight: 700;
-  font-family: Roboto;
   font-size: 18px;
   line-height: 28px;
   outline: none;
@@ -75,5 +73,18 @@
 
   .drawer {
     width: 100% !important;
+  }
+
+  .openIconContainer {
+    padding: 0;
+  }
+
+  .openIconContainer::after {
+    content: '';
+    color: white;
+  }
+
+  .minicartContainer .items-center{
+    padding-right: unset !important;
   }
 }

@@ -146,15 +146,14 @@
   "slider-layout#productos-responsive": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
       "infinite": false,
       "showNavigationArrows": "never",
       "blockClass": "benefitsSlider",
-      "rowGap": 4,
-      "colGap": 4
+      "showPaginationDots": "mobileOnly"
+
 
     },
     "children": [

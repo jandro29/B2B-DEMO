@@ -38,6 +38,15 @@
     display: block;
   }
 
+  .profileIcon--editar-login-mobil{
+    color: #fff;
+  }
+
+  .container{
+    margin-left: 10px;
+  }
+
+/*
   .container :global(.vtex-button) {
     width: 74px;
     height: 32px;
@@ -53,9 +62,8 @@
 
   .label::after {
     content: "Sing in";
-    font-family: Roboto;
     font-size: 14px;
     line-height: 32px;
     font-weight: 500;
-  }
+  }*/
 }

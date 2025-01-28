@@ -176,7 +176,7 @@
   "flex-layout.row#container-mobil":{
     "props":{
      "blockClass": "abt-mobil",
-     "rowGap": 8
+     "rowGap": 6
     },
      "children":["flex-layout.col#first-home-banner-left", "flex-layout.col#first-home-banner-right"]
    },

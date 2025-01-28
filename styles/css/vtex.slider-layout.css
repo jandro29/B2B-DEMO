@@ -194,4 +194,21 @@
   .slide--shelfStyle1 {
     max-width: 160px;
   }
+
+  /*Nuestros Clientes mobil*/
+.sliderRightArrow--clientes-inicioSlider{
+  right: -20px;
+}
+
+.sliderLeftArrow--clientes-inicioSlider{
+  left: -20px;
+}
+  /*BENEFIST MOVIL*/
+.flexRowContent--benefits-container-components{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
 }

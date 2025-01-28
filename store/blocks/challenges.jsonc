@@ -62,7 +62,7 @@
       "login#mobile"
     ],
     "props": {
-      "blockClass": "loginChallengeFallback"
+      "blockClass": "loginmobil"
     }
   }
 }

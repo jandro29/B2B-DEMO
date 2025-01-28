@@ -220,6 +220,15 @@
     align-items: center;
     justify-content: center;
   }
+  /*SEGUNDO HEADER RESPONSIVE*/
+
+  .childrenContainer--link-quick-ordermb{
+    display: flex;
+  }
+
+  .link--link-quick-ordermb{
+    text-decoration: none;
+  }
 }
 
 /*header*/
@@ -258,4 +267,25 @@
 .link--vermas-encuentra-prod,
 .link--vermas-nuestroblog{
   color: #000;
+}
+
+@media (max-width: 64rem) {
+.childrenContainer--shopByLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  max-width: 155px;
+  height: 196px;
+  background: #f3f9ff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  margin-bottom: 1rem;
+}
+/*
+.link--shopByLink{
+  display: flex;
+  justify-content: center;
+}*/
 }
