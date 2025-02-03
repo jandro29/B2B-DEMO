@@ -21,7 +21,8 @@
     "children": [
       "flex-layout.row#fake-summary",
       "flex-layout.row#seller-name",
-      "check-permission#product-price"
+      // "check-permission#product-price"
+      "allowed-content#product-price"
     ],
     "props": {
       "blockClass": ["box"],
@@ -30,15 +31,7 @@
   },
   "check-permission#product-price": {
     "props": {
-      "roles": [
-        "store-admin",
-        "sales-admin",
-        "sales-manager",
-        "sales-representative",
-        "customer-admin",
-        "customer-approver",
-        "customer-buyer"
-      ]
+      "roles": []
     },
     "blocks": [
       "allowed-content#product-price",

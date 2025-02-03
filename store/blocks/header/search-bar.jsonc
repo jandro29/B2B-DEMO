@@ -12,13 +12,10 @@
       "product-summary.shelf#searchBar"
     ],
     "props": {
-      "simulationBehavior": "default",
-      "maxSuggestedProducts": 6,
-      "customBreakpoints": {
-        "md": {
-          "width": 100
-        }
-      }
+      "maxSuggestedTerms" : 3,
+      "maxSuggestedProducts" : 3,
+      "maxHistory" : 3,
+      "maxTopSearches" : 3
     }
   },
   "autocomplete-result-list.v2#mobile": {

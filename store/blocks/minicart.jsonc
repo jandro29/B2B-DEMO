@@ -112,7 +112,8 @@
   "flex-layout.col#minicart-footer": {
     "children": [
       "minicart-summary",
-      "check-permission#minicart"
+      "allowed-content#minicart"
+      // "check-permission#minicart"
     ]
   },
   "check-organization-permission#minicart": {
