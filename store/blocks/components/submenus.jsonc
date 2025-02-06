@@ -7,7 +7,10 @@
     "preventHorizontalStretch": true,
     "preventVerticalStretch": true
   },
-  "children": ["vtex.menu@2.x:menu#websites"]
+  "children": [
+    "vtex.menu@2.x:menu#websites",
+    "flex-layout.col#spacer",
+    "link#reseller"]
     // "shopper-location",
     // //"flex-layout.row#menu",
     // "menu-item#productos",
@@ -40,7 +43,7 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
+      "tagTitle": "productos",
       "text": "Productos"
     }
   },
@@ -82,7 +85,7 @@
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
+      "tagTitle": "industrias",
       "text": "Industrias"
     }
   },

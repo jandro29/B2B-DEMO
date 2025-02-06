@@ -5,7 +5,7 @@
 
   "responsive-layout.desktop#libro-de-reclamaciones": {
     "children": [
-      "form#libro-reclamaciones"
+      "flex-layout.row#libro-reclamaciones"
     ]
   },
 
@@ -19,7 +19,8 @@
       "entity": "ReclamoEntidad",
       "schema": "ReclamoSchema"
     },
-    "children":["flex-layout.row#libro-reclamaciones"]
+    // "children":["flex-layout.row#libro-reclamaciones"]
+    "children":["form-input.text#name", "form-input.text#email"]
   },
 
   "flex-layout.row#libro-reclamaciones":{
@@ -27,7 +28,8 @@
   },
 
   "flex-layout.col#libro-reclamaciones":{
-    "children":["form-input.text#name"]
+    // "children":["form-input.text#name", "form-input.text#email"]
+    "children": ["form#libro-reclamaciones"]
   },
 
   "form-input.text#name":{
@@ -35,6 +37,14 @@
       "pointer": "#/properties/name",
       "label": "Nombre del cliente",
       "placeholder": "Ingrese su nombre"
+    }
+  },
+
+  "form-input.text#email":{
+    "props":{
+      "pointer": "#/properties/email",
+      "label": "Correo electronico",
+      "placeholder": "Ingrese correo"
     }
   }
 }

@@ -563,8 +563,8 @@ margin-top: 4rem;
 }
 
 .flexRow--add-to-cart :global(.vtex-button) {
-  background: #ff7d30;
-  border-color: #ff7d30;
+  background: #FABD01;
+  border-color: #FABD01;
   color: #fff;
   height: 52px;
 }
@@ -885,6 +885,23 @@ margin-top: 4rem;
   justify-content: center;
 }
 
+/*productos del home*/
+
+.flexColChild--container-productos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*descripcion ficha de producto*/
+
+.flexRowContent--description {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+
 /*footer*/
 
 .flexRow--footerStripe{
@@ -932,6 +949,8 @@ margin-top: 4rem;
   display: flex;
   align-items: center;
 }
+
+/*INDUSTRIAS*/
 
 .flexRowContent--second-components-container{
   display: grid;
@@ -1115,5 +1134,31 @@ margin-top: 4rem;
     display: flex;
     justify-content: center;
   }
-   }
+
+
+  /*=====================================================================*/
+  /*=====================================================================*/
+  /*INDUSTRIAS RESPONSIVE*/
+  /*=====================================================================*/
+  /*=====================================================================*/
+
+  .flexRowContent--second-components-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-top: 4rem;
+  }
+
+  .flexCol--container-banner-left,
+  .flexCol--container-banner-right{
+    height: 350px;
+  }
+
+  .flexRow--container-industrias{
+    height: 100%;
+  }
+}
+
+   
 

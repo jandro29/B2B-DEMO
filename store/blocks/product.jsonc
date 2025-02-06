@@ -34,9 +34,9 @@
   "flex-layout.col#product": {
     "children": [
       "flex-layout.row#breadcrumb",
-      "flex-layout.row#product-details"/*,
-      "product-kit#buy-together", // This block won't work if it's not a direct children of store.product
-      "flex-layout.row#description-and-gallery",
+      "flex-layout.row#product-details",
+      //"product-kit#buy-together", // This block won't work if it's not a direct children of store.product
+      "flex-layout.row#description"/*,
       "flex-layout.row#features",
       "flex-layout.row#specification",
       "flex-layout.row#reviews-and-ratings"*/

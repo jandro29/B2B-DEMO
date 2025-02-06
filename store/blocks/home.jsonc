@@ -11,8 +11,8 @@
       "flex-layout.row#prod-des",
       // Deprecated
       // "flex-layout.row#shopByBrand",
-      //"flex-layout.row#shelf1",
-      "flex-layout.row#imageBanners",
+      "flex-layout.row#shelf1",
+      //"flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
       //"flex-layout.row#popular",
       //"flex-layout.row#trending",
@@ -197,79 +197,162 @@
 
 
   "link#shoBy1": {
-    "children": ["image#shoBy1", "rich-text#cat1"],
+    "children": ["flex-layout.col#enchufes-tomas"],
     "props": {
       "href": "/apparel",
       "blockClass": "shopByLink"
     }
   },
 
-
+  "flex-layout.col#enchufes-tomas":{
+    "children":["image#shoBy1", "rich-text#cat1"],
+    "props":{
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy2": {
-    "children": ["image#shoBy2", "rich-text#cat2"],
+    "children": ["flex-layout.col#sujeciones"],
     "props": {
       "href": "/beverage",
       "blockClass": "shopByLink"
     }
   },
+  "flex-layout.col#sujeciones":{
+    "children":["image#shoBy2", "rich-text#cat2"],
+    "props":{
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy3": {
-    "children": ["image#shoBy3", "rich-text#cat3"],
+    "children": ["flex-layout.col#terminales"],
     "props": {
       "href": "/sporting",
       "blockClass": "shopByLink"
     }
   },
+  "flex-layout.col#terminales":{
+    "children":["image#shoBy3", "rich-text#cat3"],
+    "props":{
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy4": {
-    "children": ["image#shoBy4", "rich-text#cat4"],
+    "children": ["flex-layout.col#cintillos"],
     "props": {
       "href": "/Agribusiness",
       "blockClass": "shopByLink"
     }
   },
+
+  "flex-layout.col#cintillos":{
+    "children":["image#shoBy4", "rich-text#cat4"],
+    "props":{
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy5": {
-    "children": ["image#shoBy5", "rich-text#cat5"],
+    "children": ["flex-layout.col#herramientas"],
     "props": {
       "href": "/home-appliance",
       "blockClass": "shopByLink"
     }
   },
+
+  "flex-layout.col#herramientas":{
+    "children":["image#shoBy5", "rich-text#cat5"],
+    "props":{
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy6": {
-    "children": ["image#shoBy6", "rich-text#cat6"],
+    "children": ["flex-layout.col#tuberias"],
     "props": {
       "href": "/apparel",
       "blockClass": "shopByLink"
 
     }
   },
+
+  "flex-layout.col#tuberias":{
+    "children":["image#shoBy6", "rich-text#cat6"],
+    "props": {
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy7": {
-    "children": ["image#shoBy7", "rich-text#cat7"],
+    "children": ["flex-layout.col#linternas"],
     "props": {
       "href": "/beverage",
       "blockClass": "shopByLink"
     }
   },
+  "flex-layout.col#linternas":{
+    "children":["image#shoBy7", "rich-text#cat7"],
+    "props": {
+      "blockClass": "container-productos"
+    }
+  },
+
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy8": {
-    "children": ["image#shoBy8", "rich-text#cat8"],
+    "children": ["flex-layout.col#contraibles"],
     "props": {
       "href": "/sporting",
       "blockClass": "shopByLink"
     }
   },
+  "flex-layout.col#contraibles":{
+    "children":["image#shoBy8", "rich-text#cat8"],
+    "props": {
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy9": {
-    "children": ["image#shoBy9", "rich-text#cat9"],
+    "children": ["flex-layout.col#resinas"],
     "props": {
       "href": "/Agribusiness",
       "blockClass": "shopByLink"
     }
   },
+
+  "flex-layout.col#resinas":{
+    "children":["image#shoBy9", "rich-text#cat9"],
+    "props": {
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
   "link#shoBy10": {
-    "children": ["image#shoBy10", "rich-text#cat10"],
+    "children": ["flex-layout.col#interruptores"],
     "props": {
       "href": "/home-appliance",
       "blockClass": "shopByLink"
     }
   },
-
+  "flex-layout.col#interruptores":{
+    "children":["image#shoBy10", "rich-text#cat10"],
+    "props": {
+      "blockClass": "container-productos"
+    }
+  },
+/*=================================================================*/
+/*=================================================================*/
 
   "image#shoBy1": {
     "props": {
@@ -277,91 +360,120 @@
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy2": {
     "props": {
       "src": "assets/placeholders/sujeciones.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy3": {
     "props": {
       "src": "assets/placeholders/terminales.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy4": {
     "props": {
       "src": "assets/placeholders/cintillos.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy5": {
     "props": {
       "src": "assets/placeholders/herramientas.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy6": {
     "props": {
       "src": "assets/placeholders/tuberias.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy7": {
     "props": {
       "src": "assets/placeholders/linternas.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy8": {
     "props": {
       "src": "assets/placeholders/termo.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy9": {
     "props": {
       "src": "assets/placeholders/resinas.png",
       "blockClass": "shoByImage"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "image#shoBy10": {
     "props": {
       "src": "assets/placeholders/interruptores.png",
       "blockClass": "shoByImage"
     }
   },
-
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat1": {
     "props": {
       "text": "Enchufes y Tomas",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat2": {
     "props": {
       "text": "Sujeciones",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat3": {
     "props": {
       "text": "Terminales",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat4": {
     "props": {
       "text": "Cintillos",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat5": {
     "props": {
       "text": "Herramientas",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
 
 
   "rich-text#cat6": {
@@ -370,30 +482,40 @@
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat7": {
     "props": {
       "text": "Linternas",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat8": {
     "props": {
       "text": "Termo contraíbles",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat9": {
     "props": {
       "text": "Resinas y Acero",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
   "rich-text#cat10": {
     "props": {
       "text": "Interruptores",
       "blockClass": "shopByCategory"
     }
   },
+/*=================================================================*/
+/*=================================================================*/
 
 
 

@@ -41,7 +41,7 @@
 
 "flex-layout.row#mobile": {
   "children": [
-    "flex-layout.col#icono-hamburguesa",
+    "drawer",
     "flex-layout.row#contaier-menu-logo",
     "flex-layout.row#container-iconos"
     ],

@@ -624,6 +624,13 @@
   display: flex;
 }
 
+/*imagen de productos*/
+.imageElement--shoByImage{
+  margin-top: 2.5rem;
+}
+
+
+
 @media (min-width: 40rem) {
   .shippingContainer {
     width: 18rem;
@@ -853,6 +860,10 @@
   padding: 0;
   max-width: 90px;
   max-height: 40px;
+}
+
+.logoContainer--logo-image{
+  margin-left: -1.5rem;
 }
 
 .logoContainer--logo-menu-hambursa{

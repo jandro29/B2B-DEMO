@@ -14,7 +14,8 @@
   },
   "flex-layout.col#menu-header": {
     "children": [
-      "login#drawer",
+      //"vtex.menu@2.x:menu#websites"
+      /*"login#drawer",*/
       // Deprecated
       // "locale-switcher#drawer",
       "rich-text#explore",
@@ -129,7 +130,7 @@
   },
   "rich-text#explore": {
     "props": {
-      "text": "## Explore",
+      "text": "## Exploreee",
       "blockClass": "menuTitle"
     }
   },

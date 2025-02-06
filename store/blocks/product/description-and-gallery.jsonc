@@ -110,7 +110,7 @@
   },
 
   "flex-layout.row#description": {
-    "children": ["product-description#desktop", "product-images#gallery"],
+    "children": ["product-description#desktop"/*, "product-images#gallery"*/],
     "props": {
       "blockClass": ["description"],
       "colSizing": "auto",
@@ -127,7 +127,7 @@
     }
   },
 
-  "product-images#gallery": {
+  /*"product-images#gallery": {
     "props": {
       "blockClass": ["gallery"],
       "aspectRatio": "81:56",
@@ -142,7 +142,7 @@
       "zoomMode": "open-modal"
     }
   },
-
+*/
   "modal-layout#product-zoom": {
     "children": ["product-images.high-quality-image"]
   }

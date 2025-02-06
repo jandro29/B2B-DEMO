@@ -635,6 +635,39 @@
   text-decoration: underline;
 }
 
+/*productos home*/
+.container--shopByCategory{
+  width: 100%;
+  height: 100%;
+  
+  background: white;
+}
+
+.wrapper--shopByCategory{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph--shopByCategory{
+  height: unset;
+}
+
+/*titulo ficha de producto*/
+
+.wrapper--alsoView{
+    border-left: 4px solid;
+    border-color: #FABD01;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.headingLevel3--alsoView{
+  margin-left: 1rem;
+}
+
+
 /* Reset Spacing */
 
 .container--reset-spacing,
@@ -791,6 +824,18 @@
   font-size: 24px;
 }
 
+/*INDUSTRIAS*/
+
+.paragraph--titulo-texto1{
+  width: 970px;
+  font-size: 48px;
+}
+
+.paragraph--parrafo-texto1{
+  width: 620px;
+  font-size: 16px;
+}
+
 
 @media (max-width: 64rem) {
   .paragraph--quick-order-text{
@@ -821,5 +866,19 @@
   .paragraph--titulo-nuestros-colaboradores{
     font-size: 25px;
   }
+
+  /*INDUSTRIAS MOBIL*/
+
+  /*INDUSTRIAS*/
+
+.paragraph--titulo-texto1{
+  width: 100%;
+  font-size: 21.5px;
+}
+
+.paragraph--parrafo-texto1{
+  width: 100%;
+  font-size: 12.5px;
+}
 }
 
