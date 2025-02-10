@@ -896,3 +896,10 @@
 
 
 }
+
+
+/*Descripcion ficha de producto*/
+
+.productDescriptionTitle--desktop{
+  display: none;
+}

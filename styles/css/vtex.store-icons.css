@@ -5,3 +5,7 @@
 .caretIcon--lines-darker {
   color: var(--lines-darker);
 }
+
+.caretIcon--lines-darker{
+  margin-right: 2rem
+}

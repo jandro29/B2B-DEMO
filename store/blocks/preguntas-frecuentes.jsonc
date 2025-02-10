@@ -6,15 +6,16 @@
   "responsive-layout.desktop#preguntas-frecuentes": {
     "children": [
         "flex-layout.row#titulo-preguntas-frecuentes",
-        "flex-layout.row#pregunta1",
-        "flex-layout.row#contenido-preguntas-frecuentes1",
-        "flex-layout.row#pregunta2",
-        "flex-layout.row#contenido-preguntas-frecuentes2"
+        "disclosure-layout-group#group"
     ]
   },
 
+
+
   "responsive-layout.mobile#preguntas-frecuentes": {
     "children": [
+        "flex-layout.row#titulo-preguntas-frecuentes",
+        "disclosure-layout-group#group"
     ]
   },
 
@@ -31,50 +32,113 @@
     }
   },
 
-  "flex-layout.row#pregunta1":{
-    "children":["rich-text#pregunta1"]
+
+
+  "disclosure-layout-group#group": {
+    "children": ["disclosure-layout#first", "disclosure-layout#second","disclosure-layout#third"]
+    
   },
 
-  "rich-text#pregunta1":{
+  "disclosure-layout#first": {
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+    
+  },
+  "disclosure-trigger#first": {
+    "children": ["disclosure-state-indicator","rich-text#question1"],
     "props":{
-      "text":"Primera pregunta",
-      "textAlignment":"CENTER",
-      "textPosition":"left",
-      "font":"t-heading-4"
+      "blockClass": "pregunta"
+    }
+    
+  },
+  "disclosure-content#first": {
+    "children": ["rich-text#answer1"],
+    "props":{
+      "blockClass": "contenido"
+    }
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Call us at (212) 123-1234.",
+      "blockClass": "texto-preguntas-frecuentes"
     }
   },
 
-  "flex-layout.row#contenido-preguntas-frecuentes1":{
-    "children":["rich-text#contenido-preguntas-frecuentes1"]
-  },
 
-  "rich-text#contenido-preguntas-frecuentes1":{
+
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+
+  "disclosure-layout#second": {
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "children": ["disclosure-state-indicator","rich-text#question2"],
     "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut."
+      "blockClass": "pregunta"
+    }
+  },
+  "disclosure-content#second": {
+    "children": ["rich-text#answer2"],
+    "props":{
+      "blockClass": "contenido"
+    }
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "can I track my order?"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "After logging in to your account, you can find this information in the Orders link.",
+      "blockClass": "texto-preguntas-frecuentes"
     }
   },
 
-  "flex-layout.row#pregunta2":{
-    "children":["rich-text#pregunta1"]
-  },
+    /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
 
-  "rich-text#pregunta2":{
+  "disclosure-layout#third": {
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "children": ["disclosure-state-indicator","rich-text#question3"],
     "props":{
-      "text":"Segunda pregunta",
-      "textAlignment":"CENTER",
-      "textPosition":"left",
-      "font":"t-heading-4"
+      "blockClass": "pregunta"
     }
   },
-
-  "flex-layout.row#contenido-preguntas-frecuentes2":{
-    "children":["rich-text#contenido-preguntas-frecuentes1"]
-  },
-
-  "rich-text#contenido-preguntas-frecuentes2":{
+  "disclosure-content#third": {
+    "children": ["rich-text#answer3"],
     "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut."
+      "blockClass": "contenido"
+    }
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "Pregunta 3"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "texto de prubea.",
+      "blockClass": "texto-preguntas-frecuentes"
     }
   }
-
 }

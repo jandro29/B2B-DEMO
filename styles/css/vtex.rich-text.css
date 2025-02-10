@@ -882,3 +882,17 @@
 }
 }
 
+
+/*preguntas frecuentes*/
+
+.wrapper--texto-preguntas-frecuentes{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media (max-width: 64rem) { 
+  .wrapper--texto-preguntas-frecuentes{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+ }

@@ -1160,5 +1160,64 @@ margin-top: 4rem;
   }
 }
 
-   
 
+/*descripcion*/
+
+:global(.vtex-tab-layout-0-x-listContainer) {
+  display: flex;
+  justify-content: start;
+  
+}
+
+:global(.vtex-tab-layout-0-x-listItem--boton-detalle)
+:global(.vtex-button) {
+  border: unset;
+}
+
+:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica)
+:global(.vtex-button) {
+  border: unset;
+}
+
+
+:global(.vtex-tab-layout-0-x-listItem--boton-detalle)
+:global(.vtex-button__label) {
+  color: #000;
+}
+
+:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica)
+:global(.vtex-button__label) {
+  color: #000;
+}
+
+
+/*Cuando no esta activado*/
+:global(.vtex-tab-layout-0-x-listItem--boton-detalle){
+  background: #F1F8FC;
+}
+
+/*Cuando esta activado*/
+:global(.vtex-tab-layout-0-x-listItemActive--boton-detalle){
+  background: #ffffff;
+}
+
+/*Cuando no esta activado*/
+:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica) {
+  background: #F1F8FC;
+}
+
+/*Cuando esta activado*/
+:global(.vtex-tab-layout-0-x-listItemActive--boton-ficha-tecnica) {
+  background: #ffffff;
+}
+
+.flexRowContent--description{
+  color: #000;
+  margin: 48px;
+}
+
+:global(.vtex-tab-layout-0-x-container--home){
+  margin-top: 112px;
+  margin-bottom: 128px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 17px 0 rgba(0, 0, 0, 0.19);
+}

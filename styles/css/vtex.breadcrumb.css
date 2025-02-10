@@ -42,3 +42,9 @@
 .homeLink--default {
   padding-right: 0.5rem;
 }
+
+
+.container--default{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}

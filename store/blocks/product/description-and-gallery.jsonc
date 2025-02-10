@@ -127,6 +127,20 @@
     }
   },
 
+
+  /*descripcion adicional*/
+  "flex-layout.row#descripcion-adicional":{
+   "children": [
+      "rich-text#additional-description"
+    ]
+  },
+  "rich-text#additional-description": {
+    "props": {
+      "text": "{additionalDescription}",
+      "blockClass": "additional-description"
+    }
+  },
+
   /*"product-images#gallery": {
     "props": {
       "blockClass": ["gallery"],
