@@ -1,4 +1,14 @@
 {
+  /*################################*/
+  /*################################*/
+  /*################################*/
+  /*################################*/
+  /*Interna del producto RESPONSIVE*/
+  /*################################*/
+  /*################################*/
+  /*################################*/
+  /*################################*/
+
   "store.product": {
     "children": [
       "responsive-layout.mobile#product",
@@ -15,13 +25,13 @@
       "flex-layout.row#sku-selector",
       "flex-layout.row#assembly-options",
       "flex-layout.row#divider",
-      "flex-layout.row#box",
-      "product-kit#buy-together",
-      "flex-layout.row#description-and-gallery",
-      "flex-layout.row#features",
-      "flex-layout.row#specification",
-      "check-permission#sticky-buy",
-      "flex-layout.row#reviews-and-ratings",
+      //"flex-layout.row#box",
+      //"product-kit#buy-together",
+      "flex-layout.row#container-descripcion",
+      //"flex-layout.row#features",
+      //"flex-layout.row#specification",
+      //"check-permission#sticky-buy",
+      //"flex-layout.row#reviews-and-ratings",
       "flex-layout.row#alsoView"
     ]
   },

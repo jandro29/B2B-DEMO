@@ -6,14 +6,14 @@
   padding-top: 24px;
 }
 
-.trigger--pregunta-2{
+.trigger--pregunta{
   display: flex;
   width: 100%;
   background: white;
 }
 
 
-.trigger--pregunta{
+.trigger--titlo-menu {
   display: flex;
   width: 90%;
   background: white;
@@ -25,11 +25,11 @@
   
 }
 
-.trigger--pregunta--visible{
+.trigger--titlo-menu--visible{
   margin: 0px;
 }
 
-.content--contenido{
+.content--opciones-menu--visible{
   display: flex;
   width: 90%;
   background: white;
@@ -39,6 +39,7 @@
   justify-self: center;
   border-radius: 0px 0px 15px 15px;
   margin-bottom: 2rem;
+  padding-top: 0;
 }
 
 @media (max-width: 64rem){

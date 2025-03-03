@@ -117,6 +117,7 @@
 }
 
 .logoContainer {
+  max-width: 130px;
   display: block;
   padding: 0;
 }
@@ -782,7 +783,8 @@
 }
 
 .infoCardContainer--proyectos-info,
-.infoCardContainer--industrias-proyectos-info{
+.infoCardContainer--industrias-proyectos-info,
+.infoCardContainer--container-team-1{
   height: 100%;
   border: none;
 }
@@ -894,6 +896,10 @@
   height: 100px;
 }
 
+.infoCardSubhead--marcas-container{
+  margin-bottom: 2rem;
+}
+
 
 }
 
@@ -903,3 +909,4 @@
 .productDescriptionTitle--desktop{
   display: none;
 }
+

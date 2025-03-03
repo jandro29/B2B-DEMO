@@ -12,6 +12,8 @@
 
   "responsive-layout.mobile#politica-de-despacho": {
     "children": [
+       "flex-layout.row#titulo-politica-de-despacho",
+        "flex-layout.row#contenido-politica-de-despacho"
     ]
   },
 

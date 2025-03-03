@@ -12,6 +12,8 @@
 
   "responsive-layout.mobile#nuestro-equipo": {
     "children": [
+      "flex-layout.row#titulo-nuestro-equipo",
+        "flex-layout.row#contenido-nuestro-equipo"
     ]
   },
 

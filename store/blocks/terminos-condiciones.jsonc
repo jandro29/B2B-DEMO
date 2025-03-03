@@ -14,6 +14,8 @@
 
   "responsive-layout.mobile#terminos-condiciones": {
     "children": [
+       "flex-layout.row#titulo-condiciones",
+      "flex-layout.row#contenido-condiciones"
     ]
   },
 

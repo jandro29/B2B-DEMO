@@ -28,9 +28,9 @@
   "slider-layout#alsoView": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "phone": 2
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
       },
       "infinite": false,
       "fullWidth": true,

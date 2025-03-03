@@ -12,6 +12,8 @@
 
   "responsive-layout.mobile#politica-cambios-devolucion": {
     "children": [
+      "flex-layout.row#titulo-politica-cambios-devolucion",
+        "flex-layout.row#contenido-politica-cambios-devolucion"
     ]
   },
 

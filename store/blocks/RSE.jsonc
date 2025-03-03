@@ -12,6 +12,8 @@
 
   "responsive-layout.mobile#responsabilidad-social-empresarial": {
     "children": [
+      "flex-layout.row#titulo-responsabilidad-social-empresarial",
+        "flex-layout.row#contenido-responsabilidad-social-empresarial"
     ]
   },
 

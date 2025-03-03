@@ -169,7 +169,8 @@
       "blockClass": "container-our-team-components"
     },
     "children":[
-      "flex-layout.col#our-team1",
+      "flex-layout.row#redes-team1",
+      //"flex-layout.col#our-team1",
       "flex-layout.col#our-team2",
       "flex-layout.col#our-team3"
     ]
@@ -226,6 +227,99 @@
       "font":"t-heading-1",
       "blockClass": "titulo-nuestros-colaboradores"
     }
-   }
+   },
+
+///////////////////////////////////////////////
+///////////////////
+///
+//
+
+
+   "flex-layout.row#redes-team1":{
+    "children":[
+      "flex-layout.col#contenido-team1"
+    ],
+    "props":{
+      "blockClass":"container-team-1"
+    }
+  },
+
+  "flex-layout.col#contenido-team1":{
+    "children":[
+      "rich-text#nombre-team1",
+      "rich-text#cargo-team1",
+      "flex-layout.row#redes-container-team1"
+    ],
+
+    "props":{
+      "blockClass":"elementos-team-1"
+    }
+  },
+
+  "rich-text#nombre-team1":{
+    "props":{
+      "text":"Guillermo Romero",
+      "blockClass": "nombre-our-team"
+    }
+
+
+  },
+
+  "rich-text#cargo-team1":{
+    "props":{
+      "text": "CEO",
+      "blockClass": "rol-our-team"
+    }
+  },
+
+  "flex-layout.row#redes-container-team1":{
+    "children":["link#linkedin-our-team1", "link#whatsapp-our-team1", "link#mail-our-team1"],
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
+  },
+
+  "link#linkedin-our-team1": {
+    "children": ["image#linkedin-our-team1"],
+    "props": {
+      "href": "//facebook.com",
+      "target": "_blank",
+      "blockClass": "link-our-team "
+    }
+  },
+  "link#whatsapp-our-team1": {
+    "children": ["image#whatsapp-our-team1"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "link-our-team"
+    }
+  },
+  "link#mail-our-team1": {
+    "children": ["image#mail-our-team1"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "link-our-team"
+    }
+  },
+  "image#linkedin-our-team1": {
+    "props": {
+      "src": "assets/placeholders/linkedin-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  "image#whatsapp-our-team1": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  "image#mail-our-team1": {
+    "props": {
+      "src": "assets/placeholders/mail-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  }
 
 }

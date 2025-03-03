@@ -20,8 +20,39 @@
 
   "responsive-layout.mobile#nuestras-marcas": {
     "children": [
+      "flex-layout.row#banner-marcas-mobil",
+      "flex-layout.row#nuestras-marcas",
+      "flex-layout.row#first-components",
+      "flex-layout.row#consumers",
+      "flex-layout.row#second-components",
+      "flex-layout.row#benefits",
+      "flex-layout.row#newsletter"
     ]
   },
+
+  /*mobil*/
+
+  "flex-layout.row#banner-marcas-mobil":{
+    "children":["info-card#marcas-banner-mobil"],
+    "props":{
+      "fullWidth": true,
+      "blockClass": "banner-marcas-container"
+    }
+  },
+
+  "info-card#marcas-banner-mobil":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl":"assets/placeholders/banner-nuestras-marcas.png",
+      "headline": "Nuestras Marcas",
+      "subhead": "Maecenas justo enim ultrices risus malesuada condimentum tellus sociis.",
+      "textAlignment":"left",
+      "blockClass": "marcas-container"
+    }
+  },
+
+  /*########################################333*/
 
   "flex-layout.row#banner-marcas":{
     "children":["info-card#marcas-banner"],

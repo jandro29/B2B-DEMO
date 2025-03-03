@@ -896,3 +896,19 @@
     margin-right: 0.5rem;
   }
  }
+
+
+ .paragraph--nombre-our-team{
+  color: #fff;
+  font-size: 30px;
+  width: 80%;
+  font-weight: 700
+ }
+
+ .paragraph--rol-our-team{
+  color: #fff;
+ }
+
+ .paragraph--opciones-submenu{
+  margin: 1.5rem;
+ }

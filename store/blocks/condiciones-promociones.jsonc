@@ -12,6 +12,8 @@
 
   "responsive-layout.mobile#condiciones-de-promociones": {
     "children": [
+      "flex-layout.row#titulo-condiciones-promociones",
+        "flex-layout.row#contenido-condiciones-promociones"
     ]
   },
 

@@ -93,6 +93,11 @@
 }
 
 @media (max-width: 64rem) {
+
+  :global(.vtex-login-2-x-profile) {
+    display: none !important;
+  }
+
   .flexColChild--main-header-mobile:first-child {
     margin-bottom: 12px;
   }
@@ -1158,6 +1163,11 @@ margin-top: 4rem;
   .flexRow--container-industrias{
     height: 100%;
   }
+
+  /*nuestras marcas*/
+  .flexRow--banner-marcas-container{
+    height: unset;
+  }
 }
 
 
@@ -1220,4 +1230,47 @@ margin-top: 4rem;
   margin-top: 112px;
   margin-bottom: 128px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 17px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flexRowContent--container-team-1{
+  background-image: url("assets/placeholders/fondo-nuestro-team.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100%;
+}
+
+.flexCol--container-team-1{
+  height: unset;
+}
+
+
+.flexCol--elementos-team-1{
+  width: 70% !important;
+  height: 80%;
+}
+
+.flexRowContent--container-team-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--contenedor-redes{
+  width: 45%;
+}
+
+.flexRowContent--contenedor-redes {
+  
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.flexRowContent--contenedor-redes :global(.vtex-store-link-0-x-link){
+  width: 25px;
+}
+
+.flexRow--logo-reclamacionesContainer{
+  height: 5rem;
 }
