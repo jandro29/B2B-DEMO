@@ -70,7 +70,7 @@
   },
   "flex-layout.col#productInfo": {
     "children": [
-      "flex-layout.row#productInfo__name",
+      "flex-layout.col#productInfo__name",
       "flex-layout.row#bottomInfo"
     ],
     "props": {
@@ -78,9 +78,11 @@
       "width": "grow"
     }
   },
-  "flex-layout.row#productInfo__name": {
+  "flex-layout.col#productInfo__name": {
+   
     "children": [
-      "vtex.product-list:product-name#minicart"
+      "vtex.product-list:product-name#minicart",
+      "product-variations"
     ]
   },
   "vtex.product-list:product-name#minicart": {
@@ -106,68 +108,8 @@
       "blockClass": "minicart-footer"
     },
     "children": [
-      "flex-layout.col#minicart-footer"
+      "minicart-summary"
     ]
-  },
-  "flex-layout.col#minicart-footer": {
-    "children": [
-      "minicart-summary",
-      "allowed-content#minicart"
-      // "check-permission#minicart"
-    ]
-  },
-  "check-organization-permission#minicart": {
-    "props": {
-      "roles": [
-        "createQuote"
-      ]
-    },
-    "blocks": [
-      "allowed-content#create-quote"
-    ]
-  },
-  "allowed-content#create-quote": {
-    "children": [
-      "link#quote"
-    ]
-  },
-  "check-permission#minicart": {
-    "props": {
-      "roles": [
-        "store-admin",
-        "sales-admin",
-        "sales-manager",
-        "sales-representative",
-        "customer-admin",
-        "customer-approver"
-      ]
-    },
-    "blocks": [
-      "allowed-content#minicart",
-      "disallowed-content#minicart"
-    ]
-  },
-  "allowed-content#minicart": {
-    "children": [
-      "minicart-checkout-button",
-      "check-organization-permission#minicart"
-    ]
-  },
-  "disallowed-content#minicart": {
-    "children": [
-      "check-organization-permission#minicart"
-    ]
-  },
-  "link#quote": {
-    "props": {
-      "label": "Create a Quote",
-      "displayMode": "button",
-      "blockClass": [
-        "vtex-button",
-        "order-quote"
-      ],
-      "href": "/b2b-quotes/create"
-    }
   },
   "minicart-summary": {
     "blocks": [

@@ -20,7 +20,64 @@
       "schema": "ReclamoSchema"
     },
     // "children":["flex-layout.row#libro-reclamaciones"]
-    "children":["form-input.text#name", "form-input.text#email"]
+    "children":[
+      "flex-layout.row#titulo-libro-reclamaciones1",
+      "flex-layout.row#container-reclamos1",
+      "flex-layout.row#container-reclamos2",
+      "flex-layout.row#container-reclamos3",
+      "form-input.text#mensaje"
+
+     
+      ]
+  },
+
+  "flex-layout.row#titulo-libro-reclamaciones1":{
+    "children":[ 
+      "rich-text#bannerTitle1"
+    ]
+  },
+
+  "rich-text#bannerTitle1":{
+    "props":{
+      "text": "Identificación del consumidor reclamante"
+    }
+  },
+
+  "flex-layout.row#container-reclamos1":{
+
+    "props":{
+      "blockClass": "container-reclamante1",
+      "colGap": 6
+    },
+    "children":[
+      "form-input.text#name",
+      "form-input.text#first-last-name",
+      "form-input.text#last-name"
+    ]
+  },
+
+  "flex-layout.row#container-reclamos2":{
+    "props":{
+      "blockClass": "container-reclamante2",
+      "colGap": 6
+    },
+    "children":[
+      "form-input.dropdown#tipoDocumento",
+      "form-input.text#numdoc",
+      "form-input.text#celular"
+    ]
+  },
+
+  "flex-layout.row#container-reclamos3":{
+"props":{
+  "blockClass": "container-reclamante3",
+      "colGap": 6
+    },
+    "children":[
+      "form-input.text#direccion",
+      "form-input.text#email",
+      "form-input.dropdown#eres-m-edad"
+    ]
   },
 
   "flex-layout.row#libro-reclamaciones":{
@@ -40,11 +97,99 @@
     }
   },
 
-  "form-input.text#email":{
+  "form-input.text#first-last-name":{
+    "props":{
+      "pointer": "#/properties/first-last-name",
+      "label": "Primer Apellido",
+      "placeholder": "Ingrese su primer apellido"
+    }
+  },
+
+
+  "form-input.text#last-name":{
+    "props":{
+      "pointer": "#/properties/last-name",
+      "label": "Segundo Apellido",
+      "placeholder": "Ingrese su segundo apellido"
+    }
+  },
+
+  "form-input.dropdown#tipoDocumento": {
+  "props": {
+    "pointer": "#/properties/tipoDocumento",
+    "label": "Tipo de Documento",
+    "options": [
+      {
+        "value": "DNI",
+        "label": "DNI"
+      },
+      {
+        "value": "Pasaporte",
+        "label": "Pasaporte"
+      },
+      {
+        "value": "Carnet de Extranjería",
+        "label": "Carnet de Extranjería"
+      }
+    ]
+  }
+},
+
+"form-input.text#numdoc":{
+"props":{
+      "pointer": "#/properties/numdoc",
+      "label": "Número de documentación",
+      "placeholder": "Ingrese número de documentación"
+    }
+},
+
+"form-input.text#celular":{
+"props":{
+      "pointer": "#/properties/celular",
+      "label": "Ingrese su numero telefonico",
+      "placeholder": "Ingrese número de telefonico"
+    }
+},
+
+"form-input.text#direccion":{
+  "props":{
+      "pointer": "#/properties/direccion",
+      "label": "Ingrese su direccion",
+      "placeholder": "Ingrese su direccion"
+    }
+},
+
+"form-input.text#email":{
     "props":{
       "pointer": "#/properties/email",
       "label": "Correo electronico",
-      "placeholder": "Ingrese correo"
+      "placeholder": "Ingrese su email"
+    }
+  },
+
+ "form-input.dropdown#eres-m-edad": {
+  "props": {
+    "pointer": "#/properties/eresMenorDeEdad",
+    "label": "¿Eres menor de edad?",
+    "options": [
+      {
+        "value": "Si",
+        "label": "Si"
+      },
+      {
+        "value": "No",
+        "label": "No"
+      }
+    ]
+  }
+},
+
+"form-input.text#mensaje":{
+    "props":{
+      "pointer": "#/properties/mensaje",
+      "label": "Mensaje",
+      "placeholder": "Ingrese su reclamo"
     }
   }
+
 }

@@ -146,6 +146,7 @@
   "slider-layout#productos-responsive": {
     "props": {
       "itemsPerPage": {
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
@@ -652,7 +653,7 @@
   "slider-layout#products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },

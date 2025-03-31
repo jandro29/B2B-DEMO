@@ -1274,3 +1274,9 @@ margin-top: 4rem;
 .flexRow--logo-reclamacionesContainer{
   height: 5rem;
 }
+
+/*LIBRO DE RECLAMACIONES*/
+
+.flexRow--container-reclamante1{
+  margin-top: 5rem;
+}
