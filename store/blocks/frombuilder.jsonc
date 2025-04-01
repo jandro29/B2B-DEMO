@@ -1,0 +1,184 @@
+{
+  "store.custom#formbuilder": {
+    "blocks": ["responsive-layout.desktop#formbuilder"]
+  },
+
+  "responsive-layout.desktop#formbuilder": {
+    "children": ["flex-layout.row#formbuilder"]
+  },
+
+  "flex-layout.row#formbuilder": {
+    "children": ["flex-layout.col#formbuilder"]
+  },
+
+  "flex-layout.col#formbuilder": {
+    "children": ["form#form-builder"]
+  },
+
+  "form#form-builder": {
+    "props": {
+      "entity": "FormBuilderEntidad",
+      "schema": "FormBuilderSchema"
+    },
+
+    "children": [
+      "flex-layout.row#titulo-formbuilder1",
+      "flex-layout.row#container-formbuilder1",
+      "flex-layout.row#container-formbuilder2",
+      "flex-layout.row#container-formbuilder3",
+      "flex-layout.row#container-formbuilder4",
+      "flex-layout.row#container-formbuilder5"
+    ]
+  },
+
+  "flex-layout.row#titulo-formbuilder1": {
+    "children": ["rich-text#bannerformbuilder1"]
+  },
+
+  "rich-text#bannerformbuilder1": {
+    "props": {
+      "blockClass": "titulo-form-builder",
+      "text": "Reseller registration"
+    }
+  },
+
+  "flex-layout.row#container-formbuilder1": {
+    "props": {
+      "blockClass": "container-formbuilder1",
+      "colGap": 6
+    },
+    "children": [
+    "form-input.text#CompanyName",
+    "form-input.text#TradingName"]
+  },
+
+  "flex-layout.row#container-formbuilder2": {
+    "props": {
+      "blockClass": "container-formbuilder2",
+      "colGap": 6
+    },
+    "children": [
+      "form-input.text#CorporateTaxpayer",
+      "form-input.radiogroup#CorporateTaxpayeroptions"
+    ]
+  },
+
+  "flex-layout.row#container-formbuilder3": {
+    "props": {
+      "blockClass": "container-formbuilder3",
+      "colGap": 6
+    },
+    "children": [
+    "form-input.text#stateregistry",
+    "form-input.text#streeType"]
+  },
+
+  "flex-layout.row#container-formbuilder4": {
+    "props": {
+      "blockClass": "container-formbuilder4",
+      "colGap": 6
+    },
+    "children": [
+    "form-input.text#zipCode",
+    "form-input.text#address"]
+  },
+
+  "flex-layout.row#container-formbuilder5":{
+    "props": {
+      "blockClass": "container-formbuilder5",
+      "colGap": 6
+    },
+    "children": [
+      "form-input.text#No",
+      "form-input.text#Email"]
+  },
+
+
+  "form-input.text#CompanyName": {
+    "props": {
+      "pointer": "#/properties/CompanyName",
+      "label": "Nombre de la Empresa",
+      "placeholder": "Nombre de la Empresa"
+    }
+  },
+
+  "form-input.text#TradingName": {
+    "props": {
+      "pointer": "#/properties/TradingName",
+      "label": "Trading Name",
+      "placeholder": "Tranding Name"
+    }
+  },
+  "form-input.text#CorporateTaxpayer": {
+    "props": {
+      "pointer": "#/properties/CorporateTaxpayer",
+      "label": "Corporate Taxpayer",
+      "placeholder": "Corporate Taxpayer"
+    }
+  },
+
+  "form-input.radiogroup#CorporateTaxpayeroptions": {
+    "props": {
+      "pointer": "#/properties/CorporateTaxpayeroptions",
+      "label": "Corporate Taxpayer options",
+      "options": [
+        {
+          "value": "Tax payer?",
+          "label": "Tax payer?"
+        },
+        {
+          "value": "Tax exempt",
+          "label": "Tax exempt"
+        }
+      ]
+    }
+  },
+
+  "form-input.text#stateregistry": {
+    "props": {
+      "pointer": "#/properties/stateregistry",
+      "label": "State registry",
+      "placeholder": "State registry"
+    }
+  },
+
+  "form-input.text#streeType": {
+    "props": {
+      "pointer": "#/properties/streeType",
+      "label": "Stree Type",
+      "placeholder": "Stree Type"
+    }
+  },
+
+  "form-input.text#zipCode": {
+    "props": {
+      "pointer": "#/properties/zipCode",
+      "label": "zip Code",
+      "placeholder": "zip Code"
+    }
+  },
+
+  "form-input.text#address": {
+    "props": {
+      "pointer": "#/properties/address",
+      "label": "Address",
+      "placeholder": "Address"
+    }
+  },
+
+  "form-input.text#No": {
+    "props": {
+      "pointer": "#/properties/No",
+      "label": "No",
+      "placeholder": "No"
+    }
+  },
+
+  "form-input.text#Email": {
+    "props": {
+      "pointer": "#/properties/Email",
+      "label": "Email",
+      "placeholder": "Email"
+    }
+  }
+}

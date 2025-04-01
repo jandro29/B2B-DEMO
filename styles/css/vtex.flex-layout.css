@@ -1278,5 +1278,44 @@ margin-top: 4rem;
 /*LIBRO DE RECLAMACIONES*/
 
 .flexRow--container-reclamante1{
-  margin-top: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.flexRow--container-reclamante2{
+  margin-bottom: 2rem;
+}
+
+.flexRow--container-reclamante3{
+  margin-bottom: 2rem;
+}
+
+.flexRow--container-reclamante4{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.flexRow--container-reclamante5{
+  margin-bottom: 2rem;
+}
+
+.flexRowContent--detallereclamClass{
+  margin-bottom: 2rem;
+}
+
+.flexRowContent--pedidoclientClass{
+  margin-bottom: 4rem;
+}
+
+/*formbuilder zone*/
+
+.flexRow--container-formbuilder1,
+.flexRow--container-formbuilder2,
+.flexRow--container-formbuilder3,
+.flexRow--container-formbuilder4{
+  margin-bottom: 2.5rem;
+}
+
+.flexRow--container-formbuilder5{
+  margin-bottom: 5rem;
 }

@@ -114,6 +114,10 @@
 
 "store.custom#politica-de-despacho": {
   "path": "/politica-de-despacho"
+},
+
+"store.custom#formbuilder": {
+  "path": "/formbuilder"
 }
 
 }
