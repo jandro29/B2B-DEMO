@@ -28,7 +28,8 @@
       "flex-layout.row#container-reclamos4",
       "flex-layout.row#container-reclamos5",
       "flex-layout.row#containerdetallereclam",
-      "flex-layout.row#containerpedidoclient"
+      "flex-layout.row#containerpedidoclient",
+      "flex-layout.row#container-button-reclamaciones"
       //"form-input.text#fechaReclamo"//,
       //"flex-layout.row#container-reclamos5"
     ]
@@ -125,6 +126,14 @@
     // "children":["form-input.text#name", "form-input.text#email"]
     "children": ["form#libro-reclamaciones"]
   },
+
+  "flex-layout.row#container-button-reclamaciones":{
+    "props":{
+      "blockClass":"libro-reclamaciones-button-container"
+    },
+    "children": ["form-submit#enviar-reclamaciones"]
+  },
+  
 
   "form-input.text#name": {
     "props": {
@@ -322,6 +331,14 @@
       "pointer": "#/properties/pedidoCliente",
       "label": "Pedido del Cliente",
       "placeholder": "Pedido del Cliente"
+    }
+  },
+  "form-submit#enviar-reclamaciones": {
+    "props": {
+      "blockClass":"button-reclamaciones",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "label": "Enviar"
     }
   }
 }

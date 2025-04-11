@@ -27,7 +27,8 @@
       "flex-layout.row#container-formbuilder2",
       "flex-layout.row#container-formbuilder3",
       "flex-layout.row#container-formbuilder4",
-      "flex-layout.row#container-formbuilder5"
+      "flex-layout.row#container-formbuilder5",
+      "flex-layout.row#container-button-formbuilder"
     ]
   },
 
@@ -91,6 +92,15 @@
     "children": [
       "form-input.text#No",
       "form-input.text#Email"]
+  },
+
+  "flex-layout.row#container-button-formbuilder":{
+    "props": {
+      "blockClass": "container-formbuilder5",
+      "colGap": 6
+    },
+    "children": [
+      "form-submit#enviar-formbuilder"]
   },
 
 
@@ -179,6 +189,12 @@
       "pointer": "#/properties/Email",
       "label": "Email",
       "placeholder": "Email"
+    }
+  },
+
+  "form-submit#enviar-formbuilder": {
+    "props": {
+      "label": "Enviar"
     }
   }
 }

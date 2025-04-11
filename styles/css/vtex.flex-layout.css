@@ -485,9 +485,9 @@ margin-top: 4rem;
   outline: 0;
 }
 
-.flexColChild--assembly-options {
-  /* max-width: 80%; */
-}
+/*.flexColChild--assembly-options {
+ max-width: 80%; 
+}*/
 
 .flexColChild--assembly-options :first-child {
   font-size: 14px;
@@ -1318,4 +1318,16 @@ margin-top: 4rem;
 
 .flexRow--container-formbuilder5{
   margin-bottom: 5rem;
+}
+
+.flexRow--libro-reclamaciones-button-container{
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.flexCol--minicart-footer{
+  height:50% !important ;
 }
