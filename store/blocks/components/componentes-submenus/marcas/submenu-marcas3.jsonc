@@ -1,0 +1,84 @@
+{
+
+    "flex-layout.row#menu-contenedor-marcas3":{
+      "children":["menu-item#contenedor-marcas3"],
+      "props":{
+        "blockClass":"contenedor_general"
+      }
+    },
+  
+    "menu-item#contenedor-marcas3":{
+      "children":[
+        "menu-item#submenu-marcas-A3",
+        "menu-item#submenu-marcas-B3",
+        "menu-item#submenu-marcas-C3",
+        "menu-item#submenu-marcas-D3",
+        "menu-item#submenu-marcas-E3"],
+      "props":{
+        "blockClass":"contenedor_submenu1"
+      }
+    },
+    "menu-item#submenu-marcas-A3": {
+  
+      "props": {
+        "blockClass":"bandimex-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "BANDIMEX",
+          "text": "BANDIMEX"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-B3": {
+  
+      "props": {
+        "blockClass":"doepke-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "DOEPKE",
+          "text": "DOEPKE"
+        }
+      }
+    },
+  
+    "menu-item#submenu-marcas-C3": {
+  
+      "props": {
+        "blockClass":"starker-c-t-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "STARKER C&T",
+          "text": "STARKER C&T"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-D3": {
+  
+      "props": {
+        "blockClass":"cnhowder-t-c-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "CNHOWDER T&C",
+          "text": "CNHOWDER T&C"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-E3": {
+  
+      "props": {
+        "blockClass":"tlk-tools-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "TLK TOOLS",
+          "text": "TLK TOOLS"
+        }
+      }
+    }
+  
+  
+  
+  
+  
+  
+    }
+  

@@ -1,0 +1,96 @@
+{
+
+    "flex-layout.row#menu-contenedor-marcas2":{
+      "children":["menu-item#contenedor-marcas2"],
+      "props":{
+        "blockClass":"contenedor_general"
+      }
+    },
+  
+    "menu-item#contenedor-marcas2":{
+      "children":[
+        "menu-item#submenu-marcas-A2",
+        "menu-item#submenu-marcas-B2",
+        "menu-item#submenu-marcas-C2",
+        "menu-item#submenu-marcas-D2",
+        "menu-item#submenu-marcas-E2",
+        "menu-item#submenu-marcas-F2"],
+      "props":{
+        "blockClass":"contenedor_submenu1"
+      }
+    },
+    "menu-item#submenu-marcas-A2": {
+  
+      "props": {
+        "blockClass":"bals-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "BALS",
+          "text": "BALS"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-B2": {
+  
+      "props": {
+        "blockClass":"condu-it-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "CONDU-IT",
+          "text": "CONDU-IT"
+        }
+      }
+    },
+  
+    "menu-item#submenu-marcas-C2": {
+  
+      "props": {
+        "blockClass":"agra-tools-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "AGRA TOOLS",
+          "text": "AGRA TOOLS"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-D2": {
+  
+      "props": {
+        "blockClass":"woer-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "WOER",
+          "text": "WOER"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-E2": {
+  
+      "props": {
+        "blockClass":"starker-t-c-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "STARKER T&C",
+          "text": "STARKER T&C"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-F2": {
+  
+      "props": {
+        "blockClass":"starker-p-s-class",
+        "itemProps": {
+          "href": "#",
+          "tagTitle": "STARKER P&S",
+          "text": "STARKER P&S"
+        }
+      }
+    }
+  
+  
+  
+  
+  
+  
+    }
+  

@@ -8,79 +8,89 @@
   },
 
   "menu-item#contenedor-productos1":{
-    "children":["menu-item#submenuA","menu-item#submenuB", "menu-item#submenuC", "menu-item#submenuD", "menu-item#submenuE"],
+    "children":[
+      "menu-item#submenuA1",
+      "menu-item#submenuB1",
+      "menu-item#submenuC1",
+      "menu-item#submenuD1",
+      "menu-item#submenuE1"],
     "props":{
       "blockClass":"contenedor_submenu1"
     }
   },
 
-"menu-item#submenuA": {
+"menu-item#submenuA1": {
   "props": {
+    "blockClass":"identificacion-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Producto A"
+      "tagTitle": "IDENTIFICACIÓN",
+      "text": "IDENTIFICACIÓN"
     }
   }
 },
 
-"menu-item#submenuB":{
+"menu-item#submenuB1":{
   "props": {
+    "blockClass":"aislamiento-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Producto B"
+      "tagTitle": "AISLAMIENTO ELÉCTRICO",
+      "text": "AISLAMIENTO ELÉCTRICO"
     }
   }
 },
 
 
-"menu-item#submenuC":{
+"menu-item#submenuC1":{
   "props": {
+    "blockClass":"materiales-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Producto C"
+      "tagTitle": "MATERIALES ELÉCTRICOS",
+      "text": "MATERIALES ELÉCTRICOS"
     }
   }
 },
 
-"menu-item#submenuD":{
+"menu-item#submenuD1":{
   "props": {
+    "blockClass":"sujecion-fijacion-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Producto D"
+      "tagTitle": "SUJECIÓN Y FIJACIÓN",
+      "text": "SUJECIÓN Y FIJACIÓN"
     }
   }
 },
 
-"menu-item#submenuE":{
+"menu-item#submenuE1":{
   "props": {
+    "blockClass":"herramientas-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
       "type": "internal",
       "href": "#",
       "noFollow": false,
-      "tagTitle": "Shop",
-      "text": "Producto E"
+      "tagTitle": "HERRAMIENTAS",
+      "text": "HERRAMIENTAS"
     }
   }
 }

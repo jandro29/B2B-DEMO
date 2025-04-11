@@ -1,0 +1,92 @@
+{
+
+  "flex-layout.row#menu-contenedor-marcas1":{
+    "children":["menu-item#contenedor-marcas1"],
+    "props":{
+      "blockClass":"contenedor_general1"
+    }
+  },
+
+  "menu-item#contenedor-marcas1":{
+    "children":[
+      "menu-item#submenu-marcas-A1",
+      "menu-item#submenu-marcas-B1",
+      "menu-item#submenu-marcas-C1",
+      "menu-item#submenu-marcas-D1",
+      "menu-item#submenu-marcas-E1",
+      "menu-item#submenu-marcas-F1"],
+    "props":{
+      "blockClass":"contenedor_submenu1"
+    }
+  },
+
+  "menu-item#submenu-marcas-A1": {
+
+    "props": {
+      "blockClass":"brand-class",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "BAND-IT",
+        "text": "BAND-IT"
+      }
+    }
+  },
+  "menu-item#submenu-marcas-B1": {
+
+    "props": {
+      "blockClass":"hont-class",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "HONT",
+        "text": "HONT"
+      }
+    }
+  },
+
+  "menu-item#submenu-marcas-C1": {
+
+    "props": {
+      "blockClass":"strike-class",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "STRIKE",
+        "text": "STRIKE"
+      }
+    }
+  },
+  "menu-item#submenu-marcas-D1": {
+
+    "props": {
+      "blockClass":"transpak-class",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "TRANSPAK",
+        "text": "TRANSPAK"
+      }
+    }
+  },
+  "menu-item#submenu-marcas-E1": {
+
+    "props": {
+      "blockClass":"ybico-class",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "YBICO",
+        "text": "YBICO"
+      }
+    }
+  },
+
+  "menu-item#submenu-marcas-F1": {
+
+    "props": {
+      "blockClass":"fulton-class",
+      "itemProps": {
+        "href": "#",
+        "tagTitle": "FULTON",
+        "text": "FULTON"
+      }
+    }
+  }
+
+  }

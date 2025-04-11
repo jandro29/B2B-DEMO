@@ -37,6 +37,7 @@
 
 "menu-item#productos": {
   "props": {
+    "blockClass":"productos-menu-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
@@ -58,9 +59,7 @@
   "children": [
 
     "flex-layout.row#menu-contenedor-productos1",
-    "flex-layout.row#menu-contenedor-productos2",
-    "flex-layout.row#menu-contenedor-productos3",
-    "flex-layout.row#menu-contenedor-productos4"
+    "flex-layout.row#menu-contenedor-productos2"
   ]
 },
 
@@ -79,6 +78,7 @@
 
 "menu-item#industrias": {
   "props": {
+    "blockClass":"industrias-menu-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
@@ -99,9 +99,7 @@
 "vtex.menu@2.x:menu#submenuindustrias": {
   "children": [
 
-    "flex-layout.row#menu-contenedor-industrias1",
-    "flex-layout.row#menu-contenedor-industrias2",
-    "flex-layout.row#menu-contenedor-industrias3"
+    "flex-layout.row#menu-contenedor-industrias1"
   ]
 },
 
@@ -115,6 +113,7 @@
 
 "menu-item#marcas": {
   "props": {
+    "blockClass":"marcas-menu-class",
     "type": "custom",
     "highlight": false,
     "itemProps": {
@@ -134,7 +133,9 @@
 },
 "vtex.menu@2.x:menu#submenumarcas": {
   "children": [
-    "flex-layout.row#menu-contenedor-marcas1"
+    "flex-layout.row#menu-contenedor-marcas1",
+    "flex-layout.row#menu-contenedor-marcas2",
+    "flex-layout.row#menu-contenedor-marcas3"
   ]
 }
 

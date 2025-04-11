@@ -7,79 +7,105 @@
   },
 
   "menu-item#contenedor-industrias1":{
-    "children":["menu-item#submenuA","menu-item#submenuB", "menu-item#submenuC", "menu-item#submenuD", "menu-item#submenuE"],
+    "children":[
+      "menu-item#submenu-industriasA",
+      "menu-item#submenu-industriasB",
+      "menu-item#submenu-industriasC",
+      "menu-item#submenu-industriasD",
+      "menu-item#submenu-industriasE",
+      "menu-item#submenu-industriasF"],
     "props":{
       "blockClass":"contenedor_submenu1"
     }
   },
 
-  "menu-item#submenuA": {
+  "menu-item#submenu-industriasA": {
     "props": {
+      "blockClass":"industria-electrica-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto A"
+        "tagTitle": "INDUSTRIA ELÉCTRICA",
+        "text": "INDUSTRIA ELÉCTRICA"
       }
     }
   },
 
-  "menu-item#submenuB":{
+  "menu-item#submenu-industriasB":{
     "props": {
+      "blockClass":"industria-metal-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto B"
+        "tagTitle": "INDUSTRIA METAL MECÁNICA",
+        "text": "INDUSTRIA METAL MECÁNICA"
       }
     }
   },
 
 
-  "menu-item#submenuC":{
+  "menu-item#submenu-industriasC":{
     "props": {
+      "blockClass":"telecomunicaciones-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto C"
+        "tagTitle": "TELECOMUNICACIONES",
+        "text": "TELECOMUNICACIONES"
       }
     }
   },
 
-  "menu-item#submenuD":{
+  "menu-item#submenu-industriasD":{
     "props": {
+      "blockClass":"embalaje-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto D"
+        "tagTitle": "EMBALAJE",
+        "text": "EMBALAJE"
       }
     }
   },
 
-  "menu-item#submenuE":{
+  "menu-item#submenu-industriasE":{
     "props": {
+      "blockClass":"mineria-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto E"
+        "tagTitle": "MINERÍA",
+        "text": "MINERÍA"
+      }
+    }
+  },
+
+  "menu-item#submenu-industriasF":{
+    "props": {
+      "blockClass":"industria-hidraulica-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "INDUSTRIA HIDRAÚLICA",
+        "text": "INDUSTRIA HIDRAÚLICA"
       }
     }
   }

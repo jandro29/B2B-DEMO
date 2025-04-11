@@ -30,6 +30,20 @@
   color: #717786;
 }
 
+.styledLinkContent--industrias-menu-class:hover
+{
+  font-weight: 900;
+  color: #000000;
+}
+
+.menuItem--productos-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--productos-menu-class),
+.menuItem--industrias-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--industrias-menu-class),
+.menuItem--marcas-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--marcas-menu-class)
+{
+  font-weight: 700;
+  color: #000000;
+}
+
 .menuContainerNav--menuDrawer {
   padding-bottom: 32px;
   margin-bottom: 32px;
@@ -105,3 +119,187 @@
 }
 
 */
+
+
+.submenuWrapper{
+  border-color: white !important;
+}
+
+
+.styledLinkContent--identificacion-class{
+  width: 113px !important;
+  height: 20px;
+}
+
+
+.styledLinkContent--aislamiento-class{
+  height: 20px;
+}
+
+.styledLinkContent--materiales-class{
+  height: 20px;
+}
+
+
+.styledLinkContent--sujecion-fijacion-class{
+  width: 150px !important;
+  height: 20px;
+}
+
+.styledLinkContent--herramientas-class{
+  width: 108px !important;
+  height: 20px;
+}
+
+.styledLinkContent--enchufes-toma-class{
+  width: 220px !important;
+  height: 20px;
+}
+
+.styledLinkContent--iluminacion-class{
+  width: 92px !important;
+  height: 20px;
+}
+
+
+.styledLinkContent--llave-termomagneticas-class{
+  height: 20px;
+}
+
+.styledLinkContent--tableros-cajas-class{
+  width: 132px !important;
+  height: 20px;
+}
+
+
+/*
+
+
+
+*/
+
+.styledLinkContent--industria-electrica-class{
+  width: 155px !important;
+  height: 20px;
+}
+
+.styledLinkContent--industria-metal-class{
+  width: 202px !important;
+  height: 20px;
+}
+
+.styledLinkContent--telecomunicaciones-class{
+  width: 163px !important;
+  height: 20px;
+}
+
+.styledLinkContent--embalaje-class{
+  width: 75px !important;
+  height: 20px;
+}
+
+.styledLinkContent--mineria-class{
+  width: 60px !important;
+  height: 20px;
+}
+
+.styledLinkContent--industria-hidraulica-class{
+  width: 165px !important;
+  height: 20px;
+}
+
+
+/*
+
+
+
+*/
+
+.styledLinkContent--brand-class{
+  width: 60px !important;
+  height: 20px;
+}
+
+
+.styledLinkContent--hont-class{
+  width: 40px !important;
+  height: 20px;
+}
+
+.styledLinkContent--strike-class{
+  width: 50px !important;
+  height: 20px;
+}
+
+.styledLinkContent--transpak-class{
+  height: 20px;
+}
+
+
+
+.styledLinkContent--ybico-class{
+  width: 41px !important;
+  height: 20px;
+}
+
+.styledLinkContent--fulton-class{
+  width: 55px !important;
+  height: 20px;
+}
+
+.styledLinkContent--bals-class{
+  width: 36px !important;
+  height: 20px;
+}
+
+.styledLinkContent--condu-it-class{
+  width: 70px !important;
+  height: 20px;
+}
+
+
+.styledLinkContent--agra-tools-class{
+  width: 89px !important;
+  height: 20px;
+}
+
+.styledLinkContent--woer-class{
+  width: 43px !important;
+  height: 20px;
+}
+
+.styledLinkContent--starker-t-c-class{
+  height: 20px;
+}
+
+.styledLinkContent--starker-p-s-class{
+  height: 20px;
+}
+
+.styledLinkContent--bandimex-class{
+  width: 74px !important;
+  height: 20px;
+}
+
+.styledLinkContent--doepke-class{
+  width: 58px !important;
+  height: 20px;
+}
+
+.styledLinkContent--starker-c-t-class{
+  width: 92px !important;
+  height: 20px;
+}
+
+
+.styledLinkContent--cnhowder-t-c-class{
+  height: 20px;
+}
+
+.styledLinkContent--tlk-tools-class{
+  width: 78px !important;
+  height: 20px;
+  
+}
+
+

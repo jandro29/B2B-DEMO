@@ -8,80 +8,74 @@
   },
 
   "menu-item#contenedor-productos2":{
-    "children":["menu-item#submenuA","menu-item#submenuB", "menu-item#submenuC", "menu-item#submenuD", "menu-item#submenuE"],
+    "children":[
+      "menu-item#submenuA2",
+      "menu-item#submenuB2",
+      "menu-item#submenuC2",
+      "menu-item#submenuD2"],
     "props":{
       "blockClass":"contenedor_submenu1"
     }
   },
 
 
-  "menu-item#submenuA": {
+  "menu-item#submenuA2": {
     "props": {
+      "blockClass":"enchufes-toma-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto A"
+        "tagTitle": "ENCHUFES Y TOMACORRIENTES",
+        "text": "ENCHUFES Y TOMACORRIENTES"
       }
     }
   },
 
-  "menu-item#submenuB":{
+  "menu-item#submenuB2":{
     "props": {
+      "blockClass":"iluminacion-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto B"
+        "tagTitle": "ILUMINACIÓN",
+        "text": "ILUMINACIÓN"
       }
     }
   },
 
 
-  "menu-item#submenuC":{
+  "menu-item#submenuC2":{
     "props": {
+      "blockClass":"llave-termomagneticas-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto C"
+        "tagTitle": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES",
+        "text": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES"
       }
     }
   },
 
-  "menu-item#submenuD":{
+  "menu-item#submenuD2":{
     "props": {
+      "blockClass":"tableros-cajas-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto D"
-      }
-    }
-  },
-
-  "menu-item#submenuE":{
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Producto E"
+        "tagTitle": "TABLEROS Y CAJAS",
+        "text": "TABLEROS Y CAJAS"
       }
     }
   }
