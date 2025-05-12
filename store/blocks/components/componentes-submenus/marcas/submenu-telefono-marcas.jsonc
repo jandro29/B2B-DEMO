@@ -1,0 +1,204 @@
+{
+    "flex-layout.row#menu-contenedor-marcas-mobil": {
+        "children": [
+            "menu-item#contenedor-marcas-mobil"
+        ],
+        "props": {
+            "blockClass": "contenedor_general"
+        }
+    },
+    "menu-item#contenedor-marcas-mobil": {
+        "children": [
+            "menu-item#submenu-marcas-A",
+            "menu-item#submenu-marcas-B",
+            "menu-item#submenu-marcas-C",
+            "menu-item#submenu-marcas-D",
+            "menu-item#submenu-marcas-E",
+            "menu-item#submenu-marcas-F",
+            "menu-item#submenu-marcas-G",
+            "menu-item#submenu-marcas-H",
+            "menu-item#submenu-marcas-I",
+            "menu-item#submenu-marcas-J",
+            "menu-item#submenu-marcas-K",
+            "menu-item#submenu-marcas-L",
+            "menu-item#submenu-marcas-M",
+            "menu-item#submenu-marcas-N",
+            "menu-item#submenu-marcas-O",
+            "menu-item#submenu-marcas-P",
+            "menu-item#submenu-marcas-Q"
+        ],
+        "props": {
+            "blockClass": "contenedor_submenu1"
+        }
+    },
+    "menu-item#submenu-marcas-A": {
+        "props": {
+            "blockClass": "brand-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "BAND-IT",
+                "text": "BAND-IT"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-B": {
+        "props": {
+            "blockClass": "hont-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "HONT",
+                "text": "HONT"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-C": {
+        "props": {
+            "blockClass": "strike-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "STRIKE",
+                "text": "STRIKE"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-D": {
+        "props": {
+            "blockClass": "transpak-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "TRANSPAK",
+                "text": "TRANSPAK"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-E": {
+        "props": {
+            "blockClass": "ybico-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "YBICO",
+                "text": "YBICO"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-F": {
+        "props": {
+            "blockClass": "fulton-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "FULTON",
+                "text": "FULTON"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-G": {
+        "props": {
+            "blockClass": "bals-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "BALS",
+                "text": "BALS"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-H": {
+        "props": {
+            "blockClass": "condu-it-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "CONDU-IT",
+                "text": "CONDU-IT"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-I": {
+        "props": {
+            "blockClass": "agra-tools-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "AGRA TOOLS",
+                "text": "AGRA TOOLS"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-J": {
+        "props": {
+            "blockClass": "woer-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "WOER",
+                "text": "WOER"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-K": {
+        "props": {
+            "blockClass": "starker-t-c-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "STARKER T&C",
+                "text": "STARKER T&C"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-L": {
+        "props": {
+            "blockClass": "starker-p-s-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "STARKER P&S",
+                "text": "STARKER P&S"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-M": {
+        "props": {
+            "blockClass": "bandimex-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "BANDIMEX",
+                "text": "BANDIMEX"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-N": {
+        "props": {
+            "blockClass": "doepke-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "DOEPKE",
+                "text": "DOEPKE"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-O": {
+        "props": {
+            "blockClass": "starker-c-t-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "STARKER C&T",
+                "text": "STARKER C&T"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-P": {
+        "props": {
+            "blockClass": "cnhowder-t-c-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "CNHOWDER T&C",
+                "text": "CNHOWDER T&C"
+            }
+        }
+    },
+    "menu-item#submenu-marcas-Q": {
+        "props": {
+            "blockClass": "tlk-tools-class",
+            "itemProps": {
+                "href": "#",
+                "tagTitle": "TLK TOOLS",
+                "text": "TLK TOOLS"
+            }
+        }
+    }
+}

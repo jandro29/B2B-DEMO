@@ -30,16 +30,14 @@
   color: #717786;
 }
 
-.styledLinkContent--industrias-menu-class:hover
-{
+.styledLinkContent--industrias-menu-class:hover {
   font-weight: 900;
   color: #000000;
 }
 
 .menuItem--productos-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--productos-menu-class),
 .menuItem--industrias-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--industrias-menu-class),
-.menuItem--marcas-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--marcas-menu-class)
-{
+.menuItem--marcas-menu-class--isOpen :global(.vtex-menu-2-x-styledLinkContent--marcas-menu-class) {
   font-weight: 700;
   color: #000000;
 }
@@ -85,7 +83,7 @@
   }
 }
 
-.menuItem--primer-header{
+.menuItem--primer-header {
   display: flex;
   align-items: center;
   color: black;
@@ -94,12 +92,12 @@
 
 /*submenu*/
 
-.menuItem--contenedor_submenu1 .menuItem{
+.menuItem--contenedor_submenu1 .menuItem {
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
 
-.menuItem--contenedor_submenu1 .styledLinkContent:hover{
+.menuItem--contenedor_submenu1 .styledLinkContent:hover {
   transition: border-bottom 0.3s ease;
   border-bottom: 1px solid #000000;
 }
@@ -121,52 +119,52 @@
 */
 
 
-.submenuWrapper{
+.submenuWrapper {
   border-color: white !important;
 }
 
 
-.styledLinkContent--identificacion-class{
+.styledLinkContent--identificacion-class {
   width: 113px !important;
   height: 20px;
 }
 
 
-.styledLinkContent--aislamiento-class{
+.styledLinkContent--aislamiento-class {
   height: 20px;
 }
 
-.styledLinkContent--materiales-class{
+.styledLinkContent--materiales-class {
   height: 20px;
 }
 
 
-.styledLinkContent--sujecion-fijacion-class{
+.styledLinkContent--sujecion-fijacion-class {
   width: 150px !important;
   height: 20px;
 }
 
-.styledLinkContent--herramientas-class{
+.styledLinkContent--herramientas-class {
   width: 108px !important;
   height: 20px;
 }
 
-.styledLinkContent--enchufes-toma-class{
+.styledLinkContent--enchufes-toma-class {
   width: 220px !important;
   height: 20px;
 }
 
-.styledLinkContent--iluminacion-class{
+.styledLinkContent--iluminacion-class {
   width: 92px !important;
   height: 20px;
 }
 
 
-.styledLinkContent--llave-termomagneticas-class{
+.styledLinkContent--llave-termomagneticas-class {
   height: 20px;
 }
 
-.styledLinkContent--tableros-cajas-class{
+.styledLinkContent--tableros-cajas-class {
   width: 132px !important;
   height: 20px;
 }
@@ -178,32 +176,32 @@
 
 */
 
-.styledLinkContent--industria-electrica-class{
+.styledLinkContent--industria-electrica-class {
   width: 155px !important;
   height: 20px;
 }
 
-.styledLinkContent--industria-metal-class{
+.styledLinkContent--industria-metal-class {
   width: 202px !important;
   height: 20px;
 }
 
-.styledLinkContent--telecomunicaciones-class{
+.styledLinkContent--telecomunicaciones-class {
   width: 163px !important;
   height: 20px;
 }
 
-.styledLinkContent--embalaje-class{
+.styledLinkContent--embalaje-class {
   width: 75px !important;
   height: 20px;
 }
 
-.styledLinkContent--mineria-class{
+.styledLinkContent--mineria-class {
   width: 60px !important;
   height: 20px;
 }
 
-.styledLinkContent--industria-hidraulica-class{
+.styledLinkContent--industria-hidraulica-class {
   width: 165px !important;
   height: 20px;
 }
@@ -215,91 +213,144 @@
 
 */
 
-.styledLinkContent--brand-class{
+.styledLinkContent--brand-class {
   width: 60px !important;
   height: 20px;
 }
 
 
-.styledLinkContent--hont-class{
+.styledLinkContent--hont-class {
   width: 40px !important;
   height: 20px;
 }
 
-.styledLinkContent--strike-class{
+.styledLinkContent--strike-class {
   width: 50px !important;
   height: 20px;
 }
 
-.styledLinkContent--transpak-class{
+.styledLinkContent--transpak-class {
   height: 20px;
 }
 
 
 
-.styledLinkContent--ybico-class{
+.styledLinkContent--ybico-class {
   width: 41px !important;
   height: 20px;
 }
 
-.styledLinkContent--fulton-class{
+.styledLinkContent--fulton-class {
   width: 55px !important;
   height: 20px;
 }
 
-.styledLinkContent--bals-class{
+.styledLinkContent--bals-class {
   width: 36px !important;
   height: 20px;
 }
 
-.styledLinkContent--condu-it-class{
+.styledLinkContent--condu-it-class {
   width: 70px !important;
   height: 20px;
 }
 
 
-.styledLinkContent--agra-tools-class{
+.styledLinkContent--agra-tools-class {
   width: 89px !important;
   height: 20px;
 }
 
-.styledLinkContent--woer-class{
+.styledLinkContent--woer-class {
   width: 43px !important;
   height: 20px;
 }
 
-.styledLinkContent--starker-t-c-class{
+.styledLinkContent--starker-t-c-class {
   height: 20px;
 }
 
-.styledLinkContent--starker-p-s-class{
+.styledLinkContent--starker-p-s-class {
   height: 20px;
 }
 
-.styledLinkContent--bandimex-class{
+.styledLinkContent--bandimex-class {
   width: 74px !important;
   height: 20px;
 }
 
-.styledLinkContent--doepke-class{
+.styledLinkContent--doepke-class {
   width: 58px !important;
   height: 20px;
 }
 
-.styledLinkContent--starker-c-t-class{
+.styledLinkContent--starker-c-t-class {
   width: 92px !important;
   height: 20px;
 }
 
 
-.styledLinkContent--cnhowder-t-c-class{
+.styledLinkContent--cnhowder-t-c-class {
   height: 20px;
 }
 
-.styledLinkContent--tlk-tools-class{
+.styledLinkContent--tlk-tools-class {
   width: 78px !important;
   height: 20px;
-  
+
 }
 
+@media (max-width: 64rem) {
 
+  .menuItem--contenedor_submenu1 .menuItem {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+
+  .styledLinkContent {
+    white-space: normal !important;
+    height: 65px;
+  }
+
+  .menuItem--contenedor_submenu1 .styledLinkContent:hover {
+    border-bottom: none;
+    margin-bottom: 1rem
+  }
+
+  .styledLink--identificacion-class {
+    display: flex;
+    align-items: center;
+  }
+
+  .styledLinkContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .menuItem--identificacion-class {
+    border-top: solid white;
+  }
+
+  .menuItem {
+
+    border-bottom: solid white;
+  }
+
+  .menuItem--contenedor_submenu1 .menuItem {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .styledLinkContainer--contenedor_submenu1 {
+    display: none;
+  }
+
+  .styledLinkContent{
+    width: 100% !important;
+  }
+
+  .content--opciones-menu--visible{
+    margin-bottom: 0px !important;
+  }
+}

@@ -1,0 +1,152 @@
+{
+    "flex-layout.row#menu-contenedor-productos-mobil": {
+        "children": [
+            "menu-item#contenedor-productos-mobil"
+        ],
+        "props": {
+            "blockClass": "contenedor_general"
+        }
+    },
+    "menu-item#contenedor-productos-mobil": {
+        "children": [
+            "menu-item#submenuA1",
+            "menu-item#submenuB1",
+            "menu-item#submenuC1",
+            "menu-item#submenuD1",
+            "menu-item#submenuE1",
+            "menu-item#submenuF1",
+            "menu-item#submenuG1",
+            "menu-item#submenuH1",
+            "menu-item#submenuI1"
+        ],
+        "props": {
+            "blockClass": "contenedor_submenu1"
+        }
+    },
+    "menu-item#submenuA1": {
+        "props": {
+            "blockClass": "identificacion-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "IDENTIFICACIÓN",
+                "text": "IDENTIFICACIÓN"
+            }
+        }
+    },
+    "menu-item#submenuB1": {
+        "props": {
+            "blockClass": "aislamiento-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "AISLAMIENTO ELÉCTRICO",
+                "text": "AISLAMIENTO ELÉCTRICO"
+            }
+        }
+    },
+    "menu-item#submenuC1": {
+        "props": {
+            "blockClass": "materiales-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "MATERIALES ELÉCTRICOS",
+                "text": "MATERIALES ELÉCTRICOS"
+            }
+        }
+    },
+    "menu-item#submenuD1": {
+        "props": {
+            "blockClass": "sujecion-fijacion-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "SUJECIÓN Y FIJACIÓN",
+                "text": "SUJECIÓN Y FIJACIÓN"
+            }
+        }
+    },
+    "menu-item#submenuE1": {
+        "props": {
+            "blockClass": "herramientas-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "HERRAMIENTAS",
+                "text": "HERRAMIENTAS"
+            }
+        }
+    },
+    "menu-item#submenuF1": {
+        "props": {
+            "blockClass": "enchufes-toma-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ENCHUFES Y TOMACORRIENTES",
+                "text": "ENCHUFES Y TOMACORRIENTES"
+            }
+        }
+    },
+    "menu-item#submenuG1": {
+        "props": {
+            "blockClass": "iluminacion-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ILUMINACIÓN",
+                "text": "ILUMINACIÓN"
+            }
+        }
+    },
+    "menu-item#submenuH1": {
+        "props": {
+            "blockClass": "llave-termomagneticas-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES",
+                "text": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES"
+            }
+        }
+    },
+    "menu-item#submenuI1": {
+        "props": {
+            "blockClass": "tableros-cajas-class",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "TABLEROS Y CAJAS",
+                "text": "TABLEROS Y CAJAS"
+            }
+        }
+    }
+}

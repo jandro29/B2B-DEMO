@@ -74,6 +74,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.modal": "0.x",
+    "vtex.address-form": "4.x",
     "vtex.store-form": "0.x",
     "vtex.sku-list": "1.x",
     "vtex.condition-layout": "2.x",

@@ -74,7 +74,9 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
   
   "menu#drawer": {

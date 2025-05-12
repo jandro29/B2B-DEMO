@@ -1,6 +1,8 @@
 {
   "drawer": {
-    "children": ["flex-layout.row#menu-header"],
+    "children": [
+      "flex-layout.row#menu-header"
+    ],
     "props": {
       "blockClass": "menuDrawer",
       "maxWidth": 384
@@ -10,8 +12,12 @@
     "props": {
       "blockClass": "menuHeader"
     },
-    "children": ["flex-layout.col#menu-header"]
+    "children": [
+      "flex-layout.col#menu-header"
+    ]
   },
+
+
   "flex-layout.col#menu-header": {
     "children": [
       //"vtex.menu@2.x:menu#websites"
@@ -24,53 +30,62 @@
       "blockClass": "drawerInnerCol"
     }
   },
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-                                    /*Menu desplegable*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-
-
-"disclosure-layout-group#group": {
-    "children": ["disclosure-layout#productos-menu", "disclosure-layout#industrias-menu","disclosure-layout#marcas-menu"]
-    
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*Menu desplegable*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#productos-menu",
+      "disclosure-layout#marcas-menu",
+      "disclosure-layout#industrias-menu"
+      
+    ]
   },
-
   "disclosure-layout#productos-menu": {
-    "children": ["disclosure-trigger#productos", "disclosure-content#productos"]
-    
+    "children": [
+      "disclosure-trigger#productos",
+      "disclosure-content#productos"
+    ]
   },
   "disclosure-trigger#productos": {
-    "children": ["disclosure-state-indicator","rich-text#titulo-productos"],
-    "props":{
+    "children": [
+      "rich-text#titulo-productos",
+      "disclosure-state-indicator"
+    ],
+    "props": {
       "blockClass": "titlo-menu"
     }
-    
+  },
+  "flex-layout.col#menu-movil": {
+    "children": [
+      "flex-layout.row#menu-contenedor-productos-mobil"
+    ]
   },
   "disclosure-content#productos": {
-    "children": ["rich-text#answer1"],
-    "props":{
+    "children": [
+      "flex-layout.col#menu-movil"
+    ],
+    "props": {
       "blockClass": "opciones-menu"
     }
   },
   "rich-text#titulo-productos": {
     "props": {
-      "text": "Productos"
+      "text": "PRODUCTOS"
     }
   },
-  "rich-text#answer1": {
+  /*"rich-text#answer1": {
     "props": {
-      "text": "Call us at (212) 123-1234.",
+      "text": "a",
       "blockClass": "opciones-submenu"
     }
-  },
-
-
-
+  },*/
   /*#############################################################################*/
   /*#############################################################################*/
   /*#############################################################################*/
@@ -79,61 +94,46 @@
   /*#############################################################################*/
   /*#############################################################################*/
   /*#############################################################################*/
-
-  "disclosure-layout#industrias-menu": {
-    "children": ["disclosure-trigger#industrias", "disclosure-content#industrias"]
-  },
-  "disclosure-trigger#industrias": {
-    "children": ["disclosure-state-indicator","rich-text#titulo-industrias"],
-    "props":{
-      "blockClass": "titlo-menu"
-    }
-  },
-  "disclosure-content#industrias": {
-    "children": ["rich-text#answer2"],
-    "props":{
-      "blockClass": "opciones-menu"
-    }
-  },
-  "rich-text#titulo-industrias": {
-    "props": {
-      "text": "Industrias"
-    }
-  },
-  "rich-text#answer2": {
-    "props": {
-      "text": "After logging in to your account, you can find this information in the Orders link.",
-      "blockClass": "opciones-submenu"
-    }
-  },
-
-    /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-
   "disclosure-layout#marcas-menu": {
-    "children": ["disclosure-trigger#marcas", "disclosure-content#marcas"]
+    "children": [
+      "disclosure-trigger#marcas",
+      "disclosure-content#marcas"
+    ]
   },
   "disclosure-trigger#marcas": {
-    "children": ["disclosure-state-indicator","rich-text#titulo-marcas"],
-    "props":{
+    "children": [
+      "rich-text#titulo-marcas",
+      "disclosure-state-indicator"
+    ],
+    "props": {
       "blockClass": "titlo-menu"
     }
   },
   "disclosure-content#marcas": {
-    "children": ["rich-text#answer3"],
-    "props":{
+    "children": [
+      "disclosure-content#marca"
+    ],
+    "props": {
+      "blockClass": "opciones-menu"
+    }
+  },
+
+   "flex-layout.col#menu-movil-marca": {
+    "children": [
+      "flex-layout.row#menu-contenedor-marcas-mobil"
+    ]
+  },
+  "disclosure-content#marca": {
+    "children": [
+      "flex-layout.col#menu-movil-marca"
+    ],
+    "props": {
       "blockClass": "opciones-menu"
     }
   },
   "rich-text#titulo-marcas": {
     "props": {
-      "text": "Marcas"
+      "text": "MARCAS"
     }
   },
   "rich-text#answer3": {
@@ -142,15 +142,69 @@
       "blockClass": "opciones-submenu"
     }
   },
+  
+  
+  
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  /*#############################################################################*/
+  "disclosure-layout#industrias-menu": {
+    "children": [
+      "disclosure-trigger#industrias",
+      "disclosure-content#industrias"
+    ]
+  },
+  "disclosure-trigger#industrias": {
+    "children": [
+      "rich-text#titulo-industrias",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "titlo-menu"
+    }
+  },
 
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
-/*#########################################################################################*/
+  "disclosure-content#industrias": {
+    "children": [
+      "flex-layout.col#menu-movil-industria"
+    ],
+    "props": {
+      "blockClass": "opciones-menu"
+    }
+  },
+   "flex-layout.col#menu-movil-industria": {
+    "children": [
+      "flex-layout.row#menu-contenedor-industrias-mobil"
+    ]
+  },
+  "disclosure-content#industria": {
+    "children": [
+      "flex-layout.col#menu-movil-industria"
+    ],
+    "props": {
+      "blockClass": "opciones-menu"
+    }
+  },
+  
+ 
+  "rich-text#titulo-industrias": {
+    "props": {
+      "text": "INDUSTRIAS"
+    }
+  },
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
+  /*#########################################################################################*/
   // Deprecated
   // "locale-switcher#drawer": {
   //   "props": {
@@ -158,69 +212,72 @@
   //   }
   // },
   "link#reseller": {
-    "children":["image#pedido-rapido", "rich-text#pedido-rapido"],
+    "children": [
+      "image#pedido-rapido",
+      "rich-text#pedido-rapido"
+    ],
     "props": {
       //"label": "Organization Signup",
       "href": "/quickorder",
       "blockClass": "resellerLink"
     }
   },
-
-  "rich-text#pedido-rapido":{
-    "props":{
+  "rich-text#pedido-rapido": {
+    "props": {
       "text": "Pedido Rápido",
       "blockClass": "pedido-rapido-text"
     }
   },
-
-  "image#pedido-rapido":{
-    "props":{
-      "src":"assets/icons/pedido-rapidolink.svg",
-       "href": "/quickorder",
+  "image#pedido-rapido": {
+    "props": {
+      "src": "assets/icons/pedido-rapidolink.svg",
+      "href": "/quickorder",
       "link": "/quickorder",
-      "blockClass":"pedido-rapido"
+      "blockClass": "pedido-rapido"
     }
   },
-
-
   /*Boton de Pedido Rapido para responsive*/
-
   "link#reseller-mobil": {
-    "children":["image#pedido-rapido-mobil", "rich-text#pedido-rapido-mobil"],
+    "children": [
+      "image#pedido-rapido-mobil",
+      "rich-text#pedido-rapido-mobil"
+    ],
     "props": {
       //"label": "Organization Signup",
       "href": "/quickorder",
       "blockClass": "link-quick-ordermb"
     }
   },
-
-  "rich-text#pedido-rapido-mobil":{
-    "props":{
+  "rich-text#pedido-rapido-mobil": {
+    "props": {
       "text": "Pedido Rápido",
       "blockClass": "quick-order-text"
     }
   },
-
-  "image#pedido-rapido-mobil":{
-    "props":{
-      "src":"assets/icons/pedido-rapidolink.svg",
-       "href": "/quickorder",
+  "image#pedido-rapido-mobil": {
+    "props": {
+      "src": "assets/icons/pedido-rapidolink.svg",
+      "href": "/quickorder",
       "link": "/quickorder",
-      "blockClass":"quick-order-image"
+      "blockClass": "quick-order-image"
     }
   },
-
   /**/
-
-
   "flex-layout.row#quickOrder": {
-    "children": ["link#quickOrder"]
+    "children": [
+      "link#quickOrder"
+    ]
   },
   "flex-layout.row#OrderQuote": {
-    "children": ["link#menu-order-quote"]
+    "children": [
+      "link#menu-order-quote"
+    ]
   },
   "link#quickOrder": {
-    "children": ["rich-text#quickTitle", "rich-text#quickText"],
+    "children": [
+      "rich-text#quickTitle",
+      "rich-text#quickText"
+    ],
     "props": {
       "blockClass": "quickLink",
       "href": "/quickorder"

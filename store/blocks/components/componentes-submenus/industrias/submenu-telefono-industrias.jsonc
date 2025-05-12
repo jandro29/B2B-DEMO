@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#menu-contenedor-industrias-mobil":{
+    "children":["menu-item#contenedor-industrias-mobil"],
+    "props":{
+      "blockClass":"contenedor_general"
+    }
+  },
+
+  "menu-item#contenedor-industrias-mobil":{
+    "children":[
+      "menu-item#submenu-industriasA",
+      "menu-item#submenu-industriasB",
+      "menu-item#submenu-industriasC",
+      "menu-item#submenu-industriasD",
+      "menu-item#submenu-industriasE",
+      "menu-item#submenu-industriasF"],
+    "props":{
+      "blockClass":"contenedor_submenu1"
+    }
+  },
+
+  "menu-item#submenu-industriasA": {
+    "props": {
+      "blockClass":"industria-electrica-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "INDUSTRIA ELÉCTRICA",
+        "text": "INDUSTRIA ELÉCTRICA"
+      }
+    }
+  },
+
+  "menu-item#submenu-industriasB":{
+    "props": {
+      "blockClass":"industria-metal-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "INDUSTRIA METAL MECÁNICA",
+        "text": "INDUSTRIA METAL MECÁNICA"
+      }
+    }
+  },
+
+
+  "menu-item#submenu-industriasC":{
+    "props": {
+      "blockClass":"telecomunicaciones-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TELECOMUNICACIONES",
+        "text": "TELECOMUNICACIONES"
+      }
+    }
+  },
+
+  "menu-item#submenu-industriasD":{
+    "props": {
+      "blockClass":"embalaje-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "EMBALAJE",
+        "text": "EMBALAJE"
+      }
+    }
+  },
+
+  "menu-item#submenu-industriasE":{
+    "props": {
+      "blockClass":"mineria-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MINERÍA",
+        "text": "MINERÍA"
+      }
+    }
+  },
+
+  "menu-item#submenu-industriasF":{
+    "props": {
+      "blockClass":"industria-hidraulica-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "INDUSTRIA HIDRAÚLICA",
+        "text": "INDUSTRIA HIDRAÚLICA"
+      }
+    }
+  }
+
+  }

@@ -44,4 +44,24 @@
     border: 0;
     width: 20px;
   }
+
+  .opened--menuDrawer {
+    width: 100% !important;
+  }
+
+  .closeIconContainer--menuDrawer {
+    height: 50px;
+    background: #1E1E1E;
+    
+  }
+
+  .closeIcon--menuDrawer {
+    color: white;
+    
+    
+  }
+
+  .closeIconButton--menuDrawer {
+    margin-left: 0px;
+  }
 }

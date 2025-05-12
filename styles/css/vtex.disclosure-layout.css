@@ -69,6 +69,25 @@
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 2rem;
   }
+
+  .trigger--titlo-menu--visible{
+    background: #FABD01;
+     
+  }
+
+.trigger--titlo-menu--visible :global(.vtex-rich-text-0-x-container){
+  font-weight: 800;
 }
+
+.trigger--titlo-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content--opciones-menu--visible{
+    margin-bottom: 0px !important;
+  }
+
+   }
 
 

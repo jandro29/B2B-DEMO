@@ -9,3 +9,11 @@
 .caretIcon--lines-darker{
   margin-right: 2rem
 }
+
+@media (max-width: 64rem) {
+  .caretIcon--lines-darker{
+  display: flex;
+  margin-right: 0px;
+}
+
+  }
