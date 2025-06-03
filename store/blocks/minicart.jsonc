@@ -21,6 +21,8 @@
     "children": [
       "minicart-product-list",
       "flex-layout.row#minicart-footer"
+      /*boton de pago*/
+
     ]
   },
   "minicart-product-list": {
