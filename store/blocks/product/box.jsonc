@@ -1,3 +1,69 @@
+/*{
+  "sticky-layout#box": {
+    //"children": ["flex-layout.row#box"],
+    "props": {
+      "blockClass": ["box"],
+      "position": "top",
+      "verticalSpacing": 186
+    }
+  },
+
+  "flex-layout.row#box": {
+    //"children": ["flex-layout.col#box"],
+    "props": {
+      "blockClass": ["box"],
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#box": {
+    "children": [
+      "flex-layout.row#fake-summary",
+      "flex-layout.row#seller-name",
+      "check-permission#product-price"
+      //"allowed-content#product-price"
+    ],
+    "props": {
+      "blockClass": ["box"],
+      "preventVerticalStretch": true
+    }
+  },
+  "check-permission#product-price": {
+    "props": {
+      "roles": ["store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"]
+    },
+    "blocks": [
+      "allowed-content#product-price",
+      "disallowed-content#product-price"
+    ]
+  },
+  "allowed-content#product-price": {
+    "children": [
+      "flex-layout.row#product-price",
+      "flex-layout.row#location-availability",
+      "flex-layout.row#product-availability-and-quantity",
+      "flex-layout.row#buy-buttons"
+    ]
+  },
+  "disallowed-content#product-price": {
+    "children": ["rich-text#product-price"]
+  },
+  "rich-text#product-price": {
+    "props": {
+      "blockClass": ["product-price-message"],
+      "text": "Registrate para mas informacion"
+    }
+  }
+}
+*/
+
 {
   "sticky-layout#box": {
     "children": ["flex-layout.row#box"],
@@ -21,8 +87,7 @@
     "children": [
       "flex-layout.row#fake-summary",
       "flex-layout.row#seller-name",
-      // "check-permission#product-price"
-      "allowed-content#product-price"
+      "check-permission#product-price"
     ],
     "props": {
       "blockClass": ["box"],
@@ -31,28 +96,48 @@
   },
   "check-permission#product-price": {
     "props": {
-      "roles": []
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
     },
     "blocks": [
       "allowed-content#product-price",
       "disallowed-content#product-price"
     ]
   },
+
+  /*mostrar contenido en el carrousel de productos de la pagina principal*/
   "allowed-content#product-price": {
     "children": [
       "flex-layout.row#product-price",
-      "flex-layout.row#location-availability",
-      "flex-layout.row#product-availability-and-quantity",
+      //"flex-layout.row#location-availability",
+     //"flex-layout.row#product-availability-and-quantity",
       "flex-layout.row#buy-buttons"
     ]
   },
   "disallowed-content#product-price": {
     "children": ["rich-text#product-price"]
   },
+
+/*AGREGADO RECIENTEMENTE PARA QUE CUANDO DE CLICK EN TEXTO ENVIE AL LOGIN*/
+
+/*"link#login-sin-registrar": {
+    "children": ["rich-text#product-price"],
+    "props": {
+      "href": "/login",
+      "blockClass": "boton-carrouser"
+    }
+  },*/
   "rich-text#product-price": {
     "props": {
       "blockClass": ["product-price-message"],
-      "text": "Log in or sign up to view prices"
+      "text": "Incia sesion si quieres ver los precios"
     }
   }
 }

@@ -1319,3 +1319,7 @@ margin-top: 4rem;
 .flexRow--container-formbuilder5{
   margin-bottom: 5rem;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--priceSavings) {
+  display: none !important;
+}

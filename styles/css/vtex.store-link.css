@@ -304,3 +304,8 @@
  .link--link-colaboradores{
   width: 30px;
  }
+
+
+ .boton-carrouser{
+  z-index: 99999999999;
+ }

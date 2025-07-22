@@ -30,7 +30,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/identificacion",
                 "noFollow": false,
                 "tagTitle": "IDENTIFICACIÓN",
                 "text": "IDENTIFICACIÓN"
@@ -44,7 +44,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/materiales-electricos/terminales-electricos/aislados",
                 "noFollow": false,
                 "tagTitle": "AISLAMIENTO ELÉCTRICO",
                 "text": "AISLAMIENTO ELÉCTRICO"
@@ -58,7 +58,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/materiales-electricos",
                 "noFollow": false,
                 "tagTitle": "MATERIALES ELÉCTRICOS",
                 "text": "MATERIALES ELÉCTRICOS"
@@ -72,7 +72,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/sujecion-y-fijacion",
                 "noFollow": false,
                 "tagTitle": "SUJECIÓN Y FIJACIÓN",
                 "text": "SUJECIÓN Y FIJACIÓN"
@@ -86,7 +86,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/herramientas",
                 "noFollow": false,
                 "tagTitle": "HERRAMIENTAS",
                 "text": "HERRAMIENTAS"
@@ -100,7 +100,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/enchufes-y-tomacorrientes",
                 "noFollow": false,
                 "tagTitle": "ENCHUFES Y TOMACORRIENTES",
                 "text": "ENCHUFES Y TOMACORRIENTES"
@@ -114,7 +114,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/iluminacion",
                 "noFollow": false,
                 "tagTitle": "ILUMINACIÓN",
                 "text": "ILUMINACIÓN"
@@ -128,7 +128,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/enchufes-y-tomacorrientes/industriales/tomacorrientes-visibles",
                 "noFollow": false,
                 "tagTitle": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES",
                 "text": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES"
@@ -142,7 +142,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/tableros-y-cajas",
                 "noFollow": false,
                 "tagTitle": "TABLEROS Y CAJAS",
                 "text": "TABLEROS Y CAJAS"

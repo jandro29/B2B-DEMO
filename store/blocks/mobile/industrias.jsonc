@@ -56,7 +56,7 @@
   },
   "rich-text#prod": {
     "props": {
-      "text": "### Productos de Minería",
+      "text": "### Categorías Clave",
       "blockClass": "prod"
     }
   },

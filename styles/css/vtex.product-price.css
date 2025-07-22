@@ -88,3 +88,7 @@
   color: var(--black-dark);
   font-weight: 500;
 }
+
+:global(.vtex-product-price-1-x-listPrice--desktop){
+  display: none !important;
+}

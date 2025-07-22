@@ -7,17 +7,49 @@
   },
 
   "flex-layout.col#buy-buttons": {
-    "children": ["flex-layout.row#add-to-cart"],
+    "children": ["check-permission#buy-button"],
     "props": {
       "blockClass": "buy-buttons",
       "rowGap": 3
     }
   },
 
+  "check-permission#buy-button": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "allowed-content#buy-button",
+      "disallowed-content#buy-button"
+    ]
+  },
+
+  "allowed-content#buy-button": {
+    "children": ["flex-layout.row#add-to-cart"]
+  },
+
+  "disallowed-content#buy-button": {
+    "children": ["rich-text#must-login-to-buy"]
+  },
+
   "flex-layout.row#add-to-cart": {
     "children": ["add-to-cart-button"],
     "props": {
       "blockClass": "add-to-cart"
+    }
+  },
+
+  "rich-text#must-login-to-buy": {
+    "props": {
+      "text": "Debes iniciar sesión para comprar",
+      "blockClass": "product-price-message"
     }
   },
 

@@ -20,8 +20,8 @@
       "rich-text#clientes",
       "flex-layout.row#clientes-inicio",
       //"flex-layout.row#ImageClients",
-      "flex-layout.row#nuestroblog",
-      "flex-layout.row#contendoblog",
+      //"flex-layout.row#nuestroblog",
+      //"flex-layout.row#contendoblog",
       //"button-link"
       //"flex-layout.row#benefitsmobil",
       "flex-layout.row#benefits",
@@ -107,7 +107,7 @@
   "link#pdes": {
     "props": {
       "label": "VER TODOS",
-      "href": "#",
+      "href": "/deals",
       "blockClass": "vermas-encuentra-prod"
     }
   },
@@ -200,7 +200,7 @@
   "link#shoBy1": {
     "children": ["flex-layout.col#enchufes-tomas"],
     "props": {
-      "href": "/apparel",
+      "href": "/enchufes-y-tomacorrientes",
       "blockClass": "shopByLink"
     }
   },
@@ -216,7 +216,7 @@
   "link#shoBy2": {
     "children": ["flex-layout.col#sujeciones"],
     "props": {
-      "href": "/beverage",
+      "href": "/sujecion-y-fijacion",
       "blockClass": "shopByLink"
     }
   },
@@ -231,7 +231,7 @@
   "link#shoBy3": {
     "children": ["flex-layout.col#terminales"],
     "props": {
-      "href": "/sporting",
+      "href": "/materiales-electricos/terminales-electricos",
       "blockClass": "shopByLink"
     }
   },
@@ -246,7 +246,7 @@
   "link#shoBy4": {
     "children": ["flex-layout.col#cintillos"],
     "props": {
-      "href": "/Agribusiness",
+      "href": "/sujecion-y-fijacion/cintillos",
       "blockClass": "shopByLink"
     }
   },
@@ -262,7 +262,7 @@
   "link#shoBy5": {
     "children": ["flex-layout.col#herramientas"],
     "props": {
-      "href": "/home-appliance",
+      "href": "/herramientas",
       "blockClass": "shopByLink"
     }
   },
@@ -278,7 +278,7 @@
   "link#shoBy6": {
     "children": ["flex-layout.col#tuberias"],
     "props": {
-      "href": "/apparel",
+      "href": "herramientas/herramientas-para-tuberias/cortador-de-tuberias",
       "blockClass": "shopByLink"
 
     }
@@ -295,7 +295,7 @@
   "link#shoBy7": {
     "children": ["flex-layout.col#linternas"],
     "props": {
-      "href": "/beverage",
+      "href": "/iluminacion",
       "blockClass": "shopByLink"
     }
   },
@@ -311,7 +311,7 @@
   "link#shoBy8": {
     "children": ["flex-layout.col#contraibles"],
     "props": {
-      "href": "/sporting",
+      "href": "/identificacion/marcadores-termocontraibles/marcadores-termocontraibles-tipo-escalera",
       "blockClass": "shopByLink"
     }
   },
@@ -326,7 +326,7 @@
   "link#shoBy9": {
     "children": ["flex-layout.col#resinas"],
     "props": {
-      "href": "/Agribusiness",
+      "href": "/sujecion-y-fijacion/flejes-y-hebillas-de-acero-inoxidable/hebillas-de-acero-inoxidable",
       "blockClass": "shopByLink"
     }
   },
@@ -342,7 +342,7 @@
   "link#shoBy10": {
     "children": ["flex-layout.col#interruptores"],
     "props": {
-      "href": "/home-appliance",
+      "href": "/interruptores",
       "blockClass": "shopByLink"
     }
   },
@@ -605,8 +605,8 @@
 
   "flex-layout.row#tusprod": {
     "children": [
-      "rich-text#prod",
-      "link#prod"
+      "rich-text#prod"
+      //"link#prod"
     ],
     "props": {
       "blockClass": "Head",
@@ -620,13 +620,16 @@
       "blockClass": "prod"
     }
   },
-  "link#prod": {
+
+  //VER TODOS - CATEGORIAS CLAVES
+
+  /*"link#prod": {
     "props": {
       "label": "VER TODOS",
       "href": "#",
       "blockClass": "vermas-productos"
     }
-  },
+  },*/
 
 
   "flex-layout.row#shelf1": {
@@ -654,7 +657,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": false,
@@ -668,8 +671,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 3,
-        "phone": 2
+        "tablet": 2,
+        "phone": 1
       },
       "infinite": false,
       "fullWidth": true,
@@ -1124,9 +1127,11 @@
       "font":"t-heading-1",
       "blockClass": "titulo-clientes"
     }
-   },
+   }
 
-   "flex-layout.row#nuestroblog": {
+     //NUESTRO BLOG SECTION
+
+  /* "flex-layout.row#nuestroblog": {
     "children": [
       "rich-text#blog",
       "link#blog"
@@ -1137,6 +1142,9 @@
       "preserveLayoutOnMobile": true
     }
   },
+
+
+
   "rich-text#blog": {
     "props": {
       "margin": "16px",
@@ -1152,7 +1160,7 @@
     }
   },
 
- /* "flex-layout.row#contendoblog":{
+  "flex-layout.row#contendoblog":{
     "children":[
       "info-card#blog1",
       "info-card#blog2"
@@ -1181,7 +1189,7 @@
       "callToActionUrl":"/",
       "callToActionMode": "button"
     }
-  }*/
+  }
 
 
   "flex-layout.row#contendoblog": {
@@ -1290,4 +1298,5 @@
       "textAlignment": "CENTER"
     }
   }
+    */
 }

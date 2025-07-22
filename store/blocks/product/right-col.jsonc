@@ -11,14 +11,15 @@
       //-- Nuevo
       "flex-layout.row#assembly-options",
       //-- Nuevo
-      "flex-layout.row#buy-button"
+      //"flex-layout.row#buy-button"
+      "check-permission#product-summary-price"
       //-- Nuevo
       // "flex-layout.row#link-seller"
     ],
     "props": {
       "blockClass": "right-col",
       "preventVerticalStretch": true,
-      "width": "45%"
+      "width": "50%"
     }
   },
   "flex-layout.row#brand-and-rating": {

@@ -10,9 +10,7 @@
     "children":[
       "menu-item#submenu-industriasA",
       "menu-item#submenu-industriasB",
-      "menu-item#submenu-industriasC",
       "menu-item#submenu-industriasD",
-      "menu-item#submenu-industriasE",
       "menu-item#submenu-industriasF"],
     "props":{
       "blockClass":"contenedor_submenu1"
@@ -26,7 +24,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/industria%20electrica?map=ft",
         "noFollow": false,
         "tagTitle": "INDUSTRIA ELÉCTRICA",
         "text": "INDUSTRIA ELÉCTRICA"
@@ -41,7 +39,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/INDUSTRIA%20METAL%20MECÁNICA",
         "noFollow": false,
         "tagTitle": "INDUSTRIA METAL MECÁNICA",
         "text": "INDUSTRIA METAL MECÁNICA"
@@ -50,21 +48,6 @@
   },
 
 
-  "menu-item#submenu-industriasC":{
-    "props": {
-      "blockClass":"telecomunicaciones-class",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "TELECOMUNICACIONES",
-        "text": "TELECOMUNICACIONES"
-      }
-    }
-  },
-
   "menu-item#submenu-industriasD":{
     "props": {
       "blockClass":"embalaje-class",
@@ -72,25 +55,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/embalaje",
         "noFollow": false,
         "tagTitle": "EMBALAJE",
         "text": "EMBALAJE"
-      }
-    }
-  },
-
-  "menu-item#submenu-industriasE":{
-    "props": {
-      "blockClass":"mineria-class",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "MINERÍA",
-        "text": "MINERÍA"
       }
     }
   },
@@ -102,7 +70,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/INDUSTRIA%20HIDRAÚLICA",
         "noFollow": false,
         "tagTitle": "INDUSTRIA HIDRAÚLICA",
         "text": "INDUSTRIA HIDRAÚLICA"

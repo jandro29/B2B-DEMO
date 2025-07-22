@@ -26,11 +26,11 @@
       "flex-layout.row#assembly-options",
       "flex-layout.row#divider",
       //"flex-layout.row#box",
-      //"product-kit#buy-together",
+      "product-kit#buy-together",
       "flex-layout.row#container-descripcion",
       //"flex-layout.row#features",
-      //"flex-layout.row#specification",
-      //"check-permission#sticky-buy",
+      "flex-layout.row#specification",
+      "check-permission#sticky-buy",
       //"flex-layout.row#reviews-and-ratings",
       "flex-layout.row#alsoView"
     ]
@@ -45,11 +45,11 @@
     "children": [
       "flex-layout.row#breadcrumb",
       "flex-layout.row#product-details",
-      //"product-kit#buy-together", // This block won't work if it's not a direct children of store.product
-      "flex-layout.row#container-descripcion"/*,
-      "flex-layout.row#features",
-      "flex-layout.row#specification",
-      "flex-layout.row#reviews-and-ratings"*/
+      "product-kit#buy-together", // This block won't work if it's not a direct children of store.product
+      "flex-layout.row#description-and-gallery"
+      //"flex-layout.row#features",
+      //"flex-layout.row#specification",
+      //"flex-layout.row#reviews-and-ratings"
     ]
   }
 }

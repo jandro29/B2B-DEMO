@@ -69,7 +69,7 @@
       /*busqueda migajas de pan*/
       /*#######################*/
       "flex-layout.row#searchbread",
-      "flex-layout.row#shopByCategory",
+      //"flex-layout.row#shopByCategory",
       "flex-layout.row#searchLayout",
       "product-comparison-drawer",
       "flex-layout.row#benefits"//,

@@ -13,8 +13,7 @@
       "menu-item#submenu-marcas-B1",
       "menu-item#submenu-marcas-C1",
       "menu-item#submenu-marcas-D1",
-      "menu-item#submenu-marcas-E1",
-      "menu-item#submenu-marcas-F1"],
+      "menu-item#submenu-marcas-E1"],
     "props":{
       "blockClass":"contenedor_submenu1"
     }
@@ -25,7 +24,7 @@
     "props": {
       "blockClass":"brand-class",
       "itemProps": {
-        "href": "#",
+        "href": "/band-it",
         "tagTitle": "BAND-IT",
         "text": "BAND-IT"
       }
@@ -36,53 +35,44 @@
     "props": {
       "blockClass":"hont-class",
       "itemProps": {
-        "href": "#",
+        "href": "/hont",
         "tagTitle": "HONT",
         "text": "HONT"
       }
     }
   },
 
+  
+
   "menu-item#submenu-marcas-C1": {
 
     "props": {
-      "blockClass":"strike-class",
+      "blockClass":"transpak-class",
       "itemProps": {
-        "href": "#",
-        "tagTitle": "STRIKE",
-        "text": "STRIKE"
+        "href": "/transpak",
+        "tagTitle": "TRANSPAK",
+        "text": "TRANSPAK"
       }
     }
   },
   "menu-item#submenu-marcas-D1": {
 
     "props": {
-      "blockClass":"transpak-class",
-      "itemProps": {
-        "href": "#",
-        "tagTitle": "TRANSPAK",
-        "text": "TRANSPAK"
-      }
-    }
-  },
-  "menu-item#submenu-marcas-E1": {
-
-    "props": {
       "blockClass":"ybico-class",
       "itemProps": {
-        "href": "#",
+        "href": "/ybico?_q=ybico&map=ft",
         "tagTitle": "YBICO",
         "text": "YBICO"
       }
     }
   },
 
-  "menu-item#submenu-marcas-F1": {
+  "menu-item#submenu-marcas-E1": {
 
     "props": {
       "blockClass":"fulton-class",
       "itemProps": {
-        "href": "#",
+        "href": "/fulton",
         "tagTitle": "FULTON",
         "text": "FULTON"
       }

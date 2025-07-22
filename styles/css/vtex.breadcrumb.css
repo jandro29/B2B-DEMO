@@ -47,4 +47,14 @@
 .container--default{
   margin-top: 24px;
   margin-bottom: 24px;
+  margin-left: 1.5rem;
+}
+
+
+@media (max-width: 1024px) {
+  .container--default{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 0.5rem;
+}
 }

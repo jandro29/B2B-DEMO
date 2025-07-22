@@ -21,11 +21,10 @@
     "children": [
       "minicart-product-list",
       "flex-layout.row#minicart-footer"
-      /*boton de pago*/
 
     ]
   },
-  "minicart-product-list": {
+  /*"minicart-product-list": {
     "blocks": [
       "product-list#minicart"
     ]
@@ -34,7 +33,7 @@
     "blocks": [
       "product-list-content-mobile"
     ]
-  },
+  },*/
   "product-list-content-mobile": {
     "children": [
       "flex-layout.row#cartSummary"
@@ -105,28 +104,35 @@
       "preserveLayoutOnMobile": "true"
     }
   },
-  "flex-layout.row#minicart-footer": {
+  
+ "flex-layout.row#minicart-footer": {
     "props": {
       "blockClass": "minicart-footer"
     },
-    "children": [
-      "minicart-summary"
-    ]
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
   },
   "minicart-summary": {
-    "blocks": [
-      "checkout-summary.compact#minicart"
-    ]
+    "blocks": ["checkout-summary.compact#minicart"]
   },
-  "checkout-summary.compact#minicart": {
-    "children": [
-      "summary-totalizers#minicart"
-    ],
+  "minicart-checkout-button": {
     "props": {
-      "totalizersToShow": [
-        "Items",
-        "Discounts"
-      ]
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
     }
   },
   "summary-totalizers#minicart": {
@@ -136,14 +142,10 @@
     }
   },
   "minicart-empty-state": {
-    "children": [
-      "flex-layout.row#empty-state"
-    ]
+    "children": ["flex-layout.row#empty-state"]
   },
   "flex-layout.row#empty-state": {
-    "children": [
-      "flex-layout.col#empty-state"
-    ]
+    "children": ["flex-layout.col#empty-state"]
   },
   "flex-layout.col#empty-state": {
     "children": [
@@ -156,6 +158,7 @@
       "rowGap": 5
     }
   },
+
   "icon-cart#minicart-empty-state": {
     "props": {
       "size": 64,

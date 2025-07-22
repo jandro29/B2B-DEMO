@@ -11,9 +11,7 @@
       "children":[
         "menu-item#submenu-marcas-A3",
         "menu-item#submenu-marcas-B3",
-        "menu-item#submenu-marcas-C3",
-        "menu-item#submenu-marcas-D3",
-        "menu-item#submenu-marcas-E3"],
+        "menu-item#submenu-marcas-C3"],
       "props":{
         "blockClass":"contenedor_submenu1"
       }
@@ -23,52 +21,31 @@
       "props": {
         "blockClass":"bandimex-class",
         "itemProps": {
-          "href": "#",
+          "href": "/bandimex",
           "tagTitle": "BANDIMEX",
           "text": "BANDIMEX"
         }
       }
     },
+  
     "menu-item#submenu-marcas-B3": {
-  
-      "props": {
-        "blockClass":"doepke-class",
-        "itemProps": {
-          "href": "#",
-          "tagTitle": "DOEPKE",
-          "text": "DOEPKE"
-        }
-      }
-    },
-  
-    "menu-item#submenu-marcas-C3": {
   
       "props": {
         "blockClass":"starker-c-t-class",
         "itemProps": {
-          "href": "#",
+          "href": "/starker-c-t",
           "tagTitle": "STARKER C&T",
           "text": "STARKER C&T"
         }
       }
     },
-    "menu-item#submenu-marcas-D3": {
-  
-      "props": {
-        "blockClass":"cnhowder-t-c-class",
-        "itemProps": {
-          "href": "#",
-          "tagTitle": "CNHOWDER T&C",
-          "text": "CNHOWDER T&C"
-        }
-      }
-    },
-    "menu-item#submenu-marcas-E3": {
+    
+    "menu-item#submenu-marcas-C3": {
   
       "props": {
         "blockClass":"tlk-tools-class",
         "itemProps": {
-          "href": "#",
+          "href": "/tlk-tools",
           "tagTitle": "TLK TOOLS",
           "text": "TLK TOOLS"
         }

@@ -8,3 +8,12 @@
   bottom: 28px;
   top: initial;
 }
+
+
+:global(.vtex-stack-layout-0-x-stackItem--savingsStack--savingSummary )
+{
+  display: none !important;
+}
+:global(.vtex-stack-layout-0-x-stackItem--savingsStack--savingPercentage){
+  display: none !important;
+}

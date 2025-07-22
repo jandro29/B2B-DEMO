@@ -13,74 +13,63 @@
         "menu-item#submenu-marcas-B2",
         "menu-item#submenu-marcas-C2",
         "menu-item#submenu-marcas-D2",
-        "menu-item#submenu-marcas-E2",
-        "menu-item#submenu-marcas-F2"],
+        "menu-item#submenu-marcas-E2"],
       "props":{
         "blockClass":"contenedor_submenu1"
       }
     },
-    "menu-item#submenu-marcas-A2": {
+    
+  "menu-item#submenu-marcas-A2": {
   
       "props": {
         "blockClass":"bals-class",
         "itemProps": {
-          "href": "#",
+          "href": "/bals",
           "tagTitle": "BALS",
           "text": "BALS"
         }
       }
     },
+  
     "menu-item#submenu-marcas-B2": {
-  
-      "props": {
-        "blockClass":"condu-it-class",
-        "itemProps": {
-          "href": "#",
-          "tagTitle": "CONDU-IT",
-          "text": "CONDU-IT"
-        }
-      }
-    },
-  
-    "menu-item#submenu-marcas-C2": {
   
       "props": {
         "blockClass":"agra-tools-class",
         "itemProps": {
-          "href": "#",
+          "href": "agra-tools",
           "tagTitle": "AGRA TOOLS",
           "text": "AGRA TOOLS"
+        }
+      }
+    },
+    "menu-item#submenu-marcas-C2": {
+  
+      "props": {
+        "blockClass":"woer-class",
+        "itemProps": {
+          "href": "/woer",
+          "tagTitle": "WOER",
+          "text": "WOER"
         }
       }
     },
     "menu-item#submenu-marcas-D2": {
   
       "props": {
-        "blockClass":"woer-class",
+        "blockClass":"starker-t-c-class",
         "itemProps": {
-          "href": "#",
-          "tagTitle": "WOER",
-          "text": "WOER"
+          "href": "/starker-t",
+          "tagTitle": "STARKER T&C",
+          "text": "STARKER T&C"
         }
       }
     },
     "menu-item#submenu-marcas-E2": {
   
       "props": {
-        "blockClass":"starker-t-c-class",
-        "itemProps": {
-          "href": "#",
-          "tagTitle": "STARKER T&C",
-          "text": "STARKER T&C"
-        }
-      }
-    },
-    "menu-item#submenu-marcas-F2": {
-  
-      "props": {
         "blockClass":"starker-p-s-class",
         "itemProps": {
-          "href": "#",
+          "href": "/starker-p-s",
           "tagTitle": "STARKER P&S",
           "text": "STARKER P&S"
         }

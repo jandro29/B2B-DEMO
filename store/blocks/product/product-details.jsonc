@@ -2,7 +2,7 @@
   "flex-layout.row#product-details": {
     "children": [
       "flex-layout.row#main"
-      //"sticky-layout#box" /*mini agregar producto*/
+      //"sticky-layout#box" 
     ],
     "props": {
       "blockClass": "product",

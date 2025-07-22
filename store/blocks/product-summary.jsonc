@@ -8,12 +8,11 @@
       "product-summary-brand",
       "product-summary-name",
       "product-rating-summary",
-      //"check-permission#product-summary-price",
-      "check-permission#product-summary-buy-button",
+      "check-permission#product-summary-price",
+      //"check-permission#product-summary-buy-button",
       "add-to-list-btn",
-      "modal-trigger#quickview",
-      "check-permission#product-comparison-block",
-      "flex-layout.row#buy-buttons"
+      "modal-trigger#quickview"
+      //"check-permission#product-comparison-block"
     ]
   },
   "product-summary.shelf#complete": {
@@ -25,11 +24,10 @@
       "product-summary-brand",
       "product-summary-name",
       "product-rating-summary",
-      //"check-permission#product-summary-price",
+      "check-permission#product-summary-price",
       //"check-permission#product-summary-buy-button",
       "add-to-list-btn",
-      "modal-trigger#quickview",
-      "flex-layout.row#buy-buttons"
+      "modal-trigger#quickview"
     ]
   },
   "product-summary.shelf#searchBar": {
@@ -146,10 +144,7 @@
       "product-summary-brand",
       "product-summary-name",
       "product-rating-summary",
-      //"check-permission#product-summary-price",
-      "add-to-list-btn",
-      //"modal-trigger#quickview",
-      "flex-layout.row#buy-buttons"
+      "check-permission#product-summary-price"
     ],
     "props": {
       "preventVerticalStretch": true
@@ -178,11 +173,8 @@
     "children": [
       "product-summary-name#trending",
       "product-rating-summary",
-      //"check-permission#product-summary-price",
-      "product-availability",
-      "add-to-list-btn",
-      "modal-trigger#quickview",
-      "flex-layout.row#buy-buttons"
+      "check-permission#product-summary-price",
+      "product-availability"
     ]
   },
   "product-summary-name#trending": {
@@ -215,10 +207,7 @@
     "children": [
       "product-summary-image",
       "product-rating-summary",
-      //"check-permission#product-summary-price",
-      "add-to-list-btn",
-      "modal-trigger#quickview",
-      "flex-layout.row#buy-buttons"
+      "check-permission#product-summary-price"
     ],
     "props": {
       "blockClass": "minimumSummary"
