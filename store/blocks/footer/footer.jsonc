@@ -561,7 +561,7 @@
   "logo#reclamacionesLogo": {
     "props": {
       "title": "Logo",
-      "href": "/",
+      "href": "/libro-de-reclamaciones",
       "url": "assets/icons/libro-reclamaciones-footer.svg",
       "blockClass": "libro-reclamaciones-image"
     }

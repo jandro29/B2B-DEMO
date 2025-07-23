@@ -670,7 +670,7 @@
   "slider-layout#productsMobile": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 4,
         "tablet": 2,
         "phone": 1
       },
@@ -1129,6 +1129,8 @@
     }
    }
 
+
+   
      //NUESTRO BLOG SECTION
 
   /* "flex-layout.row#nuestroblog": {

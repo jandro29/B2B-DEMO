@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .logoLink {
@@ -617,7 +616,11 @@
 /* Shipping Simulator */
 
 .shippingContainer
-  :not(:global(.vtex-address-form__postalCode)):not(:global(.vtex-input)):not(:global(.vtex-input-prefix__group)):not(:global(.vtex-address-form-4-x-input)):not(:global(.vtex-button)):not(:global(.vtex-button__label)) {
+  :not(:global(.vtex-address-form__postalCode)):not(:global(.vtex-input)):not(
+    :global(.vtex-input-prefix__group)
+  ):not(:global(.vtex-address-form-4-x-input)):not(:global(.vtex-button)):not(
+    :global(.vtex-button__label)
+  ) {
   display: none;
 }
 
@@ -626,11 +629,9 @@
 }
 
 /*imagen de productos*/
-.imageElement--shoByImage{
+.imageElement--shoByImage {
   margin-top: 2.5rem;
 }
-
-
 
 @media (min-width: 40rem) {
   .shippingContainer {
@@ -775,16 +776,15 @@
   text-align: center;
 }
 
-
 .infoCardContainer--nosotros-info,
-.infoCardContainer--industrias-nosotros-info{
+.infoCardContainer--industrias-nosotros-info {
   height: 100%;
   border: none;
 }
 
 .infoCardContainer--proyectos-info,
 .infoCardContainer--industrias-proyectos-info,
-.infoCardContainer--container-team-1{
+.infoCardContainer--container-team-1 {
   height: 100%;
   border: none;
 }
@@ -792,31 +792,29 @@
 .infoCardHeadline--nosotros-info,
 .infoCardHeadline--proyectos-info,
 .infoCardHeadline--industrias-nosotros-info,
-.infoCardHeadline--industrias-proyectos-info{
+.infoCardHeadline--industrias-proyectos-info {
   color: white;
 }
 
 .infoCardSubhead--nosotros-info,
 .infoCardSubhead--proyectos-info,
 .infoCardSubhead--industrias-nosotros-info,
-.infoCardSubhead--industrias-proyectos-info{
+.infoCardSubhead--industrias-proyectos-info {
   color: white;
 }
 
-
-
 .imageElement--imagen-blog1,
-.imageElement--imagen-blog2{
+.imageElement--imagen-blog2 {
   width: 100%;
-  max-height:100% !important;
+  max-height: 100% !important;
 }
 
 /*header*/
-.imageElement--wishlist-icon{
+.imageElement--wishlist-icon {
   margin: 10px;
 }
 
-.imageElement--pedido-rapido{
+.imageElement--pedido-rapido {
   content: "Pedido Rápido";
 }
 
@@ -825,87 +823,94 @@
 }
 
 .infoCardCallActionContainer--industrias-nosotros-info,
-.infoCardCallActionContainer--industrias-proyectos-info{
+.infoCardCallActionContainer--industrias-proyectos-info {
   display: none;
 }
 
 /*nuestras marcas components*/
 
-.infoCardCallActionContainer--marcas-container{
+.infoCardCallActionContainer--marcas-container {
   display: none;
 }
 
-.infoCardContainer--marcas-container{
+.infoCardContainer--marcas-container {
   border: none;
 }
 
 .infoCardHeadline--marcas-container,
-.infoCardSubhead--marcas-container{
+.infoCardSubhead--marcas-container {
   color: white;
 }
 
-.infoCardSubhead--marcas-container{
+.infoCardSubhead--marcas-container {
   width: 70%;
 }
 
-
 @media (max-width: 64rem) {
+  .logoImage--logo-menu-hambursa {
+    width: 40px;
+    height: 40px;
+  }
 
-.logoImage--logo-menu-hambursa{
-  width: 40px;
-  height: 40px;
+  .logoContainer {
+    display: block;
+    padding: 0;
+    max-width: 90px;
+    max-height: 40px;
+  }
+
+  .logoContainer--logo-image {
+    margin-left: -1.5rem;
+  }
+
+  .logoContainer--logo-menu-hambursa {
+    min-width: 50px;
+  }
+
+  /*clientes slider mobil*/
+  .imageElement--clientesImage {
+    width: 110px;
+  }
+
+  /*footer mobil*/
+  .logoContainer--logo-footer {
+    max-width: 100%;
+  }
+
+  .logoImage--logo-footer {
+    height: 45px;
+  }
+
+  .logoContainer--libro-reclamaciones-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .logoImage--libro-reclamaciones-image {
+    width: 180px;
+    height: 100px;
+  }
+
+  .infoCardSubhead--marcas-container {
+    margin-bottom: 2rem;
+  }
+
+   
 }
-
-
-.logoContainer {
-  display: block;
-  padding: 0;
-  max-width: 90px;
-  max-height: 40px;
-}
-
-.logoContainer--logo-image{
-  margin-left: -1.5rem;
-}
-
-.logoContainer--logo-menu-hambursa{
-  min-width: 50px;
-}
-
-/*clientes slider mobil*/
-.imageElement--clientesImage{
-  width: 110px;
-}
-
-/*footer mobil*/
-.logoContainer--logo-footer{
-  max-width: 100%;
-}
-
-.logoImage--logo-footer{
-  height: 45px;
-}
-
-.logoContainer--libro-reclamaciones-image{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.logoImage--libro-reclamaciones-image{
-  width: 180px;
-  height: 100px;
-}
-
-.infoCardSubhead--marcas-container{
-  margin-bottom: 2rem;
-}
-
-
-}
-
 
 /*Descripcion ficha de producto*/
 
-.productDescriptionTitle--desktop{
+.productDescriptionTitle--desktop {
   display: none;
+}
+
+.productDescriptionContainer--desktop {
+  max-width: 50rem !important;
+}
+
+@media (max-width: 64rem){
+.productDescriptionContainer--desktop {
+    max-width: 20rem !important;
+  }
+  
 }

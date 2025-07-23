@@ -9,7 +9,6 @@
     },
     "menu-item#contenedor-productos-mobil": {
         "children": [
-            "menu-item#submenuA1",
             "menu-item#submenuB1",
             "menu-item#submenuC1",
             "menu-item#submenuD1",
@@ -23,20 +22,7 @@
             "blockClass": "contenedor_submenu1"
         }
     },
-    "menu-item#submenuA1": {
-        "props": {
-            "blockClass": "identificacion-class",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/identificacion",
-                "noFollow": false,
-                "tagTitle": "IDENTIFICACIÓN",
-                "text": "IDENTIFICACIÓN"
-            }
-        }
-    },
+
     "menu-item#submenuB1": {
         "props": {
             "blockClass": "aislamiento-class",

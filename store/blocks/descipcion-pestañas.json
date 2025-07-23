@@ -16,8 +16,7 @@
     },
     "tab-list#home": {
       "children": [
-        "tab-list.item#home1",
-        "tab-list.item#home2"
+        "tab-list.item#home1"
       ]
     },
     "tab-list.item#home1": {
@@ -28,13 +27,7 @@
         "blockClass": "boton-detalle"
       }
     },
-    "tab-list.item#home2": {
-      "props": {
-        "tabId": "home2",
-        "label": "Ficha técnica",
-        "blockClass": "boton-ficha-tecnica"
-      }
-    },
+    
     "tab-content#home": {
       "children": [
         "tab-content.item#home1",

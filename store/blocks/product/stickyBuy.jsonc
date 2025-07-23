@@ -42,7 +42,7 @@
   "add-to-cart-button#buy-now-sticky": {
     "props": {
       "blockClass": "buy-now",
-      "text": "Add to cart",
+      "text": "Añadir al carrito",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
     }

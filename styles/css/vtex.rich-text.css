@@ -924,3 +924,8 @@
  .container--titulo-form-builder{
   font-size: 24px;
  }
+
+ .container--title-descripcion{
+  display: flex;
+  justify-content: center;
+ }

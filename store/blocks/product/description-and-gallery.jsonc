@@ -106,8 +106,15 @@
   },
 
   "responsive-layout.desktop#description": {
-    "children": ["flex-layout.row#description"]
+    "children": ["rich-text#title-description", "flex-layout.row#description"]
   },
+
+"rich-text#title-description":{
+  "props":{
+    "text":"Descripción del producto",
+    "blockClass": "title-descripcion"
+  }
+},
 
   "flex-layout.row#description": {
     "children": ["product-description#desktop"/*, "product-images#gallery"*/],

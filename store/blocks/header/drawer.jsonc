@@ -232,7 +232,7 @@
     "props": {
       "src": "assets/icons/pedido-rapidolink.svg",
       "href": "/quickorder",
-      "link": "/quickorder",
+      //"link": "/quickorder",
       "blockClass": "pedido-rapido"
     }
   },
