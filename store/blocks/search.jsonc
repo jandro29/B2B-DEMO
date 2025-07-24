@@ -103,7 +103,7 @@
     "children": [
       
       "flex-layout.row#searchtitle",
-      "flex-layout.row#SEOText",
+      //"flex-layout.row#SEOText",
       // Deprecated
       // "flex-layout.row#categorySlider",
       "flex-layout.row#searchinfo",
