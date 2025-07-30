@@ -8,10 +8,9 @@
 
   "flex-layout.col#description-and-gallery": {
     "children": [
-      "flex-layout.col#divider",
+      
       "responsive-layout.mobile#description",
-      "responsive-layout.desktop#description",
-      "flex-layout.col#divider"
+      "responsive-layout.desktop#description"
     ],
     "props": {
       "blockClass": "description-and-gallery",
@@ -106,12 +105,15 @@
   },
 
   "responsive-layout.desktop#description": {
-    "children": ["rich-text#title-description", "flex-layout.row#description"]
+    "children": ["rich-text#title-description", "flex-layout.row#description"],
+    "props": {
+      "blockClass": "description-product-title"
+    }
   },
 
 "rich-text#title-description":{
   "props":{
-    "text":"Descripción del producto",
+    "text":"### Descripción del producto",
     "blockClass": "title-descripcion"
   }
 },

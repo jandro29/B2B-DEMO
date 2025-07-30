@@ -1311,3 +1311,28 @@
   display: none !important;
 }
 */
+
+
+/*cambiar interna de login*/
+
+:global(.vtex-login-2-x-contentAlwaysWithOptions){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:global(.vtex-render__container-id-default){
+  height: 80vh;
+  display: flex; 
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--description){
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexColChild--description-and-gallery{
+  background: #f6f6f6;
+}

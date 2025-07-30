@@ -94,6 +94,9 @@
       "preventVerticalStretch": true
     }
   },
+
+  
+
   "check-permission#product-price": {
     "props": {
       "roles": [
@@ -122,7 +125,7 @@
     ]
   },
   "disallowed-content#product-price": {
-    "children": ["rich-text#product-price"]
+    "children": ["link#boton-de-redireccion-iniciar-sesion"]
   },
 
 /*AGREGADO RECIENTEMENTE PARA QUE CUANDO DE CLICK EN TEXTO ENVIE AL LOGIN*/
@@ -134,10 +137,20 @@
       "blockClass": "boton-carrouser"
     }
   },*/
+
+  "link#boton-de-redireccion-iniciar-sesion": {
+    "children": ["rich-text#product-price"],
+    "props": {
+      "href": "/login",
+      "blockClass": "boton-redirecion-iniciar-sesion"
+
+    }
+  },
+
   "rich-text#product-price": {
     "props": {
       "blockClass": ["product-price-message"],
-      "text": "Incia sesion si quieres ver los precios"
+      "text": "CREA UNA ORGANIZACION PARA PODER COMPRAR EL PRODUCTO"
     }
   }
 }

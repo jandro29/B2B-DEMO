@@ -296,3 +296,25 @@
 
     }
   }
+
+
+  /*filtrado ocultar*/
+
+  :global(.vtex-search-result-3-x-filter__container--ancho-nominal){
+    display: none;
+  }
+
+  :global(.vtex-search-result-3-x-filter__container--colores){
+    display: none;
+  }
+  :global(.vtex-search-result-3-x-filter__container--color){
+    display: none;
+  }
+
+  :global(.vtex-search-result-3-x-filter__container--category-1){
+    display: none;
+  }
+
+  :global(.vtex-search-result-3-x-filter__container--brand){
+    display: none;
+  }

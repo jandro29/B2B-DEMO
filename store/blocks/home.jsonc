@@ -107,7 +107,7 @@
   "link#pdes": {
     "props": {
       "label": "VER TODOS",
-      "href": "/deals",
+      "href": "/productos",
       "blockClass": "vermas-encuentra-prod"
     }
   },

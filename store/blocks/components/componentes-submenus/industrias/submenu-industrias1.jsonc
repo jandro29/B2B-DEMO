@@ -10,9 +10,9 @@
     "children":[
       "menu-item#submenu-industriasA",
       "menu-item#submenu-industriasB",
-      "menu-item#submenu-industriasC",
+      //"menu-item#submenu-industriasC",
       "menu-item#submenu-industriasD",
-      "menu-item#submenu-industriasE",
+      //"menu-item#submenu-industriasE",
       "menu-item#submenu-industriasF"],
     "props":{
       "blockClass":"contenedor_submenu1"
@@ -50,7 +50,7 @@
   },
 
 
-  "menu-item#submenu-industriasC":{
+  /*"menu-item#submenu-industriasC":{
     "props": {
       "blockClass":"telecomunicaciones-class",
       "type": "custom",
@@ -64,7 +64,7 @@
       }
     }
   },
-
+*/
   "menu-item#submenu-industriasD":{
     "props": {
       "blockClass":"embalaje-class",
@@ -79,7 +79,7 @@
       }
     }
   },
-
+/*
   "menu-item#submenu-industriasE":{
     "props": {
       "blockClass":"mineria-class",
@@ -93,7 +93,7 @@
         "text": "MINERÍA"
       }
     }
-  },
+  },*/
 
   "menu-item#submenu-industriasF":{
     "props": {

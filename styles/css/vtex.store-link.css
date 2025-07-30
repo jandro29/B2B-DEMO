@@ -309,3 +309,7 @@
  .boton-carrouser{
   z-index: 99999999999;
  }
+
+ :global(.vtex-store-link-0-x-link--boton-redirecion-iniciar-sesion){
+  text-decoration: none !important;
+ }
