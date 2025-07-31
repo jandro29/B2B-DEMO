@@ -1336,3 +1336,15 @@
 .flexColChild--description-and-gallery{
   background: #f6f6f6;
 }
+
+/*modo responsive - TABLET*/
+
+/*RESPONSIVE TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+
+  :global(.vtex-input-prefix__group){
+    width: 35rem !important;
+  }
+}

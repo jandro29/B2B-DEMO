@@ -33,6 +33,13 @@
 }
 
 @media (max-width: 64rem) {
+:global(.vtex-store-drawer-0-x-menuIcon--menuDrawer){
+  width: 25px !important;
+  height: 25px !important;
+}
+
+
+
   .openIconContainer {
     margin-right: 16px;
   }

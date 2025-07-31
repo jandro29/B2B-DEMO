@@ -210,7 +210,7 @@
     "blocks": ["autocomplete-result-list.v2#mobile"],
     "props": {
       "openAutocompleteOnFocus": true,
-      "blockClass": "searchMobile"
+      "blockClass": "search-barMobile"
     }
   }
 
