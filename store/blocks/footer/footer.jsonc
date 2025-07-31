@@ -187,7 +187,10 @@
       //"rich-text#copyrightMobile",
       //"rich-text#footerTextMobile",
       //"image#vtexLogoMobile"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-row-responsive"
+    }
   },
 
 

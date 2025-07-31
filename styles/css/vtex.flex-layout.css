@@ -1347,4 +1347,52 @@
   :global(.vtex-input-prefix__group){
     width: 35rem !important;
   }
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--items-center){
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-row-responsive) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-row-1){
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-row-1){
+    width: 100% !important;
+  }
+
+
+  .flexRowContent--footer-row-responsive .stretchChildrenWidth{
+    width: 90% !important;
+  }
+
+  .flexRowContent--footer-row-responsive{
+    width: 100% !important;
+  }
+
+  .flexRowContent--footer-row-1 .stretchChildrenWidth{
+    width: 100% !important;
+  }
+
+
+  .flexRowContent--footer-row-1 .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+  .flexRowContent--footer-row-1 .flexColChild{
+    padding-bottom: 0px !important;
+  }
+
+ 
+
+
 }

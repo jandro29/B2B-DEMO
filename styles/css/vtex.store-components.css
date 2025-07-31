@@ -914,3 +914,11 @@
   }
   
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+:global(.vtex-store-components-3-x-infoCardContainer--nosotros-info){
+  width: 90% !important;
+}
+
+}

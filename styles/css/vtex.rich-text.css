@@ -930,3 +930,13 @@
   justify-content: center;
  }
  
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+:global(.vtex-rich-text-0-x-container--footerTitle) {
+  margin-top: 5rem;
+ }
+}
+
+
+ 
