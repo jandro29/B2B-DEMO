@@ -37,7 +37,7 @@
     "props": {
       "colSizing": "auto",
       "fullWidth": true,
-      "marginBottom": 9
+      "marginBottom": 4
     }
   },
   "flex-layout.col#pageContent--deals": {
@@ -65,7 +65,7 @@
   "rich-text#title--deals": {
     "props": {
       "text": "## Todos los productos",
-      "blockClass": "title"
+      "blockClass": "title-deals"
     }
   }
 }

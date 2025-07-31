@@ -15,7 +15,7 @@
             "menu-item#submenuE1",
             "menu-item#submenuF1",
             "menu-item#submenuG1",
-            "menu-item#submenuH1",
+            //"menu-item#submenuH1",
             "menu-item#submenuI1"
         ],
         "props": {
@@ -30,7 +30,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/materiales-electricos/terminales-electricos/aislados",
+                "href": "/aislamiento-electrico",
                 "noFollow": false,
                 "tagTitle": "AISLAMIENTO ELÉCTRICO",
                 "text": "AISLAMIENTO ELÉCTRICO"

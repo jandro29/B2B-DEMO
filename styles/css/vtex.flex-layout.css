@@ -1205,6 +1205,10 @@
     display: flex;
     justify-content: center;
   }
+
+   :global(.vtex-flex-layout-0-x-flexRow--items-center){
+    margin-top: 4rem;
+  }
 }
 
 :global(.vtex-tab-layout-0-x-container--home) {
@@ -1389,5 +1393,9 @@
 
   .vtex-button__label {
     font-size: 1rem !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--items-center){
+    margin-top: 4rem;
   }
 }

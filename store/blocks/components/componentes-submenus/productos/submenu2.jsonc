@@ -11,7 +11,7 @@
     "children":[
       "menu-item#submenuA2",
       "menu-item#submenuB2",
-      "menu-item#submenuC2",
+      //"menu-item#submenuC2",
       "menu-item#submenuD2"],
     "props":{
       "blockClass":"contenedor_submenu1"

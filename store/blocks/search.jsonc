@@ -236,8 +236,8 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore",
-      "flex-layout.row#blogMobile"
+      "flex-layout.row#fetchmore"
+      //"flex-layout.row#blogMobile"
     ],
     "props": {
       "pagination": "show-more",
@@ -247,6 +247,15 @@
       }
     }
   },
+
+
+  "rich-text#title--deals": {
+    "props": {
+      "text": "## Todos los productos",
+      "blockClass": "title"
+    }
+  },
+
   "flex-layout.row#contentmobile": {
     "children": ["search-content#mobile"],
     "props": {
