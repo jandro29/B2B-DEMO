@@ -135,7 +135,7 @@
 
 "link#wishlist-mobil":{
     "props":{
-      "href":"/wishlist",
+      "href":"/account#/wishlist",
       "verticalAlign":"middle",
       "blockClass": "logo-wishlist-mobil"
     },
@@ -145,8 +145,7 @@
    "image#wishlist":{
     "props":{
       "src":"assets/icons/favoritos-icon.svg",
-      "href": "/wishlist",
-      "link": "/wishlist",
+      "href": "/account#/wishlist",
       "blockClass":"wishlist-icon"
     }
   },

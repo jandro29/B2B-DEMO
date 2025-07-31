@@ -921,4 +921,8 @@
   width: 90% !important;
 }
 
+:global(.vtex-store-components-3-x-productDescriptionContainer--desktop){
+  max-width: 35rem !important;
+}
+
 }

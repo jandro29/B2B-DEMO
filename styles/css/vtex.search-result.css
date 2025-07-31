@@ -292,8 +292,8 @@
 
     .gallery{
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
-
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
     }
   }
 
@@ -318,3 +318,5 @@
   :global(.vtex-search-result-3-x-filter__container--brand){
     display: none;
   }
+
+  

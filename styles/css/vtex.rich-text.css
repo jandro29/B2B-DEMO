@@ -931,10 +931,33 @@
  }
  
 
+ :global(.vtex-rich-text-0-x-wrapper--SEOText){
+  display: none;
+ }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
 :global(.vtex-rich-text-0-x-container--footerTitle) {
   margin-top: 5rem;
+ }
+
+ :global(.vtex-rich-text-0-x-container--footerStripe1){
+  display: flex;
+  justify-content: center;
+ }
+
+ :global(.vtex-rich-text-0-x-container--footerStripe2){
+  display: flex;
+  justify-content: center;
+ }
+
+ :global(.vtex-rich-text-0-x-container--footerStripe3){
+  display: flex;
+  justify-content: center;
+ }
+
+ .container--followTitle{
+  margin-top: 2rem;
  }
 }
 

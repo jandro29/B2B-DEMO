@@ -168,6 +168,8 @@
       "paddingTop": 3
     }
   },
+
+
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
     "props": {
@@ -175,6 +177,12 @@
       "paddingLeft": 7
     }
   },
+
+  "filter-navigator.v3": {
+  "props": {
+    "facetsToRender": ["brands", "priceRanges", "specificationFilters", "categories"]
+  }
+},
 
   "flex-layout.row#searchinfo": {
     "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"],
@@ -218,7 +226,7 @@
   },
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#imageList--mobile",
+      //"flex-layout.row#imageList--mobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#SEOText",
