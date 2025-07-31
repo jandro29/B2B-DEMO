@@ -313,3 +313,17 @@
  :global(.vtex-store-link-0-x-link--boton-redirecion-iniciar-sesion){
   text-decoration: none !important;
  }
+
+ 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+ :global(.vtex-store-link-0-x-link--shopByLink){
+  width: 70% !important;
+  display: flex;
+  justify-content: center;
+  }
+
+  :global(.vtex-store-link-0-x-childrenContainer--shopByLink){
+    width: 100% !important;
+  }
+ }
