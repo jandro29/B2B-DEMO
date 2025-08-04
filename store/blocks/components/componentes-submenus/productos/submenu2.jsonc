@@ -1,42 +1,28 @@
 {
-
-  "flex-layout.row#menu-contenedor-productos2":{
-    "children":["menu-item#contenedor-productos2"],
-    "props":{
-      "blockClass":"contenedor_general"
+  "flex-layout.row#menu-contenedor-productos2": {
+    "children": ["menu-item#contenedor-productos2"],
+    "props": {
+      "blockClass": "contenedor_general"
     }
   },
 
-  "menu-item#contenedor-productos2":{
-    "children":[
+  "menu-item#contenedor-productos2": {
+    "children": [
+    
       "menu-item#submenuA2",
       "menu-item#submenuB2",
-      //"menu-item#submenuC2",
-      "menu-item#submenuD2"],
-    "props":{
-      "blockClass":"contenedor_submenu1"
+      "menu-item#submenuC2"
+    ],
+    "props": {
+      "blockClass": "contenedor_submenu1"
     }
   },
+
 
 
   "menu-item#submenuA2": {
     "props": {
-      "blockClass":"enchufes-toma-class",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/enchufes-y-tomacorrientes",
-        "noFollow": false,
-        "tagTitle": "ENCHUFES Y TOMACORRIENTES",
-        "text": "ENCHUFES Y TOMACORRIENTES"
-      }
-    }
-  },
-
-  "menu-item#submenuB2":{
-    "props": {
-      "blockClass":"iluminacion-class",
+      "blockClass": "iluminacion-class",
       "type": "custom",
       "highlight": false,
       "itemProps": {
@@ -50,23 +36,8 @@
   },
 
 
-  "menu-item#submenuC2":{
-    "props": {
-      "blockClass":"llave-termomagneticas-class",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/enchufes-y-tomacorrientes/industriales/tomacorrientes-visibles",
-        "noFollow": false,
-        "tagTitle": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES",
-        "text": "LLAVES TERMOMAGNÉTICAS Y DIFERENCIALES"
-      }
-    }
-  },
-
-  "menu-item#submenuD2":{
-    "props": {
+  "menu-item#submenuB2":{
+"props": {
       "blockClass":"tableros-cajas-class",
       "type": "custom",
       "highlight": false,
@@ -78,6 +49,22 @@
         "text": "TABLEROS Y CAJAS"
       }
     }
-  }
 
+ 
+},
+
+  "menu-item#submenuC2": {
+    "props": {
+      "blockClass": "aislamiento-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aislamiento-electrico",
+        "noFollow": false,
+        "tagTitle": "AISLAMIENTO ELÉCTRICO",
+        "text": "AISLAMIENTO ELÉCTRICO"
+      }
+    }
   }
+}

@@ -9,32 +9,20 @@
 
   "menu-item#contenedor-productos1":{
     "children":[
+        
+      "menu-item#submenuA1",
       "menu-item#submenuB1",
       "menu-item#submenuC1",
-      "menu-item#submenuD1",
-      "menu-item#submenuE1"],
+    "menu-item#submenuD1"],
     "props":{
       "blockClass":"contenedor_submenu1"
     }
   },
 
-"menu-item#submenuB1":{
-  "props": {
-    "blockClass":"aislamiento-class",
-    "type": "custom",
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/aislamiento-electrico",
-      "noFollow": false,
-      "tagTitle": "AISLAMIENTO ELÉCTRICO",
-      "text": "AISLAMIENTO ELÉCTRICO"
-    }
-  }
-},
 
 
-"menu-item#submenuC1":{
+
+"menu-item#submenuA1":{
   "props": {
     "blockClass":"materiales-class",
     "type": "custom",
@@ -49,7 +37,7 @@
   }
 },
 
-"menu-item#submenuD1":{
+"menu-item#submenuB1":{
   "props": {
     "blockClass":"sujecion-fijacion-class",
     "type": "custom",
@@ -64,7 +52,7 @@
   }
 },
 
-"menu-item#submenuE1":{
+"menu-item#submenuC1":{
   "props": {
     "blockClass":"herramientas-class",
     "type": "custom",
@@ -77,6 +65,21 @@
       "text": "HERRAMIENTAS"
     }
   }
-}
+},
+
+  "menu-item#submenuD1": {
+    "props": {
+      "blockClass": "enchufes-toma-class",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/enchufes-y-tomacorrientes",
+        "noFollow": false,
+        "tagTitle": "ENCHUFES Y TOMACORRIENTES",
+        "text": "ENCHUFES Y TOMACORRIENTES"
+      }
+    }
+  }
 
 }

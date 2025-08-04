@@ -1,47 +1,702 @@
 {
   "store.custom#terminos-condiciones": {
-    "blocks": ["responsive-layout.desktop#terminos-condiciones", "responsive-layout.mobile#terminos-condiciones"]
+    "blocks": [
+      "responsive-layout.desktop#terminos-condiciones",
+      "responsive-layout.mobile#terminos-condiciones"
+    ]
   },
 
   "responsive-layout.desktop#terminos-condiciones": {
     "children": [
-
       "flex-layout.row#titulo-condiciones",
-      "flex-layout.row#contenido-condiciones"
-
+      "flex-layout.row#first-section-terminos-condiciones",
+      "flex-layout.row#second-section-terminos-condiciones",
+      "flex-layout.row#third-section-terminos-condiciones",
+      "flex-layout.row#fourd-section-terminos-condiciones",
+      "flex-layout.row#five-section-terminos-condiciones",
+      "flex-layout.row#six-section-terminos-condiciones",
+      "flex-layout.row#seven-section-terminos-condiciones",
+      "flex-layout.row#eight-section-terminos-condiciones",
+      "flex-layout.row#nine-section-terminos-condiciones",
+      "flex-layout.row#teen-section-terminos-condiciones",
+      "flex-layout.row#eleven-section-terminos-condiciones",
+      "flex-layout.row#twelve-section-terminos-condiciones",
+      "flex-layout.row#thirteen-section-terminos-condiciones",
+      "flex-layout.row#fourteen-section-terminos-condiciones",
+      "flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#terminos-condiciones": {
     "children": [
-       "flex-layout.row#titulo-condiciones",
-      "flex-layout.row#contenido-condiciones"
+      "flex-layout.row#titulo-condiciones",
+      "flex-layout.row#first-section-terminos-condiciones",
+      "flex-layout.row#second-section-terminos-condiciones",
+      "flex-layout.row#third-section-terminos-condiciones",
+      "flex-layout.row#fourd-section-terminos-condiciones",
+      "flex-layout.row#five-section-terminos-condiciones",
+      "flex-layout.row#six-section-terminos-condiciones",
+      "flex-layout.row#seven-section-terminos-condiciones",
+      "flex-layout.row#eight-section-terminos-condiciones",
+      "flex-layout.row#nine-section-terminos-condiciones",
+      "flex-layout.row#teen-section-terminos-condiciones",
+      "flex-layout.row#eleven-section-terminos-condiciones",
+      "flex-layout.row#twelve-section-terminos-condiciones",
+      "flex-layout.row#thirteen-section-terminos-condiciones",
+      "flex-layout.row#fourteen-section-terminos-condiciones",
+      "flex-layout.row#benefits",
+      "flex-layout.row#newsletter"
     ]
   },
 
-  "flex-layout.row#titulo-condiciones":{
-    "children":["rich-text#terminos-titulo"]
+  "flex-layout.row#titulo-condiciones": {
+    "children": ["rich-text#terminos-titulo"]
   },
 
-  "rich-text#terminos-titulo":{
-    "props":{
-      "text":"Terminos y Condiciones",
-      "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heading-1"
+  "rich-text#terminos-titulo": {
+    "props": {
+      "text": "Terminos y Condiciones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "titulo-terminos"
     }
   },
 
-  "flex-layout.row#contenido-condiciones":{
-    "children":["rich-text#terminos-contenido"]
+
+  /*primerera seccion de terminos y condiciones*/
+  
+  "flex-layout.row#first-section-terminos-condiciones": {
+    "children": ["flex-layout.col#first-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
   },
 
-  "rich-text#terminos-contenido":{
-    "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
+  "flex-layout.col#first-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion1",
+      "rich-text#first-content-section-block-1",
+      "rich-text#first-content-section-block-2",
+      "rich-text#first-content-section-block-3",
+      "rich-text#first-content-section-block-4",
+      "rich-text#first-content-section-block-5"
+    ]
+  },
+
+  "rich-text#title-seccion1": {
+    "props": {
+      "text": "SECCIÓN 1: GENERALIDADES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#first-content-section-block-1": {
+    "props": {
+      "text": "El acceso, uso, operación, búsqueda, transacción y/o cualquier otra actividad que se realice en el sitio web https://www.grupoagra.com (la “Tienda Virtual” o “Sitio Web”) se rige por los términos y condiciones descritos en el presente documento (los “Términos y Condiciones”), así como, por la legislación peruana aplicable y vigente."
+    }
+  },
+  "rich-text#first-content-section-block-2": {
+    "props": {
+      "text": "La Tienda Virtual es de titularidad de la sociedad GUILLERMO ROMERO S.A.C., con RUC N° 20123030843 y con domicilio en Av. Horacio Urteaga N° 1144, Dpto. 201, distrito de Jesús María, provincia y departamento de Lima (“Grupo Agra”)."
+    }
+  },
+
+  "rich-text#first-content-section-block-3": {
+    "props": {
+      "text": "Grupo Agra ofrece un servicio al Usuario (según dicho termino se define en la Sección 2), bajo la condición que el Usuario, acepte sin restricción los Términos y Condiciones aquí establecidos, de manera tal que, al hacer uso de este Sitio Web, el Usuario está aceptando de manera expresa todos y cada uno de los Términos y Condiciones aquí establecidos."
+    }
+  },
+
+  "rich-text#first-content-section-block-4": {
+    "props": {
+      "text": "En ese sentido, al aceptar estos Términos y Condiciones, el Usuario declara haber sido informado de manera clara, comprensible e inequívoca de los mismos."
+    }
+  },
+  "rich-text#first-content-section-block-5": {
+    "props": {
+      "text": "Los títulos incluidos en el presente documento han sido incluidos únicamente para facilitar su lectura y comprensión, pero, en ningún caso servirá como fuente de interpretación del mismo."
+    }
+  },
+
+  /*segunda seccion de terminos y condiciones*/
+
+  "flex-layout.row#second-section-terminos-condiciones": {
+    "children": ["flex-layout.col#second-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#second-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion2",
+      "rich-text#second-content-section-block-1",
+      "rich-text#second-content-section-block-2",
+      "rich-text#second-content-section-block-3",
+      "rich-text#second-content-section-block-4"
+    ]
+  },
+
+  "rich-text#title-seccion2": {
+    "props": {
+      "text": "SECCIÓN 2: TERMINOS Y USO DEL SITIO WEB",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#second-content-section-block-1": {
+    "props": {
+      "text": "El Usuario declara y garantiza que, goza de la capacidad legal (mayor de 18 años) para suscribir el presente acuerdo, y que ha leído y acepta de manera expresa todos los Términos y Condiciones establecidos en el mismo sin ningún tipo de limitación o restricción. Asimismo, de registrarse una persona jurídica como Usuario (según se define más adelante), la persona natural que Acceda al Sitio Web deberá tener poder para contratar a nombre de esta y de obligarla en los términos de estos Términos y Condiciones. De no ser así lo anterior, deberá abstenerse de Acceder al Sitio Web."
+    }
+  },
+
+  "rich-text#second-content-section-block-2": {
+    "props": {
+      "text": "El Usuario acepta que no podrá utilizar el Sitio Web para ningún fin ilegal o no autorizado ni puede, al hacer uso del Sitio Web, infringir las leyes aplicables (incluyendo de manera enunciativa más no limitativa, las leyes de derechos de propiedad intelectual)."
+    }
+  },
+
+
+  "rich-text#second-content-section-block-3": {
+    "props": {
+      "text": "La función del Sitio Web es ofrecer un catálogo de productos de uso industrial para su venta al por mayor y menor (los “Productos”), a través de una tienda virtual en línea, la misma que está alojada en el Sitio Web."
+    }
+  },
+
+"rich-text#second-content-section-block-4": {
+    "props": {
+      "text": "Se denomina “Acceso” a la práctica de ingresar, utilizar, operar, buscar, comprar, reservar o realizar cualquier otra actividad en el Sitio Web. Asimismo, cualquier persona jurídica, persona natural, ya sea a título personal o en representación de otra persona natural o de una persona jurídica que realice un Acceso en el Sitio Web se le denominará como “Usuario”."
+    }
+  },
+
+  /*tercera seccion de terminos y condiciones*/
+ "flex-layout.row#third-section-terminos-condiciones": {
+    "children": ["flex-layout.col#third-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+
+  "flex-layout.col#third-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion3",
+      "rich-text#first-subtile-seccion3",
+      "rich-text#third-content-section-block-1",
+      "rich-text#third-content-section-block-2",
+      "rich-text#third-content-section-block-3",
+      "rich-text#third-content-section-block-4",
+      "rich-text#third-content-section-block-5",
+      "rich-text#third-content-section-block-6",
+      "rich-text#second-subtile-seccion3",
+      "rich-text#third-content-section-block-7",
+      "rich-text#third-content-section-block-8",
+      "rich-text#third-content-section-block-8-steps1"
+    ]
+  },
+
+  "rich-text#title-seccion3": {
+    "props": {
+      "text": "SECCION 3: POLITICA DE COMPRA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#first-subtile-seccion3": {
+    "props": {
+      "text": "3.1. CUENTA DEL USUARIO Y CONTRASEÑA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#third-content-section-block-1": {
+    "props": {
+      "text": "Para comprar en este Sitio Web, se deberá crear una cuenta y contraseña. De esta manera, se podrá hacer seguimiento de los pedidos y efectuar pagos  entre otras funcionalidades como precios especiales y visualización del stock de los Productos."
+    }
+  },
+
+  "rich-text#third-content-section-block-2": {
+    "props": {
+      "text": "Para efectos de lo anterior, el Usuario deberá completar el formulario de registro en la sección [Iniciar Sesión/Regístrate] del Sitio Web (el “Formulario de Registro”), el cual deberá ser completado con información veraz y actualizada al momento de completar dicho formulario."
+    }
+  },
+  "rich-text#third-content-section-block-3": {
+    "props": {
+      "text": "Todos los datos solicitados en el Formulario de Registro deben ser necesariamente proporcionados, a efectos de completar el registro y poder identificar al Usuario y consecuentemente se pueda prestar el servicio descrito en la Sección 2. Dichos datos son los siguientes: nombre, apellidos, correo electrónico, clave secreta, tipo de documento de identidad, número de documento de identidad, fecha de nacimiento, domicilio, y cuando corresponda, RUC y razón sociall."
+    }
+  },
+  "rich-text#third-content-section-block-4": {
+    "props": {
+      "text": "Al finalizar el proceso detallado anteriormente, se habrá creado la cuenta del Usuario (la “Cuenta de Usuario”) y la clave de acceso establecida por el propio Usuario vinculada a la Cuenta de Usuario (la “Clave Secreta”). A efectos de la generación de la Clave Secreta, esta deberá cumplir con las condiciones de seguridad establecidas en las indicaciones del campo de llenado. La Clave de Secreta podrá ser modificada -en cualquier momento- por el Usuario, debiendo cumplir igualmente con las condiciones de seguridad indicadas."
+    }
+  },
+
+  "rich-text#third-content-section-block-5": {
+    "props": {
+      "text": "Asimismo, el Usuario dispone de los mecanismos para ejercer la rectificación, actualización, eliminación o cancelación de los datos que fueron proporcionados en el Formulario de Registro cuando lo estime conveniente."
+    }
+  },
+
+  "rich-text#third-content-section-block-6": {
+    "props": {
+      "text": "Finalmente, es obligación del Usuario proporcionar información veraz. En ese sentido, si tuviéramos motivos fundados de que el Usuario ha proporcionado información falsa o hecho un uso fraudulento del Sitio Web o contrarios a los Términos y Condiciones, podremos cancelar solicitudes de compra, dar de baja la Cuenta de Usuario e, incluso, emprender acciones legales en su contra. Sin perjuicio de ello, nos comprometemos a evaluar previamente cualquier aclaración, descargo o prueba presentada por el Usuario. Si alguno de los actos antes descritos se presentase, notificaremos al Usuario al correo electrónico registrado con los antecedentes disponibles y las razones de nuestra decisión."
+    }
+  },
+
+   "rich-text#second-subtile-seccion3": {
+    "props": {
+      "text": "3.2. PROCEDIMIENTO DE COMPRA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+
+  "rich-text#third-content-section-block-7": {
+    "props": {
+      "text": "Para comprar en el Sitio Web, el Usuario iniciará el proceso mediante la emisión de una orden de compra (la “Orden de Compra”), generada por el mismo Sitio Web cuando el Usuario agregue Productos al 'Carrito de Compras' y siga los pasos para finalizar la compra."
+    }
+  },
+
+  "rich-text#third-content-section-block-8": {
+    "props": {
+      "text": "A fin de tener claridad del procedimiento de compra, a continuación, proporcionamos una guía sencilla para realizar una compra en nuestra tienda virtual:"
+    }
+  },
+
+  "rich-text#third-content-section-block-8-steps1": {
+    "props": {
+      "text": "1. Selecciona los Productos de tu interés y agrégalos al Carrito de Compras. Es muy importante que antes de comprar, el Usuario verifique las dimensiones y/o todas las especificaciones o características disponibles del Producto. También es importante notar que hemos hecho todo lo viable para mostrar con la mayor precisión posible los colores y las imágenes de nuestros Productos; sin embargo, no podemos garantizar que la visualización de cualquier color o imagen en el monitor de su computadora o dispositivo móvil sea precisa.\n\n2. Una vez que hayas añadido al Carrito de Compras todos los Productos que deseas comprar, haz clic en el enlace de la cesta de compras que se encuentra en la parte superior derecha de la página.\n\n3. Luego, podrás ver el resumen de tu pedido y la cantidad total a pagar por los Productos, incluidos los impuestos y promociones o descuentos, cuando corresponda. De ser aplicable algún cupón de descuento, este podrá ser colocado en el recuadro que dice ¿tienes un código promocional? ingresando el código del cupón. Luego, se podrá dar clic al botón COMPRAR.\n\n4. Se podrá seleccionar el tipo de despacho o entrega, pudiendo elegir entre: a) retirar los Productos en el almacén; o, b) envío a una dirección específica. También se deberá completar los datos para la entrega: Nombre, documento de identidad, número de teléfono, correo electrónico y si escogiste entrega en dirección, deberás consignar la dirección completa. Selecciona la opción GUARDAR y CONTINUAR para seguir con la compra. Para más información sobre los plazos de envío y coberturas visita nuestra Política de Despacho y Entrega.\n\n5. Podrás visualizar el costo de despacho de tu pedido al finalizar el proceso de compra y antes del pago.\n\n6. Escoge el método de pago. Los productos y servicios ofrecidos en el Sitio Web, salvo que se señale una forma diferente y expresa de pago para casos particulares u ofertas de determinados bienes o servicios, solo podrán ser pagados utilizando los siguientes medios de pago:\na) Tarjeta de débito y crédito.\nb) Pago en agencia o banca por internet a través de PagoEfectivo.\nc) Transferencia de fondos a las cuentas bancarias de Grupo Agra.\n\n7. Selecciona el tipo de comprobante de pago que deseas recibir (boleta o factura). Finalmente acepta los términos y condiciones que aparecen al final y haz clic en el botón PAGAR.\n\n8. Te aparecerá un resumen de tu compra con el número de pedido, también recibirás un correo electrónico con esta información. Este correo electrónico no representa aún la confirmación de tu compra. Si deseas saber cuál es el estado de tu pedido, ingresa a MI ORDEN.\n\n9. En resguardo de tu seguridad, tu Orden de Compra pasará automáticamente a un proceso de confirmación de identidad, así como de la disponibilidad del medio de pago seleccionado, de su vigencia, precio efectivo o que no se encuentre afectado por error sistémico y que exista stock. Todos estos procesos de validación son condiciones suspensivas previas y necesarias para que se pueda confirmar la compra. Es posible que en esta etapa se pueda debitar o retener un monto a tu medio de pago. En caso no se confirme tu solicitud de compra, este monto será devuelto al mismo medio de pago.\n\n10. Cumplida exitosamente la condición anterior, quedará formado el consentimiento respecto de la Orden de Compra mediante un correo electrónico de confirmación de compra, el cual tendrá el comprobante de pago, se confirmará el cargo final en el medio de pago y se entregará el Producto en el plazo establecido, según el método de despacho seleccionado. El estado de la compra se podrá revisar en la sección MI ORDEN del Sitio Web.\n\n11. En el eventual caso que el Usuario no se encuentre satisfecho con los Productos, podrá solicitar el cambio, devolución o atención de una garantía cuando ocurran ciertos supuestos. Revisa nuestra Política de Garantías, Cambios y Devoluciones que se detalla en la Sección 7 para más detalles."
+  }
+},
+
+  /*cuarta seccion de terminos y condiciones*/
+
+  "flex-layout.row#fourd-section-terminos-condiciones": {
+    "children": ["flex-layout.col#fourd-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#fourd-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion4",
+      "rich-text#fourd-content-section-block-1",
+      "rich-text#obligaciones-usuario"
+    ]
+  },
+
+  "rich-text#title-seccion4": {
+    "props": {
+      "text": "SECCIÓN 4: OBLIGACIONES DEL USUARIO",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#fourd-content-section-block-1": {
+    "props": {
+      "text": "El Usuario al Acceder al Sitio Web, asume las siguientes obligaciones:"
+    }
+  },
+
+  "rich-text#obligaciones-usuario": {
+    "props": {
+      "text": "a) Utilizar el Sitio Web conforme a los Términos y Condiciones, y única y exclusivamente para realizar compras legítimas, no así compras falsas o fraudulentas; Grupo Agra se reserva el derecho de cancelar cualquier compra o pedido realizado si considera fundadamente que las mismas no se encuentran dentro de los parámetros establecidos en este párrafo.\n\nb) Ser responsable económicamente por el uso del Sitio Web.\n\nc) Cubrir todos los cargos, recargos, tasas e impuestos que surjan como consecuencia de comprar Productos en el Sitio Web.\n\nd) No ceder, transmitir, transferir, asignar, otorgar licencia o sublicenciar de manera alguna los derechos que emanan del uso de este Sitio Web, incluyendo, pero no limitándose a la Cuenta de Usuario y Clave Secreta.\n\ne) El Usuario reconoce los derechos de autor de Grupo Agra, como propietario absoluto y exclusivo del contenido total de este Sitio Web; así como de los derechos de propiedad intelectual y otros derivados del Sitio Web.\n\nf) En caso corresponda, indemnizar a Grupo Agra y/o sus proveedores por cualquier tipo de responsabilidad, gastos y/o daños y perjuicios que pudieran surgir como consecuencia del uso (directo o indirecto) indebido, ilegal, o en contra de los Términos y Condiciones, por parte del Usuario del Sitio Web.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-body"
+    }
+  
+},
+
+  /*quinta seccion de terminos y condiciones*/
+
+  "flex-layout.row#five-section-terminos-condiciones": {
+    "children": ["flex-layout.col#five-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#five-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion5",
+      "rich-text#five-content-section-block-1",
+      "rich-text#five-content-section-block-2",
+      "rich-text#five-content-section-block-3"
+    ]
+  },
+
+  "rich-text#title-seccion5": {
+    "props": {
+      "text": "SECCIÓN 5: TRATAMIENTO DE DATOS PERSONALES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#five-content-section-block-1": {
+    "props": {
+      "text": "Los datos que se ingresen en el Formulario de Registro para la creación de la Cuenta del Usuario serán tratados por Grupo Agra, de acuerdo con lo establecido en la Política de Privacidad [hipervínculo] y serán incluidos en la “Base de Datos de Usuarios” registrado ante la Autoridad Nacional de Datos Personales."
+    }
+  },
+
+  "rich-text#five-content-section-block-2": {
+    "props": {
+      "text": "Respecto a la entrega de los Productos, si el despacho es a través de retiro en almacén, se deberá designar a un tercero para esos efectos, y el Usuario deberá proporcionar el nombre, tipo de Documento de Identidad y número de Documento de Identidad de dicho tercero, a efectos de poder identificarlo adecuadamente para la entrega de los Productos. Se deja constancia que Grupo Agra no mantendrá los datos de dicho tercero, siendo estos eliminados luego de la entrega de los productos."
+    }
+  },
+
+  "rich-text#five-content-section-block-3": {
+    "props": {
+      "text": "Al aceptar estos Términos y Condiciones también estarás aceptando la Política de Privacidad, por ser necesario para la prestación del servicio mediante el Sitio Web.   "
+    }
+  },
+
+
+  /*sexta seccion de terminos y condiciones*/
+
+  "flex-layout.row#six-section-terminos-condiciones": {
+    "children": ["flex-layout.col#six-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#six-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion6",
+      "rich-text#six-content-section-block-1",
+      "rich-text#six-content-section-block-2",
+      "rich-text#six-content-section-block-3"
+    ]
+  },
+
+  "rich-text#title-seccion6": {
+    "props": {
+      "text": "SECCIÓN 6: PROMOCIONES Y DESCUENTOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#six-content-section-block-1": {
+    "props": {
+      "text": "Grupo Agra podrá realizar ofertas o promociones de sus Productos que consisten en el ofrecimiento de los Productos a precios rebajados en forma temporal en relación con los precios habituales o normales de los Productos."
+    }
+  },
+
+  "rich-text#six-content-section-block-2": {
+    "props": {
+      "text": "Las ofertas y las promociones publicadas estarán vigente solo mientras se encuentren disponibles en este Sitio Web y no serán necesariamente las mismas que ofrezcan otros canales de venta distintos al Sitio Web."
+    }
+  },
+
+  "rich-text#six-content-section-block-3": {
+    "props": {
+      "text": "Revisa nuestra Política General de Promociones y Descuentos [hipervínculo] para más detalles."
+    }
+  },
+
+
+  /*septima seccion de terminos y condiciones*/
+
+  "flex-layout.row#seven-section-terminos-condiciones": {
+    "children": ["flex-layout.col#seven-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#seven-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion7",
+      "rich-text#seven-content-section-block-1",
+      "rich-text#seven-content-section-block-2"
+    ]
+  },
+
+  "rich-text#title-seccion7": {
+    "props": {
+      "text": "SECCIÓN 7: GARANTÍAS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#seven-content-section-block-1": {
+    "props": {
+      "text": "El Usuario declara conocer y aceptar la Política de Garantías, Cambios y Devoluciones, que se encuentra en el siguiente link [hipervínculo]."
+    }
+  },
+
+  "rich-text#seven-content-section-block-2": {
+    "props": {
+      "text": "Dicha política aplica para todas las ventas realizadas por Grupo Agra a través del Sitio Web. Asimismo, el Usuario declara entender que Grupo Agra no brinda otras garantías distintas a las especificadas en dicho documento."
+    }
+  },
+
+
+/*octava seccion de terminos y condiciones*/
+
+  "flex-layout.row#eight-section-terminos-condiciones": {
+    "children": ["flex-layout.col#eight-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#eight-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion8",
+      "rich-text#eight-content-section-block-1"
+    ]
+  },
+
+  "rich-text#title-seccion8": {
+    "props": {
+      "text": "SECCIÓN 8: LIMITACIÓN DE RESPONSABILIDADES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#eight-content-section-block-1": {
+    "props": {
+      "text": "En ningún caso Grupo Agra, sus sociedades o corporaciones vinculadas, ni los socios, gerentes, directivos o empleados de este, serán responsables ante el Usuario ni ante ninguna otra persona respecto de cualquier decisión de compra o medida tomada en base a la información contenida en este Sitio Web y que previamente fue evaluada por el Usuario para comprar un Producto(s), ni de ningún daño directo, indirecto, especial o similar, en virtud de la referida decisión de compra."
+    }
+  },
+
+  /*novena seccion de terminos y condiciones*/
+
+  "flex-layout.row#nine-section-terminos-condiciones": {
+    "children": ["flex-layout.col#nine-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#nine-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion9",
+      "rich-text#nine-content-section-block-1"
+    ]
+  },
+
+  "rich-text#title-seccion9": {
+    "props": {
+      "text": "SECCIÓN 9: OTROS SITIOS WEB",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#nine-content-section-block-1": {
+    "props": {
+      "text": "Grupo Agra no se hace responsable por la información que se obtenga desde otros sitios web, a los que se acceda desde nuestro Sitio Web mediante link, banner, enlaces por hipertextos o cualquier otra forma. La presencia de enlaces hacia otros sitios desde el nuestro no debe considerarse tampoco como una recomendación o un respaldo que Grupo Agra entrega a esos sitios."
+    }
+  },
+
+  /*decima seccion de terminos y condiciones*/
+
+  "flex-layout.row#teen-section-terminos-condiciones": {
+    "children": ["flex-layout.col#teen-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#teen-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion10",
+      "rich-text#teen-content-section-block-1"
+    ]
+  },
+
+  "rich-text#title-seccion10": {
+    "props": {
+      "text": "SECCIÓN 10: PROPIEDAD INTELECTUAL E INDUSTRIAL",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#teen-content-section-block-1": {
+    "props": {
+      "text": "Todas las marcas utilizadas en el Sitio Web, incluyendo el diseño y gráfica de esta página, son de propiedad de Grupo Agra, o pertenecen al propietario registrado de tales marcas, por lo que se reservan expresamente todos los derechos de propiedad intelectual de acuerdo con la legislación peruana."
+    }
+  },
+
+  /*onceava seccion de terminos y condiciones*/
+
+  "flex-layout.row#eleven-section-terminos-condiciones": {
+    "children": ["flex-layout.col#eleven-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#eleven-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion11",
+      "rich-text#eleven-content-section-block-1",
+      "rich-text#eleven-content-section-block-2",
+      "rich-text#eleven-content-section-block-3"
+    ]
+  },
+
+  "rich-text#title-seccion11": {
+    "props": {
+      "text": "SECCIÓN 11: ATENCION DE CONSULTAS, SOLICITUDES Y RECLAMOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#eleven-content-section-block-1": {
+    "props": {
+      "text": "En caso de tener alguna consulta, solicitud o reclamo, por favor póngase en contacto con el equipo de Atención al Cliente mediante los canales habilitados para ello: (i) en la sección del Sitio Web respectiva; (ii) a través del WhatsApp [*]; y/o, (iii) por correo electrónico a la siguiente dirección: servicioalcliente@grupoagra.com."
+    }
+  },
+
+  "rich-text#eleven-content-section-block-2": {
+    "props": {
+      "text": "Grupo Agra se compromete a dar respuesta a las consultas, solicitudes o reclamos a través de la vía antes indicada en un plazo no mayor de quince (15) días hábiles."
+    }
+  },
+  "rich-text#eleven-content-section-block-3": {
+    "props": {
+      "text": "Adicionalmente, el Usuario podrá acceder al Libro de Reclamaciones a través del siguiente link."
+    }
+  },
+
+  /*doceava seccion de terminos y condiciones*/
+
+  "flex-layout.row#twelve-section-terminos-condiciones": {
+    "children": ["flex-layout.col#twelve-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#twelve-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion12",
+      "rich-text#twelve-content-section-block-1"
+    ]
+  },
+
+  "rich-text#title-seccion12": {
+    "props": {
+      "text": "SECCIÓN 12: TERRITORIO Y COMPETENCIA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#twelve-content-section-block-1": {
+    "props": {
+      "text": "Este Sitio Web ha sido construido, es controlado y operado por Grupo Agra, desde territorio peruano, por lo que cumple y se rige íntegramente por las leyes de la República del Perú. Cualquier controversia que se suscite en torno a éste, sus contenidos, su operación, Acceso, entre otros, deberá ser tramitada y resuelta por los tribunales de justicia peruana, renunciando las partes en conflicto al fuero de sus domicilios y establecen como su domicilio al distrito de Lima-Cercado."
+    }
+  },
+
+  /*terceava seccion de terminos y condiciones*/
+
+  "flex-layout.row#thirteen-section-terminos-condiciones": {
+    "children": ["flex-layout.col#thirteen-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#thirteen-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion13",
+      "rich-text#thirteen-content-section-block-1"
+    ]
+  },
+
+  "rich-text#title-seccion13": {
+    "props": {
+      "text": "SECCIÓN 13: LEGISLACIÓN",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#thirteen-content-section-block-1": {
+    "props": {
+      "text": "Las partes se obligan a cumplir con lo establecido en los presentes Términos y Condiciones, en caso de vacíos o aspectos no regulados por este documento, se aplicará de forma supletoria las normas del Código Civil y y demás normas aplicables de la legislación peruana."
+    }
+  },
+
+  /*decimocuarto seccion de terminos y condiciones*/
+
+  "flex-layout.row#fourteen-section-terminos-condiciones": {
+    "children": ["flex-layout.col#fourteen-section-conteiner-content"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
+  },
+
+  "flex-layout.col#fourteen-section-conteiner-content": {
+    "children": [
+      "rich-text#title-seccion14",
+      "rich-text#subtitle-seccion14",
+      "rich-text#fourteen-content-section-block-1",
+      "rich-text#fourteen-content-section-block-2"
+    ]
+  },
+
+  "rich-text#title-seccion14": {
+    "props": {
+      "text": "SECCIÓN 14: VIGENCIA Y MODIFICACIONES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#subtitle-seccion14": {
+    "props": {
+      "text": "Versión actualizada al: [*] de [*] de 2025.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#fourteen-content-section-block-1": {
+    "props": {
+      "text": "Grupo Agra podrá modificar los presentes Términos y Condiciones; para ello, notificará previamente los cambios al Usuario, a través del correo electrónico registrado y/o publicando una versión actualizada de dichos Términos y Condiciones en el Sitio Web, dejando constancia de la fecha de la última modificación. Todas las modificaciones entrarán en vigor desde su publicación en el Sitio Web y/o la notificación al Usuario, teniendo este último la facultad de eliminar su cuenta en el Sitio Web en cualquier momento cuando así lo considere conveniente."
+    }
+  },
+   "rich-text#fourteen-content-section-block-2": {
+    "props": {
+      "text": "Grupo Agra únicamente asumirá responsabilidad a causa de modificaciones o cambios que no hayan sido informados previamente o que vulneren alguna garantía legal, en cumplimiento de lo dispuesto por el Código de Protección y Defensa del Consumidor."
     }
   }
-
-
 
 }

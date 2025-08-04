@@ -896,6 +896,10 @@
     margin-right: 0.5rem;
   }
   
+
+  .titulo-terminos{
+  margin-top: 0.5rem;
+}
  }
 
 
@@ -961,7 +965,15 @@
   margin-top: 2rem;
  }
 
+ .titulo-terminos{
+  margin-top: 1rem;
 }
 
+}
+
+
+.titulo-terminos{
+  margin-top: 2rem;
+}
 
  
