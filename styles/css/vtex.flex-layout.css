@@ -1399,3 +1399,10 @@
     margin-top: 4rem;
   }
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--preguntas-frecuentes-container-general){
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+

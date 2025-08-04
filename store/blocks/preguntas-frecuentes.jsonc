@@ -1,144 +1,355 @@
 {
   "store.custom#preguntas-frecuentes": {
-    "blocks": ["responsive-layout.desktop#preguntas-frecuentes", "responsive-layout.mobile#preguntas-frecuentes"]
+    "blocks": [
+      "responsive-layout.desktop#preguntas-frecuentes",
+      "responsive-layout.mobile#preguntas-frecuentes"
+    ]
   },
 
   "responsive-layout.desktop#preguntas-frecuentes": {
     "children": [
-        "flex-layout.row#titulo-preguntas-frecuentes",
-        "disclosure-layout-group#group"
+      "flex-layout.row#titulo-preguntas-frecuentes",
+      "flex-layout.row#container-preguntas-frecuentes",
+      "flex-layout.row#newsletter"
     ]
   },
-
-
 
   "responsive-layout.mobile#preguntas-frecuentes": {
     "children": [
-        "flex-layout.row#titulo-preguntas-frecuentes",
-        "disclosure-layout-group#group"
+      "flex-layout.row#titulo-preguntas-frecuentes",
+      "flex-layout.row#container-preguntas-frecuentes",
+      "flex-layout.row#newsletter"
     ]
   },
 
-  "flex-layout.row#titulo-preguntas-frecuentes":{
-    "children":["rich-text#titulo-preguntas-frecuentes"]
-  },
-
-  "rich-text#titulo-preguntas-frecuentes":{
-    "props":{
-      "text":"Preguntas Frecuentes",
-      "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heading-1"
-    }
-  },
-
-
-
-  "disclosure-layout-group#group": {
-    "children": ["disclosure-layout#first", "disclosure-layout#second","disclosure-layout#third"]
-    
-  },
-
-  "disclosure-layout#first": {
-    "children": ["disclosure-trigger#first", "disclosure-content#first"]
-    
-  },
-  "disclosure-trigger#first": {
-    "children": ["disclosure-state-indicator","rich-text#question1"],
-    "props":{
-      "blockClass": "pregunta"
-    }
-    
-  },
-  "disclosure-content#first": {
-    "children": ["rich-text#answer1"],
-    "props":{
-      "blockClass": "contenido"
-    }
-  },
-  "rich-text#question1": {
+  "flex-layout.row#titulo-preguntas-frecuentes": {
+    "children": ["rich-text#titulo-preguntas-frecuentes"],
     "props": {
-      "text": "How can I change my shipping address?"
+      "blockClass": "preguntas-frecuentes-padre"
     }
   },
-  "rich-text#answer1": {
+
+  "rich-text#titulo-preguntas-frecuentes": {
     "props": {
-      "text": "Call us at (212) 123-1234.",
-      "blockClass": "texto-preguntas-frecuentes"
+      "text": "Preguntas Frecuentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
   },
 
-
-
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-
-  "disclosure-layout#second": {
-    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  "flex-layout.row#container-preguntas-frecuentes": {
+    "children": ["flex-layout.col#preguntas-frecuentes"]
   },
-  "disclosure-trigger#second": {
-    "children": ["disclosure-state-indicator","rich-text#question2"],
-    "props":{
-      "blockClass": "pregunta"
+
+  "flex-layout.col#preguntas-frecuentes": {
+    "children": [
+      "disclosure-layout#simple",
+      "disclosure-layout#2",
+      "disclosure-layout#3",
+      "disclosure-layout#4",
+      "disclosure-layout#5",
+      "disclosure-layout#6",
+      "disclosure-layout#7",
+      "disclosure-layout#8",
+      "disclosure-layout#9",
+      "disclosure-layout#10"
+    ],
+
+    "props": {
+      "blockClass": "preguntas-frecuentes-container-general"
     }
   },
-  "disclosure-content#second": {
+
+  "disclosure-layout#simple": {
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#question"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+
+  "disclosure-content#simple": {
+    "children": ["rich-text#answer"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "1.-¿Cómo puedo realizar una compra en la tienda online?"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "text": "Puedes navegar por las categorías de productos, seleccionar los artículos deseados y agregarlos al carrito. Al finalizar, sigue los pasos para completar tu compra y realizar el pago."
+    }
+  },
+
+  "disclosure-layout#2": {
+    "children": ["disclosure-trigger#2", "disclosure-content#2"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#2": {
+    "children": ["rich-text#question2"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#2": {
     "children": ["rich-text#answer2"],
-    "props":{
-      "blockClass": "contenido"
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
     }
   },
   "rich-text#question2": {
     "props": {
-      "text": "can I track my order?"
+      "text": "2.-¿Realizan envíos a todo el Perú?"
     }
   },
   "rich-text#answer2": {
     "props": {
-      "text": "After logging in to your account, you can find this information in the Orders link.",
-      "blockClass": "texto-preguntas-frecuentes"
+      "text": "Sí, realizamos envíos a Lima, Callao y provincias. Puedes elegir entre despacho a domicilio o recojo en almacén, según tu ubicación."
     }
   },
 
-    /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-  /*#############################################################################*/
-
-  "disclosure-layout#third": {
-    "children": ["disclosure-trigger#third", "disclosure-content#third"]
-  },
-  "disclosure-trigger#third": {
-    "children": ["disclosure-state-indicator","rich-text#question3"],
-    "props":{
-      "blockClass": "pregunta"
+  "disclosure-layout#3": {
+    "children": ["disclosure-trigger#3", "disclosure-content#3"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
     }
   },
-  "disclosure-content#third": {
+  "disclosure-trigger#3": {
+    "children": ["rich-text#question3"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#3": {
     "children": ["rich-text#answer3"],
-    "props":{
-      "blockClass": "contenido"
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
     }
   },
   "rich-text#question3": {
     "props": {
-      "text": "Pregunta 3"
+      "text": "3.-¿Cuánto tiempo tarda en llegar mi pedido?"
     }
   },
   "rich-text#answer3": {
     "props": {
-      "text": "texto de prubea.",
-      "blockClass": "texto-preguntas-frecuentes"
+      "text": "El tiempo de entrega depende de tu ubicación:\n\nLima Metropolitana: 1 a 3 días hábiles.\n\nProvincias: 3 a 7 días hábiles, según la agencia de transporte seleccionada."
+    }
+  },
+
+  "disclosure-layout#4": {
+    "children": ["disclosure-trigger#4", "disclosure-content#4"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#4": {
+    "children": ["rich-text#question4"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#4": {
+    "children": ["rich-text#answer4"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "4.-¿Qué métodos de pago aceptan?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Aceptamos pagos con tarjetas de crédito y débito (Visa, MasterCard, etc.) y transferencias bancarias."
+    }
+  },
+
+  "disclosure-layout#5": {
+    "children": ["disclosure-trigger#5", "disclosure-content#5"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#5": {
+    "children": ["rich-text#question5"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#5": {
+    "children": ["rich-text#answer5"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "5.-¿Puedo solicitar una factura?"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Sí. Durante el proceso de compra podrás ingresar los datos de tu empresa o RUC para emitir la factura correspondiente."
+    }
+  },
+
+  "disclosure-layout#6": {
+    "children": ["disclosure-trigger#6", "disclosure-content#6"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#6": {
+    "children": ["rich-text#question6"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#6": {
+    "children": ["rich-text#answer6"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question6": {
+    "props": {
+      "text": "6.-¿Tienen garantía los productos?"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "Sí. Nuestros productos cuentan con garantía por fallas de fabricación. El plazo puede variar por producto, el detalle se encuentra en nuestra política de garantías."
+    }
+  },
+
+  "disclosure-layout#7": {
+    "children": ["disclosure-trigger#7", "disclosure-content#7"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#7": {
+    "children": ["rich-text#question7"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#7": {
+    "children": ["rich-text#answer7"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question7": {
+    "props": {
+      "text": "7.-¿Puedo cambiar o devolver un producto?"
+    }
+  },
+  "rich-text#answer7": {
+    "props": {
+      "text": "Sí. Puedes solicitar un cambio o devolución dentro del plazo establecido, siguiendo las condiciones indicadas en nuestra política de cambios y devoluciones."
+    }
+  },
+
+  "disclosure-layout#8": {
+    "children": ["disclosure-trigger#8", "disclosure-content#8"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#8": {
+    "children": ["rich-text#question8"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#8": {
+    "children": ["rich-text#answer8"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question8": {
+    "props": {
+      "text": "8.-¿Dónde están ubicados?"
+    }
+  },
+  "rich-text#answer8": {
+    "props": {
+      "text": "Nuestra oficina está en Avenida Horacio Urteaga 1156, Oficina 201, Jesús María, Lima, Perú."
+    }
+  },
+
+  "disclosure-layout#9": {
+    "children": ["disclosure-trigger#9", "disclosure-content#9"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-trigger#9": {
+    "children": ["rich-text#question9"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container"
+    }
+  },
+  "disclosure-content#9": {
+    "children": ["rich-text#answer9"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container"
+    }
+  },
+  "rich-text#question9": {
+    "props": {
+      "text": "9.-¿Ofrecen asesoría técnica sobre los productos?"
+    }
+  },
+  "rich-text#answer9": {
+    "props": {
+      "text": "Sí, contamos con un equipo de asesores técnicos comerciales que pueden ayudarte a elegir el producto adecuado."
+    }
+  },
+
+  "disclosure-layout#10": {
+    "children": ["disclosure-trigger#10", "disclosure-content#10"],
+    "props": {
+      "blockClass": "preguntas-frecuentes-container-10"
+    }
+  },
+  "disclosure-trigger#10": {
+    "children": ["rich-text#question10"],
+    "props": {
+      "blockClass": "question-preguntas-frecuentes-container-10"
+    }
+  },
+  "disclosure-content#10": {
+    "children": ["rich-text#answer10"],
+    "props": {
+      "blockClass": "content-preguntas-frecuentes-container-10"
+    }
+  },
+  "rich-text#question10": {
+    "props": {
+      "text": "10.-¿Cómo puedo contactarme si tengo más dudas o necesito soporte?"
+    }
+  },
+  "rich-text#answer10": {
+    "props": {
+      "text": "Puedes escribirnos a atencionalcliente@grupoagra.com o llamar al número indicado en nuestra sección de contacto."
     }
   }
 }

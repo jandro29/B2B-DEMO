@@ -1,43 +1,81 @@
 {
   "store.custom#condiciones-de-promociones": {
-    "blocks": ["responsive-layout.desktop#condiciones-de-promociones", "responsive-layout.mobile#condiciones-de-promociones"]
+    "blocks": [
+      "responsive-layout.desktop#condiciones-de-promociones",
+      "responsive-layout.mobile#condiciones-de-promociones"
+    ]
   },
 
   "responsive-layout.desktop#condiciones-de-promociones": {
     "children": [
-        "flex-layout.row#titulo-condiciones-promociones",
-        "flex-layout.row#contenido-condiciones-promociones"
+      "flex-layout.row#titulo-condiciones-promociones",
+      "flex-layout.row#conteiner-contenido-condiciones-promociones",
+      "flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#condiciones-de-promociones": {
     "children": [
       "flex-layout.row#titulo-condiciones-promociones",
-        "flex-layout.row#contenido-condiciones-promociones"
+      "flex-layout.row#conteiner-contenido-condiciones-promociones",
+      "flex-layout.row#newsletter"
     ]
   },
 
-  "flex-layout.row#titulo-condiciones-promociones":{
-    "children":["rich-text#titulo-condiciones-promociones"]
+  "flex-layout.row#titulo-condiciones-promociones": {
+    "children": ["rich-text#titulo-condiciones-promociones"]
   },
 
-  "rich-text#titulo-condiciones-promociones":{
-    "props":{
-      "text":"Términos y condiciones de promociones",
-      "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heading-1"
+  "rich-text#titulo-condiciones-promociones": {
+    "props": {
+      "text": "Politica general de promociones y descuentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
   },
 
-  "flex-layout.row#contenido-condiciones-promociones":{
-    "children":["rich-text#contenido-condiciones-promociones"]
+  "flex-layout.row#conteiner-contenido-condiciones-promociones": {
+    "children": ["flex-layout.col#contenido-condiciones-promociones"]
   },
 
-  "rich-text#contenido-condiciones-promociones":{
-    "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
+  "flex-layout.col#contenido-condiciones-promociones": {
+    "children": [
+      "rich-text#first-contenido-condiciones-promociones",
+      "rich-text#second-contenido-condiciones-promociones",
+      "rich-text#third-contenido-condiciones-promociones",
+      "rich-text#fourt-contenido-condiciones-promociones",
+      "rich-text#five-contenido-condiciones-promociones"
+    ]
+  },
+
+  "rich-text#first-contenido-condiciones-promociones": {
+    "props": {
+      "text": "Grupo Agra podrá realizar promociones y/o descuentos de sus Productos que consisten en el ofrecimiento de los Productos a precios rebajados en forma temporal en relación con los precios habituales o normales de los Productos. "
+    }
+  },
+
+  "rich-text#second-contenido-condiciones-promociones": {
+    "props": {
+      "text": "Dependiendo de cada promoción o descuento, se podrán establecer términos y condiciones particulares, los cuales serán publicados al momento de lanzamiento de dicha promoción o descuento."
+    }
+  },
+
+  "rich-text#third-contenido-condiciones-promociones": {
+    "props": {
+      "text": "Estos términos y condiciones particulares podrán establecer el máximo de unidades que podrán ser comprados por cada Usuario, así como vigencia y stock particular, entre otros aspectos."
+    }
+  },
+
+  "rich-text#fourt-contenido-condiciones-promociones": {
+    "props": {
+      "text": "Las promociones y/o descuentos no serán necesariamente las mismas que ofrezcan otros canales de venta distintos al Sitio Web.  "
+    }
+  },
+
+  "rich-text#five-contenido-condiciones-promociones": {
+    "props": {
+      "text": "Considera que los Productos en promoción o descuento pueden ser los últimos ejemplares disponibles, por lo que el stock es limitado. Es importante completar y superar el proceso de compra, ya que solo cuando esta haya sido confirmada y se reciba la notificación correspondiente, se habrá formalizado exitosamente el consentimiento de compra del Producto respectivo."
     }
   }
-
 }
