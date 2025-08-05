@@ -1,43 +1,191 @@
 {
   "store.custom#politica-cambios-devolucion": {
-    "blocks": ["responsive-layout.desktop#politica-cambios-devolucion", "responsive-layout.mobile#politica-cambios-devolucion"]
+    "blocks": [
+      "responsive-layout.desktop#politica-cambios-devolucion",
+      "responsive-layout.mobile#politica-cambios-devolucion"
+    ]
   },
 
   "responsive-layout.desktop#politica-cambios-devolucion": {
     "children": [
-        "flex-layout.row#titulo-politica-cambios-devolucion",
-        "flex-layout.row#contenido-politica-cambios-devolucion"
+      "flex-layout.row#titulo-politica-cambios-devolucion",
+      "flex-layout.row#first-section-cambios-devolucion",
+      "flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#politica-cambios-devolucion": {
     "children": [
       "flex-layout.row#titulo-politica-cambios-devolucion",
-        "flex-layout.row#contenido-politica-cambios-devolucion"
+      "flex-layout.row#first-section-cambios-devolucion",
+      "flex-layout.row#newsletter"
     ]
   },
 
-  "flex-layout.row#titulo-politica-cambios-devolucion":{
-    "children":["rich-text#titulo-politica-cambios-devolucion"]
+  "flex-layout.row#titulo-politica-cambios-devolucion": {
+    "children": ["rich-text#titulo-politica-cambios-devolucion"]
   },
 
-  "rich-text#titulo-politica-cambios-devolucion":{
-    "props":{
-      "text":"Política de cambios y devoluciones",
-      "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heading-1"
+  "rich-text#titulo-politica-cambios-devolucion": {
+    "props": {
+      "text": "Política de cambios y devoluciones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
   },
 
-  "flex-layout.row#contenido-politica-cambios-devolucion":{
-    "children":["rich-text#contenido-responsabilidad-social-empresarial"]
+  /**/
+
+  "flex-layout.row#first-section-cambios-devolucion": {
+    "children": ["flex-layout.col#first-section-cambios-devolucion"],
+    "props": {
+      "blockClass": "contenedor_general"
+    }
   },
 
-  "rich-text#contenido-politica-cambios-devolucion":{
-    "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
+  "flex-layout.col#first-section-cambios-devolucion": {
+    "children": [
+      "rich-text#title-seccion-cambios-devolucion1",
+      "rich-text#cambio-devolucion-first-content-section-block-1",
+      "rich-text#cambio-devolucion-first-content-section-block-2",
+      "rich-text#cambio-devolucion-first-content-section-block-3",
+      "rich-text#title-seccion-cambios-devolucion2",
+      "rich-text#cambio-devolucion-first-content-section-block-4",
+      "rich-text#title-seccion-cambios-devolucion3",
+      "rich-text#cambio-devolucion-first-content-section-block-5",
+      "rich-text#cambio-devolucion-first-content-section-block-6",
+      "rich-text#cambio-devolucion-first-content-section-block-7",
+      "rich-text#title-seccion-cambios-devolucion4",
+      "rich-text#cambio-devolucion-first-content-section-block-8",
+      "rich-text#cambio-devolucion-first-content-section-block-9",
+      "rich-text#cambio-devolucion-first-content-section-block-10",
+      "rich-text#cambio-devolucion-first-content-section-block-11",
+      "rich-text#cambio-devolucion-first-content-section-block-12",
+      "rich-text#title-seccion-cambios-devolucion5",
+      "rich-text#cambio-devolucion-first-content-section-block-13",
+      "rich-text#cambio-devolucion-first-content-section-block-14"
+    ]
+  },
+
+  "rich-text#title-seccion-cambios-devolucion1": {
+    "props": {
+      "text": "GARANTIA DE LOS PRODUCTOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#cambio-devolucion-first-content-section-block-1": {
+    "props": {
+      "text": "Los Productos comercializados por Grupo Agra tienen una garantía por todo defecto, deficiencia y/o falla de fabricación que se produzca en el Producto durante el plazo de garantía, según se establezca para cada Producto, la misma que puede variar entre 6 y 12 meses, contados a partir de la fecha de entrega del Producto. "
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-2": {
+    "props": {
+      "text": "Para hacer valer la garantía, el Usuario deberá seguir el procedimiento siguiente:"
+    }
+  },
+
+  "rich-text#cambio-devolucion-first-content-section-block-3": {
+    "props": {
+      "text": "1. El Usuario deberá comunicarse con Atención al Cliente mediante los canales habilitados indicados en la Sección 11 de los Términos y Condiciones.\n\n2. La unidad de Atención al Cliente recepcionará la solicitud del Usuario y enviará el Formato de Solicitud de Atención de Garantía, Cambio o Devolución, quien lo devolverá debidamente llenado\n\n3.  El Usuario deberá entregar el Producto en nuestros almacenes ubicados en AV. HORACIO URTEAGA No 1156 OF 101, JESUS MARIA, dentro del plazo establecido, asumiendo el costo de traslado correspondiente.\n\n4. Grupo Agra analizará la Solicitud de Atención de Garantía, Cambio o Devolución y evaluará el defecto, deficiencia y/o falla de fabricación del Producto a fin de aceptar o rechazar la Solicitud de Atención de Garantía, Cambio o Devolución en el plazo de 10 días hábiles. "
+    }
+  },
+
+   "rich-text#title-seccion-cambios-devolucion2": {
+    "props": {
+      "text": "Si la garantía es aceptada:",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#cambio-devolucion-first-content-section-block-4": {
+    "props": {
+      "text": "-  En caso haya stock, se coordinará con el Usuario el cambio del Producto.\n\n- En caso no exista stock, se procederá a emitir la nota de crédito correspondiente. Las notas de crédito podrán aplicarse como pago en compras realizadas a través de nuestros Asesores Técnicos Comerciales. De otro modo, ante la falta de stock, el Usuario también podrá pedir la devolución del monto pagado."
+    }
+  },
+
+
+  "rich-text#title-seccion-cambios-devolucion3": {
+    "props": {
+      "text": "Si la garantía no es aceptada:",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#cambio-devolucion-first-content-section-block-5": {
+    "props": {
+      "text": "Grupo Agra comunicará al Usuario los motivos por los cuales la garantía no ha sido aceptada. Si el Usuario no está de acuerdo con dichos motivos, podrá presentar un reclamo a través de los medios indicados en los Términos y Condiciones."
+    }
+  },
+
+  "rich-text#cambio-devolucion-first-content-section-block-6": {
+    "props": {
+      "text": "El Usuario tendrá un plazo máximo de treinta (30) días calendario para recoger los Productos que haya entregado por garantía. Grupo Agra no almacenará Productos vencido este plazo y queda exonerado de cualquier responsabilidad por cualquier daño, pérdida o deterioro de cualquier naturaleza que pudiera sufrir el Producto."
+    }
+  },
+
+  "rich-text#cambio-devolucion-first-content-section-block-7": {
+    "props": {
+      "text": "IMPORTANTE: Tratándose de productos de manufactura extranjera, debe brindarse en idioma castellano la información relacionada con los componentes, las condiciones de las garantías, los manuales de uso, las advertencias y los riesgos previsibles, así como los cuidados a seguir en caso de que se produzca un daño (Artículo 8 del Código de Protección al Consumidor)."
+    }
+  },
+
+  "rich-text#title-seccion-cambios-devolucion4": {
+    "props": {
+      "text": "CAMBIOS DE PRODUCTOS O DEVOLUCIONES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-8": {
+    "props": {
+      "text": "Grupo Agra garantiza que los Usuarios tienen el derecho al cambio de los Productos o a la devolución de la contraprestación pagada en los casos indicados en el artículo 97 del Código de Protección y Defensa del Consumidor. "
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-9": {
+    "props": {
+      "text": "Sin perjuicio de lo anterior, el Usuario podrá solicitar un cambio o devolución, cuando: "
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-10": {
+    "props": {
+      "text": "-  Los cambios o devolución se soliciten dentro de los 15 días de entregado el Producto;\n\n-  El Producto haya sido adquirido directamente a Grupo Agra.\n\n- Grupo Agra haya cometido un error al generar la orden de compra o haya entregado un Producto distinto. "
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-11": {
+    "props": {
+      "text": "Para hacer efectivo un cambio o devolución, el Usuario deberá seguir el procedimiento siguiente:"
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-12": {
+    "props": {
+      "text": "1. El Usuario deberá comunicarse con Atención al Cliente mediante los canales habilitados indicados en la Sección 11 de los Términos y Condiciones.\n\n2.  La unidad de Atención al Cliente recepcionará la solicitud del Usuario y enviará el Formato de Solicitud de Atención de Garantía, Cambio o Devolución, quien lo devolverá debidamente llenado.\n\n3.  El Usuario deberá entregar el Producto en nuestros almacenes ubicados en AV. HORACIO URTEAGA No 1156 OF 101, JESUS MARIA, dentro del plazo establecido, asumiendo el costo de traslado correspondiente.\n\n4. Grupo Agra analizará la Solicitud de Atención de Garantía, Cambio o Devolución y evaluará los requisitos antes mencionados a fin de aceptar o rechazar la Solicitud de Atención de Garantía, Cambio o Devolución en el plazo de 10 días hábiles."
+    }
+  },
+  "rich-text#title-seccion-cambios-devolucion5": {
+    "props": {
+      "text": "PLAZO DE DEVOLUCIÓN DE DINERO",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-13": {
+    "props": {
+      "text": "Si el Usuario eligió la opción de devolución de dinero, Grupo Agra gestionará la devolución en el plazo de siete (7) días hábiles contados a partir de la emisión de la nota de crédito respectiva."
+    }
+  },
+  "rich-text#cambio-devolucion-first-content-section-block-14": {
+    "props": {
+      "text": "La devolución del monto pagado por el Usuario se realizará a través de un extorno al mismo medio de pago utilizado en su compra, en caso sea tarjeta de débito o crédito el tiempo dependerá del Banco emisor de la tarjeta. Si el medio de pago se trató de transferencia de fondos a las cuentas bancarias de Grupo Agra, es importante mencionar que la cuenta bancaria indicada por el Usuario para la devolución debe de ser de la misma moneda a devolver y pertenecer a la persona jurídica o persona natural de la cual se recibió el pago, no se abonara a cuenta de terceros."
     }
   }
-
 }
