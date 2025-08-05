@@ -23,7 +23,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/returns",
+            "href": "/libro-de-reclamaciones",
             "noFollow": false,
             "tagTitle": "Returns",
             "text": "Libro de reclamaciones"
@@ -53,19 +53,6 @@
             "noFollow": false,
             "tagTitle": "Accessibility",
             "text": "Términos y Condiciones Promociones"
-          }
-        },
-        {
-          "id": "footerItem-contact",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/preguntas-frecuentes",
-            "noFollow": false,
-            "tagTitle": "Contact Us",
-            "text": "Preguntas Frecuentes"
           }
         }/*,
         {
@@ -200,32 +187,6 @@
             "noFollow": false,
             "tagTitle": "Returns",
             "text": "Políticas de Despacho"
-          }
-        },
-        {
-          "id": "footerItem-recall",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/terminos-condiciones",
-            "noFollow": false,
-            "tagTitle": "Product Recalls",
-            "text": "Términos y Condiciones"
-          }
-        },
-        {
-          "id": "footerItem-accessibility",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/terminos-condiciones-de-promociones",
-            "noFollow": false,
-            "tagTitle": "Accessibility",
-            "text": "Términos y Condiciones Promociones"
           }
         }/*,
         {
