@@ -16,7 +16,13 @@
   },
   "responsive-layout.mobile#nosotros": {
     "children": [
-
+      "flex-layout.row#banner-nosotros",
+      "flex-layout.row#texto1-container-nosotros",
+      "flex-layout.row#about-us",
+      "rich-text#nuestro-equipo",
+      "flex-layout.row#our-team-components",
+      "rich-text#nuestros-colaboradores",
+      "flex-layout.row#nuestros-colaboradores"
     ]
   },
 
@@ -55,7 +61,7 @@
   },
 
   "flex-layout.col#texto1-nosotros":{
-    "children":["rich-text#titulo-nosotros", "rich-text#parrafo-nosotros"]
+    "children":["rich-text#titulo-nosotros", "rich-text#parrafo-nosotros","rich-text#titulo-historia-nosotros", "rich-text#parrafo-historia-nosotros"]
   },
 
   "rich-text#titulo-nosotros":{
@@ -69,9 +75,24 @@
 
   "rich-text#parrafo-nosotros":{
     "props":{
+
+    "text": "Desde 1991, Grupo Agra – Guillermo Romero SAC es líder en la importación y distribución de productos industriales y eléctricos en el Perú. Representamos y comercializamos marcas reconocidas internacionalmente como Band-It, Bals, y Schmersal, así como desarrollos propios que garantizan calidad y competitividad.\n\nAtendemos sectores estratégicos como telecomunicaciones, energía, minería, construcción y comercio, ofreciendo soluciones integrales que combinan producto, soporte técnico y servicio postventa.\n\nNuestra misión es superar las expectativas de nuestros clientes con calidad, rapidez y asesoría especializada, impulsados por valores de honestidad, equidad y responsabilidad.",
+    "blockClass": "parrafo-texto1-nosotros"
+  }
+  },
+
+  "rich-text#titulo-historia-nosotros":{
+    "props":{
       "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-    "text": "Grupo Agra es una empresa peruana con más de 30 años de experiencia, dedicada a ofrecer soluciones integrales en el sector industrial. Nos especializamos en la importación, distribución y comercialización de productos de uso industrial, diseñados para satisfacer las necesidades específicas de nuestros clientes B2B.",
+      "text": "Historia",
+      "blockClass": "titulo-texto1-nosotros"
+    }
+  },
+
+  "rich-text#parrafo-historia-nosotros":{
+    "props":{
+
+    "text": "Fundados por Guillermo Romero en Lima, iniciamos operaciones con un objetivo claro:\nacercar al mercado peruano productos de clase mundial.\nA lo largo de más de tres décadas, hemos crecido en cobertura, diversificado nuestro portafolio y desarrollado marcas propias que hoy compiten a nivel nacional.\nEn 2025, con la incorporación de comercio electrónico y nuevas alianzas estratégicas, nos proyectamos hacia un crecimiento sostenido y la expansión a nuevos sectores. ",
     "blockClass": "parrafo-texto1-nosotros"
   }
   },

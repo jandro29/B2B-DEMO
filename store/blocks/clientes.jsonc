@@ -1,0 +1,100 @@
+{
+  "store.custom#clientes": {
+    "blocks": [
+      "responsive-layout.desktop#clientes",
+      "responsive-layout.mobile#clientes"
+    ]
+  },
+
+  "responsive-layout.desktop#clientes": {
+    "children": [
+      "flex-layout.row#titulo-clientes",
+      "flex-layout.row#contenido-clientes",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  "responsive-layout.mobile#clientes": {
+    "children": [
+      "flex-layout.row#titulo-clientes",
+      "flex-layout.row#contenido-clientes",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  /* ==================== TÍTULO ==================== */
+  "flex-layout.row#titulo-clientes": {
+    "children": ["rich-text#titulo-clientes"]
+  },
+  "rich-text#titulo-clientes": {
+    "props": {
+      "text": "CLIENTES",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER",
+      "font": "t-heading-1"
+    }
+  },
+
+  /* ==================== CONTENIDO ==================== */
+  "flex-layout.row#contenido-clientes": {
+    "children": ["flex-layout.col#contenido-clientes-col"]
+  },
+  "flex-layout.col#contenido-clientes-col": {
+    "children": [
+      "rich-text#intro-clientes",
+      "rich-text#cliente-telecom",
+      "rich-text#cliente-energia",
+      "rich-text#cliente-mineria",
+      "rich-text#cliente-construccion",
+      "rich-text#cierre-clientes"
+    ]
+  },
+
+  "rich-text#intro-clientes": {
+    "props": {
+      "text": "Nuestra cartera incluye empresas líderes en:",
+      "textAlignment": "LEFT",
+      "font": "t-body"
+    }
+  },
+
+  "rich-text#cliente-telecom": {
+    "props": {
+      "text": "• **Telecomunicaciones:** soluciones para tendido, fijación y protección de cables.",
+      "textAlignment": "LEFT",
+      "font": "t-body"
+    }
+  },
+
+  "rich-text#cliente-energia": {
+    "props": {
+      "text": "• **Energía:** productos para distribución eléctrica y mantenimiento de redes.",
+      "textAlignment": "LEFT",
+      "font": "t-body"
+    }
+  },
+
+  "rich-text#cliente-mineria": {
+    "props": {
+      "text": "• **Minería:** insumos para infraestructura y seguridad industrial.",
+      "textAlignment": "LEFT",
+      "font": "t-body"
+    }
+  },
+
+  "rich-text#cliente-construccion": {
+    "props": {
+      "text": "• **Construcción y comercio:** herramientas, conectores y accesorios de alto rendimiento.",
+      "textAlignment": "LEFT",
+      "font": "t-body"
+    }
+  },
+
+  "rich-text#cierre-clientes": {
+    "props": {
+      "text": "La confianza y permanencia de nuestros clientes son prueba de nuestro compromiso con resultados medibles y soporte técnico especializado.",
+      "textAlignment": "LEFT",
+      "font": "t-body"
+    }
+  }
+}

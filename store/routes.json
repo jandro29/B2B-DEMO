@@ -106,18 +106,20 @@
 
   "store.custom#responsabilidad-social-empresarial": {
     "path": "/responsabilidad-social-empresarial"
+  },
+  "store.custom#politica-cambios-devolucion": {
+    "path": "/politica-cambios-devolucion"
+  },
+
+  "store.custom#politica-de-despacho": {
+    "path": "/politica-de-despacho"
+  },
+
+  "store.custom#formbuilder": {
+    "path": "/formbuilder"
+  },
+
+  "store.custom#clientes": {
+    "path": "/clientes"
   }
-,
-"store.custom#politica-cambios-devolucion": {
-  "path": "/politica-cambios-devolucion"
-},
-
-"store.custom#politica-de-despacho": {
-  "path": "/politica-de-despacho"
-},
-
-"store.custom#formbuilder": {
-  "path": "/formbuilder"
-}
-
 }

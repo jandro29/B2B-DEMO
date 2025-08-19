@@ -1,43 +1,159 @@
 {
   "store.custom#politica-de-despacho": {
-    "blocks": ["responsive-layout.desktop#politica-de-despacho", "responsive-layout.mobile#politica-de-despacho"]
+    "blocks": [
+      "responsive-layout.desktop#politica-de-despacho",
+      "responsive-layout.mobile#politica-de-despacho"
+    ]
   },
 
   "responsive-layout.desktop#politica-de-despacho": {
     "children": [
-        "flex-layout.row#titulo-politica-de-despacho",
-        "flex-layout.row#contenido-politica-de-despacho"
+      "flex-layout.row#titulo-politica-de-despacho",
+      "flex-layout.row#section1-politica",
+      "flex-layout.row#section2-politica",
+      "flex-layout.row#section3-politica",
+      "flex-layout.row#section-cuadro1",
+      "flex-layout.row#section-cuadro2",
+      "flex-layout.row#section-cuadro3",
+      "flex-layout.row#section4-politica",
+      "flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#politica-de-despacho": {
     "children": [
-       "flex-layout.row#titulo-politica-de-despacho",
-        "flex-layout.row#contenido-politica-de-despacho"
+      "flex-layout.row#titulo-politica-de-despacho",
+      "flex-layout.row#section1-politica",
+      "flex-layout.row#section2-politica",
+      "flex-layout.row#section3-politica",
+      "flex-layout.row#section-cuadro1",
+      "flex-layout.row#section-cuadro2",
+      "flex-layout.row#section-cuadro3",
+      "flex-layout.row#section4-politica",
+      "flex-layout.row#newsletter"
     ]
   },
 
-  "flex-layout.row#titulo-politica-de-despacho":{
-    "children":["rich-text#titulo-politica-de-despacho"]
+  /* ==================== TÍTULO ==================== */
+  "flex-layout.row#titulo-politica-de-despacho": {
+    "children": ["rich-text#titulo-politica-de-despacho"]
   },
-
-  "rich-text#titulo-politica-de-despacho":{
-    "props":{
-      "text":"Politica de despacho",
-      "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heading-1"
+  "rich-text#titulo-politica-de-despacho": {
+    "props": {
+      "text": "POLÍTICA DE DESPACHO Y ENTREGA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
   },
 
-  "flex-layout.row#contenido-politica-de-despacho":{
-    "children":["rich-text#contenido-politica-de-despacho"]
+  /* ==================== SECCIÓN 1 ==================== */
+  "flex-layout.row#section1-politica": {
+    "children": ["flex-layout.col#section1-col"]
+  },
+  "flex-layout.col#section1-col": {
+    "children": ["rich-text#section1-title", "rich-text#section1-content"]
+  },
+  "rich-text#section1-title": {
+    "props": {
+      "text": "1. TÉRMINOS GENERALES",
+      "textAlignment": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#section1-content": {
+    "props": {
+      "text": "El despacho y la entrega de los Productos se realizará a través del área de Almacén y Despacho de Grupo Agra. Dicho despacho y entrega, se sujetará a las condiciones que se consignen en la presente Política de Despacho y Entrega.<br><br>Los Usuarios podrán elegir entre las siguientes opciones: <b>a)</b> Recoger los productos en el almacén de Grupo Agra, ubicado en Av. Horacio Urteaga N° 1144, Dpto. 201, distrito de Jesús María, Lima; o, <b>b)</b> Solicitar el despacho de los productos a una dirección específica indicada por los Usuarios.<br><br>Independientemente de que el Usuario ya cuente con una Cuenta de Usuario, deberá completar los datos que se le indiquen para el despacho o entrega de los Productos."
+    }
   },
 
-  "rich-text#contenido-politica-de-despacho":{
-    "props":{
-      "text":"Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo. Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo.Maecenas justo enim ultrices risus malesuada condimentum tellus sociis. Odio volutpat id at urna nunc et. Diam arcu consectetur pretium at gravida viverra erat magna ut. Massa imperdiet cursus elementum mauris quisque ut vitae lectus commodo. Enim metus arcu non sed ante tortor. Enim elit nullam aliquet interdum accumsan. Integer aliquam lobortis turpis ac. Quis scelerisque eget non faucibus. Facilisis praesent hendrerit quam interdum venenatis arcu volutpat nisi commodo."
+  /* ==================== SECCIÓN 2 ==================== */
+  "flex-layout.row#section2-politica": {
+    "children": ["flex-layout.col#section2-col"]
+  },
+  "flex-layout.col#section2-col": {
+    "children": ["rich-text#section2-title", "rich-text#section2-content"]
+  },
+  "rich-text#section2-title": {
+    "props": {
+      "text": "2. RECOJO DE PRODUCTOS EN ALMACÉN",
+      "textAlignment": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#section2-content": {
+    "props": {
+      "text": "El horario para recojo de Productos en el almacén es de lunes a viernes de 10:00 a 16:00 horas. Los días sábado y domingo no se entregan Productos.<br><br><b>Personas Naturales:</b> solo podrá recoger el titular de la boleta/factura salvo que se indique a un tercero en el Sitio Web, mostrando DNI y número de pedido.<br><b>Empresas:</b> se debe indicar al encargado del recojo en el Sitio Web, quien presentará su DNI y el número de pedido.<br><br>Grupo Agra no almacenará datos de terceros después de la entrega.<br><br>Si no se recoge en el plazo programado, se cobrará S/10.00 por día a partir del día 15, con un máximo de 90 días. Vencido el plazo, la compraventa quedará resuelta y se aplicará una penalidad igual al valor de la venta.<br><br><b>IMPORTANTE:</b> Antes de firmar la guía de remisión, el Usuario debe verificar que los productos estén completos y en buen estado."
+    }
+  },
+
+  /* ==================== SECCIÓN 3 ==================== */
+  "flex-layout.row#section3-politica": {
+    "children": ["flex-layout.col#section3-col"]
+  },
+  "flex-layout.col#section3-col": {
+    "children": ["rich-text#section3-title", "rich-text#section3-content"]
+  },
+  "rich-text#section3-title": {
+    "props": {
+      "text": "3. DESPACHO DE PRODUCTOS A UNA DIRECCIÓN ESPECÍFICA",
+      "textAlignment": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#section3-content": {
+    "props": {
+      "text": "<b>Para Lima Metropolitana:</b><br>- Entregas entre 24 y 48 horas para pedidos confirmados antes de las 17:00 (<100Kg).<br>- Para pedidos >100Kg: 72 horas.<br>- Entregas Express: pedidos <10Kg confirmados antes de las 12:00 pm.<br>- Horario de entrega: lunes a viernes de 10:00 a 18:00.<br><br><b>IMPORTANTE:</b> El despacho aplica solo a Lima y Callao (Cuadro 1). Entregas Express en distritos específicos (Cuadro 2). Los costos dependen de zona y peso (Cuadro 3).<br><br><b>Para Provincia:</b><br>El despacho será a una agencia de carga designada por el Usuario. Desde la entrega en la agencia, el riesgo pasa al Usuario. Entregas en 24-48 horas (<100Kg) o 72 horas (>100Kg)."
+    }
+  },
+
+ /* ==================== CUADRO 1 ==================== */
+  "flex-layout.row#section-cuadro1": {
+    "children": ["rich-text#section-cuadro1"]
+  },
+  "rich-text#section-cuadro1": {
+    "props": {
+      "text": "*CUADRO 1. ZONIFICACIÓN*\nZONA 1: Lima, La Victoria, Rímac, Breña, Jesús María, Pueblo Libre, San Miguel\nZONA 2: Los Olivos, Independencia, San Martin de Porres, Puente Piedra, Comas, Carabayllo, Callao.\nZONA 3: San Juan de Miraflores, San Luis, Santa Anita, Ate, La Molina, El Agustino, Cieneguilla, Lurigancho Chosica, Chaclacayo.\nZONA 4: Lurín, Villa el Salvador, Villa María del Triunfo, Pachacamac, San Juan de Miraflores.\nZONA 5: Pucusana, San Bartolo, Punta Hermoza.\nZONA 6: Ancón, Santa Rosa, Ventanilla."
+    }
+  },
+
+  /* ==================== CUADRO 2 ==================== */
+  "flex-layout.row#section-cuadro2": {
+    "children": ["rich-text#section-cuadro2"]
+  },
+  "rich-text#section-cuadro2": {
+    "props": {
+      "text": "*CUADRO 2. ZONIFICACIÓN ENTREGAS EXPRESS*\nZONA 1: Lurín, Villa el Salvador, Villa María del Triunfo, Pachacamac, San Juan de Miraflores.\nZONA 2: Lima, La Victoria, Rímac, Breña, Jesús María, Pueblo Libre, San Miguel.\nZONA 3: San Juan de Miraflores, San Luis, Santa Anita, Ate, La Molina, El Agustino, Cieneguilla, Lurigancho Chosica, Chaclacayo.\nZONA 4: Los Olivos, Independencia, San Martin de Porres, Puente Piedra, Comas, Carabayllo, Callao.\nZONA 5: Pucusana, San Bartolo, Punta Hermoza.\nZONA 6: Ancón, Santa Rosa, Ventanilla."
+    }
+  },
+
+  /* ==================== CUADRO 3 ==================== */
+  "flex-layout.row#section-cuadro3": {
+    "children": ["rich-text#section-cuadro3"]
+  },
+  "rich-text#section-cuadro3": {
+    "props": {
+      "text": "*CUADRO 3. COSTOS POR FLETE*\nZONA | <1000 | 1000<3000 | 3000<7000 | 7000>8500\n--- | --- | --- | --- | ---\nZONA 1 | S/177 | S/295 | S/354 | S/413\nZONA 2 | S/236 | S/354 | S/378 | S/566\nZONA 3 | S/307 | S/354 | S/378 | S/566\nZONA 4 | S/307 | S/354 | S/378 | S/566\nZONA 5 | S/307 | S/354 | S/378 | S/566\nZONA 6 | S/413 | S/413 | S/413 | S/602\n\nIMPORTANTE: El valor del flete de los productos está determinado por la zona y peso. Los precios incluyen IGV."
+    }
+  },
+
+  /* ==================== SECCIÓN 4 ==================== */
+  "flex-layout.row#section4-politica": {
+    "children": ["flex-layout.col#section4-col"]
+  },
+  "flex-layout.col#section4-col": {
+    "children": ["rich-text#section4-title", "rich-text#section4-content"]
+  },
+  "rich-text#section4-title": {
+    "props": {
+      "text": "4. RETRASO O INCUMPLIMIENTO POR CASO FORTUITO O FUERZA MAYOR",
+      "textAlignment": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#section4-content": {
+    "props": {
+      "text": "Si por temas coyunturales, obras de carreteras en construcción o caso fortuito o fuerza mayor como desastres naturales, disposiciones gubernamentales, pandemias, entre otros, no se entregase los Productos en la fecha acordada con el Usuario, se coordinará con el Usuario la reprogramación del despacho o entrega.<br><br>Asimismo, si la entrega se ve interrumpida por un período de 90 días, el contrato quedará resuelto de pleno derecho sin responsabilidad para ninguna de las partes contratantes."
     }
   }
-
 }

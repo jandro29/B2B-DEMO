@@ -61,12 +61,7 @@
       "height": 328,
       "images": [
         {
-          "image": "assets/placeholders/first-banner.png",
-          "mobileImage": "assets/placeholders/first-banner-mobil.png",
-          "description": "something something"
-        },
-        {
-          "image": "assets/placeholders/first-banner.png",
+          "image": "assets/placeholders/banner-grupo-agra.jpg",
           "mobileImage": "assets/placeholders/first-banner-mobil.png",
           "description": "something something"
         }

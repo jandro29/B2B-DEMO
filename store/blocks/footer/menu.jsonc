@@ -110,7 +110,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/sell",
+            "href": "/clientes",
             "noFollow": false,
             "tagTitle": "about-us",
             "text": "Clientes"
