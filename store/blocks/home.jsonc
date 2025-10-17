@@ -120,12 +120,7 @@
     },
     "children": [ "flex-layout.row#categories"] //"rich-text#shopByTitle",
   },
-  /*"rich-text#shopByTitle": {
-    "props": {
-      //"text": "### Encuentra tus Productos"
-      "blockClass": "shopByCategoryTitle"
-    }
-  },*/
+  
 
   "flex-layout.row#productos-mb": {
     "props": {
@@ -514,90 +509,6 @@
 /*=================================================================*/
 
 
-
-
-  // Deprecated
-  // "flex-layout.row#shopByBrand": {
-  //   "children": ["flex-layout.col#shopByBrand"]
-  // },
-  // "flex-layout.col#shopByBrand": {
-  //   "props": {
-  //     "blockClass": "shopByBrand"
-  //   },
-  //   "children": [
-  //     "rich-text#sectionTitle",
-  //     "list-context.image-list#brandImages"
-  //   ]
-  // },
-  // "rich-text#sectionTitle": {
-  //   "props": {
-  //     "text": "### Shop by brand",
-  //     "blockClass": "sectionTitle"
-  //   }
-  // },
-  // "list-context.image-list#brandImages": {
-  //   "children": ["slider-layout#brand-images"],
-  //   "props": {
-  //     "height": 328,
-  //     "images": [
-  //       {
-  //         "image": "assets/placeholders/AppleBrand.png",
-  //         "description": "something something",
-  //         "link": {
-  //           "url": "/apple"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/placeholders/AppleBrand.png",
-  //         "description": "something something",
-  //         "link": {
-  //           "url": "/apple"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/placeholders/AppleBrand.png",
-  //         "description": "something something",
-  //         "link": {
-  //           "url": "/apple"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/placeholders/AppleBrand.png",
-  //         "description": "something something",
-  //         "link": {
-  //           "url": "/apple"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/placeholders/AppleBrand.png",
-  //         "description": "something something",
-  //         "link": {
-  //           "url": "/apple"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/placeholders/AppleBrand.png",
-  //         "description": "something something",
-  //         "link": {
-  //           "url": "/apple"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // },
-  // "slider-layout#brand-images": {
-  //   "props": {
-  //     "blockClass": "brandSlider",
-  //     "itemsPerPage": {
-  //       "desktop": 6,
-  //       "tablet": 4,
-  //       "phone": 3
-  //     },
-  //     "infinite": false
-  //   }
-  // },
-
-
   "flex-layout.row#tusprod": {
     "children": [
       "rich-text#prod"
@@ -616,29 +527,12 @@
     }
   },
 
-  //VER TODOS - CATEGORIAS CLAVES
-
-  /*"link#prod": {
-    "props": {
-      "label": "VER TODOS",
-      "href": "#",
-      "blockClass": "vermas-productos"
-    }
-  },*/
-
-
   "flex-layout.row#shelf1": {
     "children": ["list-context.product-list#productSlider"], //"rich-text",
     "props": {
       "blockClass": "shelfComplete"
     }
   },
-  /*"rich-text":{
-    "props":{
-     "text": "### Productos Destacados",
-      "blockClass": "shopByCategoryTitle"
-    }
-  },*/
 
   "list-context.product-list#productSlider": {
     "blocks": ["product-summary.shelf#complete"],
@@ -983,86 +877,6 @@
     }
   },
 
-
- /*   "flex-layout.row": {
-      "props": {
-        "blockClass": "row-container"
-      },
-      "children": [
-        "flex-layout.col#about",
-        "flex-layout.col#projects"
-      ]
-    },
-    "flex-layout.col#about": {
-      "props": {
-        "width": "50%",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "blockClass": "col-content"
-      },
-      "children": [
-        "image#about-bg",
-        "rich-text#about-text",
-        "button-link#about-btn"
-      ]
-    },
-    "flex-layout.col#projects": {
-      "props": {
-        "width": "50%",
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "blockClass": "col-content"
-      },
-      "children": [
-        "image#projects-bg",
-        "rich-text#projects-text",
-        "button-link#projects-btn"
-      ]
-    },
-    "image#about-bg": {
-      "props": {
-        "src": "assets/placeholders/nosotros.png",
-        "alt": "Imagen de nosotros",
-        "blockClass": "image-background"
-      }
-    },
-    "image#projects-bg": {
-      "props": {
-        "src": "assets/placeholders/nosotros.png",
-        "alt": "Imagen de proyectos",
-        "blockClass": "image-background"
-      }
-    },
-    "rich-text#about-text": {
-      "props": {
-        "text": "*Nosotros*\n\nSomos una empresa peruana con más de 30 años de experiencia en el mercado.",
-        "textPosition": "center",
-        "blockClass": "text-overlay"
-      }
-    },
-    "rich-text#projects-text": {
-      "props": {
-        "text": "*Proyectos*\n\nNuestro objetivo es brindar soluciones integrales a nuestros clientes a través de la importación, distribución y comercialización de productos de uso industrial.",
-        "textPosition": "center",
-        "blockClass": "text-overlay"
-      }
-    },
-    "button-link#about-btn": {
-      "props": {
-        "label": "SABER MÁS",
-        "url": "/about",
-        "blockClass": "custom-button"
-      }
-    },
-    "button-link#projects-btn": {
-      "props": {
-        "label": "SABER MÁS",
-        "url": "/projects",
-        "blockClass": "custom-button"
-      }
-    }
-*/
-
   "flex-layout.row#container":{
     "props":{
      "blockClass": "abt",
@@ -1123,177 +937,4 @@
       "blockClass": "titulo-clientes"
     }
    }
-
-
-   
-     //NUESTRO BLOG SECTION
-
-  /* "flex-layout.row#nuestroblog": {
-    "children": [
-      "rich-text#blog",
-      "link#blog"
-    ],
-    "props": {
-      "blockClass": "Head",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
-    }
-  },
-
-
-
-  "rich-text#blog": {
-    "props": {
-      "margin": "16px",
-      "text": "### Nuestro Blog \n Everything you need to stay connected from $99",
-      "blockClass": "blog"
-    }
-  },
-  "link#blog": {
-    "props": {
-      "label": "VER TODOS",
-      "href": "#",
-      "blockClass": "vermas-nuestroblog"
-    }
-  },
-
-  "flex-layout.row#contendoblog":{
-    "children":[
-      "info-card#blog1",
-      "info-card#blog2"
-    ]
-  },
-
-  "info-card#blog1":{
-    "props":{
-      "imageUrl":"assets/placeholders/blog1.png",
-      "isFullModeStyle": false,
-      "headLine":"Nisi sed in interdum habitant odio. Auctor ultrices risus id ultricies.",
-      "subhead":"Tellus aliquet laoreet leo nibh suspendisse lacus mauris. Morbi iaculis pellentesque eu sapien amet. Vulputate vitae cras interdum nisl felis et nulla.",
-      "callToActionText":"Ver Blog",
-      "callToActionUrl":"/",
-      "callToActionMode": "button"
-
-    }
-  },
-  "info-card#blog2":{
-    "props":{
-      "imageUrl":"assets/placeholders/blog2.png",
-      "isFullModeStyle": false,
-      "headLine":"Nisi sed in interdum habitant odio. Auctor ultrices risus id ultricies.",
-      "subhead":"Tellus aliquet laoreet leo nibh suspendisse lacus mauris. Morbi iaculis pellentesque eu sapien amet. Vulputate vitae cras interdum nisl felis et nulla.",
-      "callToActionText":"Ver Blog",
-      "callToActionUrl":"/",
-      "callToActionMode": "button"
-    }
-  }
-
-
-  "flex-layout.row#contendoblog": {
-    "props": {
-      "preventHorizontalStretch": true,
-      "blockClass": "blogbanner"
-    },
-    "children": [
-      "flex-layout.col#blog1",
-      "flex-layout.col#blog2"
-    ]
-  },
-
-  "flex-layout.col#blog1": {
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 4,
-      "blockClass": "contenedor-blog1"
-    },
-    "children": [
-      "image#blog1",
-      "rich-text#titleblog1",
-      "rich-text#contlog1",
-      "rich-text#buttomblog1"
-    ]
-  },
-
-  "image#blog1": {
-    "props": {
-      "src": "assets/placeholders/blog1.png",
-      "maxHeight": 256,
-      "blockClass": "imagen-blog1"
-    }
-  },
-
-  "rich-text#titleblog1": {
-    "props": {
-      "text": "Nisi sed in interdum habitant odio. Auctor ultrices risus id ultricies.",
-      "blockClass": "titulo-blog1"
-     //"textAlignment": "CENTER"
-    }
-  },
-
-  "rich-text#contlog1":{
-    "props": {
-      "text": "Tellus aliquet laoreet leo nibh suspendisse lacus mauris. Morbi iaculis pellentesque eu sapien amet. Vulputate vitae cras interdum nisl felis et nulla.",
-      "blockClass": "contenido-blog1"
-     //"textAlignment": "CENTER"
-    }
-  },
-
-
-  "rich-text#buttomblog1": {
-    "props": {
-      "text": "[VER BLOG]()",
-      "blockClass": "blogbuttom",
-      "textAlignment": "CENTER"
-    }
-  },
-
-
-
-  "flex-layout.col#blog2": {
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 4,
-      "blockClass": "contenedor-blog2"
-    },
-    "children": [
-      "image#blog2",
-      "rich-text#titleblog2",
-      "rich-text#contlog2",
-      "rich-text#buttomblog2"
-    ]
-  },
-
-  "image#blog2": {
-    "props": {
-      "src": "assets/placeholders/blog2.png",
-      "maxHeight": 256,
-      "blockClass": "imagen-blog2"
-    }
-  },
-
-  "rich-text#titleblog2": {
-    "props": {
-      "text": "Netus orci dui neque convallis eu ullamcorper lorem congue nunc.",
-      "blockClass": "titulo-blog2"
-     //"textAlignment": "CENTER"
-    }
-  },
-
-  "rich-text#contlog2":{
-    "props": {
-      "text": "Vitae cras condimentum cras in euismod pellentesque fringilla. A sed fermentum vitae quam lectus mauris egestas sed fusce. Est eu eget.  ",
-      "blockClass": "contenido-blog2"
-     //"textAlignment": "CENTER"
-    }
-  },
-
-
-  "rich-text#buttomblog2": {
-    "props": {
-      "text": "[VER BLOG]()",
-      "blockClass": "blogbuttom",
-      "textAlignment": "CENTER"
-    }
-  }
-    */
 }
