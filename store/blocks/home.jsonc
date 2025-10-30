@@ -907,7 +907,7 @@
        "headline": "Nosotros",
        "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
        "callToActionText": "Saber más",
-       "callToActionUrl":"#",
+       "callToActionUrl":"/nosotros",
        "textAlignment":"left",
        "blockClass": "nosotros-info"
      }
