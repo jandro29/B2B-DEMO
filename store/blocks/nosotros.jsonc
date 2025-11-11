@@ -191,9 +191,11 @@
     },
     "children":[
       "flex-layout.row#redes-team1",
+      "flex-layout.row#redes-team2",
+      "flex-layout.row#redes-team3"
       //"flex-layout.col#our-team1",
-      "flex-layout.col#our-team2",
-      "flex-layout.col#our-team3"
+      //"flex-layout.col#our-team2",
+      //"flex-layout.col#our-team3"
     ]
    },
 
@@ -221,21 +223,21 @@
    "image#our-team1":{
     "props":{
       "blockClass":"our-team-image",
-      "src": "assets/placeholders/guillermo-romero.png"
+      "src": "assets/placeholders/fondo-colaborador1.png"
     }
    },
 
    "image#our-team2":{
     "props":{
       "blockClass":"our-team-image",
-      "src": "assets/placeholders/hector-romero.png"
+      "src": "assets/placeholders/fondo-colaborador2.png"
     }
    },
 
    "image#our-team3":{
     "props":{
       "blockClass":"our-team-image",
-      "src": "assets/placeholders/richard-fuentes.png"
+      "src": "assets/placeholders/fondo-colaborador3.png"
     }
    },
 
@@ -249,11 +251,11 @@
       "blockClass": "titulo-nuestros-colaboradores"
     }
    },
-
-///////////////////////////////////////////////
-///////////////////
-///
-//
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////PRIMER CUADRO///////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
 
 
    "flex-layout.row#redes-team1":{
@@ -268,8 +270,8 @@
   "flex-layout.col#contenido-team1":{
     "children":[
       "rich-text#nombre-team1",
-      "rich-text#cargo-team1",
-      "flex-layout.row#redes-container-team1"
+      "rich-text#cargo-team1"
+      //"flex-layout.row#redes-container-team1"
     ],
 
     "props":{
@@ -279,7 +281,7 @@
 
   "rich-text#nombre-team1":{
     "props":{
-      "text":"Guillermo Romero",
+      "text":"Guillermo Romero\nAngulo",
       "blockClass": "nombre-our-team"
     }
 
@@ -288,19 +290,19 @@
 
   "rich-text#cargo-team1":{
     "props":{
-      "text": "CEO",
+      "text": "Presidente ejecutivo",
       "blockClass": "rol-our-team"
     }
   },
-
+/*
   "flex-layout.row#redes-container-team1":{
     "children":["link#linkedin-our-team1", "link#whatsapp-our-team1", "link#mail-our-team1"],
     "props":{
       "blockClass": "contenedor-redes"
     }
-  },
+  },*/
 
-  "link#linkedin-our-team1": {
+ /* "link#linkedin-our-team1": {
     "children": ["image#linkedin-our-team1"],
     "props": {
       "href": "//facebook.com",
@@ -340,7 +342,196 @@
     "props": {
       "src": "assets/placeholders/mail-colaboradores.png",
       "blockClass": "logo-redes-colaboradores"
+    } 
+  },*/
+
+
+  
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////SEGUNDO CUADRO//////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+
+
+   "flex-layout.row#redes-team2":{
+    "children":[
+      "flex-layout.col#contenido-team2"
+    ],
+    "props":{
+      "blockClass":"container-team-2"
+    }
+  },
+
+  "flex-layout.col#contenido-team2":{
+    "children":[
+      "rich-text#nombre-team2",
+      "rich-text#cargo-team2",
+      "flex-layout.row#redes-container-team2"
+    ],
+
+    "props":{
+      "blockClass":"elementos-team-2"
+    }
+  },
+
+  "rich-text#nombre-team2":{
+    "props":{
+      "text":"Héctor Romero\nAngulo",
+      "blockClass": "nombre-our-team"
+    }
+
+
+  },
+
+  "rich-text#cargo-team2":{
+    "props":{
+      "text": "Director ejecutivo",
+      "blockClass": "rol-our-team"
+    }
+  },
+
+  "flex-layout.row#redes-container-team2":{
+    "children":["link#linkedin-our-team2"], //, "link#whatsapp-our-team2", "link#mail-our-team2"
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
+  },
+
+  "link#linkedin-our-team2": {
+    "children": ["image#linkedin-our-team2"],
+    "props": {
+      "href": "https://www.linkedin.com/in/h%C3%A9ctor-romero-b0a00b125/",
+      "target": "_blank",
+      "blockClass": "link-our-team "
+    }
+  },
+  /*"link#whatsapp-our-team2": {
+    "children": ["image#whatsapp-our-team2"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "link-our-team"
+    }
+  },
+  "link#mail-our-team2": {
+    "children": ["image#mail-our-team2"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "link-our-team"
+    }
+  },*/
+  "image#linkedin-our-team2": {
+    "props": {
+      "src": "assets/placeholders/linkedin-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  /*"image#whatsapp-our-team2": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  "image#mail-our-team2": {
+    "props": {
+      "src": "assets/placeholders/mail-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },*/
+
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////TERCER CUADRO///////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+
+
+   "flex-layout.row#redes-team3":{
+    "children":[
+      "flex-layout.col#contenido-team3"
+    ],
+    "props":{
+      "blockClass":"container-team-3"
+    }
+  },
+
+  "flex-layout.col#contenido-team3":{
+    "children":[
+      "rich-text#nombre-team3",
+      "rich-text#cargo-team3",
+      "flex-layout.row#redes-container-team3"
+    ],
+
+    "props":{
+      "blockClass":"elementos-team-3"
+    }
+  },
+
+  "rich-text#nombre-team3":{
+    "props":{
+      "text":"Richard Fuentes\nRivera",
+      "blockClass": "nombre-our-team"
+    }
+
+
+  },
+
+  "rich-text#cargo-team3":{
+    "props":{
+      "text": "Gerente General",
+      "blockClass": "rol-our-team"
+    }
+  },
+
+  "flex-layout.row#redes-container-team3":{
+    "children":["link#linkedin-our-team3"], //, "link#whatsapp-our-team3", "link#mail-our-team3"
+    "props":{
+      "blockClass": "contenedor-redes"
+    }
+  },
+
+  "link#linkedin-our-team3": {
+    "children": ["image#linkedin-our-team3"],
+    "props": {
+      "href": "https://www.linkedin.com/in/richard-fuentes-rivera-escalante-6976403b/",
+      "target": "_blank",
+      "blockClass": "link-our-team "
+    }
+  },
+ /* "link#whatsapp-our-team3": {
+    "children": ["image#whatsapp-our-team3"],
+    "props": {
+      "href": "//instagram.com",
+      "target": "_blank",
+      "blockClass": "link-our-team"
+    }
+  },
+  "link#mail-our-team3": {
+    "children": ["image#mail-our-team3"],
+    "props": {
+      "href": "//twitter.com",
+      "target": "_blank",
+      "blockClass": "link-our-team"
+    }
+  },*/
+  "image#linkedin-our-team3": {
+    "props": {
+      "src": "assets/placeholders/linkedin-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
     }
   }
-
+  /*"image#whatsapp-our-team3": {
+    "props": {
+      "src": "assets/placeholders/whatsapp-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  },
+  "image#mail-our-team3": {
+    "props": {
+      "src": "assets/placeholders/mail-colaboradores.png",
+      "blockClass": "logo-redes-colaboradores"
+    }
+  }*/
 }

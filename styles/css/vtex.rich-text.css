@@ -981,3 +981,10 @@
 :global(.vtex-rich-text-0-x-paragraph--parrafo-texto1-nosotros) {
   font-size: 15px !important;
 }
+
+/*Proyectos*/
+
+.proyectos-agra-text {
+  max-width: 650px;
+  padding-right: 40px;
+}

@@ -1,0 +1,321 @@
+{
+  "store.custom#proyectos": {
+    "blocks": [
+      "responsive-layout.desktop#proyectos",
+      "responsive-layout.mobile#proyectos"
+    ]
+  },
+
+  /* ===================== DESKTOP ===================== */
+  "responsive-layout.desktop#proyectos": {
+    "children": [
+      "flex-layout.row#titulo-proyectos",
+      "flex-layout.row#contenido-principal",
+      "flex-layout.row#proyecto-sinerge",
+      "flex-layout.row#proyecto-datacenter",
+      "flex-layout.row#proyecto-myp",
+      "flex-layout.row#proyecto-shougang",
+      "flex-layout.row#proyecto-opservices",
+      "flex-layout.row#proyecto-geocodem",
+      "flex-layout.row#proyecto-saeg",
+      "flex-layout.row#proyecto-cam",
+      "flex-layout.row#proyecto-miski",
+      "flex-layout.row#proyecto-pacasmayo",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  /* ===================== MOBILE ===================== */
+  "responsive-layout.mobile#proyectos": {
+    "children": [
+      "flex-layout.row#titulo-proyectos",
+      "flex-layout.row#contenido-principal",
+      "flex-layout.row#proyecto-sinerge",
+      "flex-layout.row#proyecto-datacenter",
+      "flex-layout.row#proyecto-myp",
+      "flex-layout.row#proyecto-shougang",
+      "flex-layout.row#proyecto-opservices",
+      "flex-layout.row#proyecto-geocodem",
+      "flex-layout.row#proyecto-saeg",
+      "flex-layout.row#proyecto-cam",
+      "flex-layout.row#proyecto-miski",
+      "flex-layout.row#proyecto-pacasmayo",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  /* ===================== TÍTULO ===================== */
+  "flex-layout.row#titulo-proyectos": {
+    "children": ["rich-text#titulo-proyectos"]
+  },
+
+  "flex-layout.row#contenido-principal": {
+    "children": ["rich-text#contenido-principal"]
+  },
+
+  "rich-text#titulo-proyectos": {
+    "props": {
+      "text": "Proyectos y soluciones técnicas de Grupo Agra",
+      "font": "t-heading-2",
+      "textAlignment": "left"
+    }
+  },
+
+  "rich-text#contenido-principal": {
+    "props": {
+      "text": "A lo largo del año, Grupo Agra ha participado en diversos proyectos de relevancia nacional, brindando soluciones integrales en suministro eléctrico, automatización y control industrial.\nNuestro compromiso es ofrecer productos de calidad, asesoría técnica especializada y atención oportuna, garantizando la eficiencia operativa de nuestros clientes."
+    }
+  },
+
+  /* ===================== SINERGE – MERKUR ===================== */
+  "flex-layout.row#proyecto-sinerge": {
+    "children": ["flex-layout.col#proyecto-sinerge-text"], //,"image#sinerge"
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-sinerge-text": {
+    "children": ["rich-text#sinergie"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#sinergie": {
+    "props": {
+      "text": "### SINERGE – Proyecto MERKUR LOGISTICS\n\n#### Producto suministrado: \nCables CELSA\n#### Problema identificado: \nNecesidad de cableado confiable para sistema logístico de alta demanda energética.\n#### Solución: \nSe entregaron cables CELSA para garantizar estabilidad y optimizar la distribución energética."
+    }
+  },
+
+  /*"image#sinerge": {
+    "props": {
+      "src": "assets/proyectos/merkurlogistics.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },*/
+
+  /* ===================== DATA CENTER WIN ===================== */
+  "flex-layout.row#proyecto-datacenter": {
+    "children": ["flex-layout.col#proyecto-datacenter-text","image#datacenter"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-datacenter-text": {
+    "children": ["rich-text#datacenter"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#datacenter": {
+    "props": {
+      "text": "### SINERGE – Proyecto DATA CENTER WIN (La Molina)\n\n#### Productos suministrados:\nCables CELSA, terminales Starker y mangas WOER\n#### Problema identificado:\nEl centro de datos requería una instalación eléctrica de alta confiabilidad.\n#### Solución implementada:\nIntegración de cables CELSA y mangas WOER con terminales Starker garantizando continuidad eléctrica en sistemas críticos."
+    }
+  },
+
+  "image#datacenter": {
+    "props": {
+      "src": "assets/placeholders/data-center-win.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ===================== M&P – Jorge Chávez ===================== */
+  "flex-layout.row#proyecto-myp": {
+    "children": ["flex-layout.col#proyecto-myp-text","image#myp"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-myp-text": {
+    "children": ["rich-text#myp"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#myp": {
+    "props": {
+      "text": "### MECHANICAL AND PIPING – Remodelación del Aeropuerto Internacional Jorge Chávez\n\n#### Productos: \nCables CELSA, terminales Starker, enchufes Bals, herramientas Starkertools\n#### Necesidad:\nMateriales certificados para entorno crítico.\n#### Solución: \nSuministro de cables, conectores y herramientas para instalaciones seguras y eficientes."
+    }
+  },
+
+  "image#myp": {
+    "props": {
+      "src": "assets/placeholders/mechanical-and-piping.png",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ===================== SHOUGANG ===================== */
+  "flex-layout.row#proyecto-shougang": {
+    "children": ["flex-layout.col#proyecto-shougang-text","image#shougang"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-shougang-text": {
+    "children": ["rich-text#shougang"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#shougang": {
+    "props": {
+      "text": "### CCCC del Perú – Ampliación SHOUGANG\n\n#### Producto suministrado:\nCables CELSA para SPAT\n#### Problema identificado:\nSe requerían cables industriales de alta resistencia.\n#### Solución implementada:\nSe suministraron cables CELSA SPAT garantizando estabilidad y seguridad operativa."
+    }
+  },
+
+  "image#shougang": {
+    "props": {
+      "src": "assets/placeholders/Ampliacion-shougang.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ===================== OP SERVICES – LINEA 2 ===================== */
+  "flex-layout.row#proyecto-opservices": {
+    "children": ["flex-layout.col#proyecto-opservices-text","image#opservices"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-opservices-text": {
+    "children": ["rich-text#opservices"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#opservices": {
+    "props": {
+      "text": "### OP SERVICES – Proyecto TREN ELÉCTRICO Línea 2\n\n#### Productos suministrados:\nHerramientas Starkertools y productos Bals\n#### Problema identificado:\nRequerimiento de herramientas y materiales certificados para obras ferroviarias.\n#### Solución implementada:\nSuministro de herramientas Starkertools y componentes Bals, garantizando precisión y seguridad en la instalación eléctrica."
+    }
+  },
+
+  "image#opservices": {
+    "props": {
+      "src": "assets/placeholders/op-services-linea2.jpg", 
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ===================== GEOCODEM – LINEA 2 ===================== */
+  "flex-layout.row#proyecto-geocodem": {
+    "children": ["flex-layout.col#proyecto-geocodem-text","image#geocodem"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-geocodem-text": {
+    "children": ["rich-text#geocodem"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#geocodem": {
+    "props": {
+      "text": "### GEOCODEM – Proyecto TREN ELÉCTRICO Línea 2\n\n#### Producto suministrado:\nTuberías contra incendios\n#### Problema identificado:\nNecesidad de canalización resistente al fuego para zonas críticas.\n#### Solución implementada:\nSuministro de tuberías certificadas, garantizando seguridad y cumplimiento normativo industrial."
+    }
+  },
+
+  "image#geocodem": {
+    "props": {
+      "src": "assets/placeholders/geocodem-linea2.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ===================== NUEVOS PROYECTOS ===================== */
+
+  /* ----- SAEG Perú ----- */
+  "flex-layout.row#proyecto-saeg": {
+    "children": ["flex-layout.col#proyecto-saeg-text","image#saeg"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-saeg-text": {
+    "children": ["rich-text#saeg"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#saeg": {
+    "props": {
+      "text": "### SAEG Perú – Proyecto TREN ELÉCTRICO Línea 2\n\n#### Producto suministrado:\nAccesorios de sujeción de acero inoxidable 316 BAND-IT\n#### Problema identificado:\nNecesidad de sistemas de sujeción resistentes a humedad y vibraciones.\n#### Solución implementada:\nSuministro de BAND-IT 316 garantizando durabilidad y fijación segura."
+    }
+  },
+
+  "image#saeg": {
+    "props": {
+      "src": "assets/placeholders/saeg-linea2.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ----- CAM Servicios ----- */
+  "flex-layout.row#proyecto-cam": {
+    "children": ["flex-layout.col#proyecto-cam-text","image#cam"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-cam-text": {
+    "children": ["rich-text#cam"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#cam": {
+    "props": {
+      "text": "### CAM SERVICIOS – Mantenimiento Zona Norte DISTRILUZ\n\n#### Producto suministrado:\nPinzas amperimétricas\n#### Problema identificado:\nNecesidad de medición eléctrica sin cortar el suministro.\n#### Solución implementada:\nEntrega de pinzas profesionales para mediciones precisas y seguras."
+    }
+  },
+
+  "image#cam": {
+    "props": {
+      "src": "assets/placeholders/cam-distribucion.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ----- MISKI MAYO ----- */
+  "flex-layout.row#proyecto-miski": {
+    "children": ["flex-layout.col#proyecto-miski-text","image#miski"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-miski-text": {
+    "children": ["rich-text#miski"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#miski": {
+    "props": {
+      "text": "### MISKI MAYO – Mina BAYÓVAR\n\n#### Producto suministrado:\nCable de acero pull cord SCHMERSAL\n#### Problema identificado:\nNecesidad de sistema de parada de emergencia para faja transportadora.\n#### Solución implementada:\nIntegración de cables Pull Cord SCHMERSAL para seguridad inmediata."
+    }
+  },
+
+  "image#miski": {
+    "props": {
+      "src": "assets/placeholders/miski-bayovar.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  },
+
+  /* ----- CEMENTOS PACASMAYO ----- */
+  "flex-layout.row#proyecto-pacasmayo": {
+    "children": ["flex-layout.col#proyecto-pacasmayo-text","image#pacasmayo"],
+    "props": { "blockClass": "proyectos-agra-container" }
+  },
+
+  "flex-layout.col#proyecto-pacasmayo-text": {
+    "children": ["rich-text#pacasmayo"],
+    "props": { "blockClass": "proyectos-agra-text" }
+  },
+
+  "rich-text#pacasmayo": {
+    "props": {
+      "text": "### CEMENTOS PACASMAYO – Planta Procesadora\n\n#### Producto suministrado:\nFinales de carrera SCHMERSAL\n#### Problema identificado:\nRequerimiento de modernizar sistemas de control industrial.\n#### Solución implementada:\nSuministro de finales de carrera SCHMERSAL para operación segura y automatizada."
+    }
+  },
+
+  "image#pacasmayo": {
+    "props": {
+      "src": "assets/placeholders/cementos-pacasmayo.jpg",
+      "maxWidth": "450px",
+      "blockClass": "proyectos-agra-img"
+    }
+  }
+}

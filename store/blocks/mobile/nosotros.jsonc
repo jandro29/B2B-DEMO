@@ -194,21 +194,21 @@
    "image#our-team1-mobil":{
     "props":{
       "blockClass":"our-team-image",
-      "src": "assets/placeholders/guillermo-romero.png"
+      "src": "assets/placeholders/fondo-colaborador1.png"
     }
    },
 
    "image#our-team2-mobil":{
     "props":{
       "blockClass":"our-team-image",
-      "src": "assets/placeholders/hector-romero.png"
+      "src": "assets/placeholders/fondo-colaborador2.png"
     }
    },
 
    "image#our-team3-mobil":{
     "props":{
       "blockClass":"our-team-image",
-      "src": "assets/placeholders/richard-fuentes.png"
+      "src": "assets/placeholders/fondo-colaborador3.png"
     }
    },
 

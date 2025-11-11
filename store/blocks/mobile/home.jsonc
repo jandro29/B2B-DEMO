@@ -217,7 +217,7 @@
        "headline": "Proyectos",
        "subhead": "Nuestro objetivo es brindar soluciones integrales a nuestros clientes a traves de la importación, distribución y comercialización de productos de uso industrial.",
        "callToActionText": "Saber más",
-       "callToActionUrl":"#",
+       "callToActionUrl":"/proyectos",
        "textAlignment":"left",
        "blockClass": "proyectos-info"
 

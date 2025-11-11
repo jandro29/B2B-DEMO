@@ -101,55 +101,55 @@
   },
   "image#clientes1": {
     "props": {
-      "src": "assets/placeholders/buenaventura-nuestros-clientes.jpg",
+      "src": "assets/placeholders/miskimayo.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes2": {
     "props": {
-      "src": "assets/placeholders/cerro-verde-clientes.jpg",
+      "src": "assets/placeholders/modasa.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes3": {
     "props": {
-      "src": "assets/placeholders/metro-nuestros-clientes.jpg",
+      "src": "assets/placeholders/pacasmayo.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes4": {
     "props": {
-      "src": "assets/placeholders/san-martin-nuestros-clientes.jpg",
+      "src": "assets/placeholders/equans.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes5": {
     "props": {
-      "src": "assets/placeholders/bitel-nuestros-clientes.jpg",
+      "src": "assets/placeholders/wins.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes6": {
     "props": {
-      "src": "assets/placeholders/southern-nuestros-clientes.jpg",
+      "src": "assets/placeholders/wow.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes7": {
     "props": {
-      "src": "assets/placeholders/claro-nuestros-clientes.jpg",
+      "src": "assets/placeholders/luz-del-sur.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes8": {
     "props": {
-      "src": "assets/placeholders/bisa-nuestros-clientes.jpeg",
+      "src": "assets/placeholders/linea-2.jpg",
       "blockClass": "clientesImage"
     }
   },
   "image#clientes9": {
     "props": {
-      "src": "assets/placeholders/jjc-nuestros-clientes.jpg",
+      "src": "assets/placeholders/consorcio-minero.jpg",
       "blockClass": "clientesImage"
     }
   }

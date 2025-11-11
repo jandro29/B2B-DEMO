@@ -121,5 +121,9 @@
 
   "store.custom#clientes": {
     "path": "/clientes"
+  },
+
+  "store.custom#proyectos": {
+    "path": "/proyectos"
   }
 }

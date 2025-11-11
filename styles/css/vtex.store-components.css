@@ -869,9 +869,10 @@
 
   /*clientes slider mobil*/
   .imageElement--clientesImage {
-    width: 110px;
+    width: 95px !important;
   }
 
+ 
   /*footer mobil*/
   .logoContainer--logo-footer {
     max-width: 100%;
@@ -925,4 +926,24 @@
   max-width: 35rem !important;
 }
 
+}
+
+/*Proyectos*/
+
+.proyectos-agra-img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+@media (max-width: 767px) {
+  .imageElement--proyectos-agra-img{
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .imageElement--proyectos-agra-img{
+    width: 350px;
+    height: 250px;
+  }
 }

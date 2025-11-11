@@ -1217,24 +1217,46 @@
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 17px 0 rgba(0, 0, 0, 0.19);
 }
 
-.flexRowContent--container-team-1 {
-  background-image: url("assets/placeholders/fondo-nuestro-team.png");
+.flexRowContent--container-team-1{
+  background-image: url("assets/placeholders/fondo-colaborador1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  height: 100%;
+  height: 350px;
 }
 
-.flexCol--container-team-1 {
+.flexRowContent--container-team-2{
+background-image: url("assets/placeholders/fondo-colaborador2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 350px;
+}
+.flexRowContent--container-team-3{
+background-image: url("assets/placeholders/fondo-colaborador3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 350px;
+}
+
+
+.flexCol--container-team-1,
+.flexCol--container-team-2,
+.flexCol--container-team-3 {
   height: unset;
 }
 
-.flexCol--elementos-team-1 {
+.flexCol--elementos-team-1,
+.flexCol--elementos-team-2,
+.flexCol--elementos-team-3  {
   width: 70% !important;
-  height: 80%;
+  height: 80% !important;
 }
 
-.flexRowContent--container-team-1 {
+.flexRowContent--container-team-1,
+.flexRowContent--container-team-2,
+.flexRowContent--container-team-3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1406,3 +1428,22 @@
   gap: 2rem;
 }
 
+/*tamaño imagenes carrousel*/
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--flex-column-clientes){
+    width: 220px !important;
+  }
+
+
+  /*Proyectos*/
+
+  .proyectos-agra-container {
+  padding: 40px 20px;
+  align-items: center;
+}
+
+
+.flexRow--proyectos-agra-container{
+  margin-bottom: 3rem;
+}
