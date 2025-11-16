@@ -221,7 +221,7 @@
     },
     "hover-on": {
       "action-primary": "#B28807",
-      "action-secondary": "#FABD01",
+      "action-secondary": "#000000",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
