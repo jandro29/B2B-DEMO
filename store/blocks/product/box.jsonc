@@ -141,7 +141,7 @@
   "link#boton-de-redireccion-iniciar-sesion": {
     "children": ["rich-text#product-price"],
     "props": {
-      "href": "/login",
+      "href": "/account#/organization",
       "blockClass": "boton-redirecion-iniciar-sesion"
 
     }
@@ -150,7 +150,7 @@
   "rich-text#product-price": {
     "props": {
       "blockClass": ["product-price-message"],
-      "text": "CREA UNA ORGANIZACION PARA PODER COMPRAR EL PRODUCTO"
+      "text": "REGISTRATE PARA COMPRAR EL PRODUCTO"
     }
   }
 }

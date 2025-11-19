@@ -1,0 +1,8 @@
+{
+  "my-account": {
+    "blocks": [
+      "my-account-menu",
+      "my-account-content"
+    ]
+  }
+}

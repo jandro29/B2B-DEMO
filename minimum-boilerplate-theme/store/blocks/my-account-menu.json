@@ -1,0 +1,5 @@
+{
+  "my-account-menu": {
+    "component": "vtex.my-account@1.x:MyAccountMenu"
+  }
+}

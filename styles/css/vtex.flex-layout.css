@@ -30,9 +30,7 @@
   float: none;
 }
 
-.flexCol--drawerInnerCol
-  :global(.vtex-login-2-x-container)
-  :global(.vtex-button) {
+.flexCol--drawerInnerCol :global(.vtex-login-2-x-container) :global(.vtex-button) {
   width: 150px;
   display: flex;
   align-items: center;
@@ -249,13 +247,14 @@
   justify-content: space-between;
   border-left: 5px solid #fabd01;
   margin-bottom: 20px;
-  margin-top: 123px;
+  margin-top: 80px !important;
   justify-items: center;
 }
 
 .flexRow--imageclient {
   margin-bottom: 10rem;
 }
+
 /* END - Popular Shelf */
 /* BEGIN - Filter */
 
@@ -324,14 +323,11 @@
     padding: 16px 0px 24px;
   }
 
-  .flexRowContent--quickOrderContainer
-    :global(.vtex-styleguide-9-x-jsFocusVisible) {
+  .flexRowContent--quickOrderContainer :global(.vtex-styleguide-9-x-jsFocusVisible) {
     margin: 16px 0px;
   }
 
-  .flexRowContent--quickOrderContainer
-    :global(.vtex-quickorder-3-x-textContainer)
-    :not(:global(.vtex-fake)) {
+  .flexRowContent--quickOrderContainer :global(.vtex-quickorder-3-x-textContainer) :not(:global(.vtex-fake)) {
     margin: 0;
   }
 
@@ -358,7 +354,16 @@
   .flexRowContent--paymentImages {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 2fr);
+
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--shopByCategory) {
+    display: flex;
+    flex-wrap: wrap;
+    grid-row-gap: 100px !important; 
+    height: 100%;
+    min-height: 260px;
   }
 
   .flexCol--paymentCol {
@@ -387,10 +392,8 @@
     padding-right: 0;
   }
 
-  .flexRowContent--stickyPriceRow
-    :global(.vtex-product-price-1-x-savings--desktop),
-  .flexRowContent--stickyPriceRow
-    :global(.vtex-product-price-1-x-savings--savingPercent) {
+  .flexRowContent--stickyPriceRow :global(.vtex-product-price-1-x-savings--desktop),
+  .flexRowContent--stickyPriceRow :global(.vtex-product-price-1-x-savings--savingPercent) {
     font-size: 12px;
   }
 
@@ -494,6 +497,7 @@
     width: 100%;
     min-width: initial;
   }
+
   .flexColChild--assembly-options {
     max-width: 100%;
   }
@@ -606,6 +610,7 @@
 }
 
 @media (min-width: 64rem) {
+
   .flexRowContent--divider,
   .flexCol--divider {
     margin: 32px 0;
@@ -653,23 +658,19 @@
 
 .flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
 .flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsRating),
-.flexRow--reviews-only
-  :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer),
+.flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer),
 .flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
 .flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsRating),
-.flexCol--reviews-only
-  :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) {
+.flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) {
   display: none;
 }
 
 /* Ratings Only */
 
 .flexRow--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
-.flexRow--ratings-only
-  :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer),
+.flexRow--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer),
 .flexCol--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
-.flexCol--ratings-only
-  :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) {
+.flexCol--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) {
   display: none;
 }
 
@@ -701,6 +702,7 @@
 }
 
 @media (min-width: 40rem) {
+
   .flexCol--divider--vertical,
   .flexRow--divider--vertical {
     border-right-style: solid;
@@ -770,7 +772,8 @@
 
 .col-content {
   position: relative;
-  height: 300px; /* Ajusta según tu necesidad */
+  height: 300px;
+  /* Ajusta según tu necesidad */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -823,6 +826,7 @@
 .carousel2 {
   background-image: url("assets/placeholders/first-banner.png");
 }
+
 .flexRow--abt {
   height: 85vh;
   background: #162126;
@@ -874,6 +878,7 @@
 .wrapper--textblog {
   width: 100px;
 }
+
 .textblog {
   width: 100px !important;
 }
@@ -988,8 +993,7 @@
 }
 
 @media (max-width: 64rem) {
-  .flexRowContent--contener-parte-superior-menu
-    .vtex-flex-layout-0-x-stretchChildrenWidth {
+  .flexRowContent--contener-parte-superior-menu .vtex-flex-layout-0-x-stretchChildrenWidth {
     width: 50% !important;
   }
 
@@ -997,6 +1001,7 @@
     width: 25%;
     padding-right: unset;
   }
+
   .flexColChild--container-logo {
     width: 40px;
   }
@@ -1111,6 +1116,7 @@
     margin-bottom: 64px;
     border-top: 1px solid #e9eff5;
   }
+
   .flexColChild--contenedor-blog1,
   .flexColChild--contenedor-blog2 {
     display: flex;
@@ -1157,18 +1163,15 @@
   border: unset;
 }
 
-:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica)
-  :global(.vtex-button) {
+:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica) :global(.vtex-button) {
   border: unset;
 }
 
-:global(.vtex-tab-layout-0-x-listItem--boton-detalle)
-  :global(.vtex-button__label) {
+:global(.vtex-tab-layout-0-x-listItem--boton-detalle) :global(.vtex-button__label) {
   color: #000;
 }
 
-:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica)
-  :global(.vtex-button__label) {
+:global(.vtex-tab-layout-0-x-listItem--boton-ficha-tecnica) :global(.vtex-button__label) {
   color: #000;
 }
 
@@ -1206,7 +1209,7 @@
     justify-content: center;
   }
 
-   :global(.vtex-flex-layout-0-x-flexRow--items-center){
+  :global(.vtex-flex-layout-0-x-flexRow--items-center) {
     margin-top: 4rem;
   }
 }
@@ -1217,7 +1220,7 @@
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 17px 0 rgba(0, 0, 0, 0.19);
 }
 
-.flexRowContent--container-team-1{
+.flexRowContent--container-team-1 {
   background-image: url("assets/placeholders/fondo-colaborador1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -1225,15 +1228,16 @@
   height: 350px;
 }
 
-.flexRowContent--container-team-2{
-background-image: url("assets/placeholders/fondo-colaborador2.png");
+.flexRowContent--container-team-2 {
+  background-image: url("assets/placeholders/fondo-colaborador2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
   height: 350px;
 }
-.flexRowContent--container-team-3{
-background-image: url("assets/placeholders/fondo-colaborador3.png");
+
+.flexRowContent--container-team-3 {
+  background-image: url("assets/placeholders/fondo-colaborador3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1249,7 +1253,7 @@ background-image: url("assets/placeholders/fondo-colaborador3.png");
 
 .flexCol--elementos-team-1,
 .flexCol--elementos-team-2,
-.flexCol--elementos-team-3  {
+.flexCol--elementos-team-3 {
   width: 70% !important;
   height: 80% !important;
 }
@@ -1359,10 +1363,12 @@ background-image: url("assets/placeholders/fondo-colaborador3.png");
 .flexColChild--description-and-gallery {
   background: #f6f6f6;
 }
+
 :global(.vtex-tab-layout-0-x-listContainer) {
   display: flex;
   justify-content: center;
 }
+
 /*modo responsive - TABLET*/
 
 /*RESPONSIVE TABLET*/
@@ -1417,12 +1423,12 @@ background-image: url("assets/placeholders/fondo-colaborador3.png");
     font-size: 1rem !important;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRow--items-center){
+  :global(.vtex-flex-layout-0-x-flexRow--items-center) {
     margin-top: 4rem;
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--preguntas-frecuentes-container-general){
+:global(.vtex-flex-layout-0-x-flexCol--preguntas-frecuentes-container-general) {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -1431,19 +1437,24 @@ background-image: url("assets/placeholders/fondo-colaborador3.png");
 /*tamaño imagenes carrousel*/
 
 
-  :global(.vtex-flex-layout-0-x-flexRow--flex-column-clientes){
-    width: 220px !important;
-  }
+:global(.vtex-flex-layout-0-x-flexRow--flex-column-clientes) {
+  width: 220px !important;
+}
 
 
-  /*Proyectos*/
+/*Proyectos*/
 
-  .proyectos-agra-container {
+.proyectos-agra-container {
   padding: 40px 20px;
   align-items: center;
 }
 
 
-.flexRow--proyectos-agra-container{
+.flexRow--proyectos-agra-container {
   margin-bottom: 3rem;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main){
+  margin-left: 4rem !important;
 }
