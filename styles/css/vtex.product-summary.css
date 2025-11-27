@@ -15,33 +15,29 @@
   border-color: #dee7ef;
 }
 
-.container--summaryComplete:hover
-  :global(.vtex-product-comparison-0-x-productSelectorContainer),
+.container--summaryComplete:hover :global(.vtex-product-comparison-0-x-productSelectorContainer),
 .container--summaryComplete:hover .buyButtonContainer,
-.container--summaryComplete:hover
-  :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button),
-.container--summaryComplete:hover
-  :global(.vtex-wish-list-1-x-wishlistIconContainer),
-.container--summaryComplete:hover
-  :global(.vtex-modal-layout-0-x-triggerContainer) {
+.container--summaryComplete:hover :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button),
+.container--summaryComplete:hover :global(.vtex-wish-list-1-x-wishlistIconContainer),
+.container--summaryComplete:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 1;
 }
 
-.container--summaryComplete
-  :global(.vtex-store-components-3-x-installmentsPrice) {
+.container--summaryComplete :global(.vtex-store-components-3-x-installmentsPrice) {
   display: none;
 }
 
 .container--summaryComplete .buyButton :global(.vtex-button),
-.container--summaryComplete
-  :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button)
-  :global(.vtex-button) {
+.container--summaryComplete :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) :global(.vtex-button) {
   border: none;
-  background-color: #ff5f00;
+  background-color: #fabd01;
   height: 48px;
   border-radius: 4px;
 }
 
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
+  color: #fff !important;
+}
 
 
 .priceContainer {
@@ -94,8 +90,7 @@
 }
 
 .container--summaryComplete .buyButtonContainer,
-.container--summaryComplete
-  :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) {
+.container--summaryComplete :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) {
   margin-top: auto;
   margin-bottom: 16px;
   padding: 0;
@@ -118,8 +113,7 @@
 }
 
 .element--summaryComplete .buyButtonContainer,
-.element--summaryComplete
-  :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) {
+.element--summaryComplete :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) {
   opacity: 0;
   transition: all 0.3s ease;
 }
@@ -151,8 +145,7 @@
   align-items: flex-start;
 }
 
-.element--trendingSummary
-  :global(.vtex-reviews-and-ratings-1-x-inlineContainer) {
+.element--trendingSummary :global(.vtex-reviews-and-ratings-1-x-inlineContainer) {
   margin: 0;
 }
 
@@ -232,9 +225,7 @@
 }
 
 .element--comparison-page-summary .buyButton :global(.vtex-button),
-.element--comparison-page-summary
-  :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button)
-  :global(.vtex-button) {
+.element--comparison-page-summary :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) :global(.vtex-button) {
   border: none;
   height: 48px;
   background: #ff5f00;
@@ -242,8 +233,7 @@
 
 .element--comparison-page-summary .sellingPrice,
 .element--comparison-page-summary .buyButtonContainer,
-.element--comparison-page-summary
-  :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) {
+.element--comparison-page-summary :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button) {
   padding: 0;
 }
 
@@ -291,8 +281,7 @@
     max-width: 100% !important;
   }
 
-  .element--minimumSummary
-    :global(.vtex-reviews-and-ratings-1-x-inlineContainer) {
+  .element--minimumSummary :global(.vtex-reviews-and-ratings-1-x-inlineContainer) {
     margin: 0;
   }
 
@@ -307,4 +296,3 @@
     font-weight: 500;
   }
 }
-

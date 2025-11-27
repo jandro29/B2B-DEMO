@@ -89,25 +89,25 @@
   },
   "rich-text#benefits1": {
     "props": {
-      "text": "**Retiro en tienda** Compra online y ahorra en el costo de envio",
+      "text": "**Retiro en tienda** Recoge tu pedido en nuestro almacén sin costo adicional.",
       "blockClass": "benefitsItem"
     }
   },
   "rich-text#benefits2": {
     "props": {
-      "text": "**Envió a domicilio** Compra online y ahorra en el costo de envio",
+      "text": "**Envió a domicilio** Recibe tus productos en obra, oficina o almacén.",
       "blockClass": "benefitsItem"
     }
   },
   "rich-text#benefits3": {
     "props": {
-      "text": "**Nuestras tiendas** Compra online y ahorra en el costo de envio",
+      "text": "**Nuestras tiendas** Asesoría técnica y compras presenciales.",
       "blockClass": "benefitsItem"
     }
   },
   "rich-text#benefits4": {
     "props": {
-      "text": "**Servicio al cliente** Compra online y ahorra en el costo de envio",
+      "text": "**Servicio al cliente** Soporte técnico y postventa garantizada.",
       "blockClass": "benefitsItem"
     }
   }

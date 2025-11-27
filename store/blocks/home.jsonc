@@ -33,7 +33,7 @@
 
   "responsive-layout.mobile":{
     "children":[
-      //"flex-layout.row#imageList--mobile"
+      
     ]
   },
 
@@ -61,8 +61,23 @@
       "height": 328,
       "images": [
         {
-          "image": "assets/placeholders/banner-grupo-agra.jpg",
-          "mobileImage": "assets/placeholders/first-banner-mobil.png",
+          "image": "assets/placeholders/banner1-grupo-agra.png",
+          "mobileImage": "assets/placeholders/mobil/banner1-grupo-agra-mobil.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/placeholders/banner2-grupo-agra.png",
+          "mobileImage": "assets/placeholders/mobil/banner2-grupo-agra-mobil.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/placeholders/banner3-grupo-agra.png",
+          "mobileImage": "assets/placeholders/mobil/banner3-grupo-agra-mobil.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/placeholders/banner4-grupo-agra.png",
+          "mobileImage": "assets/placeholders/mobil/banner4-grupo-agra-mobil.png",
           "description": "something something"
         }
       ]
@@ -72,9 +87,9 @@
     "props": {
       "blockClass": ["homeSlider", "dotsCustom"],
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 4
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly"
@@ -137,8 +152,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 2,
-        "phone": 2
+        "tablet": 4,
+        "phone": 4
       },
       "infinite": false,
       "showNavigationArrows": "never",
@@ -347,7 +362,7 @@
 
   "image#shoBy1": {
     "props": {
-      "src": "assets/placeholders/enchufes.png",
+      "src": "assets/placeholders/enchufes-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -355,7 +370,7 @@
 /*=================================================================*/
   "image#shoBy2": {
     "props": {
-      "src": "assets/placeholders/sujeciones.png",
+      "src": "assets/placeholders/sujecion-fijacion-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -363,7 +378,7 @@
 /*=================================================================*/
   "image#shoBy3": {
     "props": {
-      "src": "assets/placeholders/terminales.png",
+      "src": "assets/placeholders/terminales-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -371,7 +386,7 @@
 /*=================================================================*/
   "image#shoBy4": {
     "props": {
-      "src": "assets/placeholders/cintillos.png",
+      "src": "assets/placeholders/cintillos-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -379,7 +394,7 @@
 /*=================================================================*/
   "image#shoBy5": {
     "props": {
-      "src": "assets/placeholders/herramientas.png",
+      "src": "assets/placeholders/herramientas-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -387,7 +402,7 @@
 /*=================================================================*/
   "image#shoBy6": {
     "props": {
-      "src": "assets/placeholders/tuberias.png",
+      "src": "assets/placeholders/tuberias-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -395,7 +410,7 @@
 /*=================================================================*/
   "image#shoBy7": {
     "props": {
-      "src": "assets/placeholders/linternas.png",
+      "src": "assets/placeholders/linternas-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -403,7 +418,7 @@
 /*=================================================================*/
   "image#shoBy8": {
     "props": {
-      "src": "assets/placeholders/termo.png",
+      "src": "assets/placeholders/termo-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -411,7 +426,7 @@
 /*=================================================================*/
   "image#shoBy9": {
     "props": {
-      "src": "assets/placeholders/resinas.png",
+      "src": "assets/placeholders/resinas-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
@@ -419,7 +434,7 @@
 /*=================================================================*/
   "image#shoBy10": {
     "props": {
-      "src": "assets/placeholders/interruptores.png",
+      "src": "assets/placeholders/interruptores-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },

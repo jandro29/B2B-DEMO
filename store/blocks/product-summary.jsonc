@@ -9,7 +9,7 @@
       "product-summary-name",
       "product-rating-summary",
       /*BOTON DE "CREAR ORGANIZACION PARA PODER COMPRAR EL PRODUCTO" EN EL CARROUSER DEL INICIO*/
-      //"check-permission#product-summary-price",
+      "check-permission#product-summary-price",
       /**/
       //"check-permission#product-summary-buy-button",
       //"add-to-list-btn",
@@ -28,7 +28,7 @@
       "product-rating-summary",
 
       /*BOTON DE "CREAR ORGANIZACION PARA PODER COMPRAR EL PRODUCTO" EN EL CARROUSER DEL INICIO*/
-      //"check-permission#product-summary-price",
+      "check-permission#product-summary-price",
       /**/
       //"check-permission#product-summary-buy-button",
       "add-to-list-btn",
@@ -122,7 +122,7 @@
 
   "add-to-cart-button#product-summary-buy-button": {
     "props": {
-      "text": "Buy",
+      "text": "Comprar",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button"
     }

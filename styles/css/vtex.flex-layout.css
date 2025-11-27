@@ -1458,3 +1458,12 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--main){
   margin-left: 4rem !important;
 }
+
+
+:global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button){
+  background: #fabd01 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-summary-buy-button){
+  background: #fabd01 !important;
+}

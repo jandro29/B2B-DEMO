@@ -12,7 +12,7 @@
       */
       "flex-layout.row#prod-des",
       "flex-layout.row#shelf1",
-      //"flex-layout.row#productos-dest-container",
+      //  "flex-layout.row#productos-dest-container",
       // Deprecated
       // "flex-layout.row#shopByBrandMobile",
       //"flex-layout.row#shopByBrand",
