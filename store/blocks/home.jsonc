@@ -6,24 +6,13 @@
     "children": [
       "flex-layout.row#imageList",
       "flex-layout.row#tusprod",
-      //"slider-layout-group#test",
       "flex-layout.row#shopByCategory",
       "flex-layout.row#prod-des",
-      // Deprecated
-      // "flex-layout.row#shopByBrand",
       "flex-layout.row#shelf1",
-      //"flex-layout.row#imageBanners",
       "flex-layout.row#singleBanner",
-      //"flex-layout.row#popular",
-      //"flex-layout.row#trending",
       "flex-layout.row#container",
       "rich-text#clientes",
       "flex-layout.row#clientes-inicio",
-      //"flex-layout.row#ImageClients",
-      //"flex-layout.row#nuestroblog",
-      //"flex-layout.row#contendoblog",
-      //"button-link"
-      //"flex-layout.row#benefitsmobil",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
 
@@ -33,7 +22,6 @@
 
   "responsive-layout.mobile":{
     "children":[
-      
     ]
   },
 
@@ -44,21 +32,21 @@
     "props": {
       "fullWidth": true
     },
-    "children": ["list-context.image-list#homeBanners"]
+    "children": ["list-context.image-list#homeBannersV2"]
   },
   "flex-layout.row#imageList--mobile": {
     "props": {
       "blockClass": ["full-banner", "full-banner--mobile"],
       "fullWidth": true
     },
-    "children": ["list-context.image-list#homeBanners"]
+    "children": ["list-context.image-list#homeBannersV2"]
   },
 
 
-  "list-context.image-list#homeBanners": {
+  "list-context.image-list#homeBannersV2": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 328,
+      "height": 420,
       "images": [
         {
           "image": "assets/placeholders/banner1-grupo-agra.png",
@@ -87,9 +75,9 @@
     "props": {
       "blockClass": ["homeSlider", "dotsCustom"],
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 4,
-        "phone": 4
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly"
@@ -152,8 +140,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "phone": 4
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": false,
       "showNavigationArrows": "never",
