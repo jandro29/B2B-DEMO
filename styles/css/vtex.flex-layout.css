@@ -1496,3 +1496,7 @@
   display: flex; 
   justify-content: center;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--comoComprarContainer){
+  margin-top: 3rem;
+}
