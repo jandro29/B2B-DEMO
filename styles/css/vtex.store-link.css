@@ -1,7 +1,6 @@
 .link--popularLink,
 .link--trendingLink,
-.link--blogPopular
- {
+.link--blogPopular {
   text-decoration: none;
 }
 
@@ -159,19 +158,20 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .link--order-quote {
-	margin: 0 16px 16px;
+  margin: 0 16px 16px;
   width: 92%;
   padding: 13px 0;
   font-size: 18px;
 }
 
 .link--menu-order-quote {
-	text-decoration: none;
-	font-size: 16px;
-	line-height: 44px;
-	font-family: Roboto;
-	color: rgb(113, 119, 134);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 44px;
+  font-family: Roboto;
+  color: rgb(113, 119, 134);
   font-size: 20px;
   line-height: 28px;
   color: #000;
@@ -220,42 +220,44 @@
     align-items: center;
     justify-content: center;
   }
+
   /*SEGUNDO HEADER RESPONSIVE*/
 
-  .childrenContainer--link-quick-ordermb{
+  .childrenContainer--link-quick-ordermb {
     display: flex;
   }
 
-  .link--link-quick-ordermb{
+  .link--link-quick-ordermb {
     text-decoration: none;
   }
 }
 
 /*header*/
 
-.childrenContainer--logo-wishlist::after{
+.childrenContainer--logo-wishlist::after {
   content: "Mis Favoritos";
   color: white;
 
 }
-.childrenContainer--logo-wishlist:hover{
+
+.childrenContainer--logo-wishlist:hover {
   color: white;
 }
 
-.link--logo-wishlist{
+.link--logo-wishlist {
   text-decoration: none;
 }
 
-.childrenContainer--logo-wishlist{
+.childrenContainer--logo-wishlist {
   display: flex;
   align-items: center;
 }
 
-.link--resellerLink{
+.link--resellerLink {
   content: "Pedido Rápido" !important;
 }
 
-.childrenContainer--resellerLink{
+.childrenContainer--resellerLink {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
@@ -265,25 +267,26 @@
 .link--vermas-industrias,
 .link--vermas-productos,
 .link--vermas-encuentra-prod,
-.link--vermas-nuestroblog{
+.link--vermas-nuestroblog {
   color: #000;
 }
 
 @media (max-width: 64rem) {
-.childrenContainer--shopByLink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
-  max-width: 155px;
-  height: 196px;
-  background: #f3f9ff;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-  margin-bottom: 1rem;
-}
-/*
+  .childrenContainer--shopByLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    max-width: 155px;
+    height: 196px;
+    background: #f3f9ff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    margin-bottom: 1rem;
+  }
+
+  /*
 .link--shopByLink{
   display: flex;
   justify-content: center;
@@ -293,38 +296,62 @@
 }
 
 @media (max-width: 64rem) {
-.link--networkLink{
-  display: flex;
-  justify-content: start;
-}
-
- }
-
-
- .link--link-colaboradores{
-  width: 30px;
- }
-
-
- .boton-carrouser{
-  z-index: 99999999999;
- }
-
- :global(.vtex-store-link-0-x-link--boton-redirecion-iniciar-sesion){
-  text-decoration: none !important;
- }
-
- 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-
- :global(.vtex-store-link-0-x-link--shopByLink){
-  width: 70% !important;
-  display: flex;
-  justify-content: center;
+  .link--networkLink {
+    display: flex;
+    justify-content: start;
   }
 
-  :global(.vtex-store-link-0-x-childrenContainer--shopByLink){
+}
+
+
+.link--link-colaboradores {
+  width: 30px;
+}
+
+
+.boton-carrouser {
+  z-index: 99999999999;
+}
+
+:global(.vtex-store-link-0-x-link--boton-redirecion-iniciar-sesion) {
+  text-decoration: none !important;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  :global(.vtex-store-link-0-x-link--shopByLink) {
+    width: 70% !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  :global(.vtex-store-link-0-x-childrenContainer--shopByLink) {
     width: 100% !important;
     height: 190px !important;
   }
- }
+}
+
+:global(.vtex-store-link-0-x-link--btnRegistrarB2B) {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fabd01;
+  color: #000 !important;
+
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+
+  width: 10% !important;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.link--btnRegistrarB2B:hover{
+  background-color: #e0a701;
+  transform: translateY(-2px);
+}

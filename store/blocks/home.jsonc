@@ -7,6 +7,9 @@
       "flex-layout.row#imageList",
       "flex-layout.row#tusprod",
       "flex-layout.row#shopByCategory",
+
+      "flex-layout.row#como-comprar-container",
+
       "flex-layout.row#prod-des",
       "flex-layout.row#shelf1",
       "flex-layout.row#singleBanner",
@@ -204,6 +207,11 @@
       "blockClass": "container-productos"
     }
   },
+
+
+
+
+  
 /*=================================================================*/
 /*=================================================================*/
   "link#shoBy2": {
@@ -939,5 +947,107 @@
       "font":"t-heading-1",
       "blockClass": "titulo-clientes"
     }
-   }
+   },
+
+   /*=================================================================*/
+/*=================================================================*/
+"flex-layout.row#como-comprar-container":{
+
+  "children": [
+    "flex-layout.col#como-comprar"
+  ]
+},
+
+
+"flex-layout.col#como-comprar": {
+  "props": {
+    "blockClass": "comoComprarContainer"
+  },
+  "children": [
+    "rich-text#tituloComoComprar",
+    "flex-layout.row#como-comprar-items",
+    "flex-layout.row#container-registroB2B"
+  ]
+},
+
+"rich-text#tituloComoComprar": {
+  "props": {
+    "text": "### ¿Cómo comprar en Grupo Agra?",
+    "blockClass": "comoComprarTitulo"
+  }
+},
+
+"flex-layout.row#como-comprar-items": {
+  "props": {
+    "blockClass": "comoComprarGrid",
+    "horizontalAlign": "center",
+    "verticalAlign": "top",
+    "colGap": 8
+  },
+  "children": [
+    "flex-layout.col#paso1",
+    "flex-layout.col#paso2",
+    "flex-layout.col#paso3"
+  ]
+},
+
+"flex-layout.col#paso1": {
+  "children": [
+    "image#iconPaso1",
+    "rich-text#textoPaso1"
+  ]
+},
+
+"flex-layout.col#paso2": {
+  "children": [
+    "image#iconPaso2",
+    "rich-text#textoPaso2"
+  ]
+},
+
+"flex-layout.col#paso3": {
+  "children": [
+    "image#iconPaso3",
+    "rich-text#textoPaso3"
+  ]
+},
+
+"image#iconPaso1": {
+  "props": { "src": "", "blockClass": "iconComprar" }
+},
+"image#iconPaso2": {
+  "props": { "src": "", "blockClass": "iconComprar" }
+},
+"image#iconPaso3": {
+  "props": { "src": "", "blockClass": "iconComprar" }
+},
+
+"rich-text#textoPaso1": {
+  "props": { "text": "#### 1. Regístrate y elige tus productos" }
+},
+"rich-text#textoPaso2": {
+  "props": { "text": "#### 2. Revisa tu carrito y confirma tu pedido" }
+},
+"rich-text#textoPaso3": {
+  "props": { "text": "#### 3. Verifica los detalles y confirma tu compra" }
+},
+
+"flex-layout.row#container-registroB2B":{
+  "props": {
+    "blockClass": "contianer-link-registrate"
+    },
+  "children":[
+    "link#registroB2B"
+  ]
+},
+
+"link#registroB2B": {
+  "props": {
+    "label": "REGÍSTRATE",
+    "href": "https://grupoagrape.myvtex.com/organization-request",
+    "blockClass": "btnRegistrarB2B"
+  }
+}
+
+
 }

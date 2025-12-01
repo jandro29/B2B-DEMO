@@ -1467,3 +1467,32 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--product-summary-buy-button){
   background: #fabd01 !important;
 }
+
+
+/**/
+
+/* Evita que Flex Layout estire los hijos en tu nueva sección */
+.seccion-como-comprar-b2b .vtex-flex-layout-0-x-stretchChildrenWidth {
+    width: auto !important;
+    max-width: 100% !important;
+    flex: 0 0 auto !important;
+}
+
+/* Centra y ordena los ítems */
+.seccion-como-comprar-b2b .vtex-flex-layout-0-x-flexRow {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Ajusta cada paso para que no se estire */
+.seccion-como-comprar-b2b .vtex-flex-layout-0-x-flexCol {
+    width: fit-content !important;
+    text-align: center;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--contianer-link-registrate){
+  display: flex; 
+  justify-content: center;
+}

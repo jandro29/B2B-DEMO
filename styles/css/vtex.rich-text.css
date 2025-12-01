@@ -988,3 +988,8 @@
   max-width: 650px;
   padding-right: 40px;
 }
+
+:global(.vtex-rich-text-0-x-container--comoComprarTitulo){
+  display: flex;
+  justify-content: center;
+}
