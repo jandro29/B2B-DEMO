@@ -355,3 +355,10 @@
   background-color: #e0a701;
   transform: translateY(-2px);
 }
+
+:global(.vtex-store-link-0-x-link--btnRegistrarB2B){
+  margin-top: 50px;
+   border: 1px solid #000;
+  background-color: #FABD01;
+  color: black;
+}

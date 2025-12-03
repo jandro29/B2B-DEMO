@@ -1,23 +1,23 @@
 {
   "flex-layout.row#menu-contenedor-industrias1":{
-    "children":["menu-item#contenedor-industrias1"],
+    //"children":["menu-item#contenedor-industrias1"],
     "props":{
       "blockClass":"contenedor_general"
     }
   },
 
-  "menu-item#contenedor-industrias1":{
+  /*"menu-item#contenedor-industrias1":{
     "children":[
-      "menu-item#submenu-industriasA",
-      "menu-item#submenu-industriasB",
+      //"menu-item#submenu-industriasA",
+      //"menu-item#submenu-industriasB",
       //"menu-item#submenu-industriasC",
-      "menu-item#submenu-industriasD",
+      //"menu-item#submenu-industriasD",
       //"menu-item#submenu-industriasE",
-      "menu-item#submenu-industriasF"],
+      //"menu-item#submenu-industriasF"],
     "props":{
       "blockClass":"contenedor_submenu1"
     }
-  },
+  },*/
 
   "menu-item#submenu-industriasA": {
     "props": {

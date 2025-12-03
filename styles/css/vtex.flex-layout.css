@@ -1500,3 +1500,9 @@
 :global(.vtex-flex-layout-0-x-flexCol--comoComprarContainer){
   margin-top: 3rem;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--contenedor-como-comprar){
+  background: #FABD01;
+  height: 500px;
+}
+

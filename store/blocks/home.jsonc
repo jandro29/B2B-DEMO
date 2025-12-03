@@ -52,6 +52,7 @@
       "height": 420,
       "images": [
         {
+          "url": "https://grupoagrape.myvtex.com/organization-request",
           "image": "assets/placeholders/banner1-grupo-agra.png",
           "mobileImage": "assets/placeholders/mobil/banner1-grupo-agra-mobil.png",
           "description": "something something"
@@ -952,7 +953,9 @@
    /*=================================================================*/
 /*=================================================================*/
 "flex-layout.row#como-comprar-container":{
-
+"props": {
+    "blockClass": "contenedor-como-comprar"
+  },
   "children": [
     "flex-layout.col#como-comprar"
   ]
@@ -1013,23 +1016,23 @@
 },
 
 "image#iconPaso1": {
-  "props": { "src": "", "blockClass": "iconComprar" }
+  "props": { "src": "assets/placeholders/icono-1.png", "blockClass": "iconComprar" }
 },
 "image#iconPaso2": {
-  "props": { "src": "", "blockClass": "iconComprar" }
+  "props": { "src": "assets/placeholders/icono-2.png", "blockClass": "iconComprar" }
 },
 "image#iconPaso3": {
-  "props": { "src": "", "blockClass": "iconComprar" }
+  "props": { "src": "assets/placeholders/icono-3.png", "blockClass": "iconComprar" }
 },
 
 "rich-text#textoPaso1": {
-  "props": { "text": "#### 1. Regístrate y elige tus productos" }
+  "props": { "text": "#### 1.⁠ ⁠Regístrate completando el formulario", "blockClass": "texto-comprar" }
 },
 "rich-text#textoPaso2": {
-  "props": { "text": "#### 2. Revisa tu carrito y confirma tu pedido" }
+  "props": { "text": "#### 2.⁠ ⁠Revisa tu carrito y confirma tu pedido", "blockClass": "texto-comprar" }
 },
 "rich-text#textoPaso3": {
-  "props": { "text": "#### 3. Verifica los detalles y confirma tu compra" }
+  "props": { "text": "#### 3.⁠ ⁠Verifica los detalles y confirma tu compra REGÍSTRATE", "blockClass": "texto-comprar" }
 },
 
 "flex-layout.row#container-registroB2B":{

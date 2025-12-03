@@ -83,14 +83,15 @@
     "highlight": false,
     "itemProps": {
       "type": "internal",
-      "href": "#",
+      "href": "/industrias",
       "noFollow": false,
       "tagTitle": "industrias",
       "text": "Industrias"
     }
-  },
-  "blocks": ["vtex.menu@2.x:submenu#industrias"] // Defining a submenu
+  }
+  /*"blocks": ["vtex.menu@2.x:submenu#industrias"] // Defining a submenu*/
 },
+/*
 "vtex.menu@2.x:submenu#industrias": {
   "children": [
    "vtex.menu@2.x:menu#submenuindustrias"
@@ -102,7 +103,7 @@
     "flex-layout.row#menu-contenedor-industrias1"
   ]
 },
-
+*/
 
 ////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////

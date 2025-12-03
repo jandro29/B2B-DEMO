@@ -36,7 +36,6 @@
       "src": "assets/placeholders/industrias-banner.png", // URL de tu imagen
       "alt": "Texto alternativo del banner",
       "link": {
-        "url": "/promocion",
         "noFollow": false,
         "openNewTab": true
       }
@@ -56,7 +55,7 @@
   },
   "rich-text#prod": {
     "props": {
-      "text": "### Categorías Clave",
+      "text": "### Minería - Oil & Gas - Energía - Agroindustria - Alimentos y Bebidas - Retail y Construcción",
       "blockClass": "prod"
     }
   },

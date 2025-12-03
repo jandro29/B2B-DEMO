@@ -361,7 +361,7 @@
 .productImagesContainer--desktop::after {
   display: block;
   color: #717786;
-  content: "Roll over image to zoom in";
+  /*content: "Roll over image to zoom in";*/
   padding-top: 20px;
   padding-left: 116px;
   font-size: 12px;
