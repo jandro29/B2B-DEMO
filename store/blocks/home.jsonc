@@ -1,15 +1,16 @@
 {
   "store.home": {
-    "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
   },
   "responsive-layout.desktop": {
     "children": [
       "flex-layout.row#imageList",
       "flex-layout.row#tusprod",
       "flex-layout.row#shopByCategory",
-
       "flex-layout.row#como-comprar-container",
-
       "flex-layout.row#prod-des",
       "flex-layout.row#shelf1",
       "flex-layout.row#singleBanner",
@@ -18,36 +19,35 @@
       "flex-layout.row#clientes-inicio",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
-
-
     ]
   },
-
-  "responsive-layout.mobile":{
-    "children":[
-    ]
+  "responsive-layout.mobile": {
+    "children": []
   },
-
-
-
-
   "flex-layout.row#imageList": {
     "props": {
       "fullWidth": true
     },
-    "children": ["list-context.image-list#homeBannersV2"]
+    "children": [
+      "list-context.image-list#homeBannersV2"
+    ]
   },
   "flex-layout.row#imageList--mobile": {
     "props": {
-      "blockClass": ["full-banner", "full-banner--mobile"],
+      "blockClass": [
+        "full-banner",
+        "full-banner--mobile"
+      ],
       "fullWidth": true
     },
-    "children": ["list-context.image-list#homeBannersV2"]
+    "children": [
+      "list-context.image-list#homeBannersV2"
+    ]
   },
-
-
   "list-context.image-list#homeBannersV2": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 420,
       "images": [
@@ -77,7 +77,10 @@
   },
   "slider-layout#demo-images": {
     "props": {
-      "blockClass": ["homeSlider", "dotsCustom"],
+      "blockClass": [
+        "homeSlider",
+        "dotsCustom"
+      ],
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
@@ -87,8 +90,6 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-
-
   "flex-layout.row#prod-des": {
     "children": [
       "rich-text#pdest",
@@ -113,33 +114,36 @@
       "blockClass": "vermas-encuentra-prod"
     }
   },
-
-
   "flex-layout.row#shopByCategory": {
     "props": {
       "blockClass": "shopByCategorySection"
     },
-    "children": ["flex-layout.col#shopByCategory"]
+    "children": [
+      "flex-layout.col#shopByCategory"
+    ]
   },
   "flex-layout.col#shopByCategory": {
     "props": {
       "blockClass": "shopByCategory"
     },
-    "children": [ "flex-layout.row#categories"] //"rich-text#shopByTitle",
+    "children": [
+      "flex-layout.row#categories"
+    ] //"rich-text#shopByTitle",
   },
-  
-
   "flex-layout.row#productos-mb": {
     "props": {
       "blockClass": "benefits"
     },
-    "children": ["flex-layout.col#productos-mobil"]
+    "children": [
+      "flex-layout.col#productos-mobil"
+    ]
   },
   "flex-layout.col#productos-mobil": {
     "props": {},
-    "children": [ "slider-layout#productos-responsive"] //"rich-text#whyShopWithVTEX",
+    "children": [
+      "slider-layout#productos-responsive"
+    ] //"rich-text#whyShopWithVTEX",
   },
-
   "slider-layout#productos-responsive": {
     "props": {
       "itemsPerPage": {
@@ -151,8 +155,6 @@
       "showNavigationArrows": "never",
       "blockClass": "benefitsSlider",
       "showPaginationDots": "mobileOnly"
-
-
     },
     "children": [
       "link#shoBy1",
@@ -167,8 +169,6 @@
       "link#shoBy10"
     ]
   },
-
-
   "flex-layout.row#categories": {
     "props": {
       "blockClass": "shopByCategory",
@@ -191,336 +191,366 @@
       "link#shoBy10"
     ]
   },
-
-
-
   "link#shoBy1": {
-    "children": ["flex-layout.col#enchufes-tomas"],
+    "children": [
+      "flex-layout.col#enchufes-tomas"
+    ],
     "props": {
       "href": "/enchufes-y-tomacorrientes",
       "blockClass": "shopByLink"
     }
   },
-
-  "flex-layout.col#enchufes-tomas":{
-    "children":["image#shoBy1", "rich-text#cat1"],
-    "props":{
+  "flex-layout.col#enchufes-tomas": {
+    "children": [
+      "image#shoBy1",
+      "rich-text#cat1"
+    ],
+    "props": {
       "blockClass": "container-productos"
     }
   },
-
-
-
-
-  
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy2": {
-    "children": ["flex-layout.col#sujeciones"],
+    "children": [
+      "flex-layout.col#sujeciones"
+    ],
     "props": {
       "href": "/sujecion-y-fijacion",
       "blockClass": "shopByLink"
     }
   },
-  "flex-layout.col#sujeciones":{
-    "children":["image#shoBy2", "rich-text#cat2"],
-    "props":{
+  "flex-layout.col#sujeciones": {
+    "children": [
+      "image#shoBy2",
+      "rich-text#cat2"
+    ],
+    "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy3": {
-    "children": ["flex-layout.col#terminales"],
+    "children": [
+      "flex-layout.col#terminales"
+    ],
     "props": {
       "href": "/materiales-electricos/terminales-electricos",
       "blockClass": "shopByLink"
     }
   },
-  "flex-layout.col#terminales":{
-    "children":["image#shoBy3", "rich-text#cat3"],
-    "props":{
+  "flex-layout.col#terminales": {
+    "children": [
+      "image#shoBy3",
+      "rich-text#cat3"
+    ],
+    "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy4": {
-    "children": ["flex-layout.col#cintillos"],
+    "children": [
+      "flex-layout.col#cintillos"
+    ],
     "props": {
       "href": "/sujecion-y-fijacion/cintillos",
       "blockClass": "shopByLink"
     }
   },
-
-  "flex-layout.col#cintillos":{
-    "children":["image#shoBy4", "rich-text#cat4"],
-    "props":{
+  "flex-layout.col#cintillos": {
+    "children": [
+      "image#shoBy4",
+      "rich-text#cat4"
+    ],
+    "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy5": {
-    "children": ["flex-layout.col#herramientas"],
+    "children": [
+      "flex-layout.col#herramientas"
+    ],
     "props": {
       "href": "/herramientas",
       "blockClass": "shopByLink"
     }
   },
-
-  "flex-layout.col#herramientas":{
-    "children":["image#shoBy5", "rich-text#cat5"],
-    "props":{
+  "flex-layout.col#herramientas": {
+    "children": [
+      "image#shoBy5",
+      "rich-text#cat5"
+    ],
+    "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy6": {
-    "children": ["flex-layout.col#tuberias"],
+    "children": [
+      "flex-layout.col#tuberias"
+    ],
     "props": {
       "href": "herramientas/herramientas-para-tuberias/cortador-de-tuberias",
       "blockClass": "shopByLink"
-
     }
   },
-
-  "flex-layout.col#tuberias":{
-    "children":["image#shoBy6", "rich-text#cat6"],
+  "flex-layout.col#tuberias": {
+    "children": [
+      "image#shoBy6",
+      "rich-text#cat6"
+    ],
     "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy7": {
-    "children": ["flex-layout.col#linternas"],
+    "children": [
+      "flex-layout.col#linternas"
+    ],
     "props": {
       "href": "/iluminacion",
       "blockClass": "shopByLink"
     }
   },
-  "flex-layout.col#linternas":{
-    "children":["image#shoBy7", "rich-text#cat7"],
+  "flex-layout.col#linternas": {
+    "children": [
+      "image#shoBy7",
+      "rich-text#cat7"
+    ],
     "props": {
       "blockClass": "container-productos"
     }
   },
-
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy8": {
-    "children": ["flex-layout.col#contraibles"],
+    "children": [
+      "flex-layout.col#contraibles"
+    ],
     "props": {
       "href": "/identificacion/marcadores-termocontraibles/marcadores-termocontraibles-tipo-escalera",
       "blockClass": "shopByLink"
     }
   },
-  "flex-layout.col#contraibles":{
-    "children":["image#shoBy8", "rich-text#cat8"],
+  "flex-layout.col#contraibles": {
+    "children": [
+      "image#shoBy8",
+      "rich-text#cat8"
+    ],
     "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy9": {
-    "children": ["flex-layout.col#resinas"],
+    "children": [
+      "flex-layout.col#resinas"
+    ],
     "props": {
       "href": "/sujecion-y-fijacion/flejes-y-hebillas-de-acero-inoxidable/hebillas-de-acero-inoxidable",
       "blockClass": "shopByLink"
     }
   },
-
-  "flex-layout.col#resinas":{
-    "children":["image#shoBy9", "rich-text#cat9"],
+  "flex-layout.col#resinas": {
+    "children": [
+      "image#shoBy9",
+      "rich-text#cat9"
+    ],
     "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "link#shoBy10": {
-    "children": ["flex-layout.col#interruptores"],
+    "children": [
+      "flex-layout.col#interruptores"
+    ],
     "props": {
       "href": "/interruptores",
       "blockClass": "shopByLink"
     }
   },
-  "flex-layout.col#interruptores":{
-    "children":["image#shoBy10", "rich-text#cat10"],
+  "flex-layout.col#interruptores": {
+    "children": [
+      "image#shoBy10",
+      "rich-text#cat10"
+    ],
     "props": {
       "blockClass": "container-productos"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
-
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy1": {
     "props": {
       "src": "assets/placeholders/enchufes-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy2": {
     "props": {
       "src": "assets/placeholders/sujecion-fijacion-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy3": {
     "props": {
       "src": "assets/placeholders/terminales-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy4": {
     "props": {
       "src": "assets/placeholders/cintillos-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy5": {
     "props": {
       "src": "assets/placeholders/herramientas-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy6": {
     "props": {
       "src": "assets/placeholders/tuberias-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy7": {
     "props": {
       "src": "assets/placeholders/linternas-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy8": {
     "props": {
       "src": "assets/placeholders/termo-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy9": {
     "props": {
       "src": "assets/placeholders/resinas-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "image#shoBy10": {
     "props": {
       "src": "assets/placeholders/interruptores-sinfondo.png",
       "blockClass": "shoByImage"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat1": {
     "props": {
       "text": "Enchufes y Tomas",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat2": {
     "props": {
       "text": "Sujeciones",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat3": {
     "props": {
       "text": "Terminales",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat4": {
     "props": {
       "text": "Cintillos",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat5": {
     "props": {
       "text": "Herramientas",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
-
-
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat6": {
     "props": {
       "text": "Tuberias",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat7": {
     "props": {
       "text": "Linternas",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat8": {
     "props": {
       "text": "Termo contraíbles",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat9": {
     "props": {
       "text": "Resinas y Acero",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
+  /*=================================================================*/
+  /*=================================================================*/
   "rich-text#cat10": {
     "props": {
       "text": "Interruptores",
       "blockClass": "shopByCategory"
     }
   },
-/*=================================================================*/
-/*=================================================================*/
-
-
+  /*=================================================================*/
+  /*=================================================================*/
   "flex-layout.row#tusprod": {
     "children": [
       "rich-text#prod"
@@ -538,22 +568,25 @@
       "blockClass": "prod"
     }
   },
-
   "flex-layout.row#shelf1": {
-    "children": ["list-context.product-list#productSlider"], //"rich-text",
+    "children": [
+      "list-context.product-list#productSlider"
+    ], //"rich-text",
     "props": {
       "blockClass": "shelfComplete"
     }
   },
-
   "list-context.product-list#productSlider": {
-    "blocks": ["product-summary.shelf#complete"],
-    "children": ["slider-layout#products"],
+    "blocks": [
+      "product-summary.shelf#complete"
+    ],
+    "children": [
+      "slider-layout#products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-
   "slider-layout#products": {
     "props": {
       "itemsPerPage": {
@@ -581,18 +614,20 @@
       "blockClass": "shelfStyle1"
     }
   },
-
   "flex-layout.row#productos-dest-container": {
     "props": {
       "blockClass": "benefits"
     },
-    "children": ["flex-layout.col#prod-dest-mobil"]
+    "children": [
+      "flex-layout.col#prod-dest-mobil"
+    ]
   },
   "flex-layout.col#prod-dest-mobil": {
     "props": {},
-    "children": [ "slider-layout#prod-dest-component-mb"] //"rich-text#whyShopWithVTEX",
+    "children": [
+      "slider-layout#prod-dest-component-mb"
+    ] //"rich-text#whyShopWithVTEX",
   },
-
   "slider-layout#prod-dest-component-mb": {
     "props": {
       "itemsPerPage": {
@@ -604,7 +639,6 @@
       "blockClass": "benefitsSlider",
       "rowGap": 4,
       "colGap": 4
-
     },
     "children": [
       "flex-layout.col#banner1",
@@ -613,7 +647,6 @@
       "flex-layout.col#banner4"
     ]
   },
-
   "flex-layout.row#imageBanners": {
     "props": {
       "blockClass": "imageBanners",
@@ -630,7 +663,6 @@
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "imgprod"
-
     },
     "children": [
       "image#bannerThird1",
@@ -647,7 +679,7 @@
       "blockClass": "imgprod"
     },
     "children": [
-     "image#bannerThird2",
+      "image#bannerThird2",
       "rich-text#bannerTitle2",
       "rich-text#bannerDesc2",
       "rich-text#subtex2",
@@ -683,22 +715,20 @@
       "rich-text#bannerLink4"
     ]
   },
-
   //primer cuadro
-
   "image#bannerThird1": {
     "props": {
       "src": "assets/placeholders/enchufeaereo.png",
       "maxHeight": 256,
       "blockClass": "bannerThird",
-      "horizontalAlign":"CENTER",
+      "horizontalAlign": "CENTER",
       "textAlignment": "CENTER"
     }
   },
   "rich-text#bannerTitle1": {
     "props": {
       "text": "#### BALS",
-     "blockClass": "bannerTitle"
+      "blockClass": "bannerTitle"
       //"textAlignment": "CENTER"
     }
   },
@@ -706,25 +736,22 @@
     "props": {
       "text": "S/. 10.76",
       "blockClass": "bannerDesc"
-     //"textAlignment": "CENTER"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#subtex1":{
+  "rich-text#subtex1": {
     "props": {
       "text": "Enchufe Aéreo IP44 - modelo 21001-tls",
       "blockClass": "produDesc"
-     //"textAlignment": "CENTER"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#serie1":{
-    "props":{
+  "rich-text#serie1": {
+    "props": {
       "text": "SKU: CN18609",
       "blockClass": "bannerSKU"
     }
   },
-
   "rich-text#bannerLink1": {
     "props": {
       "text": "[+ Agregar]()",
@@ -732,10 +759,7 @@
       "textAlignment": "CENTER"
     }
   },
-
-
   //segundo cuadro
-
   "image#bannerThird2": {
     "props": {
       "src": "assets/placeholders/terminalaislado.png",
@@ -754,25 +778,22 @@
     "props": {
       "text": "S/. 6.67",
       "blockClass": "bannerDesc"
-     //"textAlignment": "CENTER"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#subtex2":{
+  "rich-text#subtex2": {
     "props": {
       "text": "Terminal Aislado Tipo Hembra",
-     "blockClass": "produDesc"
-     //"textAlignment": "CENTER"
+      "blockClass": "produDesc"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#serie2":{
-    "props":{
+  "rich-text#serie2": {
+    "props": {
       "text": "SKU: CN18609",
-     "blockClass": "bannerSKU"
+      "blockClass": "bannerSKU"
     }
   },
-
   "rich-text#bannerLink2": {
     "props": {
       "text": "[+ Agregar]()",
@@ -780,9 +801,7 @@
       "textAlignment": "CENTER"
     }
   },
-
   //tercer cuadro
-
   "image#bannerThird3": {
     "props": {
       "src": "assets/placeholders/selladora.png",
@@ -793,7 +812,7 @@
   "rich-text#bannerTitle3": {
     "props": {
       "text": "#### YBICO",
-     "blockClass": "bannerTitle"
+      "blockClass": "bannerTitle"
       //"textAlignment": "CENTER"
     }
   },
@@ -801,25 +820,22 @@
     "props": {
       "text": "S/. 7.80",
       "blockClass": "bannerDesc"
-     //"textAlignment": "CENTER"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#subtex3":{
+  "rich-text#subtex3": {
     "props": {
       "text": "Selladora para zunchos metálicos",
-     "blockClass": "produDesc"
-     //"textAlignment": "CENTER"
+      "blockClass": "produDesc"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#serie3":{
-    "props":{
+  "rich-text#serie3": {
+    "props": {
       "text": "SKU: C-3106",
-     "blockClass": "bannerSKU"
+      "blockClass": "bannerSKU"
     }
   },
-
   "rich-text#bannerLink3": {
     "props": {
       "text": "[+ Agregar]()",
@@ -828,7 +844,6 @@
     }
   },
   //cuarto cuadro
-
   "image#bannerThird4": {
     "props": {
       "src": "assets/placeholders/herramientaelectrica.png",
@@ -847,25 +862,22 @@
     "props": {
       "text": "S/. 32.56",
       "blockClass": "bannerDesc"
-     //"textAlignment": "CENTER"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#subtex4":{
+  "rich-text#subtex4": {
     "props": {
       "text": "Herramienta Eléctrica 3 en 1 (Hércules)",
       "blockClass": "produDesc"
-     //"textAlignment": "CENTER"
+      //"textAlignment": "CENTER"
     }
   },
-
-  "rich-text#serie4":{
-    "props":{
+  "rich-text#serie4": {
+    "props": {
       "text": "SKU: H-45L-16",
-     "blockClass": "bannerSKU"
+      "blockClass": "bannerSKU"
     }
   },
-
   "rich-text#bannerLink4": {
     "props": {
       "text": "[+ Agregar]()",
@@ -873,14 +885,13 @@
       "textAlignment": "CENTER"
     }
   },
-
-
-
   "flex-layout.row#singleBanner": {
     "props": {
       "blockClass": "singleBanner"
     },
-    "children": ["image#singleBanner"]
+    "children": [
+      "image#singleBanner"
+    ]
   },
   "image#singleBanner": {
     "props": {
@@ -888,169 +899,168 @@
       "maxHeight": 256
     }
   },
-
-  "flex-layout.row#container":{
-    "props":{
-     "blockClass": "abt",
-     "colGap": 4,
-     "rowGap": 4
+  "flex-layout.row#container": {
+    "props": {
+      "blockClass": "abt",
+      "colGap": 4,
+      "rowGap": 4
     },
-     "children":["flex-layout.col#first-home-banner-left", "flex-layout.col#first-home-banner-right"]
-   },
-
-   "flex-layout.col#first-home-banner-left":{
-    "children":[
+    "children": [
+      "flex-layout.col#first-home-banner-left",
+      "flex-layout.col#first-home-banner-right"
+    ]
+  },
+  "flex-layout.col#first-home-banner-left": {
+    "children": [
       "info-card#col-left"
     ]
-   },
-
-
-   "flex-layout.col#first-home-banner-right":{
-    "children":[
+  },
+  "flex-layout.col#first-home-banner-right": {
+    "children": [
       "info-card#col-right"
     ]
-   },
-
-   "info-card#col-left":{
-     "props":{
-       "isFullModeStyle": true,
-       "textPosition": "left",
-       "imageUrl":"assets/placeholders/nosotros.png",
-       "headline": "Nosotros",
-       "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
-       "callToActionText": "Saber más",
-       "callToActionUrl":"/nosotros",
-       "textAlignment":"left",
-       "blockClass": "nosotros-info"
-     }
-   },
-
-   "info-card#col-right":{
-     "props":{
+  },
+  "info-card#col-left": {
+    "props": {
       "isFullModeStyle": true,
-       "textPosition": "left",
-       "imageUrl":"assets/placeholders/proyectos.png",
-       "headline": "Proyectos",
-       "subhead": "Nuestro objetivo es brindar soluciones integrales a nuestros clientes a traves de la importación, distribución y comercialización de productos de uso industrial.",
-       "callToActionText": "Saber más",
-       "callToActionUrl":"/proyectos",
-       "textAlignment":"left",
-       "blockClass": "proyectos-info"
-
-     }
-   },
-
-   "rich-text#clientes":{
-    "props":{
-      "text":"Nuestros Clientes",
-      "textAlignment":"CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heading-1",
+      "textPosition": "left",
+      "imageUrl": "assets/placeholders/nosotros.png",
+      "headline": "Nosotros",
+      "subhead": "Somos una empresa peruana con más de 30 años de experiencia en el mercado.",
+      "callToActionText": "Saber más",
+      "callToActionUrl": "/nosotros",
+      "textAlignment": "left",
+      "blockClass": "nosotros-info"
+    }
+  },
+  "info-card#col-right": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/placeholders/proyectos.png",
+      "headline": "Proyectos",
+      "subhead": "Nuestro objetivo es brindar soluciones integrales a nuestros clientes a traves de la importación, distribución y comercialización de productos de uso industrial.",
+      "callToActionText": "Saber más",
+      "callToActionUrl": "/proyectos",
+      "textAlignment": "left",
+      "blockClass": "proyectos-info"
+    }
+  },
+  "rich-text#clientes": {
+    "props": {
+      "text": "Nuestros Clientes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
       "blockClass": "titulo-clientes"
     }
-   },
-
-   /*=================================================================*/
-/*=================================================================*/
-"flex-layout.row#como-comprar-container":{
-"props": {
-    "blockClass": "contenedor-como-comprar"
   },
-  "children": [
-    "flex-layout.col#como-comprar"
-  ]
-},
-
-
-"flex-layout.col#como-comprar": {
-  "props": {
-    "blockClass": "comoComprarContainer"
-  },
-  "children": [
-    "rich-text#tituloComoComprar",
-    "flex-layout.row#como-comprar-items",
-    "flex-layout.row#container-registroB2B"
-  ]
-},
-
-"rich-text#tituloComoComprar": {
-  "props": {
-    "text": "### ¿Cómo comprar en Grupo Agra?",
-    "blockClass": "comoComprarTitulo"
-  }
-},
-
-"flex-layout.row#como-comprar-items": {
-  "props": {
-    "blockClass": "comoComprarGrid",
-    "horizontalAlign": "center",
-    "verticalAlign": "top",
-    "colGap": 8
-  },
-  "children": [
-    "flex-layout.col#paso1",
-    "flex-layout.col#paso2",
-    "flex-layout.col#paso3"
-  ]
-},
-
-"flex-layout.col#paso1": {
-  "children": [
-    "image#iconPaso1",
-    "rich-text#textoPaso1"
-  ]
-},
-
-"flex-layout.col#paso2": {
-  "children": [
-    "image#iconPaso2",
-    "rich-text#textoPaso2"
-  ]
-},
-
-"flex-layout.col#paso3": {
-  "children": [
-    "image#iconPaso3",
-    "rich-text#textoPaso3"
-  ]
-},
-
-"image#iconPaso1": {
-  "props": { "src": "assets/placeholders/icono-1.png", "blockClass": "iconComprar" }
-},
-"image#iconPaso2": {
-  "props": { "src": "assets/placeholders/icono-2.png", "blockClass": "iconComprar" }
-},
-"image#iconPaso3": {
-  "props": { "src": "assets/placeholders/icono-3.png", "blockClass": "iconComprar" }
-},
-
-"rich-text#textoPaso1": {
-  "props": { "text": "#### 1.⁠ ⁠Regístrate completando el formulario", "blockClass": "texto-comprar" }
-},
-"rich-text#textoPaso2": {
-  "props": { "text": "#### 2.⁠ ⁠Revisa tu carrito y confirma tu pedido", "blockClass": "texto-comprar" }
-},
-"rich-text#textoPaso3": {
-  "props": { "text": "#### 3.⁠ ⁠Verifica los detalles y confirma tu compra REGÍSTRATE", "blockClass": "texto-comprar" }
-},
-
-"flex-layout.row#container-registroB2B":{
-  "props": {
-    "blockClass": "contianer-link-registrate"
+  /*=================================================================*/
+  /*=================================================================*/
+  "flex-layout.row#como-comprar-container": {
+    "props": {
+      "blockClass": "contenedor-como-comprar"
     },
-  "children":[
-    "link#registroB2B"
-  ]
-},
-
-"link#registroB2B": {
-  "props": {
-    "label": "REGÍSTRATE",
-    "href": "https://grupoagrape.myvtex.com/organization-request",
-    "blockClass": "btnRegistrarB2B"
+    "children": [
+      "flex-layout.col#como-comprar"
+    ]
+  },
+  "flex-layout.col#como-comprar": {
+    "props": {
+      "blockClass": "comoComprarContainer"
+    },
+    "children": [
+      "rich-text#tituloComoComprar",
+      "flex-layout.row#como-comprar-items",
+      "flex-layout.row#container-registroB2B"
+    ]
+  },
+  "rich-text#tituloComoComprar": {
+    "props": {
+      "text": "### ¿Cómo comprar en Grupo Agra?",
+      "blockClass": "comoComprarTitulo"
+    }
+  },
+  "flex-layout.row#como-comprar-items": {
+    "props": {
+      "blockClass": "comoComprarGrid",
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "colGap": 8
+    },
+    "children": [
+      "flex-layout.col#paso1",
+      "flex-layout.col#paso2",
+      "flex-layout.col#paso3"
+    ]
+  },
+  "flex-layout.col#paso1": {
+    "children": [
+      "image#iconPaso1",
+      "rich-text#textoPaso1"
+    ]
+  },
+  "flex-layout.col#paso2": {
+    "children": [
+      "image#iconPaso2",
+      "rich-text#textoPaso2"
+    ]
+  },
+  "flex-layout.col#paso3": {
+    "children": [
+      "image#iconPaso3",
+      "rich-text#textoPaso3"
+    ]
+  },
+  "image#iconPaso1": {
+    "props": {
+      "src": "assets/placeholders/icono-1.png",
+      "blockClass": "iconComprar"
+    }
+  },
+  "image#iconPaso2": {
+    "props": {
+      "src": "assets/placeholders/icono-2.png",
+      "blockClass": "iconComprar"
+    }
+  },
+  "image#iconPaso3": {
+    "props": {
+      "src": "assets/placeholders/icono-3.png",
+      "blockClass": "iconComprar"
+    }
+  },
+  "rich-text#textoPaso1": {
+    "props": {
+      "text": "#### 1.⁠ ⁠Regístrate completando el formulario",
+      "blockClass": "texto-comprar"
+    }
+  },
+  "rich-text#textoPaso2": {
+    "props": {
+      "text": "#### 2.⁠ ⁠Revisa tu carrito y confirma tu pedido",
+      "blockClass": "texto-comprar"
+    }
+  },
+  "rich-text#textoPaso3": {
+    "props": {
+      "text": "#### 3.⁠ ⁠Verifica los detalles y confirma tu compra REGÍSTRATE",
+      "blockClass": "texto-comprar"
+    }
+  },
+  "flex-layout.row#container-registroB2B": {
+    "props": {
+      "blockClass": "contianer-link-registrate"
+    },
+    "children": [
+      "link#registroB2B"
+    ]
+  },
+  "link#registroB2B": {
+    "props": {
+      "label": "REGÍSTRATE",
+      "href": "https://grupoagrape.myvtex.com/organization-request",
+      "blockClass": "btnRegistrarB2B"
+    }
   }
-}
-
-
 }

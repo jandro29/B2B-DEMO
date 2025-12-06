@@ -1,0 +1,11 @@
+{
+  "vtex.b2b-organizations@1.x:organization-link": {
+    "allowed": false
+  },
+  "vtex.b2b-quotes@3.x:quotes-link": {
+    "allowed": false
+  },
+  "vtex.checkout-saved-carts@0.x:saved-carts-link": {
+    "allowed": false
+  }
+}

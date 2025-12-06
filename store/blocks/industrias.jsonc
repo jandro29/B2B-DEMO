@@ -17,7 +17,7 @@
       "flex-layout.row#second-components",
       //
       "flex-layout.row#sobre-nosotros",
-      "flex-layout.row#container",
+      "flex-layout.row#container-industrias",
       "flex-layout.row#benefits",
       "flex-layout.row#newsletter"
     ]
@@ -41,11 +41,7 @@
   "image#banner-industrias": {
     "props": {
       "src": "assets/placeholders/industrias-banner.png", // URL de tu imagen
-      "alt": "Texto alternativo del banner",
-      "link": {
-        "noFollow": false,
-        "openNewTab": true
-      }
+      "alt": "Texto alternativo del banner"
     }
   },
   /////////////////////////////////////////////////
@@ -62,7 +58,7 @@
   },
   "rich-text#prod": {
     "props": {
-      "text": "### Productos de Minería",
+      "text": "### Categorías Clave",
       "blockClass": "prod"
     }
   },
