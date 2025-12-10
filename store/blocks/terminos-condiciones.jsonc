@@ -22,8 +22,8 @@
       "flex-layout.row#eleven-section-terminos-condiciones",
       "flex-layout.row#twelve-section-terminos-condiciones",
       "flex-layout.row#thirteen-section-terminos-condiciones",
-      "flex-layout.row#fourteen-section-terminos-condiciones",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#fourteen-section-terminos-condiciones"
+      //"flex-layout.row#newsletter"
     ]
   },
 
@@ -43,8 +43,8 @@
       "flex-layout.row#eleven-section-terminos-condiciones",
       "flex-layout.row#twelve-section-terminos-condiciones",
       "flex-layout.row#thirteen-section-terminos-condiciones",
-      "flex-layout.row#fourteen-section-terminos-condiciones",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#fourteen-section-terminos-condiciones"
+      //"flex-layout.row#newsletter"
     ]
   },
 

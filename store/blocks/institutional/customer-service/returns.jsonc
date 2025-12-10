@@ -1,8 +1,8 @@
 {
   "store.custom#returns": {
     "blocks": [
-      "flex-layout.row#institutional--returns",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#institutional--returns"
+      //"flex-layout.row#newsletter"
     ]
   },
 

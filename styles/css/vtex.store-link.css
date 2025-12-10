@@ -362,3 +362,18 @@
   background-color: #FABD01;
   color: black;
 }
+
+:global(.vtex-store-link-0-x-link--cotizacion-buttom){
+   height: 100%;
+    background: #FABD01;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    text-decoration: none;
+}
+
+.link--cotizacion-buttom:hover :global(.vtex-rich-text-0-x-container--crea-cotizacion-text){
+  color: #fff !important;
+}
+

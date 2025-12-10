@@ -17,8 +17,8 @@
       "flex-layout.row#container",
       "rich-text#clientes",
       "flex-layout.row#clientes-inicio",
-      "flex-layout.row#benefits",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#benefits"
+      //"flex-layout.row#newsletter"
     ]
   },
   "responsive-layout.mobile": {
@@ -52,10 +52,10 @@
       "height": 420,
       "images": [
         {
-          "url": "https://grupoagrape.myvtex.com/organization-request",
           "image": "assets/placeholders/banner1-grupo-agra.png",
           "mobileImage": "assets/placeholders/mobil/banner1-grupo-agra-mobil.png",
-          "description": "something something"
+          "description": "something something",
+           "link":"https://grupoagrape.myvtex.com/organization-request"
         },
         {
           "image": "assets/placeholders/banner2-grupo-agra.png",

@@ -1,8 +1,8 @@
 {
   "store.custom#customer-services": {
     "blocks": [
-      "flex-layout.row#institutional--services",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#institutional--services"
+      //"flex-layout.row#newsletter"
     ]
   },
 

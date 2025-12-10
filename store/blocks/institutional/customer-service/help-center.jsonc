@@ -1,8 +1,8 @@
 {
   "store.custom#help-center": {
     "blocks": [
-      "flex-layout.row#institutional--help-center",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#institutional--help-center"
+      //"flex-layout.row#newsletter"
     ]
   },
 

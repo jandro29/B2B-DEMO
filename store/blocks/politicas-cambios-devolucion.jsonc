@@ -9,16 +9,16 @@
   "responsive-layout.desktop#politica-cambios-devolucion": {
     "children": [
       "flex-layout.row#titulo-politica-cambios-devolucion",
-      "flex-layout.row#first-section-cambios-devolucion",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#first-section-cambios-devolucion"
+      //"flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#politica-cambios-devolucion": {
     "children": [
       "flex-layout.row#titulo-politica-cambios-devolucion",
-      "flex-layout.row#first-section-cambios-devolucion",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#first-section-cambios-devolucion"
+      //"flex-layout.row#newsletter"
     ]
   },
 

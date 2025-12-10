@@ -1,8 +1,8 @@
 {
   "store.custom#contact": {
     "blocks": [
-      "flex-layout.row#institutional--contact",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#institutional--contact"
+      //"flex-layout.row#newsletter"
     ]
   },
 

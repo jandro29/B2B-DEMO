@@ -1,8 +1,8 @@
 {
   "store.custom.product-comparison#deals": {
     "blocks": [
-      "search-result-layout.customQuery#deals",
-      "flex-layout.row#newsletter"
+      "search-result-layout.customQuery#deals"
+      //"flex-layout.row#newsletter"
     ]
   },
 

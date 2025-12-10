@@ -1,8 +1,8 @@
 {
   "store.custom#advertise": {
     "blocks": [
-      "flex-layout.row#institutional--advertise",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#institutional--advertise"
+      //"flex-layout.row#newsletter"
     ]
   },
 

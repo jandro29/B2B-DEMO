@@ -9,9 +9,9 @@
       "flex-layout.row#texto1-container-nosotros",
       "flex-layout.row#about-us",
       "rich-text#nuestro-equipo",
-      "flex-layout.row#our-team-components",
-      "rich-text#nuestros-colaboradores",
-      "flex-layout.row#nuestros-colaboradores"
+      "flex-layout.row#our-team-components"
+      //"rich-text#nuestros-colaboradores"
+      //"flex-layout.row#nuestros-colaboradores"
     ]
   },
   "responsive-layout.mobile#nosotros": {
@@ -20,9 +20,9 @@
       "flex-layout.row#texto1-container-nosotros",
       "flex-layout.row#about-us",
       "rich-text#nuestro-equipo",
-      "flex-layout.row#our-team-components",
-      "rich-text#nuestros-colaboradores",
-      "flex-layout.row#nuestros-colaboradores"
+      "flex-layout.row#our-team-components"
+      //"rich-text#nuestros-colaboradores"
+      //"flex-layout.row#nuestros-colaboradores"
     ]
   },
 

@@ -11,8 +11,8 @@
       "flex-layout.row#first-components",
       "flex-layout.row#consumers",
       "flex-layout.row#second-components",
-      "flex-layout.row#benefits",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#benefits"
+      //"flex-layout.row#newsletter"
 
 
     ]
@@ -25,8 +25,8 @@
       "flex-layout.row#first-components",
       "flex-layout.row#consumers",
       "flex-layout.row#second-components",
-      "flex-layout.row#benefits",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#benefits"
+      //"flex-layout.row#newsletter"
     ]
   },
 

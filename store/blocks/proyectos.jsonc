@@ -20,8 +20,8 @@
       "flex-layout.row#proyecto-saeg",
       "flex-layout.row#proyecto-cam",
       "flex-layout.row#proyecto-miski",
-      "flex-layout.row#proyecto-pacasmayo",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#proyecto-pacasmayo"
+      //"flex-layout.row#newsletter"
     ]
   },
 
@@ -39,8 +39,8 @@
       "flex-layout.row#proyecto-saeg",
       "flex-layout.row#proyecto-cam",
       "flex-layout.row#proyecto-miski",
-      "flex-layout.row#proyecto-pacasmayo",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#proyecto-pacasmayo"
+      //"flex-layout.row#newsletter"
     ]
   },
 

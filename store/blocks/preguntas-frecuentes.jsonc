@@ -9,16 +9,16 @@
   "responsive-layout.desktop#preguntas-frecuentes": {
     "children": [
       "flex-layout.row#titulo-preguntas-frecuentes",
-      "flex-layout.row#container-preguntas-frecuentes",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#container-preguntas-frecuentes"
+      //"flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#preguntas-frecuentes": {
     "children": [
       "flex-layout.row#titulo-preguntas-frecuentes",
-      "flex-layout.row#container-preguntas-frecuentes",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#container-preguntas-frecuentes"
+      //"flex-layout.row#newsletter"
     ]
   },
 

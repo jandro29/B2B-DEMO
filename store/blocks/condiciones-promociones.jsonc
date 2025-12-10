@@ -9,16 +9,16 @@
   "responsive-layout.desktop#condiciones-de-promociones": {
     "children": [
       "flex-layout.row#titulo-condiciones-promociones",
-      "flex-layout.row#conteiner-contenido-condiciones-promociones",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#conteiner-contenido-condiciones-promociones"
+      //"flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#condiciones-de-promociones": {
     "children": [
       "flex-layout.row#titulo-condiciones-promociones",
-      "flex-layout.row#conteiner-contenido-condiciones-promociones",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#conteiner-contenido-condiciones-promociones"
+      //"flex-layout.row#newsletter"
     ]
   },
 

@@ -1004,6 +1004,24 @@
   margin-top: 17px;
 }
 
-:global(.vtex-rich-text-0-x-wrapper--comoComprarTitulo){
-   color: #000;
+:global(.vtex-rich-text-0-x-wrapper--comoComprarTitulo) {
+  color: #000;
 }
+
+:global(.vtex-rich-text-0-x-container--crea-cotizacion-text){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700 !important;
+  color: #000;
+  font-size: 18px;
+height: 54% !important;
+}
+
+
+.paragraph--footerStripe1,
+.paragraph--footerStripe2,
+.paragraph--footerStripe3{
+  font-weight: 200
+}
+

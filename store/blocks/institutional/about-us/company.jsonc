@@ -1,8 +1,8 @@
 {
   "store.custom#company": {
     "blocks": [
-      "flex-layout.row#institutional--company",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#institutional--company"
+      //"flex-layout.row#newsletter"
     ]
   },
 

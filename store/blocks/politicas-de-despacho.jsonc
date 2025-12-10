@@ -15,8 +15,8 @@
       "flex-layout.row#section-cuadro1",
       "flex-layout.row#section-cuadro2",
       "flex-layout.row#section-cuadro3",
-      "flex-layout.row#section4-politica",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#section4-politica"
+      //"flex-layout.row#newsletter"
     ]
   },
 
@@ -29,8 +29,8 @@
       "flex-layout.row#section-cuadro1",
       "flex-layout.row#section-cuadro2",
       "flex-layout.row#section-cuadro3",
-      "flex-layout.row#section4-politica",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#section4-politica"
+      //"flex-layout.row#newsletter"
     ]
   },
 

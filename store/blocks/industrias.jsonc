@@ -18,8 +18,8 @@
       //
       "flex-layout.row#sobre-nosotros",
       "flex-layout.row#container-industrias",
-      "flex-layout.row#benefits",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#benefits"
+      //"flex-layout.row#newsletter"
     ]
   },
 

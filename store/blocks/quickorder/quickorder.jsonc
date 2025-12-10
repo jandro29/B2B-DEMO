@@ -13,8 +13,8 @@
       "flex-layout.row#autocomplete",
       "flex-layout.row#quickCategories",
       "flex-layout.row#upload",
-      "flex-layout.row#benefits",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#benefits"
+      //"flex-layout.row#newsletter"
     ]
   },
 

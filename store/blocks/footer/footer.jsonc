@@ -45,14 +45,14 @@
 
   "rich-text#footerStripe1": {
     "props": {
-      "text": "Diseño UX y Desarrollo: **Esedor Latam**",
+      "text": "Diseño UX y Desarrollo: **Esedor**",
       "blockClass": "footerStripe1",
       "font": "t-heading-9"
     }
   },
   "rich-text#footerStripe2": {
     "props": {
-      "text": " Tecnología: **Vtex**",
+      "text": "Tecnología: **Vtex**",
       "blockClass": "footerStripe2"
     }
   },

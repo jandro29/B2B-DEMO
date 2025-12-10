@@ -9,16 +9,16 @@
   "responsive-layout.desktop#clientes": {
     "children": [
       "flex-layout.row#titulo-clientes",
-      "flex-layout.row#contenido-clientes",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#contenido-clientes"
+      //"flex-layout.row#newsletter"
     ]
   },
 
   "responsive-layout.mobile#clientes": {
     "children": [
       "flex-layout.row#titulo-clientes",
-      "flex-layout.row#contenido-clientes",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#contenido-clientes"
+      //"flex-layout.row#newsletter"
     ]
   },
 

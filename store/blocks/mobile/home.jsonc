@@ -26,9 +26,9 @@
       //"flex-layout.row#singleBannerMobile",
       //"flex-layout.row#popular",
       //"flex-layout.row#trending",
-      "flex-layout.row#benefitsmobil",
+      "flex-layout.row#benefitsmobil"
       //"flex-layout.row#benefits",
-      "flex-layout.row#newsletter"
+      //"flex-layout.row#newsletter"
 
     ]
   },

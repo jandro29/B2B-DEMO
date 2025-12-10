@@ -1506,3 +1506,7 @@
   height: 500px;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--container-cotizacion){
+      padding: 12px 16px 16px;
+}
+
