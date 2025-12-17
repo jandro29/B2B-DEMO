@@ -2,8 +2,7 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop",
-      "responsive-layout.mobile",
-      "google-analytics"
+      "responsive-layout.mobile"
     ]
   },
   "responsive-layout.desktop": {
@@ -1077,7 +1076,7 @@
   "link#boton-wsp":{
     "props":{
       "blockClass":"link-btn-wsp",
-      "href": "https://wa.link/fkn13t"
+      "href": "https://wa.link/m7ob9r"
     },
     "children":["image#image-wsp"]
   },
