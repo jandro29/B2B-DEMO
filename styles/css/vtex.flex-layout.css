@@ -1510,3 +1510,7 @@
       padding: 12px 16px 16px;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--contenedor-wsp){
+
+  z-index: 99999999999999999999;
+}

@@ -103,9 +103,24 @@
   "flex-layout.col#minicart-footer": {
     "children": [
       "minicart-summary",
+      "flex-layout.row#mensaje-igv",
       "flex-layout.row#container-cotizacion",
       "minicart-checkout-button"
     ]
+  },
+
+  "flex-layout.row#mensaje-igv":{
+    "props":{
+      "blockClass":"contenedor-text-igv"
+    },
+    "children":["rich-text#mensaje-igv"]
+  },
+
+  "rich-text#mensaje-igv":{
+    "props":{
+      "text": "El delivery y el IGV se calculan al realizar el pedido.",
+      "blockClass":"text-igv"
+    }
   },
 
   "flex-layout.row#container-cotizacion":{

@@ -7,6 +7,7 @@
   },
   "responsive-layout.desktop": {
     "children": [
+      
       "flex-layout.row#imageList",
       "flex-layout.row#tusprod",
       "flex-layout.row#shopByCategory",
@@ -17,7 +18,8 @@
       "flex-layout.row#container",
       "rich-text#clientes",
       "flex-layout.row#clientes-inicio",
-      "flex-layout.row#benefits"
+      "flex-layout.row#benefits",
+      "flex-layout.row#botton-wsp"
       //"flex-layout.row#newsletter"
     ]
   },
@@ -1061,6 +1063,28 @@
       "label": "REGÍSTRATE",
       "href": "https://grupoagrape.myvtex.com/organization-request",
       "blockClass": "btnRegistrarB2B"
+    }
+  },
+
+  "flex-layout.row#botton-wsp":{
+    "props":{
+      "blockClass":"contenedor-wsp"
+    },
+    "children":["link#boton-wsp"]
+  },
+
+  "link#boton-wsp":{
+    "props":{
+      "blockClass":"link-btn-wsp",
+      "href": "https://wa.link/fkn13t"
+    },
+    "children":["image#image-wsp"]
+  },
+  
+  "image#image-wsp":{
+    "props":{
+      "src": "assets/placeholders/whatsapp-logo.png",
+      "blockClass": "wsp-img"
     }
   }
 }

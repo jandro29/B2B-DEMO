@@ -960,3 +960,11 @@
 :global(.vtex-store-components-3-x-productImageTag--desktop--main){
       max-height: 650px !important;
 }
+
+.imageElement--wsp-img{
+  right: 20px;
+  bottom: 20px;
+  width: 50px; 
+  height: 50px;
+  position: fixed;
+}
