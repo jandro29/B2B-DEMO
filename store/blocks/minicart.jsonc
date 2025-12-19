@@ -118,7 +118,7 @@
 
   "rich-text#mensaje-igv":{
     "props":{
-      "text": "El delivery y el IGV se calculan al realizar el pedido.",
+      "text": "Los precios incluyen IGV, el delivery se calcula al realizar el pedido.",
       "blockClass":"text-igv"
     }
   },

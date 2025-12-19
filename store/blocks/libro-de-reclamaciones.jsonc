@@ -15,7 +15,8 @@
   "form#libro-reclamaciones": {
     "props": {
       "entity": "ReclamoEntidad",
-      "schema": "ReclamoSchema"
+      "schema": "ReclamoSchema",
+      "successMessage": "Su reclamo fue enviado correctamente"
     },
     // "children":["flex-layout.row#libro-reclamaciones"]
     "children": [
@@ -28,7 +29,8 @@
       "flex-layout.row#container-reclamos4",
       "flex-layout.row#container-reclamos5",
       "flex-layout.row#containerdetallereclam",
-      "flex-layout.row#containerpedidoclient"
+      "flex-layout.row#containerpedidoclient",
+      "form-submit#enviar"
       //"form-input.text#fechaReclamo"//,
       //"flex-layout.row#container-reclamos5"
     ]
@@ -40,7 +42,7 @@
 
   "rich-text#bannerTitle1": {
     "props": {
-      "blockClass":"titulo-indentificacion-consumidor",
+      "blockClass": "titulo-indentificacion-consumidor",
       "text": "Identificación del consumidor reclamante"
     }
   },
@@ -75,7 +77,7 @@
 
   "rich-text#bannerTitle2": {
     "props": {
-      "blockClass":"titulo-indentificacion-consumidor2",
+      "blockClass": "titulo-indentificacion-consumidor2",
       "text": "Detalle del reclamo y orden del consumidor"
     }
   },
@@ -104,7 +106,7 @@
     ]
   },
 
-"flex-layout.row#container-reclamos5": {
+  "flex-layout.row#container-reclamos5": {
     "props": {
       "blockClass": "container-reclamante5",
       "colGap": 6
@@ -113,10 +115,9 @@
       "form-input.text#montoReclamo",
       "form-input.text#fechaCompra",
       "form-input.text#fechaConsumo"
-      
     ]
   },
-  
+
   "flex-layout.row#libro-reclamaciones": {
     "children": ["flex-layout.col#libro-reclamaciones"]
   },
@@ -278,29 +279,27 @@
     }
   },
 
-  "form-input.text#fechaCompra":{
+  "form-input.text#fechaCompra": {
     "props": {
       "pointer": "#/properties/fechaCompra",
       "label": "Fecha de compra"
     }
   },
 
-  "form-input.text#fechaConsumo":{
+  "form-input.text#fechaConsumo": {
     "props": {
       "pointer": "#/properties/fechaConsumo",
       "label": "Fecha de consumo"
     }
   },
 
-  "flex-layout.row#containerdetallereclam":{
-    "props":{
+  "flex-layout.row#containerdetallereclam": {
+    "props": {
       "blockClass": "detallereclamClass"
     },
-    "children":[
-      "form-input.textarea#detalleReclamacion"
-    ]
+    "children": ["form-input.textarea#detalleReclamacion"]
   },
-  "form-input.textarea#detalleReclamacion":{
+  "form-input.textarea#detalleReclamacion": {
     "props": {
       "pointer": "#/properties/detalleReclamacion",
       "label": "Detalle de la Reclamación / Queja, según lo indicado por el cliente",
@@ -308,20 +307,23 @@
     }
   },
 
-  "flex-layout.row#containerpedidoclient":{
-    "props":{
+  "flex-layout.row#containerpedidoclient": {
+    "props": {
       "blockClass": "pedidoclientClass"
     },
-    "children":[
-      "form-input.text#pedidoCliente"
-    ]
+    "children": ["form-input.text#pedidoCliente"]
   },
 
-  "form-input.text#pedidoCliente":{
+  "form-input.text#pedidoCliente": {
     "props": {
       "pointer": "#/properties/pedidoCliente",
       "label": "Pedido del Cliente",
       "placeholder": "Pedido del Cliente"
     }
+  },
+  "form-submit#enviar": {
+  "props": {
+    "label": "Enviar reclamo"
   }
+}
 }
