@@ -1,121 +1,6 @@
 {
   "store.custom#libro-de-reclamaciones": {
-    "blocks": ["responsive-layout.desktop#libro-de-reclamaciones"] //, "responsive-layout.mobile#libro-de-reclamaciones"
-  }, //,"store.libro-reclamaciones"
-
-  "responsive-layout.desktop#libro-de-reclamaciones": {
-    "children": ["flex-layout.row#libro-reclamaciones"]
-  },
-
-  /*"responsive-layout.mobile#libro-de-reclamaciones": {
-    "children": [
-    ]
-  },*/
-
-  "form#libro-reclamaciones": {
-    "props": {
-      "entity": "ReclamoEntidad",
-      "schema": "ReclamoSchema",
-      "successMessage": "Su reclamo fue enviado correctamente"
-    },
-    // "children":["flex-layout.row#libro-reclamaciones"]
-    "children": [
-      "flex-layout.row#titulo-libro-reclamaciones1",
-      "flex-layout.row#container-reclamos1",
-      "flex-layout.row#container-reclamos2",
-      "flex-layout.row#container-reclamos3",
-      "form-input.textarea#mensaje",
-      "flex-layout.row#titulo-libro-reclamaciones2",
-      "flex-layout.row#container-reclamos4",
-      "flex-layout.row#container-reclamos5",
-      "flex-layout.row#containerdetallereclam",
-      "flex-layout.row#containerpedidoclient",
-      "form-submit#enviar"
-      //"form-input.text#fechaReclamo"//,
-      //"flex-layout.row#container-reclamos5"
-    ]
-  },
-
-  "flex-layout.row#titulo-libro-reclamaciones1": {
-    "children": ["rich-text#bannerTitle1"]
-  },
-
-  "rich-text#bannerTitle1": {
-    "props": {
-      "blockClass": "titulo-indentificacion-consumidor",
-      "text": "Identificación del consumidor reclamante"
-    }
-  },
-
-  "flex-layout.row#container-reclamos1": {
-    "props": {
-      "blockClass": "container-reclamante1",
-      "colGap": 6
-    },
-    "children": [
-      "form-input.text#name",
-      "form-input.text#first-last-name",
-      "form-input.text#last-name"
-    ]
-  },
-
-  "flex-layout.row#container-reclamos2": {
-    "props": {
-      "blockClass": "container-reclamante2",
-      "colGap": 6
-    },
-    "children": [
-      "form-input.dropdown#tipoDocumento",
-      "form-input.text#numdoc",
-      "form-input.text#celular"
-    ]
-  },
-
-  "flex-layout.row#titulo-libro-reclamaciones2": {
-    "children": ["rich-text#bannerTitle2"]
-  },
-
-  "rich-text#bannerTitle2": {
-    "props": {
-      "blockClass": "titulo-indentificacion-consumidor2",
-      "text": "Detalle del reclamo y orden del consumidor"
-    }
-  },
-
-  "flex-layout.row#container-reclamos3": {
-    "props": {
-      "blockClass": "container-reclamante3",
-      "colGap": 6
-    },
-    "children": [
-      "form-input.text#direccion",
-      "form-input.text#email",
-      "form-input.radiogroup#eres-m-edad"
-    ]
-  },
-
-  "flex-layout.row#container-reclamos4": {
-    "props": {
-      "blockClass": "container-reclamante4",
-      "colGap": 6
-    },
-    "children": [
-      "form-input.dropdown#tipoReclamo",
-      "form-input.dropdown#tipodeConsumo",
-      "form-input.text#Npedido"
-    ]
-  },
-
-  "flex-layout.row#container-reclamos5": {
-    "props": {
-      "blockClass": "container-reclamante5",
-      "colGap": 6
-    },
-    "children": [
-      "form-input.text#montoReclamo",
-      "form-input.text#fechaCompra",
-      "form-input.text#fechaConsumo"
-    ]
+    "blocks": ["flex-layout.row#libro-reclamaciones"]
   },
 
   "flex-layout.row#libro-reclamaciones": {
@@ -123,207 +8,86 @@
   },
 
   "flex-layout.col#libro-reclamaciones": {
-    // "children":["form-input.text#name", "form-input.text#email"]
-    "children": ["form#libro-reclamaciones"]
+    "children": [
+      "rich-text#libro-titulo",
+      "form#libro-reclamaciones"
+    ]
+  },
+
+  "rich-text#libro-titulo": {
+    "props": {
+      "text": "## Libro de Reclamaciones"
+    }
+  },
+
+  "form#libro-reclamaciones": {
+    "props": {
+      "entity": "LR"
+    },
+    "children": [
+      "form-input.text#name",
+      "form-input.text#codigo",
+      "form-input.text#document",
+      "form-input.text#email",
+      "form-input.text#phone",
+      "form-input.textarea#purchasedproduct",
+      "form-input.textarea#pedido",
+      "form-submit#enviar"
+    ]
   },
 
   "form-input.text#name": {
     "props": {
       "pointer": "#/properties/name",
-      "label": "Nombre del cliente",
-      "placeholder": "Ingrese su nombre"
+      "label": "Nombre Completo"
     }
   },
 
-  "form-input.text#first-last-name": {
+  "form-input.text#codigo": {
     "props": {
-      "pointer": "#/properties/first-last-name",
-      "label": "Primer Apellido",
-      "placeholder": "Ingrese su primer apellido"
+      "pointer": "#/properties/codigo",
+      "label": "Código"
     }
   },
 
-  "form-input.text#last-name": {
+  "form-input.text#document": {
     "props": {
-      "pointer": "#/properties/last-name",
-      "label": "Segundo Apellido",
-      "placeholder": "Ingrese su segundo apellido"
-    }
-  },
-
-  "form-input.dropdown#tipoDocumento": {
-    "props": {
-      "pointer": "#/properties/tipoDocumento",
-      "label": "Tipo de Documento",
-      "options": [
-        {
-          "value": "DNI",
-          "label": "DNI"
-        },
-        {
-          "value": "Pasaporte",
-          "label": "Pasaporte"
-        },
-        {
-          "value": "Carnet de Extranjería",
-          "label": "Carnet de Extranjería"
-        }
-      ]
-    }
-  },
-
-  "form-input.text#numdoc": {
-    "props": {
-      "pointer": "#/properties/numdoc",
-      "label": "Número de documentación",
-      "placeholder": "Ingrese número de documentación"
-    }
-  },
-
-  "form-input.text#celular": {
-    "props": {
-      "pointer": "#/properties/celular",
-      "label": "Ingrese su numero telefonico",
-      "placeholder": "Ingrese número de telefonico"
-    }
-  },
-
-  "form-input.text#direccion": {
-    "props": {
-      "pointer": "#/properties/direccion",
-      "label": "Ingrese su direccion",
-      "placeholder": "Ingrese su direccion"
+      "pointer": "#/properties/document",
+      "label": "Documento"
     }
   },
 
   "form-input.text#email": {
     "props": {
       "pointer": "#/properties/email",
-      "label": "Correo electronico",
-      "placeholder": "Ingrese su email"
+      "label": "Correo electrónico"
     }
   },
 
-  "form-input.radiogroup#eres-m-edad": {
+  "form-input.text#phone": {
     "props": {
-      "pointer": "#/properties/eresMenorDeEdad",
-      "label": "¿Eres menor de edad?",
-      "options": [
-        {
-          "value": "Si",
-          "label": "Si"
-        },
-        {
-          "value": "No",
-          "label": "No"
-        }
-      ]
+      "pointer": "#/properties/phone",
+      "label": "Teléfono"
     }
   },
 
-  "form-input.textarea#mensaje": {
+  "form-input.textarea#purchasedproduct": {
     "props": {
-      "pointer": "#/properties/mensaje",
-      "label": "Mensaje",
-      "placeholder": "Ingrese su reclamo"
+      "pointer": "#/properties/purchasedproduct",
+      "label": "Detalle"
     }
   },
 
-  "form-input.dropdown#tipoReclamo": {
+  "form-input.textarea#pedido": {
     "props": {
-      "pointer": "#/properties/tipoReclamo",
-      "label": "Tipo de Reclamo",
-      "options": [
-        {
-          "value": "Reclamacion(1)",
-          "label": "Reclamacion(1)"
-        },
-        {
-          "value": "Queja(2)",
-          "label": "Queja(2)"
-        }
-      ]
+      "pointer": "#/properties/pedido",
+      "label": "Pedido del cliente"
     }
   },
 
-  "form-input.dropdown#tipodeConsumo": {
-    "props": {
-      "pointer": "#/properties/tipodeConsumo",
-      "label": "Tipo de Consumo",
-      "options": [
-        {
-          "value": "Producto",
-          "label": "Producto"
-        },
-        {
-          "value": "Servicio",
-          "label": "Servicio"
-        }
-      ]
-    }
-  },
-
-  "form-input.text#Npedido": {
-    "props": {
-      "pointer": "#/properties/Npedido",
-      "label": "Numero de Pedido",
-      "placeholder": "Ingrese su Numero de pedido"
-    }
-  },
-
-  "form-input.text#montoReclamo": {
-    "props": {
-      "pointer": "#/properties/montoReclamo",
-      "label": "Monto reclamado (S/.)",
-      "placeholder": "Monto reclamado"
-    }
-  },
-
-  "form-input.text#fechaCompra": {
-    "props": {
-      "pointer": "#/properties/fechaCompra",
-      "label": "Fecha de compra"
-    }
-  },
-
-  "form-input.text#fechaConsumo": {
-    "props": {
-      "pointer": "#/properties/fechaConsumo",
-      "label": "Fecha de consumo"
-    }
-  },
-
-  "flex-layout.row#containerdetallereclam": {
-    "props": {
-      "blockClass": "detallereclamClass"
-    },
-    "children": ["form-input.textarea#detalleReclamacion"]
-  },
-  "form-input.textarea#detalleReclamacion": {
-    "props": {
-      "pointer": "#/properties/detalleReclamacion",
-      "label": "Detalle de la Reclamación / Queja, según lo indicado por el cliente",
-      "placeholder": "Detalle de la Reclamación / Queja"
-    }
-  },
-
-  "flex-layout.row#containerpedidoclient": {
-    "props": {
-      "blockClass": "pedidoclientClass"
-    },
-    "children": ["form-input.text#pedidoCliente"]
-  },
-
-  "form-input.text#pedidoCliente": {
-    "props": {
-      "pointer": "#/properties/pedidoCliente",
-      "label": "Pedido del Cliente",
-      "placeholder": "Pedido del Cliente"
-    }
-  },
   "form-submit#enviar": {
-  "props": {
-    "label": "Enviar reclamo"
+    "props": {
+      "label": "Enviar reclamo"
+    }
   }
-}
 }
