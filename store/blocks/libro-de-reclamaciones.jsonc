@@ -4,27 +4,30 @@
   },
 
   "flex-layout.row#libro-reclamaciones": {
+    "props": {
+      "blockClass": "container-libro-reclamaciones",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
     "children": ["flex-layout.col#libro-reclamaciones"]
   },
 
   "flex-layout.col#libro-reclamaciones": {
-    "children": [
-      "rich-text#libro-titulo",
-      "form#libro-reclamaciones"
-    ]
-  },
-
-  "rich-text#libro-titulo": {
     "props": {
-      "text": "## Libro de Reclamaciones"
-    }
+      "blockClass": "form-reclamaciones",
+      "width": "80%",
+      "preventVerticalStretch": true
+    },
+    "children": ["form#libro-reclamaciones"]
   },
 
   "form#libro-reclamaciones": {
     "props": {
-      "entity": "LR"
+      "entity": "LR",
+      "schema": "libroreclamaciones"
     },
     "children": [
+      "rich-text#titulo-reclamaciones",
       "form-input.text#name",
       "form-input.text#codigo",
       "form-input.text#document",
@@ -36,58 +39,72 @@
     ]
   },
 
+  "rich-text#titulo-reclamaciones": {
+    "props": {
+      "text": "## Libro de Reclamaciones\n\nComplete el formulario con sus datos",
+      "blockClass": "titulo-reclamaciones"
+    }
+  },
+
   "form-input.text#name": {
     "props": {
       "pointer": "#/properties/name",
-      "label": "Nombre Completo"
+      "label": "Nombre Completo",
+      "placeholder": "Ingrese su nombre completo"
     }
   },
 
   "form-input.text#codigo": {
     "props": {
       "pointer": "#/properties/codigo",
-      "label": "Código"
+      "label": "Código (opcional)",
+      "placeholder": "Código del cliente"
     }
   },
 
   "form-input.text#document": {
     "props": {
       "pointer": "#/properties/document",
-      "label": "Documento"
+      "label": "Número de Documento",
+      "placeholder": "DNI / Pasaporte"
     }
   },
 
   "form-input.text#email": {
     "props": {
       "pointer": "#/properties/email",
-      "label": "Correo electrónico"
+      "label": "Correo Electrónico",
+      "placeholder": "ejemplo@correo.com"
     }
   },
 
   "form-input.text#phone": {
     "props": {
       "pointer": "#/properties/phone",
-      "label": "Teléfono"
+      "label": "Teléfono",
+      "placeholder": "987654321"
     }
   },
 
   "form-input.textarea#purchasedproduct": {
     "props": {
       "pointer": "#/properties/purchasedproduct",
-      "label": "Detalle"
+      "label": "Detalle de la Reclamación",
+      "placeholder": "Describa detalladamente su reclamo o queja"
     }
   },
 
   "form-input.textarea#pedido": {
     "props": {
       "pointer": "#/properties/pedido",
-      "label": "Pedido del cliente"
+      "label": "Pedido del Cliente",
+      "placeholder": "¿Qué solicita?"
     }
   },
 
   "form-submit#enviar": {
     "props": {
-      "label": "Enviar reclamo"
+      "label": "Enviar Reclamo"
     }
   }
 }
