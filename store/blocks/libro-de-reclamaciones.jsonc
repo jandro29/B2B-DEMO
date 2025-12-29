@@ -97,7 +97,7 @@
 
   "rich-text#titulo-reclamaciones": {
     "props": {
-      "text": "## Libro de Reclamaciones\n\nComplete el formulario con sus datos\n\n*Los campos marcados con asterisco (*) son obligatorios",
+      "text": "## Libro de Reclamaciones\n\nComplete el formulario con sus datos",
       "blockClass": "titulo-reclamaciones"
     }
   },
