@@ -1514,3 +1514,33 @@
 
   z-index: 99999999999999999999;
 }
+
+
+:global(.vtex-store-form-0-x-formSubmitButton--boton-libro){
+  margin-top: 2rem;
+}
+
+:global(.vtex-input__label){
+  margin-top: 2rem !important;
+}
+
+:global(.vtex-textarea__label){
+  margin-top: 2rem !important;
+}
+
+
+
+/* Contenedor de éxito */
+.success-container {
+  background-color: #f0f9ff;
+  padding: 3rem 1rem;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-libro-reclamaciones){
+  display: flex;
+  justify-content: center;
+}

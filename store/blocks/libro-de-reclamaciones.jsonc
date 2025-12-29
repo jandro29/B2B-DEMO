@@ -24,7 +24,8 @@
   "form#libro-reclamaciones": {
     "props": {
       "entity": "LR",
-      "schema": "libroreclamaciones"
+      "schema": "libroreclamaciones",
+      "blockClass": "container-libro-reclamaciones"
     },
     "children": [
       "rich-text#titulo-reclamaciones",
@@ -36,12 +37,67 @@
       "form-input.textarea#purchasedproduct",
       "form-input.textarea#pedido",
       "form-submit#enviar"
+    ],
+    "blocks": ["form-success#reclamaciones"]
+  },
+
+  "form-success#reclamaciones": {
+    "children": [
+      "flex-layout.row#success-reclamaciones"
     ]
+  },
+
+  "flex-layout.row#success-reclamaciones": {
+    "props": {
+      "blockClass": "success-container",
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#success-content"]
+  },
+
+  "flex-layout.col#success-content": {
+    "props": {
+      "blockClass": "success-content",
+      "width": "80%",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#success-title",
+      "rich-text#success-message",
+      "link#volver-home"
+    ]
+  },
+
+  "rich-text#success-title": {
+    "props": {
+      "text": "## ¡Reclamo Enviado Exitosamente!",
+      "textAlignment": "CENTER",
+      "blockClass": "success-title"
+    }
+  },
+
+  "rich-text#success-message": {
+    "props": {
+      "text": "Gracias por contactarnos. Hemos recibido su reclamo y será atendido a la brevedad posible.\n\nRecibirá una respuesta en el correo electrónico proporcionado.",
+      "textAlignment": "CENTER",
+      "blockClass": "success-message"
+    }
+  },
+
+  "link#volver-home": {
+    "props": {
+      "href": "/",
+      "label": "Volver al Inicio",
+      "blockClass": "button-volver-home"
+    }
   },
 
   "rich-text#titulo-reclamaciones": {
     "props": {
-      "text": "## Libro de Reclamaciones\n\nComplete el formulario con sus datos",
+      "text": "## Libro de Reclamaciones\n\nComplete el formulario con sus datos\n\n*Los campos marcados con asterisco (*) son obligatorios",
       "blockClass": "titulo-reclamaciones"
     }
   },
@@ -49,8 +105,10 @@
   "form-input.text#name": {
     "props": {
       "pointer": "#/properties/name",
-      "label": "Nombre Completo",
-      "placeholder": "Ingrese su nombre completo"
+      "label": "Nombre Completo *",
+      "placeholder": "Ingrese su nombre completo",
+      "blockClass": "input-nombre",
+      "requiredMessage": "El nombre es obligatorio"
     }
   },
 
@@ -58,53 +116,65 @@
     "props": {
       "pointer": "#/properties/codigo",
       "label": "Código (opcional)",
-      "placeholder": "Código del cliente"
+      "placeholder": "Código del cliente",
+      "blockClass": "input-codigo"
     }
   },
 
   "form-input.text#document": {
     "props": {
       "pointer": "#/properties/document",
-      "label": "Número de Documento",
-      "placeholder": "DNI / Pasaporte"
+      "label": "Número de Documento *",
+      "placeholder": "DNI / Pasaporte",
+      "blockClass": "input-document",
+      "requiredMessage": "El número de documento es obligatorio"
     }
   },
 
   "form-input.text#email": {
     "props": {
       "pointer": "#/properties/email",
-      "label": "Correo Electrónico",
-      "placeholder": "ejemplo@correo.com"
+      "label": "Correo Electrónico *",
+      "placeholder": "ejemplo@correo.com",
+      "blockClass": "input-email",
+      "requiredMessage": "El correo electrónico es obligatorio"
     }
   },
 
   "form-input.text#phone": {
     "props": {
       "pointer": "#/properties/phone",
-      "label": "Teléfono",
-      "placeholder": "987654321"
+      "label": "Teléfono *",
+      "placeholder": "987654321",
+      "blockClass": "input-phone",
+      "requiredMessage": "El teléfono es obligatorio"
     }
   },
 
   "form-input.textarea#purchasedproduct": {
     "props": {
       "pointer": "#/properties/purchasedproduct",
-      "label": "Detalle de la Reclamación",
-      "placeholder": "Describa detalladamente su reclamo o queja"
+      "label": "Detalle de la Reclamación *",
+      "placeholder": "Describa detalladamente su reclamo o queja",
+      "blockClass": "input-purchasedproduct",
+      "requiredMessage": "El detalle de la reclamación es obligatorio"
     }
   },
 
   "form-input.textarea#pedido": {
     "props": {
       "pointer": "#/properties/pedido",
-      "label": "Pedido del Cliente",
-      "placeholder": "¿Qué solicita?"
+      "label": "Pedido del Cliente *",
+      "placeholder": "¿Qué solicita?",
+      "blockClass": "input-pedido",
+      "requiredMessage": "Este campo es obligatorio"
     }
   },
 
   "form-submit#enviar": {
     "props": {
-      "label": "Enviar Reclamo"
+      "label": "ENVIAR RECLAMO",
+      "blockClass": "boton-libro"
     }
   }
 }

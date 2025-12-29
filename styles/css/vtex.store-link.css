@@ -379,3 +379,24 @@
 
 
 
+
+
+:global(.vtex-store-link-0-x-label--button-volver-home){
+  display: inline-block;
+  background-color: #FABD01;
+  color: white !important;
+  padding: 12px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+
+}
+
+.button-volver-home:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}

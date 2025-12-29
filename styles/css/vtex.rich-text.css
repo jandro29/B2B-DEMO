@@ -1032,7 +1032,26 @@ height: 54% !important;
 }
 
 
+.success-message {
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
 
 
 
+.success-title {
+  color: #FABD01;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
 
+.success-content {
+  background-color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
