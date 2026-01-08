@@ -226,3 +226,7 @@
   height: 450px !important;
   overflow: hidden;
 }
+
+:global(.vtex-slider__selector-tooltip){
+  color: black !important;
+}
