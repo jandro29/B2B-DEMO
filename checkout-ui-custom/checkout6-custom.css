@@ -7,3 +7,63 @@
 
 /* Displays the option to enter an international phone */
 .phone-box { display: block; }
+
+/* MONNET - CASH */
+
+.orderform-template-holder #payment-data #payment-group-custom201PaymentGroupPaymentGroup.payment-group-item .payment-group-item-text {
+    font-size: 0 !important;
+}
+
+.orderform-template-holder #payment-data #payment-group-custom201PaymentGroupPaymentGroup.payment-group-item .payment-group-item-text::after {
+    content: 'Efectivo';
+    font-size: 12px;
+    color: black;
+}
+
+/* MONNET - BANKTRANSFER */
+
+.orderform-template-holder #payment-data #payment-group-custom202PaymentGroupPaymentGroup.payment-group-item .payment-group-item-text {
+    font-size: 0 !important;
+}
+
+.orderform-template-holder #payment-data #payment-group-custom202PaymentGroupPaymentGroup.payment-group-item .payment-group-item-text::after {
+    content: 'Transferencia';
+    font-size: 12px;
+    color: black;
+}
+
+/* Tarjeta de crédito */
+
+.orderform-template-holder #payment-data #payment-group-creditCardPaymentGroup.payment-group-item .payment-group-item-text {
+    font-size: 0 !important;
+}
+
+.orderform-template-holder #payment-data #payment-group-creditCardPaymentGroup.payment-group-item .payment-group-item-text::after {
+    content: 'Tarjeta de Crédito';
+    font-size: 12px;
+    color: black;
+}
+
+/* Customer credit */
+
+.orderform-template-holder #payment-data #payment-group-creditControlPaymentGroup.payment-group-item .payment-group-item-text {
+    font-size: 0 !important;
+}
+
+.orderform-template-holder #payment-data #payment-group-creditControlPaymentGroup.payment-group-item .payment-group-item-text::after {
+    content: 'Crédito propio';
+    font-size: 12px;
+    color: black;
+}
+
+/* Depósito Bancario */
+
+.orderform-template-holder #payment-data #payment-group-custom205PaymentGroupPaymentGroup.payment-group-item .payment-group-item-text {
+    font-size: 0 !important;
+}
+
+.orderform-template-holder #payment-data #payment-group-custom205PaymentGroupPaymentGroup.payment-group-item .payment-group-item-text::after {
+    content: 'Depósito Bancario';
+    font-size: 12px;
+    color: black;
+}
