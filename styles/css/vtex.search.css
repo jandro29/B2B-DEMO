@@ -37,3 +37,18 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 1023px) {
+  :global(.vtex-search-2-x-biggy-autocomplete) {
+    width: 270px !important;
+  }
+
+  :global(.vtex-search-2-x-history-and-top-wrapper) {
+    width: 270px !important;
+  }
+
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+    width: 60vw !important;
+  }
+
+}
